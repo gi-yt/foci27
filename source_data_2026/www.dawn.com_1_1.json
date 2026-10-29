@@ -1,0 +1,1849 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1629331111907959
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS137127",
+      "probe_cc": "IN",
+      "report_id": "20261020T230215Z_webconnectivity_IN_137127_n4_ObeCpxAUoe2UrJoa",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020230215.887878_IN_webconnectivity_8f6de0ed8e7e6611",
+      "measurement_start_time": "2026-10-20T23:02:11.000000Z",
+      "measurement_uid": "20261020230215.887878_IN_webconnectivity_8f6de0ed8e7e6611",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS131473",
+      "probe_cc": "IN",
+      "report_id": "20261020T210529Z_webconnectivity_IN_131473_n4_pYjojx8EDX56ic2H",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020210529.580114_IN_webconnectivity_4656ed3766d97c74",
+      "measurement_start_time": "2026-10-20T21:05:17.000000Z",
+      "measurement_uid": "20261020210529.580114_IN_webconnectivity_4656ed3766d97c74",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261020T200803Z_webconnectivity_IN_45609_n4_NLwEGxZxcfIt8uNL",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020200803.422069_IN_webconnectivity_e5b37cfad1f5efbc",
+      "measurement_start_time": "2026-10-20T20:06:47.000000Z",
+      "measurement_uid": "20261020200803.422069_IN_webconnectivity_e5b37cfad1f5efbc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T182534Z_webconnectivity_IN_55836_n4_2QUQEaIhml6Ytozx",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020182534.315021_IN_webconnectivity_a33320276b1c563c",
+      "measurement_start_time": "2026-10-20T18:24:34.000000Z",
+      "measurement_uid": "20261020182534.315021_IN_webconnectivity_a33320276b1c563c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T155044Z_webconnectivity_IN_24560_n4_c1HzO4tH4o2buHKm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020155045.405899_IN_webconnectivity_8ac35387aff50c8b",
+      "measurement_start_time": "2026-10-20T15:49:47.000000Z",
+      "measurement_uid": "20261020155045.405899_IN_webconnectivity_8ac35387aff50c8b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T152037Z_webconnectivity_IN_24560_n4_botJWh64EgO0RPjw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020152037.481642_IN_webconnectivity_efbdbafd90706227",
+      "measurement_start_time": "2026-10-20T15:19:50.000000Z",
+      "measurement_uid": "20261020152037.481642_IN_webconnectivity_efbdbafd90706227",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T152026Z_webconnectivity_IN_24560_n4_deKr79gg4fWsoOSu",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020152026.085261_IN_webconnectivity_ffeff3f3e2104a20",
+      "measurement_start_time": "2026-10-20T15:19:41.000000Z",
+      "measurement_uid": "20261020152026.085261_IN_webconnectivity_ffeff3f3e2104a20",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261020T134402Z_webconnectivity_IN_134674_n4_YaMtJzBxKyaioUmA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020134402.855109_IN_webconnectivity_9caf2ec6c3d91e42",
+      "measurement_start_time": "2026-10-20T13:43:55.000000Z",
+      "measurement_uid": "20261020134402.855109_IN_webconnectivity_9caf2ec6c3d91e42",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T081346Z_webconnectivity_IN_24309_n4_qOo4N902rFIozoVq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020081346.547047_IN_webconnectivity_1a7bffeba64e8b6f",
+      "measurement_start_time": "2026-10-20T08:13:44.000000Z",
+      "measurement_uid": "20261020081346.547047_IN_webconnectivity_1a7bffeba64e8b6f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T071806Z_webconnectivity_IN_55836_n4_ehc0pOAOSNe5pGl2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020071806.493078_IN_webconnectivity_86ff196bd8af8791",
+      "measurement_start_time": "2026-10-20T07:17:03.000000Z",
+      "measurement_uid": "20261020071806.493078_IN_webconnectivity_86ff196bd8af8791",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T065751Z_webconnectivity_IN_24560_n4_9JBsa71ZOG0X8t7A",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020070050.937506_IN_webconnectivity_f98912a71e634d16",
+      "measurement_start_time": "2026-10-20T07:00:49.000000Z",
+      "measurement_uid": "20261020070050.937506_IN_webconnectivity_f98912a71e634d16",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020060231.337306_IN_webconnectivity_afefcf046061387e",
+      "measurement_start_time": "2026-10-20T06:02:31.000000Z",
+      "measurement_uid": "20261020060231.337306_IN_webconnectivity_afefcf046061387e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T234331Z_webconnectivity_IN_55836_n4_LqPT4dcjWFUvI0BB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019234828.182740_IN_webconnectivity_d6bfba0cce7be685",
+      "measurement_start_time": "2026-10-19T23:48:11.000000Z",
+      "measurement_uid": "20261019234828.182740_IN_webconnectivity_d6bfba0cce7be685",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T205232Z_webconnectivity_IN_133982_n4_ozxCQHVI28Z7E29i",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019205233.025739_IN_webconnectivity_f82ef23bd35ae0fa",
+      "measurement_start_time": "2026-10-19T20:52:28.000000Z",
+      "measurement_uid": "20261019205233.025739_IN_webconnectivity_f82ef23bd35ae0fa",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS38266",
+      "probe_cc": "IN",
+      "report_id": "20261019T153739Z_webconnectivity_IN_38266_n4_LkUHyAVoqGCF88YT",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019153739.353718_IN_webconnectivity_9e32c07bc52d4df3",
+      "measurement_start_time": "2026-10-19T15:36:38.000000Z",
+      "measurement_uid": "20261019153739.353718_IN_webconnectivity_9e32c07bc52d4df3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T143015Z_webconnectivity_IN_45609_n4_Vw2HJItyooFu2LkO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019143015.218546_IN_webconnectivity_4bddd0982d58e453",
+      "measurement_start_time": "2026-10-19T14:29:54.000000Z",
+      "measurement_uid": "20261019143015.218546_IN_webconnectivity_4bddd0982d58e453",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T113008Z_webconnectivity_IN_24560_n4_etC8JoS6oulEk30a",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113453.540949_IN_webconnectivity_bccb03c9aaefea29",
+      "measurement_start_time": "2026-10-19T11:34:35.000000Z",
+      "measurement_uid": "20261019113453.540949_IN_webconnectivity_bccb03c9aaefea29",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T113155Z_webconnectivity_IN_24560_n4_To2ctMTYi29hJ3F4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113155.461338_IN_webconnectivity_54bec7baeb961c78",
+      "measurement_start_time": "2026-10-19T11:31:54.000000Z",
+      "measurement_uid": "20261019113155.461338_IN_webconnectivity_54bec7baeb961c78",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261019T075632Z_webconnectivity_IN_132116_n4_ooSxcXpCyC5vYddC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075716.406786_IN_webconnectivity_64437478a7a6c6fd",
+      "measurement_start_time": "2026-10-19T07:57:15.000000Z",
+      "measurement_uid": "20261019075716.406786_IN_webconnectivity_64437478a7a6c6fd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20261019T075025Z_webconnectivity_IN_63949_n4_35xfqsNesycpuV3x",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075025.484557_IN_webconnectivity_57b148dd8148daba",
+      "measurement_start_time": "2026-10-19T07:50:06.000000Z",
+      "measurement_uid": "20261019075025.484557_IN_webconnectivity_57b148dd8148daba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019062042.339688_IN_webconnectivity_15e600bb64dd9468",
+      "measurement_start_time": "2026-10-19T06:20:42.000000Z",
+      "measurement_uid": "20261019062042.339688_IN_webconnectivity_15e600bb64dd9468",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS9583",
+      "probe_cc": "IN",
+      "report_id": "20261019T061007Z_webconnectivity_IN_9583_n4_o0oZBJMofpoAfMnI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019061008.236488_IN_webconnectivity_54b513bb42fc6aa6",
+      "measurement_start_time": "2026-10-19T06:09:04.000000Z",
+      "measurement_uid": "20261019061008.236488_IN_webconnectivity_54b513bb42fc6aa6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261019T051209Z_webconnectivity_IN_17762_n4_A1Xks24wZdLMQYoK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051209.774139_IN_webconnectivity_9b76350aca8774d6",
+      "measurement_start_time": "2026-10-19T05:10:35.000000Z",
+      "measurement_uid": "20261019051209.774139_IN_webconnectivity_9b76350aca8774d6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T025237Z_webconnectivity_IN_24309_n4_o2tXzloFaSeGFNoF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019025237.742804_IN_webconnectivity_e0fd7a212c7328c7",
+      "measurement_start_time": "2026-10-19T02:52:36.000000Z",
+      "measurement_uid": "20261019025237.742804_IN_webconnectivity_e0fd7a212c7328c7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T005527Z_webconnectivity_IN_24560_n4_TAYqv8FbpSKNWP0R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019005528.009675_IN_webconnectivity_4c9f7639c9fa7a2d",
+      "measurement_start_time": "2026-10-19T00:55:20.000000Z",
+      "measurement_uid": "20261019005528.009675_IN_webconnectivity_4c9f7639c9fa7a2d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261018T165522Z_webconnectivity_IN_132116_n4_oso35x1Uh3QU78FL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018165720.069391_IN_webconnectivity_15748bc3c4124a15",
+      "measurement_start_time": "2026-10-18T16:57:20.000000Z",
+      "measurement_uid": "20261018165720.069391_IN_webconnectivity_15748bc3c4124a15",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T152148Z_webconnectivity_IN_55836_n4_Ds1DJ1ARcsWAoQch",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018152148.824712_IN_webconnectivity_37ca64e7fe84cd34",
+      "measurement_start_time": "2026-10-18T15:20:46.000000Z",
+      "measurement_uid": "20261018152148.824712_IN_webconnectivity_37ca64e7fe84cd34",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T151458Z_webconnectivity_IN_55836_n4_u6duGgZ1GTkvWbmH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018151845.525803_IN_webconnectivity_e21e7187403bc048",
+      "measurement_start_time": "2026-10-18T15:18:28.000000Z",
+      "measurement_uid": "20261018151845.525803_IN_webconnectivity_e21e7187403bc048",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T151104Z_webconnectivity_IN_55836_n4_oYL7koL2BJmp29d5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018151808.291376_IN_webconnectivity_48baef90c70506ae",
+      "measurement_start_time": "2026-10-18T15:17:52.000000Z",
+      "measurement_uid": "20261018151808.291376_IN_webconnectivity_48baef90c70506ae",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T142540Z_webconnectivity_IN_24560_n4_njY8JctAqoi09ffp",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018142541.182643_IN_webconnectivity_983da28a53009566",
+      "measurement_start_time": "2026-10-18T14:24:47.000000Z",
+      "measurement_uid": "20261018142541.182643_IN_webconnectivity_983da28a53009566",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261018T075312Z_webconnectivity_IN_132497_n4_s5aur06NM5HOUzBX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075312.948782_IN_webconnectivity_5a25321e61e2a0dc",
+      "measurement_start_time": "2026-10-18T07:53:07.000000Z",
+      "measurement_uid": "20261018075312.948782_IN_webconnectivity_5a25321e61e2a0dc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261018T071409Z_webconnectivity_IN_134674_n4_yLMGIpyczTUtNqx6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018071410.263730_IN_webconnectivity_09cdc8de970cc8ff",
+      "measurement_start_time": "2026-10-18T07:14:07.000000Z",
+      "measurement_uid": "20261018071410.263730_IN_webconnectivity_09cdc8de970cc8ff",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T063536Z_webconnectivity_IN_55836_n4_pzrueWLnTXoCJf3o",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018063536.664005_IN_webconnectivity_6ac3553c0813813f",
+      "measurement_start_time": "2026-10-18T06:34:34.000000Z",
+      "measurement_uid": "20261018063536.664005_IN_webconnectivity_6ac3553c0813813f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018063301.940563_IN_webconnectivity_a6ae02618393300f",
+      "measurement_start_time": "2026-10-18T06:33:01.000000Z",
+      "measurement_uid": "20261018063301.940563_IN_webconnectivity_a6ae02618393300f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T061153Z_webconnectivity_IN_24560_n4_DcffEluj6OjyxRjk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018061518.450477_IN_webconnectivity_f1e58a8691783a9e",
+      "measurement_start_time": "2026-10-18T06:14:59.000000Z",
+      "measurement_uid": "20261018061518.450477_IN_webconnectivity_f1e58a8691783a9e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T195952Z_webconnectivity_IN_24560_n4_4hnXySvjlorGFXbJ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017195952.326872_IN_webconnectivity_77447127a76d162e",
+      "measurement_start_time": "2026-10-17T19:59:47.000000Z",
+      "measurement_uid": "20261017195952.326872_IN_webconnectivity_77447127a76d162e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T190119Z_webconnectivity_IN_55836_n4_Y3O6vsdtSSPqmEB9",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017190119.270909_IN_webconnectivity_46a7e6033b2d9cbb",
+      "measurement_start_time": "2026-10-17T19:00:32.000000Z",
+      "measurement_uid": "20261017190119.270909_IN_webconnectivity_46a7e6033b2d9cbb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261017T140729Z_webconnectivity_IN_9498_n4_kuDNjB56C3u8e7kH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017140729.421013_IN_webconnectivity_d6c957ac9f0ed8ec",
+      "measurement_start_time": "2026-10-17T14:07:27.000000Z",
+      "measurement_uid": "20261017140729.421013_IN_webconnectivity_d6c957ac9f0ed8ec",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T091306Z_webconnectivity_IN_24560_n4_9IcVhXXp3wUo7OgR",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017091306.604807_IN_webconnectivity_a8ecc4b9279e8973",
+      "measurement_start_time": "2026-10-17T09:12:20.000000Z",
+      "measurement_uid": "20261017091306.604807_IN_webconnectivity_a8ecc4b9279e8973",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T070253Z_webconnectivity_IN_24309_n4_UAx6lwNtOFdJAMgl",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017070549.633717_IN_webconnectivity_152704e5060d27f2",
+      "measurement_start_time": "2026-10-17T07:05:30.000000Z",
+      "measurement_uid": "20261017070549.633717_IN_webconnectivity_152704e5060d27f2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017060505.068439_IN_webconnectivity_ef5eee83bd6e5359",
+      "measurement_start_time": "2026-10-17T06:05:04.000000Z",
+      "measurement_uid": "20261017060505.068439_IN_webconnectivity_ef5eee83bd6e5359",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261016T234129Z_webconnectivity_IN_136714_n4_ZqESRFrdGZO0xE7R",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016234130.180718_IN_webconnectivity_da7de2809932a67d",
+      "measurement_start_time": "2026-10-16T23:41:23.000000Z",
+      "measurement_uid": "20261016234130.180718_IN_webconnectivity_da7de2809932a67d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261016T193608Z_webconnectivity_IN_17488_n4_Yw3YTZsDMKkIeHap",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016193608.894551_IN_webconnectivity_ba33679c35862e3f",
+      "measurement_start_time": "2026-10-16T19:35:57.000000Z",
+      "measurement_uid": "20261016193608.894551_IN_webconnectivity_ba33679c35862e3f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T193151Z_webconnectivity_IN_24560_n4_7gbkoygk19vb5wUu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016193151.373410_IN_webconnectivity_6b20df291ba043d9",
+      "measurement_start_time": "2026-10-16T19:31:47.000000Z",
+      "measurement_uid": "20261016193151.373410_IN_webconnectivity_6b20df291ba043d9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS137654",
+      "probe_cc": "IN",
+      "report_id": "20261016T181635Z_webconnectivity_IN_137654_n4_UP5DaxODAdICrtTY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181635.705203_IN_webconnectivity_8545c90b869b7f0e",
+      "measurement_start_time": "2026-10-16T18:16:29.000000Z",
+      "measurement_uid": "20261016181635.705203_IN_webconnectivity_8545c90b869b7f0e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261016T163505Z_webconnectivity_IN_18209_n4_gIiJHVJXjmtavf4o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016163505.878146_IN_webconnectivity_f034aedabc774509",
+      "measurement_start_time": "2026-10-16T16:35:01.000000Z",
+      "measurement_uid": "20261016163505.878146_IN_webconnectivity_f034aedabc774509",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T124421Z_webconnectivity_IN_55836_n4_I9HwvcZTAWbm9lsZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016130325.987095_IN_webconnectivity_d9d520852f2717db",
+      "measurement_start_time": "2026-10-16T13:03:25.000000Z",
+      "measurement_uid": "20261016130325.987095_IN_webconnectivity_d9d520852f2717db",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T125815Z_webconnectivity_IN_55836_n4_81nKvcSRpvhxWo5I",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016125815.518411_IN_webconnectivity_dacfd02f5222ac7d",
+      "measurement_start_time": "2026-10-16T12:57:14.000000Z",
+      "measurement_uid": "20261016125815.518411_IN_webconnectivity_dacfd02f5222ac7d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T125617Z_webconnectivity_IN_55836_n4_UJXX1SNKjOBFM6LB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016125617.894114_IN_webconnectivity_e404fcd6179b0904",
+      "measurement_start_time": "2026-10-16T12:55:16.000000Z",
+      "measurement_uid": "20261016125617.894114_IN_webconnectivity_e404fcd6179b0904",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261016T110827Z_webconnectivity_IN_17762_n4_iXrhFD56Las1Rd4x",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 2,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016110828.000010_IN_webconnectivity_4349a1c0b8897a25",
+      "measurement_start_time": "2026-10-16T11:07:06.000000Z",
+      "measurement_uid": "20261016110828.000010_IN_webconnectivity_4349a1c0b8897a25",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55410",
+      "probe_cc": "IN",
+      "report_id": "20261016T101538Z_webconnectivity_IN_55410_n4_ot9ZoGWaqaQTdGuA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016101539.225829_IN_webconnectivity_0d0944e34e86c9fa",
+      "measurement_start_time": "2026-10-16T10:14:26.000000Z",
+      "measurement_uid": "20261016101539.225829_IN_webconnectivity_0d0944e34e86c9fa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016063408.372728_IN_webconnectivity_fb6d4d923a356d49",
+      "measurement_start_time": "2026-10-16T06:34:08.000000Z",
+      "measurement_uid": "20261016063408.372728_IN_webconnectivity_fb6d4d923a356d49",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T011040Z_webconnectivity_IN_24309_n4_nP4WJIrZR8rqdNX5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011349.273074_IN_webconnectivity_dec656eefc897240",
+      "measurement_start_time": "2026-10-16T01:13:33.000000Z",
+      "measurement_uid": "20261016011349.273074_IN_webconnectivity_dec656eefc897240",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T011324Z_webconnectivity_IN_24560_n4_EvYYAECfm6EU3Azt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011324.773517_IN_webconnectivity_48878eec5f76e73c",
+      "measurement_start_time": "2026-10-16T01:12:39.000000Z",
+      "measurement_uid": "20261016011324.773517_IN_webconnectivity_48878eec5f76e73c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T011304Z_webconnectivity_IN_24560_n4_RqYo9bzloMRl7Tig",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011304.275448_IN_webconnectivity_bd58c632796e9a3d",
+      "measurement_start_time": "2026-10-16T01:12:16.000000Z",
+      "measurement_uid": "20261016011304.275448_IN_webconnectivity_bd58c632796e9a3d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261015T203930Z_webconnectivity_IN_136286_n4_ItJpdJoJ8raHwHPo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015203930.972614_IN_webconnectivity_693d04474aceb580",
+      "measurement_start_time": "2026-10-15T20:39:14.000000Z",
+      "measurement_uid": "20261015203930.972614_IN_webconnectivity_693d04474aceb580",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T171401Z_webconnectivity_IN_55836_n4_cMqZe92pWFw2cZo1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015171401.392973_IN_webconnectivity_192b88b02dce41e3",
+      "measurement_start_time": "2026-10-15T14:30:45.000000Z",
+      "measurement_uid": "20261015171401.392973_IN_webconnectivity_192b88b02dce41e3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T143041Z_webconnectivity_IN_55836_n4_zrvooVDBxebZoKFH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015143041.898881_IN_webconnectivity_59ace43dbd8089fe",
+      "measurement_start_time": "2026-10-15T14:29:38.000000Z",
+      "measurement_uid": "20261015143041.898881_IN_webconnectivity_59ace43dbd8089fe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261015T115211Z_webconnectivity_IN_133982_n4_reeIHiImqLWShTtG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015115211.719804_IN_webconnectivity_ef8a7ed40c4ca2a7",
+      "measurement_start_time": "2026-10-15T11:51:36.000000Z",
+      "measurement_uid": "20261015115211.719804_IN_webconnectivity_ef8a7ed40c4ca2a7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T093224Z_webconnectivity_IN_24560_n4_VtCroQH11zLdMwm7",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015093224.706010_IN_webconnectivity_0f8419ed19a03901",
+      "measurement_start_time": "2026-10-15T09:32:20.000000Z",
+      "measurement_uid": "20261015093224.706010_IN_webconnectivity_0f8419ed19a03901",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261015T090835Z_webconnectivity_IN_9829_n4_kKRKehRY4iSO1qpi",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_10",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015090836.164229_IN_webconnectivity_1e5e9e53b59469ef",
+      "measurement_start_time": "2026-10-15T09:07:48.000000Z",
+      "measurement_uid": "20261015090836.164229_IN_webconnectivity_1e5e9e53b59469ef",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T055849Z_webconnectivity_IN_55836_n4_gqejdf1pZa2U1I0H",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015055849.291995_IN_webconnectivity_dbf28d5e2549ece8",
+      "measurement_start_time": "2026-10-15T05:57:47.000000Z",
+      "measurement_uid": "20261015055849.291995_IN_webconnectivity_dbf28d5e2549ece8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015044328.156678_IN_webconnectivity_7001201eb4e1bbcb",
+      "measurement_start_time": "2026-10-15T04:43:27.000000Z",
+      "measurement_uid": "20261015044328.156678_IN_webconnectivity_7001201eb4e1bbcb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T015553Z_webconnectivity_IN_24560_n4_zupBoSFs4QVtqBeR",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015015553.342923_IN_webconnectivity_464aaa1054870902",
+      "measurement_start_time": "2026-10-15T01:55:06.000000Z",
+      "measurement_uid": "20261015015553.342923_IN_webconnectivity_464aaa1054870902",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261014T230958Z_webconnectivity_IN_45609_n4_IOrFxobZx3l9Alk1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014230958.599500_IN_webconnectivity_f543be6fc287caae",
+      "measurement_start_time": "2026-10-14T23:08:42.000000Z",
+      "measurement_uid": "20261014230958.599500_IN_webconnectivity_f543be6fc287caae",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T142600Z_webconnectivity_IN_24560_n4_LslXoseokaKPFopX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014142852.776349_IN_webconnectivity_38e241216cdad458",
+      "measurement_start_time": "2026-10-14T14:28:36.000000Z",
+      "measurement_uid": "20261014142852.776349_IN_webconnectivity_38e241216cdad458",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T140316Z_webconnectivity_IN_55836_n4_oljH9SGXAjyMJBlh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014140925.296422_IN_webconnectivity_866e6a73f2bb0ebe",
+      "measurement_start_time": "2026-10-14T14:09:07.000000Z",
+      "measurement_uid": "20261014140925.296422_IN_webconnectivity_866e6a73f2bb0ebe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014130723.493112_IN_webconnectivity_851ecc4ec8a631a2",
+      "measurement_start_time": "2026-10-14T13:07:02.000000Z",
+      "measurement_uid": "20261014130723.493112_IN_webconnectivity_851ecc4ec8a631a2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.dawn.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014083602.138097_IN_webconnectivity_6c2476fa66305b1b",
+      "measurement_start_time": "2026-10-14T08:36:01.000000Z",
+      "measurement_uid": "20261014083602.138097_IN_webconnectivity_6c2476fa66305b1b",
+      "verification_status": "unverified"
+    }
+  ]
+}

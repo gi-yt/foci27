@@ -1,0 +1,3907 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.197587251663208
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T215624Z_webconnectivity_IN_24560_n4_OBASRgXHzLBBNr5B",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215624.401150_IN_webconnectivity_0b338573cc97e2ab",
+      "measurement_start_time": "2026-10-20T21:56:18.000000Z",
+      "measurement_uid": "20261020215624.401150_IN_webconnectivity_0b338573cc97e2ab",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T215619Z_webconnectivity_IN_24560_n4_V2GPEJxuTq9bNZQP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215619.182373_IN_webconnectivity_2a002b5ad0613345",
+      "measurement_start_time": "2026-10-20T21:56:14.000000Z",
+      "measurement_uid": "20261020215619.182373_IN_webconnectivity_2a002b5ad0613345",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T214806Z_webconnectivity_IN_24309_n4_dC2hlVKudjsoUANB",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215345.169117_IN_webconnectivity_0075038878e19451",
+      "measurement_start_time": "2026-10-20T21:53:29.000000Z",
+      "measurement_uid": "20261020215345.169117_IN_webconnectivity_0075038878e19451",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T214806Z_webconnectivity_IN_24309_n4_dC2hlVKudjsoUANB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215329.022696_IN_webconnectivity_63761d68bb590d24",
+      "measurement_start_time": "2026-10-20T21:53:12.000000Z",
+      "measurement_uid": "20261020215329.022696_IN_webconnectivity_63761d68bb590d24",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124612Z_webconnectivity_IN_55836_n4_LotizV4k9RGcIGBb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124843.743078_IN_webconnectivity_7ea76b755359debe",
+      "measurement_start_time": "2026-10-20T12:48:27.000000Z",
+      "measurement_uid": "20261020124843.743078_IN_webconnectivity_7ea76b755359debe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124612Z_webconnectivity_IN_55836_n4_LotizV4k9RGcIGBb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124827.531573_IN_webconnectivity_0fb3eb31bb5a8ff2",
+      "measurement_start_time": "2026-10-20T12:48:11.000000Z",
+      "measurement_uid": "20261020124827.531573_IN_webconnectivity_0fb3eb31bb5a8ff2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124752Z_webconnectivity_IN_55836_n4_7RMorOKRwOoVxaD4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124753.675177_IN_webconnectivity_4428afa69fdf5568",
+      "measurement_start_time": "2026-10-20T12:47:34.000000Z",
+      "measurement_uid": "20261020124753.675177_IN_webconnectivity_4428afa69fdf5568",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124737Z_webconnectivity_IN_55836_n4_dHu5ox9oALQW5C9j",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124738.151226_IN_webconnectivity_86a3756a6b6b413e",
+      "measurement_start_time": "2026-10-20T12:47:01.000000Z",
+      "measurement_uid": "20261020124738.151226_IN_webconnectivity_86a3756a6b6b413e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T114155Z_webconnectivity_IN_18209_n4_oEbtkr9UemlSq0vY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020114155.260912_IN_webconnectivity_5b560967973b3fc0",
+      "measurement_start_time": "2026-10-20T11:41:53.000000Z",
+      "measurement_uid": "20261020114155.260912_IN_webconnectivity_5b560967973b3fc0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T114154Z_webconnectivity_IN_18209_n4_h31qrGDjp00QZoxN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020114154.317457_IN_webconnectivity_8ff9f8790176d5b4",
+      "measurement_start_time": "2026-10-20T11:41:52.000000Z",
+      "measurement_uid": "20261020114154.317457_IN_webconnectivity_8ff9f8790176d5b4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T110602Z_webconnectivity_IN_24560_n4_VzOlmqDfHFB36Vd7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020110604.297575_IN_webconnectivity_a555e8b276241099",
+      "measurement_start_time": "2026-10-20T11:05:44.000000Z",
+      "measurement_uid": "20261020110604.297575_IN_webconnectivity_a555e8b276241099",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T110555Z_webconnectivity_IN_24560_n4_5vfUgY2unsBTHviA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020110556.877229_IN_webconnectivity_05fd6ff839358416",
+      "measurement_start_time": "2026-10-20T11:05:08.000000Z",
+      "measurement_uid": "20261020110556.877229_IN_webconnectivity_05fd6ff839358416",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T105629Z_webconnectivity_IN_24560_n4_u8i0n56rwOLozvHe",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020105629.829519_IN_webconnectivity_14267facb5892a5c",
+      "measurement_start_time": "2026-10-20T10:56:24.000000Z",
+      "measurement_uid": "20261020105629.829519_IN_webconnectivity_14267facb5892a5c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T105625Z_webconnectivity_IN_24560_n4_qgor27irplYhys4G",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020105625.825901_IN_webconnectivity_b606e74cbaa75798",
+      "measurement_start_time": "2026-10-20T10:56:21.000000Z",
+      "measurement_uid": "20261020105625.825901_IN_webconnectivity_b606e74cbaa75798",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020065359.847404_IN_webconnectivity_d97fa00f4e76d393",
+      "measurement_start_time": "2026-10-20T06:53:59.000000Z",
+      "measurement_uid": "20261020065359.847404_IN_webconnectivity_d97fa00f4e76d393",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020055555.498206_IN_webconnectivity_6de3f61cf2c45d92",
+      "measurement_start_time": "2026-10-20T05:55:55.000000Z",
+      "measurement_uid": "20261020055555.498206_IN_webconnectivity_6de3f61cf2c45d92",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T033419Z_webconnectivity_IN_55836_n4_fRXs4MtiKwv7IQ6Q",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020033420.146560_IN_webconnectivity_79b02131a6801059",
+      "measurement_start_time": "2026-10-20T03:32:45.000000Z",
+      "measurement_uid": "20261020033420.146560_IN_webconnectivity_79b02131a6801059",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T033319Z_webconnectivity_IN_55836_n4_twu4JT1LtPIAm9sR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020033320.231740_IN_webconnectivity_aeec15a625e6133d",
+      "measurement_start_time": "2026-10-20T03:31:45.000000Z",
+      "measurement_uid": "20261020033320.231740_IN_webconnectivity_aeec15a625e6133d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T031908Z_webconnectivity_IN_24309_n4_EDoedDmkXUOnLDx8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020032556.493275_IN_webconnectivity_c31ad42873b501c8",
+      "measurement_start_time": "2026-10-20T03:25:40.000000Z",
+      "measurement_uid": "20261020032556.493275_IN_webconnectivity_c31ad42873b501c8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T031908Z_webconnectivity_IN_24309_n4_EDoedDmkXUOnLDx8",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020032540.281426_IN_webconnectivity_6451be8f1a3b40b9",
+      "measurement_start_time": "2026-10-20T03:25:24.000000Z",
+      "measurement_uid": "20261020032540.281426_IN_webconnectivity_6451be8f1a3b40b9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T030028Z_webconnectivity_IN_55836_n4_9sEnEtucNJZBEumi",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020030215.205078_IN_webconnectivity_e39fff44e21471ed",
+      "measurement_start_time": "2026-10-20T03:01:57.000000Z",
+      "measurement_uid": "20261020030215.205078_IN_webconnectivity_e39fff44e21471ed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T030028Z_webconnectivity_IN_55836_n4_9sEnEtucNJZBEumi",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020030157.998212_IN_webconnectivity_29f8eb96103fc7f0",
+      "measurement_start_time": "2026-10-20T03:01:41.000000Z",
+      "measurement_uid": "20261020030157.998212_IN_webconnectivity_29f8eb96103fc7f0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261020T004025Z_webconnectivity_IN_9498_n4_tnRmwqX6jxK6vxmt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020004025.709945_IN_webconnectivity_3bc2c20af83ab424",
+      "measurement_start_time": "2026-10-20T00:40:22.000000Z",
+      "measurement_uid": "20261020004025.709945_IN_webconnectivity_3bc2c20af83ab424",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261020T004023Z_webconnectivity_IN_9498_n4_IvXvHOuizafJvo2h",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020004023.866374_IN_webconnectivity_22d0a83417ba617f",
+      "measurement_start_time": "2026-10-20T00:40:19.000000Z",
+      "measurement_uid": "20261020004023.866374_IN_webconnectivity_22d0a83417ba617f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T193533Z_webconnectivity_IN_24560_n4_W3t5P3BQ7YVni4Rw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019193533.750815_IN_webconnectivity_ed947ffad93b0bfb",
+      "measurement_start_time": "2026-10-19T19:35:29.000000Z",
+      "measurement_uid": "20261019193533.750815_IN_webconnectivity_ed947ffad93b0bfb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T193531Z_webconnectivity_IN_24560_n4_y5onVGadEzZoNR3s",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019193531.280754_IN_webconnectivity_718630c399b46a0a",
+      "measurement_start_time": "2026-10-19T19:35:27.000000Z",
+      "measurement_uid": "20261019193531.280754_IN_webconnectivity_718630c399b46a0a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T135613Z_webconnectivity_IN_45609_n4_swpK0PZ1uoQM925I",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019135613.813441_IN_webconnectivity_1bc44b2b3ef5e785",
+      "measurement_start_time": "2026-10-19T13:56:08.000000Z",
+      "measurement_uid": "20261019135613.813441_IN_webconnectivity_1bc44b2b3ef5e785",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T135609Z_webconnectivity_IN_45609_n4_AHs5uiDbEdXgtzF2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019135609.121974_IN_webconnectivity_8432c22adbfbf9bd",
+      "measurement_start_time": "2026-10-19T13:56:05.000000Z",
+      "measurement_uid": "20261019135609.121974_IN_webconnectivity_8432c22adbfbf9bd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T123348Z_webconnectivity_IN_133982_n4_KyynLlpORfz5ce68",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019123349.034010_IN_webconnectivity_a6a013ffa2041a55",
+      "measurement_start_time": "2026-10-19T12:33:06.000000Z",
+      "measurement_uid": "20261019123349.034010_IN_webconnectivity_a6a013ffa2041a55",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": true,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T123308Z_webconnectivity_IN_133982_n4_GDJtJzlHOuAGS4ZA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-diff"
+        },
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019123308.259572_IN_webconnectivity_78275c87e3159ed5",
+      "measurement_start_time": "2026-10-19T12:32:57.000000Z",
+      "measurement_uid": "20261019123308.259572_IN_webconnectivity_78275c87e3159ed5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019065356.406478_IN_webconnectivity_c15187ca6b80e553",
+      "measurement_start_time": "2026-10-19T06:53:55.000000Z",
+      "measurement_uid": "20261019065356.406478_IN_webconnectivity_c15187ca6b80e553",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019061705.326885_IN_webconnectivity_0f448ab8d231888c",
+      "measurement_start_time": "2026-10-19T06:17:05.000000Z",
+      "measurement_uid": "20261019061705.326885_IN_webconnectivity_0f448ab8d231888c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T055844Z_webconnectivity_IN_55836_n4_TmSOovaKVBo23sZQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055844.868495_IN_webconnectivity_aba269a14cb49a0f",
+      "measurement_start_time": "2026-10-19T05:57:42.000000Z",
+      "measurement_uid": "20261019055844.868495_IN_webconnectivity_aba269a14cb49a0f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T055744Z_webconnectivity_IN_55836_n4_LIc1i7RuIpR1DOV8",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055744.853282_IN_webconnectivity_fba68aa8a2fcf3e6",
+      "measurement_start_time": "2026-10-19T05:56:42.000000Z",
+      "measurement_uid": "20261019055744.853282_IN_webconnectivity_fba68aa8a2fcf3e6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T055602Z_webconnectivity_IN_55836_n4_bLWbptMJo6QLN9wO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055603.302999_IN_webconnectivity_c63445f72faa1fcc",
+      "measurement_start_time": "2026-10-19T05:55:55.000000Z",
+      "measurement_uid": "20261019055603.302999_IN_webconnectivity_c63445f72faa1fcc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T055558Z_webconnectivity_IN_55836_n4_S8afvQL7oIaIpLyL",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055558.050876_IN_webconnectivity_bfa0a536720956ce",
+      "measurement_start_time": "2026-10-19T05:55:53.000000Z",
+      "measurement_uid": "20261019055558.050876_IN_webconnectivity_bfa0a536720956ce",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T051250Z_webconnectivity_IN_24560_n4_FnrFxW6rj5NZBKoP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051251.599013_IN_webconnectivity_139aab0c4e451e2b",
+      "measurement_start_time": "2026-10-19T05:12:30.000000Z",
+      "measurement_uid": "20261019051251.599013_IN_webconnectivity_139aab0c4e451e2b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T051302Z_webconnectivity_IN_24560_n4_lb6WEZGsLojUsz6Y",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051302.312216_IN_webconnectivity_f93593cbcafd6a4b",
+      "measurement_start_time": "2026-10-19T05:12:17.000000Z",
+      "measurement_uid": "20261019051302.312216_IN_webconnectivity_f93593cbcafd6a4b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T051243Z_webconnectivity_IN_24560_n4_Y0rJUCmkVAnhDTUW",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051244.614969_IN_webconnectivity_25d5fc5154ab500f",
+      "measurement_start_time": "2026-10-19T05:12:14.000000Z",
+      "measurement_uid": "20261019051244.614969_IN_webconnectivity_25d5fc5154ab500f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T051216Z_webconnectivity_IN_24560_n4_ZB4xqfAJpsZWbid2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051216.758405_IN_webconnectivity_755e0809aa92de4a",
+      "measurement_start_time": "2026-10-19T05:11:32.000000Z",
+      "measurement_uid": "20261019051216.758405_IN_webconnectivity_755e0809aa92de4a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261019T043538Z_webconnectivity_IN_9829_n4_BUGCdOJdogpEs2zE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019043538.315166_IN_webconnectivity_544fddcc215baf3e",
+      "measurement_start_time": "2026-10-19T04:35:25.000000Z",
+      "measurement_uid": "20261019043538.315166_IN_webconnectivity_544fddcc215baf3e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261019T043527Z_webconnectivity_IN_9829_n4_81jNN32duz8c8Nor",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019043528.096865_IN_webconnectivity_6f6555e1f9a7dcb8",
+      "measurement_start_time": "2026-10-19T04:35:21.000000Z",
+      "measurement_uid": "20261019043528.096865_IN_webconnectivity_6f6555e1f9a7dcb8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T215129Z_webconnectivity_IN_24309_n4_hplSC6AfPtzhJ4fO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018215806.508861_IN_webconnectivity_49a5a9e4dc2b201a",
+      "measurement_start_time": "2026-10-18T21:57:50.000000Z",
+      "measurement_uid": "20261018215806.508861_IN_webconnectivity_49a5a9e4dc2b201a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T215129Z_webconnectivity_IN_24309_n4_hplSC6AfPtzhJ4fO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018215750.384076_IN_webconnectivity_e16c8b3f648ceb2e",
+      "measurement_start_time": "2026-10-18T21:57:34.000000Z",
+      "measurement_uid": "20261018215750.384076_IN_webconnectivity_e16c8b3f648ceb2e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T181116Z_webconnectivity_IN_24560_n4_sJWHwk4Yo8l22WRH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018181117.132121_IN_webconnectivity_5bda42459d951d9e",
+      "measurement_start_time": "2026-10-18T18:10:25.000000Z",
+      "measurement_uid": "20261018181117.132121_IN_webconnectivity_5bda42459d951d9e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T181027Z_webconnectivity_IN_24560_n4_eKoNU5NyBp0CmPHa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018181027.507468_IN_webconnectivity_67083b13acb1b5c0",
+      "measurement_start_time": "2026-10-18T18:09:40.000000Z",
+      "measurement_uid": "20261018181027.507468_IN_webconnectivity_67083b13acb1b5c0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T094701Z_webconnectivity_IN_55836_n4_lRJSnyKBZ09npGag",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018095050.214114_IN_webconnectivity_15e45a4c846b1fc0",
+      "measurement_start_time": "2026-10-18T09:50:32.000000Z",
+      "measurement_uid": "20261018095050.214114_IN_webconnectivity_15e45a4c846b1fc0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T094701Z_webconnectivity_IN_55836_n4_lRJSnyKBZ09npGag",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018095033.259893_IN_webconnectivity_04b700d189b10a8e",
+      "measurement_start_time": "2026-10-18T09:50:15.000000Z",
+      "measurement_uid": "20261018095033.259893_IN_webconnectivity_04b700d189b10a8e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T094936Z_webconnectivity_IN_55836_n4_6rqD7O27FQpucl2R",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018094937.652378_IN_webconnectivity_3ae4a8763a8c88e4",
+      "measurement_start_time": "2026-10-18T09:49:20.000000Z",
+      "measurement_uid": "20261018094937.652378_IN_webconnectivity_3ae4a8763a8c88e4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T094925Z_webconnectivity_IN_55836_n4_jhRcykoTrIfHiwxx",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018094926.552718_IN_webconnectivity_fae813d203b8f425",
+      "measurement_start_time": "2026-10-18T09:48:56.000000Z",
+      "measurement_uid": "20261018094926.552718_IN_webconnectivity_fae813d203b8f425",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018064812.594936_IN_webconnectivity_76f6c118046b270b",
+      "measurement_start_time": "2026-10-18T06:48:12.000000Z",
+      "measurement_uid": "20261018064812.594936_IN_webconnectivity_76f6c118046b270b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018052433.056021_IN_webconnectivity_b92a06c1b75992e4",
+      "measurement_start_time": "2026-10-18T05:24:32.000000Z",
+      "measurement_uid": "20261018052433.056021_IN_webconnectivity_b92a06c1b75992e4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042624Z_webconnectivity_IN_24560_n4_HOZ0Z3RhqayeeAON",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043754.852482_IN_webconnectivity_18dc9d806dade58d",
+      "measurement_start_time": "2026-10-18T04:37:18.000000Z",
+      "measurement_uid": "20261018043754.852482_IN_webconnectivity_18dc9d806dade58d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042624Z_webconnectivity_IN_24560_n4_HOZ0Z3RhqayeeAON",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043719.263917_IN_webconnectivity_4549216a1c904203",
+      "measurement_start_time": "2026-10-18T04:37:01.000000Z",
+      "measurement_uid": "20261018043719.263917_IN_webconnectivity_4549216a1c904203",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042848Z_webconnectivity_IN_24560_n4_mUF5qnZd8onNPdCv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043120.646978_IN_webconnectivity_99e74ded730b6e3b",
+      "measurement_start_time": "2026-10-18T04:31:19.000000Z",
+      "measurement_uid": "20261018043120.646978_IN_webconnectivity_99e74ded730b6e3b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042848Z_webconnectivity_IN_24560_n4_mUF5qnZd8onNPdCv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 20,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043119.012485_IN_webconnectivity_8fef5a90d90b3845",
+      "measurement_start_time": "2026-10-18T04:31:17.000000Z",
+      "measurement_uid": "20261018043119.012485_IN_webconnectivity_8fef5a90d90b3845",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T160534Z_webconnectivity_IN_24560_n4_Fco6e222a7oImMBO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017160903.812077_IN_webconnectivity_a1cbd0891f23c8cf",
+      "measurement_start_time": "2026-10-17T16:08:57.000000Z",
+      "measurement_uid": "20261017160903.812077_IN_webconnectivity_a1cbd0891f23c8cf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T160534Z_webconnectivity_IN_24560_n4_Fco6e222a7oImMBO",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 20,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017160857.755082_IN_webconnectivity_d176fc8cbe27b902",
+      "measurement_start_time": "2026-10-17T16:08:52.000000Z",
+      "measurement_uid": "20261017160857.755082_IN_webconnectivity_d176fc8cbe27b902",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T142414Z_webconnectivity_IN_55836_n4_B4sCOJmXfZc58WBR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142415.156437_IN_webconnectivity_86e4552a49a9c97f",
+      "measurement_start_time": "2026-10-17T14:23:55.000000Z",
+      "measurement_uid": "20261017142415.156437_IN_webconnectivity_86e4552a49a9c97f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T142357Z_webconnectivity_IN_55836_n4_6OBa3iHUZofeWovj",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142358.218216_IN_webconnectivity_0a8f593548577db3",
+      "measurement_start_time": "2026-10-17T14:23:36.000000Z",
+      "measurement_uid": "20261017142358.218216_IN_webconnectivity_0a8f593548577db3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T141414Z_webconnectivity_IN_55836_n4_adkygiarFtzVOZ4A",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142258.812926_IN_webconnectivity_fd66916566bab990",
+      "measurement_start_time": "2026-10-17T14:22:41.000000Z",
+      "measurement_uid": "20261017142258.812926_IN_webconnectivity_fd66916566bab990",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T141414Z_webconnectivity_IN_55836_n4_adkygiarFtzVOZ4A",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142242.429470_IN_webconnectivity_58e67f7597f132d6",
+      "measurement_start_time": "2026-10-17T14:22:25.000000Z",
+      "measurement_uid": "20261017142242.429470_IN_webconnectivity_58e67f7597f132d6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017064437.083698_IN_webconnectivity_85587e90f9955c59",
+      "measurement_start_time": "2026-10-17T06:44:36.000000Z",
+      "measurement_uid": "20261017064437.083698_IN_webconnectivity_85587e90f9955c59",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017045503.777532_IN_webconnectivity_eebb2f2e8aa2a46d",
+      "measurement_start_time": "2026-10-17T04:55:03.000000Z",
+      "measurement_uid": "20261017045503.777532_IN_webconnectivity_eebb2f2e8aa2a46d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T035420Z_webconnectivity_IN_24560_n4_McQ5bdj0yDSlABjt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017035420.784134_IN_webconnectivity_1794e6c7efce0582",
+      "measurement_start_time": "2026-10-17T03:54:17.000000Z",
+      "measurement_uid": "20261017035420.784134_IN_webconnectivity_1794e6c7efce0582",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T035418Z_webconnectivity_IN_24560_n4_VqcIhBunrTcjseKo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017035418.431965_IN_webconnectivity_abfc63c5d621903e",
+      "measurement_start_time": "2026-10-17T03:54:15.000000Z",
+      "measurement_uid": "20261017035418.431965_IN_webconnectivity_abfc63c5d621903e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T033047Z_webconnectivity_IN_133982_n4_JhPpE1ahf8oimVPX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017033047.875005_IN_webconnectivity_e18261da371edb4f",
+      "measurement_start_time": "2026-10-17T03:30:21.000000Z",
+      "measurement_uid": "20261017033047.875005_IN_webconnectivity_e18261da371edb4f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": true,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T033023Z_webconnectivity_IN_133982_n4_o8vpIsohR3b62yQ4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        },
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017033023.347839_IN_webconnectivity_7a6c7f254f61682e",
+      "measurement_start_time": "2026-10-17T03:30:08.000000Z",
+      "measurement_uid": "20261017033023.347839_IN_webconnectivity_7a6c7f254f61682e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T011844Z_webconnectivity_IN_24309_n4_KtHrxlvoPN0pvfKs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017012438.363050_IN_webconnectivity_14a3163e64b662ae",
+      "measurement_start_time": "2026-10-17T01:24:21.000000Z",
+      "measurement_uid": "20261017012438.363050_IN_webconnectivity_14a3163e64b662ae",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T011844Z_webconnectivity_IN_24309_n4_KtHrxlvoPN0pvfKs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017012421.715674_IN_webconnectivity_1f27981945c32f25",
+      "measurement_start_time": "2026-10-17T01:24:05.000000Z",
+      "measurement_uid": "20261017012421.715674_IN_webconnectivity_1f27981945c32f25",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T181656Z_webconnectivity_IN_55836_n4_94CNwtnj4FVTlggN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181849.173796_IN_webconnectivity_bb9ee6b61abb909a",
+      "measurement_start_time": "2026-10-16T18:18:32.000000Z",
+      "measurement_uid": "20261016181849.173796_IN_webconnectivity_bb9ee6b61abb909a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T181656Z_webconnectivity_IN_55836_n4_94CNwtnj4FVTlggN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181832.091667_IN_webconnectivity_310a3bce2ff56581",
+      "measurement_start_time": "2026-10-16T18:18:16.000000Z",
+      "measurement_uid": "20261016181832.091667_IN_webconnectivity_310a3bce2ff56581",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T181507Z_webconnectivity_IN_55836_n4_tqL4mSMoo5tI16YM",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181818.304953_IN_webconnectivity_f750511c958bde13",
+      "measurement_start_time": "2026-10-16T18:18:00.000000Z",
+      "measurement_uid": "20261016181818.304953_IN_webconnectivity_f750511c958bde13",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T181507Z_webconnectivity_IN_55836_n4_tqL4mSMoo5tI16YM",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181800.544541_IN_webconnectivity_ec97fc361cb5b953",
+      "measurement_start_time": "2026-10-16T18:17:44.000000Z",
+      "measurement_uid": "20261016181800.544541_IN_webconnectivity_ec97fc361cb5b953",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T163653Z_webconnectivity_IN_24560_n4_93lD7DRV9LH36Ljo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016163831.611741_IN_webconnectivity_f692a100fcfa3cd7",
+      "measurement_start_time": "2026-10-16T16:38:29.000000Z",
+      "measurement_uid": "20261016163831.611741_IN_webconnectivity_f692a100fcfa3cd7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T163653Z_webconnectivity_IN_24560_n4_93lD7DRV9LH36Ljo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016163829.869636_IN_webconnectivity_aecec474b04ff4ea",
+      "measurement_start_time": "2026-10-16T16:38:27.000000Z",
+      "measurement_uid": "20261016163829.869636_IN_webconnectivity_aecec474b04ff4ea",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T104445Z_webconnectivity_IN_55836_n4_XqZFjuLJrIsPk26F",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016104859.144828_IN_webconnectivity_f560773b5def308e",
+      "measurement_start_time": "2026-10-16T10:48:40.000000Z",
+      "measurement_uid": "20261016104859.144828_IN_webconnectivity_f560773b5def308e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T104445Z_webconnectivity_IN_55836_n4_XqZFjuLJrIsPk26F",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016104840.473223_IN_webconnectivity_e1e01311101d89fa",
+      "measurement_start_time": "2026-10-16T10:48:23.000000Z",
+      "measurement_uid": "20261016104840.473223_IN_webconnectivity_e1e01311101d89fa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T083223Z_webconnectivity_IN_24560_n4_KfCcoeXx26Qqkofm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016083225.241107_IN_webconnectivity_9185bb64723a6219",
+      "measurement_start_time": "2026-10-16T08:31:56.000000Z",
+      "measurement_uid": "20261016083225.241107_IN_webconnectivity_9185bb64723a6219",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T083216Z_webconnectivity_IN_24560_n4_zT2BSlkKaFoFsQGk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016083218.231453_IN_webconnectivity_e76e652b2c43f217",
+      "measurement_start_time": "2026-10-16T08:31:28.000000Z",
+      "measurement_uid": "20261016083218.231453_IN_webconnectivity_e76e652b2c43f217",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016063304.037877_IN_webconnectivity_4606a2f179e7bd77",
+      "measurement_start_time": "2026-10-16T06:33:03.000000Z",
+      "measurement_uid": "20261016063304.037877_IN_webconnectivity_4606a2f179e7bd77",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016051530.720203_IN_webconnectivity_c668173d989aad86",
+      "measurement_start_time": "2026-10-16T05:15:30.000000Z",
+      "measurement_uid": "20261016051530.720203_IN_webconnectivity_c668173d989aad86",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261016T010156Z_webconnectivity_IN_45609_n4_mFiwinctMaIfYe37",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016010156.954905_IN_webconnectivity_c290f82c5f593f4a",
+      "measurement_start_time": "2026-10-16T01:00:40.000000Z",
+      "measurement_uid": "20261016010156.954905_IN_webconnectivity_c290f82c5f593f4a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261016T010111Z_webconnectivity_IN_45609_n4_8GCj5c1NxVT2jp6V",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016010111.394965_IN_webconnectivity_de7f5abb62582e05",
+      "measurement_start_time": "2026-10-16T00:59:54.000000Z",
+      "measurement_uid": "20261016010111.394965_IN_webconnectivity_de7f5abb62582e05",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T235955Z_webconnectivity_IN_55836_n4_sHh1hHvHTtsmDiKk",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015235956.128037_IN_webconnectivity_77a50096707901bb",
+      "measurement_start_time": "2026-10-15T23:58:53.000000Z",
+      "measurement_uid": "20261015235956.128037_IN_webconnectivity_77a50096707901bb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T235856Z_webconnectivity_IN_55836_n4_RdkIfbNouVBOlUo3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015235856.973739_IN_webconnectivity_50aa408b314ee541",
+      "measurement_start_time": "2026-10-15T23:57:53.000000Z",
+      "measurement_uid": "20261015235856.973739_IN_webconnectivity_50aa408b314ee541",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T220457Z_webconnectivity_IN_24560_n4_IU8smAOVifN5cdZw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015220457.941112_IN_webconnectivity_3e569e3a3d33bedd",
+      "measurement_start_time": "2026-10-15T22:03:59.000000Z",
+      "measurement_uid": "20261015220457.941112_IN_webconnectivity_3e569e3a3d33bedd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T220451Z_webconnectivity_IN_24560_n4_LmVZ8U7IGz4DrcZo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015220452.408645_IN_webconnectivity_f05c282b335639b7",
+      "measurement_start_time": "2026-10-15T22:03:55.000000Z",
+      "measurement_uid": "20261015220452.408645_IN_webconnectivity_f05c282b335639b7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T203515Z_webconnectivity_IN_24309_n4_bG2h43gI5fo0VjFI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015203846.749529_IN_webconnectivity_e6c02405511336d0",
+      "measurement_start_time": "2026-10-15T20:38:30.000000Z",
+      "measurement_uid": "20261015203846.749529_IN_webconnectivity_e6c02405511336d0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T203515Z_webconnectivity_IN_24309_n4_bG2h43gI5fo0VjFI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015203830.229989_IN_webconnectivity_32028dd7f2b465c8",
+      "measurement_start_time": "2026-10-15T20:38:12.000000Z",
+      "measurement_uid": "20261015203830.229989_IN_webconnectivity_32028dd7f2b465c8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T134325Z_webconnectivity_IN_55836_n4_JLjaYe6uizDpbYMI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015134519.450656_IN_webconnectivity_f572d79dc8794fd8",
+      "measurement_start_time": "2026-10-15T13:45:02.000000Z",
+      "measurement_uid": "20261015134519.450656_IN_webconnectivity_f572d79dc8794fd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T134325Z_webconnectivity_IN_55836_n4_JLjaYe6uizDpbYMI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015134502.288604_IN_webconnectivity_644827d17ad816e3",
+      "measurement_start_time": "2026-10-15T13:44:46.000000Z",
+      "measurement_uid": "20261015134502.288604_IN_webconnectivity_644827d17ad816e3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T081654Z_webconnectivity_IN_24560_n4_wCc3Q1EWglfS7Raz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015082003.562485_IN_webconnectivity_8e228ce58aada39f",
+      "measurement_start_time": "2026-10-15T08:20:01.000000Z",
+      "measurement_uid": "20261015082003.562485_IN_webconnectivity_8e228ce58aada39f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T081654Z_webconnectivity_IN_24560_n4_wCc3Q1EWglfS7Raz",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 20,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015082001.390145_IN_webconnectivity_6fb2596ff69c760d",
+      "measurement_start_time": "2026-10-15T08:20:00.000000Z",
+      "measurement_uid": "20261015082001.390145_IN_webconnectivity_6fb2596ff69c760d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015063434.341865_IN_webconnectivity_98bc7894251bb5aa",
+      "measurement_start_time": "2026-10-15T06:34:33.000000Z",
+      "measurement_uid": "20261015063434.341865_IN_webconnectivity_98bc7894251bb5aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015063431.911994_IN_webconnectivity_f27e29ef921fe034",
+      "measurement_start_time": "2026-10-15T06:34:31.000000Z",
+      "measurement_uid": "20261015063431.911994_IN_webconnectivity_f27e29ef921fe034",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T011743Z_webconnectivity_IN_24560_n4_jhfXxANawopaabil",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015011810.483740_IN_webconnectivity_718fb23897152c2f",
+      "measurement_start_time": "2026-10-15T01:18:08.000000Z",
+      "measurement_uid": "20261015011810.483740_IN_webconnectivity_718fb23897152c2f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T011743Z_webconnectivity_IN_24560_n4_jhfXxANawopaabil",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015011808.184759_IN_webconnectivity_24171cd4616782c9",
+      "measurement_start_time": "2026-10-15T01:18:05.000000Z",
+      "measurement_uid": "20261015011808.184759_IN_webconnectivity_24171cd4616782c9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T204511Z_webconnectivity_IN_24309_n4_duyGl6ZoOlzaZLE5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014204538.950085_IN_webconnectivity_813d934a2b5e3c99",
+      "measurement_start_time": "2026-10-14T20:45:22.000000Z",
+      "measurement_uid": "20261014204538.950085_IN_webconnectivity_813d934a2b5e3c99",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T201304Z_webconnectivity_IN_24560_n4_U8aC4t15cLvaR72s",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201304.791890_IN_webconnectivity_6147af99caf20439",
+      "measurement_start_time": "2026-10-14T20:13:01.000000Z",
+      "measurement_uid": "20261014201304.791890_IN_webconnectivity_6147af99caf20439",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T201302Z_webconnectivity_IN_24560_n4_H6fTobyaooapBXxn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201302.939603_IN_webconnectivity_ea780bcffc1a0b62",
+      "measurement_start_time": "2026-10-14T20:13:00.000000Z",
+      "measurement_uid": "20261014201302.939603_IN_webconnectivity_ea780bcffc1a0b62",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T195836Z_webconnectivity_IN_55836_n4_xDjB9FP7K62KD4IS",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195837.370896_IN_webconnectivity_7efb5896900c80b2",
+      "measurement_start_time": "2026-10-14T19:57:34.000000Z",
+      "measurement_uid": "20261014195837.370896_IN_webconnectivity_7efb5896900c80b2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T195736Z_webconnectivity_IN_55836_n4_4iJh7bOpYZC4QQ79",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195736.822854_IN_webconnectivity_afa87d5ba3f90fa5",
+      "measurement_start_time": "2026-10-14T19:56:34.000000Z",
+      "measurement_uid": "20261014195736.822854_IN_webconnectivity_afa87d5ba3f90fa5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T194751Z_webconnectivity_IN_55836_n4_GKoIA6wht9ZfY15k",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195352.450748_IN_webconnectivity_7a59e0308d40a5ae",
+      "measurement_start_time": "2026-10-14T19:53:35.000000Z",
+      "measurement_uid": "20261014195352.450748_IN_webconnectivity_7a59e0308d40a5ae",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T194751Z_webconnectivity_IN_55836_n4_GKoIA6wht9ZfY15k",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 21,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195336.041655_IN_webconnectivity_7ed5f3ed04e618a7",
+      "measurement_start_time": "2026-10-14T19:53:18.000000Z",
+      "measurement_uid": "20261014195336.041655_IN_webconnectivity_7ed5f3ed04e618a7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T193435Z_webconnectivity_IN_24309_n4_bpROPHSmIo6tNHnn",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_r_fp_13",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014194210.624761_IN_webconnectivity_21fa2d6662c83875",
+      "measurement_start_time": "2026-10-14T19:41:54.000000Z",
+      "measurement_uid": "20261014194210.624761_IN_webconnectivity_21fa2d6662c83875",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014105502.529925_IN_webconnectivity_21581419c1f0158b",
+      "measurement_start_time": "2026-10-14T10:55:02.000000Z",
+      "measurement_uid": "20261014105502.529925_IN_webconnectivity_21581419c1f0158b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.xvideos.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014105458.621576_IN_webconnectivity_a3679ada8bcd8252",
+      "measurement_start_time": "2026-10-14T10:54:58.000000Z",
+      "measurement_uid": "20261014105458.621576_IN_webconnectivity_a3679ada8bcd8252",
+      "verification_status": "unverified"
+    }
+  ]
+}

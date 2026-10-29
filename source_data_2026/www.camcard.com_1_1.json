@@ -1,0 +1,2643 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.17541146278381348
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T210035Z_webconnectivity_IN_24560_n4_pYGv8940YnL705ei",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020210035.600860_IN_webconnectivity_f3bc210c38a23982",
+      "measurement_start_time": "2026-10-20T20:59:47.000000Z",
+      "measurement_uid": "20261020210035.600860_IN_webconnectivity_f3bc210c38a23982",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T205603Z_webconnectivity_IN_24560_n4_HWrUw5lVKLoSxjZe",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020205603.422072_IN_webconnectivity_85fbb9fa1644662f",
+      "measurement_start_time": "2026-10-20T20:55:58.000000Z",
+      "measurement_uid": "20261020205603.422072_IN_webconnectivity_85fbb9fa1644662f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T201035Z_webconnectivity_IN_55836_n4_OSUcEN6ZIlLk825w",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020201035.083491_IN_webconnectivity_a144e6efb1b96d8a",
+      "measurement_start_time": "2026-10-20T20:09:46.000000Z",
+      "measurement_uid": "20261020201035.083491_IN_webconnectivity_a144e6efb1b96d8a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T130626Z_webconnectivity_IN_24560_n4_YdMtUyocIng2UZZk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020130627.205767_IN_webconnectivity_d2a507bcb2e86fc0",
+      "measurement_start_time": "2026-10-20T13:05:54.000000Z",
+      "measurement_uid": "20261020130627.205767_IN_webconnectivity_d2a507bcb2e86fc0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T130617Z_webconnectivity_IN_24560_n4_pEb9A0ToJ5v2v9Bq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020130617.205110_IN_webconnectivity_878ab08d915f3d49",
+      "measurement_start_time": "2026-10-20T13:05:30.000000Z",
+      "measurement_uid": "20261020130617.205110_IN_webconnectivity_878ab08d915f3d49",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T125108Z_webconnectivity_IN_24309_n4_3GOkxqUbLbS9EqOz",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125108.397519_IN_webconnectivity_74581934727ec882",
+      "measurement_start_time": "2026-10-20T12:51:05.000000Z",
+      "measurement_uid": "20261020125108.397519_IN_webconnectivity_74581934727ec882",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T090407Z_webconnectivity_IN_55836_n4_XeCch0oheJuT0oL6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020091023.117057_IN_webconnectivity_7c30a8fbe6ff1486",
+      "measurement_start_time": "2026-10-20T09:10:07.000000Z",
+      "measurement_uid": "20261020091023.117057_IN_webconnectivity_7c30a8fbe6ff1486",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T090938Z_webconnectivity_IN_55836_n4_szj3SyqfTdqdckRf",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020090938.940413_IN_webconnectivity_f1a69b33e84a18f0",
+      "measurement_start_time": "2026-10-20T09:09:34.000000Z",
+      "measurement_uid": "20261020090938.940413_IN_webconnectivity_f1a69b33e84a18f0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T080343Z_webconnectivity_IN_24560_n4_6hmlbHoAeWOq2BTo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020080831.187742_IN_webconnectivity_6ac2d1f51c0d94a2",
+      "measurement_start_time": "2026-10-20T08:08:28.000000Z",
+      "measurement_uid": "20261020080831.187742_IN_webconnectivity_6ac2d1f51c0d94a2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020063911.214132_IN_webconnectivity_48ab9fb1ad02b5e9",
+      "measurement_start_time": "2026-10-20T06:39:10.000000Z",
+      "measurement_uid": "20261020063911.214132_IN_webconnectivity_48ab9fb1ad02b5e9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T024748Z_webconnectivity_IN_24560_n4_dvlf6s1aIeK601V7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020024755.262344_IN_webconnectivity_decb64460516c2c9",
+      "measurement_start_time": "2026-10-20T02:46:49.000000Z",
+      "measurement_uid": "20261020024755.262344_IN_webconnectivity_decb64460516c2c9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T191032Z_webconnectivity_IN_55836_n4_VX5SL87uZmqcpvNg",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019191032.929933_IN_webconnectivity_678160a8dd47e73a",
+      "measurement_start_time": "2026-10-19T19:09:02.000000Z",
+      "measurement_uid": "20261019191032.929933_IN_webconnectivity_678160a8dd47e73a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T190612Z_webconnectivity_IN_55836_n4_Od5CnRK3QmD9LmcN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019190832.787401_IN_webconnectivity_d0a0b91cb0d2f6e7",
+      "measurement_start_time": "2026-10-19T19:08:16.000000Z",
+      "measurement_uid": "20261019190832.787401_IN_webconnectivity_d0a0b91cb0d2f6e7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T182550Z_webconnectivity_IN_24309_n4_pOoLGOUjya5Mrpej",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019182550.675879_IN_webconnectivity_381589af7f4e52c5",
+      "measurement_start_time": "2026-10-19T18:25:49.000000Z",
+      "measurement_uid": "20261019182550.675879_IN_webconnectivity_381589af7f4e52c5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261019T170838Z_webconnectivity_IN_132497_n4_Pz7s7cPCZnC38J02",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019170838.237955_IN_webconnectivity_ddef570fae25f80c",
+      "measurement_start_time": "2026-10-19T17:08:32.000000Z",
+      "measurement_uid": "20261019170838.237955_IN_webconnectivity_ddef570fae25f80c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T151110Z_webconnectivity_IN_24560_n4_TnC0WUuastQoCVwM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019151110.310558_IN_webconnectivity_252ebdfcbed08370",
+      "measurement_start_time": "2026-10-19T15:10:24.000000Z",
+      "measurement_uid": "20261019151110.310558_IN_webconnectivity_252ebdfcbed08370",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T150957Z_webconnectivity_IN_24560_n4_AoILleZYtzFD8MSX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019150959.052804_IN_webconnectivity_30de5e0d576b725f",
+      "measurement_start_time": "2026-10-19T15:09:21.000000Z",
+      "measurement_uid": "20261019150959.052804_IN_webconnectivity_30de5e0d576b725f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T133307Z_webconnectivity_IN_55836_n4_w72sjT336ulheB62",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019133307.512657_IN_webconnectivity_fa1c8c7a1837988f",
+      "measurement_start_time": "2026-10-19T13:32:05.000000Z",
+      "measurement_uid": "20261019133307.512657_IN_webconnectivity_fa1c8c7a1837988f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019063650.440850_IN_webconnectivity_d68e37de27e821f0",
+      "measurement_start_time": "2026-10-19T06:36:49.000000Z",
+      "measurement_uid": "20261019063650.440850_IN_webconnectivity_d68e37de27e821f0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T054704Z_webconnectivity_IN_24560_n4_gGH1kaiMVwRPK2yq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019054855.375080_IN_webconnectivity_540020eef3b4f367",
+      "measurement_start_time": "2026-10-19T05:48:39.000000Z",
+      "measurement_uid": "20261019054855.375080_IN_webconnectivity_540020eef3b4f367",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T054127Z_webconnectivity_IN_24560_n4_XUjGq5jSz4cTbyEb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019054127.598118_IN_webconnectivity_5264329ef2d1d5cb",
+      "measurement_start_time": "2026-10-19T05:40:40.000000Z",
+      "measurement_uid": "20261019054127.598118_IN_webconnectivity_5264329ef2d1d5cb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T230255Z_webconnectivity_IN_24309_n4_FqbdxRUnC86ombo3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018231006.622702_IN_webconnectivity_87efcc67303532a1",
+      "measurement_start_time": "2026-10-18T23:09:50.000000Z",
+      "measurement_uid": "20261018231006.622702_IN_webconnectivity_87efcc67303532a1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T225236Z_webconnectivity_IN_24560_n4_7Nq1QgwWIO8DgNg2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018225236.652995_IN_webconnectivity_e930d40d85aaccbf",
+      "measurement_start_time": "2026-10-18T22:52:29.000000Z",
+      "measurement_uid": "20261018225236.652995_IN_webconnectivity_e930d40d85aaccbf",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T171333Z_webconnectivity_IN_24560_n4_xipjGKzpjoM85cZQ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018171333.403925_IN_webconnectivity_d6b52d6434bbce8f",
+      "measurement_start_time": "2026-10-18T17:12:47.000000Z",
+      "measurement_uid": "20261018171333.403925_IN_webconnectivity_d6b52d6434bbce8f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T170235Z_webconnectivity_IN_55836_n4_JJGP7kMZBV6e1Cvy",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170235.929248_IN_webconnectivity_ff88cd0629400f9b",
+      "measurement_start_time": "2026-10-18T17:01:34.000000Z",
+      "measurement_uid": "20261018170235.929248_IN_webconnectivity_ff88cd0629400f9b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T170224Z_webconnectivity_IN_55836_n4_jYGGKvR4mDYwuPwC",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170224.094247_IN_webconnectivity_85e8bbf4252fbe7d",
+      "measurement_start_time": "2026-10-18T17:01:22.000000Z",
+      "measurement_uid": "20261018170224.094247_IN_webconnectivity_85e8bbf4252fbe7d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T165855Z_webconnectivity_IN_55836_n4_gdCkjoqyCwp2oKhJ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170021.225669_IN_webconnectivity_09e6c637205acf80",
+      "measurement_start_time": "2026-10-18T17:00:04.000000Z",
+      "measurement_uid": "20261018170021.225669_IN_webconnectivity_09e6c637205acf80",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261018T150036Z_webconnectivity_IN_45609_n4_he0syEv6SdQz9td5",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018150036.478167_IN_webconnectivity_52bc254bf688a62a",
+      "measurement_start_time": "2026-10-18T15:00:18.000000Z",
+      "measurement_uid": "20261018150036.478167_IN_webconnectivity_52bc254bf688a62a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261018T141726Z_webconnectivity_IN_134674_n4_AqtIsoG5iKoCYo8F",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018141726.822420_IN_webconnectivity_35dca552cf2cf4ff",
+      "measurement_start_time": "2026-10-18T14:17:23.000000Z",
+      "measurement_uid": "20261018141726.822420_IN_webconnectivity_35dca552cf2cf4ff",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T114617Z_webconnectivity_IN_55836_n4_jADEcLWUQFdidUbU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018115024.737840_IN_webconnectivity_766093923ed9ce0a",
+      "measurement_start_time": "2026-10-18T11:50:05.000000Z",
+      "measurement_uid": "20261018115024.737840_IN_webconnectivity_766093923ed9ce0a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T071716Z_webconnectivity_IN_55836_n4_kzCqpooR26OM6ezh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018072236.012226_IN_webconnectivity_9bf4d5f6d166fa4e",
+      "measurement_start_time": "2026-10-18T07:22:19.000000Z",
+      "measurement_uid": "20261018072236.012226_IN_webconnectivity_9bf4d5f6d166fa4e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T071352Z_webconnectivity_IN_24560_n4_pvpWx1lKiBetMIgr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018071352.422075_IN_webconnectivity_20b1d9f94e76bbfd",
+      "measurement_start_time": "2026-10-18T07:13:02.000000Z",
+      "measurement_uid": "20261018071352.422075_IN_webconnectivity_20b1d9f94e76bbfd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T065953Z_webconnectivity_IN_24560_n4_mFbwrQRCPPmvwOcv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018070959.240927_IN_webconnectivity_94823427d9d09a61",
+      "measurement_start_time": "2026-10-18T07:09:55.000000Z",
+      "measurement_uid": "20261018070959.240927_IN_webconnectivity_94823427d9d09a61",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018062618.403568_IN_webconnectivity_85c989500a562604",
+      "measurement_start_time": "2026-10-18T06:26:17.000000Z",
+      "measurement_uid": "20261018062618.403568_IN_webconnectivity_85c989500a562604",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T062315Z_webconnectivity_IN_133982_n4_rhieFiPMF8NgW4V1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018062316.022552_IN_webconnectivity_d8af21f8c4d837e6",
+      "measurement_start_time": "2026-10-18T06:23:11.000000Z",
+      "measurement_uid": "20261018062316.022552_IN_webconnectivity_d8af21f8c4d837e6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261017T212536Z_webconnectivity_IN_9498_n4_yoCJAzWtYtETkoQZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017212536.573042_IN_webconnectivity_65073f6bed7c1527",
+      "measurement_start_time": "2026-10-17T21:25:33.000000Z",
+      "measurement_uid": "20261017212536.573042_IN_webconnectivity_65073f6bed7c1527",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T203905Z_webconnectivity_IN_24309_n4_oNybJFG52L5qgULO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017204214.864646_IN_webconnectivity_68eb004fd290bcfd",
+      "measurement_start_time": "2026-10-17T20:41:59.000000Z",
+      "measurement_uid": "20261017204214.864646_IN_webconnectivity_68eb004fd290bcfd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261017T203719Z_webconnectivity_IN_136714_n4_vmGf9ajZ9JUobz0X",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017203720.080570_IN_webconnectivity_e0a6b69d99a10c66",
+      "measurement_start_time": "2026-10-17T20:37:16.000000Z",
+      "measurement_uid": "20261017203720.080570_IN_webconnectivity_e0a6b69d99a10c66",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T183536Z_webconnectivity_IN_24560_n4_cTgUcEPSb1l4Ovna",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017183536.268639_IN_webconnectivity_4f993b56135ab091",
+      "measurement_start_time": "2026-10-17T18:34:49.000000Z",
+      "measurement_uid": "20261017183536.268639_IN_webconnectivity_4f993b56135ab091",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T182613Z_webconnectivity_IN_24560_n4_7W6UpLfSbCuWijVy",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017183111.945452_IN_webconnectivity_3366bd9153c1915e",
+      "measurement_start_time": "2026-10-17T18:30:56.000000Z",
+      "measurement_uid": "20261017183111.945452_IN_webconnectivity_3366bd9153c1915e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261017T180923Z_webconnectivity_IN_17488_n4_vNQ02kSxmEo48CZ3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017180923.574658_IN_webconnectivity_c0ef6fe15f09c192",
+      "measurement_start_time": "2026-10-17T18:09:21.000000Z",
+      "measurement_uid": "20261017180923.574658_IN_webconnectivity_c0ef6fe15f09c192",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T163634Z_webconnectivity_IN_55836_n4_gkSTqKojXXWeyNau",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163634.274139_IN_webconnectivity_885c2696035060d3",
+      "measurement_start_time": "2026-10-17T16:35:32.000000Z",
+      "measurement_uid": "20261017163634.274139_IN_webconnectivity_885c2696035060d3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T163023Z_webconnectivity_IN_55836_n4_KrdRwhAzltHCJZko",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163024.390933_IN_webconnectivity_73a03c5331185ffc",
+      "measurement_start_time": "2026-10-17T16:30:00.000000Z",
+      "measurement_uid": "20261017163024.390933_IN_webconnectivity_73a03c5331185ffc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T125321Z_webconnectivity_IN_24560_n4_lT2O6t08TyZFw53P",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017125321.494802_IN_webconnectivity_0120f99b61659554",
+      "measurement_start_time": "2026-10-17T12:53:15.000000Z",
+      "measurement_uid": "20261017125321.494802_IN_webconnectivity_0120f99b61659554",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T063006Z_webconnectivity_IN_18209_n4_gt1TGtsofBJSPV9D",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017063006.613796_IN_webconnectivity_45c7075dd1171477",
+      "measurement_start_time": "2026-10-17T06:30:01.000000Z",
+      "measurement_uid": "20261017063006.613796_IN_webconnectivity_45c7075dd1171477",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017062108.406031_IN_webconnectivity_61fb9d2c1e3d842f",
+      "measurement_start_time": "2026-10-17T06:21:07.000000Z",
+      "measurement_uid": "20261017062108.406031_IN_webconnectivity_61fb9d2c1e3d842f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T045858Z_webconnectivity_IN_24560_n4_PoSQEJcLKYuqIM6N",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017050639.640047_IN_webconnectivity_05aac8f220bcd46a",
+      "measurement_start_time": "2026-10-17T05:06:21.000000Z",
+      "measurement_uid": "20261017050639.640047_IN_webconnectivity_05aac8f220bcd46a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T031141Z_webconnectivity_IN_55836_n4_sTOfRZNKskpJDEnn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017031141.620898_IN_webconnectivity_af084241ce15d16e",
+      "measurement_start_time": "2026-10-17T03:10:39.000000Z",
+      "measurement_uid": "20261017031141.620898_IN_webconnectivity_af084241ce15d16e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T030614Z_webconnectivity_IN_55836_n4_nbDHniWkAeReRZRt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017030910.115216_IN_webconnectivity_6138a6d8a84146ca",
+      "measurement_start_time": "2026-10-17T03:08:53.000000Z",
+      "measurement_uid": "20261017030910.115216_IN_webconnectivity_6138a6d8a84146ca",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261017T020206Z_webconnectivity_IN_9829_n4_oxrsZUg04ZBhV7AR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017020207.110624_IN_webconnectivity_c0b1190d75921874",
+      "measurement_start_time": "2026-10-17T02:02:02.000000Z",
+      "measurement_uid": "20261017020207.110624_IN_webconnectivity_c0b1190d75921874",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T225707Z_webconnectivity_IN_24309_n4_pRzim0KBLDmyCbNB",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016230153.488369_IN_webconnectivity_00eb27df78e42e8d",
+      "measurement_start_time": "2026-10-16T23:01:37.000000Z",
+      "measurement_uid": "20261016230153.488369_IN_webconnectivity_00eb27df78e42e8d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T223011Z_webconnectivity_IN_55836_n4_mvMFF4voyQecyedN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016223011.296088_IN_webconnectivity_994d3dbb5c859bb3",
+      "measurement_start_time": "2026-10-16T22:28:40.000000Z",
+      "measurement_uid": "20261016223011.296088_IN_webconnectivity_994d3dbb5c859bb3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T211022Z_webconnectivity_IN_24560_n4_3KZDWlNeShDNFq2r",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016211304.049536_IN_webconnectivity_1e7978509bcc1ff5",
+      "measurement_start_time": "2026-10-16T21:13:02.000000Z",
+      "measurement_uid": "20261016211304.049536_IN_webconnectivity_1e7978509bcc1ff5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T175735Z_webconnectivity_IN_55836_n4_eanSpmHJ6gnuwDUO",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016175735.770878_IN_webconnectivity_e243d63540dbfc0c",
+      "measurement_start_time": "2026-10-16T17:56:32.000000Z",
+      "measurement_uid": "20261016175735.770878_IN_webconnectivity_e243d63540dbfc0c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T161304Z_webconnectivity_IN_24560_n4_oHsk1oWWO5Er8HyL",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016161304.224034_IN_webconnectivity_1e2f5f39faf3b8b1",
+      "measurement_start_time": "2026-10-16T16:12:18.000000Z",
+      "measurement_uid": "20261016161304.224034_IN_webconnectivity_1e2f5f39faf3b8b1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261016T131342Z_webconnectivity_IN_136286_n4_lDKzAnl9oMysmbzb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016131342.875056_IN_webconnectivity_8e540e012b172d4c",
+      "measurement_start_time": "2026-10-16T13:13:38.000000Z",
+      "measurement_uid": "20261016131342.875056_IN_webconnectivity_8e540e012b172d4c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T115754Z_webconnectivity_IN_133982_n4_yznd6tsAtVIi6MoM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016115754.296938_IN_webconnectivity_b0cad78d13845403",
+      "measurement_start_time": "2026-10-16T11:57:49.000000Z",
+      "measurement_uid": "20261016115754.296938_IN_webconnectivity_b0cad78d13845403",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T081414Z_webconnectivity_IN_55836_n4_5B8eo4d96Z8NRlsx",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016082457.513379_IN_webconnectivity_f13930dce794ad8a",
+      "measurement_start_time": "2026-10-16T08:24:39.000000Z",
+      "measurement_uid": "20261016082457.513379_IN_webconnectivity_f13930dce794ad8a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T075822Z_webconnectivity_IN_24309_n4_T2oMWP2N6fJ5UD1f",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016080443.506600_IN_webconnectivity_f88f8fca07d60a96",
+      "measurement_start_time": "2026-10-16T08:04:27.000000Z",
+      "measurement_uid": "20261016080443.506600_IN_webconnectivity_f88f8fca07d60a96",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016055623.456250_IN_webconnectivity_321dceefbf4d2e51",
+      "measurement_start_time": "2026-10-16T05:56:22.000000Z",
+      "measurement_uid": "20261016055623.456250_IN_webconnectivity_321dceefbf4d2e51",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T054109Z_webconnectivity_IN_24560_n4_KmvTvvj1ODkE6lWE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016054110.663648_IN_webconnectivity_0bac80c3c21aaf39",
+      "measurement_start_time": "2026-10-16T05:40:32.000000Z",
+      "measurement_uid": "20261016054110.663648_IN_webconnectivity_0bac80c3c21aaf39",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T053725Z_webconnectivity_IN_24560_n4_nLO5U4kuvSUsDkFQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016053850.345373_IN_webconnectivity_954e66588e2114c0",
+      "measurement_start_time": "2026-10-16T05:38:47.000000Z",
+      "measurement_uid": "20261016053850.345373_IN_webconnectivity_954e66588e2114c0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T143759Z_webconnectivity_IN_55836_n4_wPyqJaMmqnUAJVqW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016143759.525575_IN_webconnectivity_2973755756c6483d",
+      "measurement_start_time": "2026-10-16T05:17:47.000000Z",
+      "measurement_uid": "20261016143759.525575_IN_webconnectivity_2973755756c6483d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T005922Z_webconnectivity_IN_55836_n4_xYcVLhqsBnzAKWkO",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016005923.096814_IN_webconnectivity_f07b48c3b32f70c6",
+      "measurement_start_time": "2026-10-16T00:58:21.000000Z",
+      "measurement_uid": "20261016005923.096814_IN_webconnectivity_f07b48c3b32f70c6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T132342Z_webconnectivity_IN_24560_n4_MIIEhunsco4EQicQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015155207.927135_IN_webconnectivity_e73602bc77f8c3dc",
+      "measurement_start_time": "2026-10-15T15:52:06.000000Z",
+      "measurement_uid": "20261015155207.927135_IN_webconnectivity_e73602bc77f8c3dc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T135748Z_webconnectivity_IN_24560_n4_clZBqgux8bBqVQZM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015135748.658703_IN_webconnectivity_4fc76572d3fda7f1",
+      "measurement_start_time": "2026-10-15T13:57:02.000000Z",
+      "measurement_uid": "20261015135748.658703_IN_webconnectivity_4fc76572d3fda7f1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T120255Z_webconnectivity_IN_55836_n4_z1mSvtgY3OfogrSG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015120256.660874_IN_webconnectivity_bda3889cae1236b0",
+      "measurement_start_time": "2026-10-15T12:01:34.000000Z",
+      "measurement_uid": "20261015120256.660874_IN_webconnectivity_bda3889cae1236b0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T120229Z_webconnectivity_IN_55836_n4_39omob10VOAfoe8P",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015120229.951965_IN_webconnectivity_d6d7bbf94fc53ab3",
+      "measurement_start_time": "2026-10-15T12:01:27.000000Z",
+      "measurement_uid": "20261015120229.951965_IN_webconnectivity_d6d7bbf94fc53ab3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T084634Z_webconnectivity_IN_24309_n4_W1Io1rj02OzKcIQv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015085401.904901_IN_webconnectivity_2e10dcfbc4900eff",
+      "measurement_start_time": "2026-10-15T08:53:45.000000Z",
+      "measurement_uid": "20261015085401.904901_IN_webconnectivity_2e10dcfbc4900eff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T074639Z_webconnectivity_IN_55836_n4_r3c47orLq6dwVbK6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015075027.699821_IN_webconnectivity_5006747867ff18ac",
+      "measurement_start_time": "2026-10-15T07:50:09.000000Z",
+      "measurement_uid": "20261015075027.699821_IN_webconnectivity_5006747867ff18ac",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T072525Z_webconnectivity_IN_24560_n4_DABN0Yi2fSlJE5W9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015072527.582256_IN_webconnectivity_bf5b47e500d233cb",
+      "measurement_start_time": "2026-10-15T07:24:47.000000Z",
+      "measurement_uid": "20261015072527.582256_IN_webconnectivity_bf5b47e500d233cb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015052323.070431_IN_webconnectivity_286a07ce730107ef",
+      "measurement_start_time": "2026-10-15T05:23:22.000000Z",
+      "measurement_uid": "20261015052323.070431_IN_webconnectivity_286a07ce730107ef",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T035433Z_webconnectivity_IN_45609_n4_qablkU2N6jdwhDEG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015035433.989929_IN_webconnectivity_39be7a5799c03fac",
+      "measurement_start_time": "2026-10-15T03:53:16.000000Z",
+      "measurement_uid": "20261015035433.989929_IN_webconnectivity_39be7a5799c03fac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T031419Z_webconnectivity_IN_24560_n4_anMJbfYHnj4KgTKs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015031759.941127_IN_webconnectivity_6e971eaf04778fed",
+      "measurement_start_time": "2026-10-15T03:17:56.000000Z",
+      "measurement_uid": "20261015031759.941127_IN_webconnectivity_6e971eaf04778fed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T010032Z_webconnectivity_IN_55836_n4_DAHMddoXoNqwTPpG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015010213.168069_IN_webconnectivity_9487292fd6665f72",
+      "measurement_start_time": "2026-10-15T01:01:57.000000Z",
+      "measurement_uid": "20261015010213.168069_IN_webconnectivity_9487292fd6665f72",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T230133Z_webconnectivity_IN_24560_n4_xFQtgPoabMXxtopr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014230523.783963_IN_webconnectivity_35a9bf6ceabcf15d",
+      "measurement_start_time": "2026-10-14T23:05:20.000000Z",
+      "measurement_uid": "20261014230523.783963_IN_webconnectivity_35a9bf6ceabcf15d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T160147Z_webconnectivity_IN_55836_n4_rooOiooouam1Oo7l",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014160148.665900_IN_webconnectivity_e4368062702a7a31",
+      "measurement_start_time": "2026-10-14T16:01:17.000000Z",
+      "measurement_uid": "20261014160148.665900_IN_webconnectivity_e4368062702a7a31",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T153642Z_webconnectivity_IN_24560_n4_clCnjOwfsh1zkIuq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014153642.840740_IN_webconnectivity_e50c24d7cb787535",
+      "measurement_start_time": "2026-10-14T15:35:55.000000Z",
+      "measurement_uid": "20261014153642.840740_IN_webconnectivity_e50c24d7cb787535",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014144138.956053_IN_webconnectivity_67f5127adf35ecff",
+      "measurement_start_time": "2026-10-14T14:41:15.000000Z",
+      "measurement_uid": "20261014144138.956053_IN_webconnectivity_67f5127adf35ecff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T091408Z_webconnectivity_IN_55836_n4_mOjal8r3h0X9koR3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014092302.397382_IN_webconnectivity_d27c3fd6de6a93e4",
+      "measurement_start_time": "2026-10-14T09:22:45.000000Z",
+      "measurement_uid": "20261014092302.397382_IN_webconnectivity_d27c3fd6de6a93e4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014091907.745660_IN_webconnectivity_45485975a5cbaa4e",
+      "measurement_start_time": "2026-10-14T09:19:07.000000Z",
+      "measurement_uid": "20261014091907.745660_IN_webconnectivity_45485975a5cbaa4e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.camcard.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T084902Z_webconnectivity_IN_24560_n4_yNiVfdI2TD7x4RrY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014084904.045892_IN_webconnectivity_def7f80222a11343",
+      "measurement_start_time": "2026-10-14T08:48:30.000000Z",
+      "measurement_uid": "20261014084904.045892_IN_webconnectivity_def7f80222a11343",
+      "verification_status": "unverified"
+    }
+  ]
+}

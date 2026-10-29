@@ -1,0 +1,3028 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.4554157257080078
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T212550Z_webconnectivity_IN_24560_n4_0pltHMHWwgJo249u",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020212550.093700_IN_webconnectivity_0979ceb329598017",
+      "measurement_start_time": "2026-10-20T21:25:03.000000Z",
+      "measurement_uid": "20261020212550.093700_IN_webconnectivity_0979ceb329598017",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T171554Z_webconnectivity_IN_24560_n4_9woMTq2V18sFMwVY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020171554.493595_IN_webconnectivity_605974d79f5c4fb3",
+      "measurement_start_time": "2026-10-20T17:15:06.000000Z",
+      "measurement_uid": "20261020171554.493595_IN_webconnectivity_605974d79f5c4fb3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T154003Z_webconnectivity_IN_55836_n4_r3oRGHeVJWkh4oiU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 15,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020154003.997913_IN_webconnectivity_ebbba8c423213306",
+      "measurement_start_time": "2026-10-20T15:39:23.000000Z",
+      "measurement_uid": "20261020154003.997913_IN_webconnectivity_ebbba8c423213306",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T154008Z_webconnectivity_IN_55836_n4_6TjLYfUxEIpIogo8",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020154008.415290_IN_webconnectivity_10ee42a5802810ef",
+      "measurement_start_time": "2026-10-20T15:39:05.000000Z",
+      "measurement_uid": "20261020154008.415290_IN_webconnectivity_10ee42a5802810ef",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T134019Z_webconnectivity_IN_24309_n4_bZgWmUPLdUlwi8Dc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020134441.819573_IN_webconnectivity_bb5da4492885b263",
+      "measurement_start_time": "2026-10-20T13:44:24.000000Z",
+      "measurement_uid": "20261020134441.819573_IN_webconnectivity_bb5da4492885b263",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T100316Z_webconnectivity_IN_55836_n4_ZF989M4n0VAnextU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020100316.396163_IN_webconnectivity_ade77671e7e25e4c",
+      "measurement_start_time": "2026-10-20T10:02:14.000000Z",
+      "measurement_uid": "20261020100316.396163_IN_webconnectivity_ade77671e7e25e4c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T085224Z_webconnectivity_IN_24560_n4_toxhlWOAUbCsvsbM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020085224.979982_IN_webconnectivity_1842dc8ded5e5582",
+      "measurement_start_time": "2026-10-20T08:52:17.000000Z",
+      "measurement_uid": "20261020085224.979982_IN_webconnectivity_1842dc8ded5e5582",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T085233Z_webconnectivity_IN_24560_n4_FCs2w6A2eRVo8bnt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020085235.164958_IN_webconnectivity_cd55786609948208",
+      "measurement_start_time": "2026-10-20T08:51:43.000000Z",
+      "measurement_uid": "20261020085235.164958_IN_webconnectivity_cd55786609948208",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261020T074018Z_webconnectivity_IN_132497_n4_LZwIToyI5ino0tS1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020074019.320370_IN_webconnectivity_bf3c072c95168564",
+      "measurement_start_time": "2026-10-20T07:40:11.000000Z",
+      "measurement_uid": "20261020074019.320370_IN_webconnectivity_bf3c072c95168564",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020055150.569715_IN_webconnectivity_1f9f74e55a6ba179",
+      "measurement_start_time": "2026-10-20T05:51:50.000000Z",
+      "measurement_uid": "20261020055150.569715_IN_webconnectivity_1f9f74e55a6ba179",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T030304Z_webconnectivity_IN_24560_n4_K5MmiplAA5DHRqEC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020030304.963305_IN_webconnectivity_2bc21165f1664aac",
+      "measurement_start_time": "2026-10-20T03:02:15.000000Z",
+      "measurement_uid": "20261020030304.963305_IN_webconnectivity_2bc21165f1664aac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T025914Z_webconnectivity_IN_24560_n4_9RjBmd59X7wocH6h",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020025915.120581_IN_webconnectivity_8242641eecd992aa",
+      "measurement_start_time": "2026-10-20T02:58:45.000000Z",
+      "measurement_uid": "20261020025915.120581_IN_webconnectivity_8242641eecd992aa",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T192413Z_webconnectivity_IN_24309_n4_2PWwlEVG6kyQQIu8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019192824.310899_IN_webconnectivity_a5ee3d261e29cbd6",
+      "measurement_start_time": "2026-10-19T19:28:07.000000Z",
+      "measurement_uid": "20261019192824.310899_IN_webconnectivity_a5ee3d261e29cbd6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T192250Z_webconnectivity_IN_55836_n4_uKvFkFs12VnMhuBp",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019192250.906737_IN_webconnectivity_18e99911190483a1",
+      "measurement_start_time": "2026-10-19T19:21:20.000000Z",
+      "measurement_uid": "20261019192250.906737_IN_webconnectivity_18e99911190483a1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T191549Z_webconnectivity_IN_24560_n4_odasbcp1iE7SDroS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019191549.321397_IN_webconnectivity_2188f1950672bbd8",
+      "measurement_start_time": "2026-10-19T19:15:02.000000Z",
+      "measurement_uid": "20261019191549.321397_IN_webconnectivity_2188f1950672bbd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T190612Z_webconnectivity_IN_55836_n4_Od5CnRK3QmD9LmcN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019191220.509831_IN_webconnectivity_c0a2cf003551d4da",
+      "measurement_start_time": "2026-10-19T19:11:57.000000Z",
+      "measurement_uid": "20261019191220.509831_IN_webconnectivity_c0a2cf003551d4da",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T151939Z_webconnectivity_IN_24560_n4_ybFS7oSq9dOwJa21",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019151939.650940_IN_webconnectivity_1408ad61eff03b6a",
+      "measurement_start_time": "2026-10-19T15:18:53.000000Z",
+      "measurement_uid": "20261019151939.650940_IN_webconnectivity_1408ad61eff03b6a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261019T135851Z_webconnectivity_IN_134674_n4_MOoS6WiYWRavAPYE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019135851.539740_IN_webconnectivity_9000e2858ca2630e",
+      "measurement_start_time": "2026-10-19T13:58:47.000000Z",
+      "measurement_uid": "20261019135851.539740_IN_webconnectivity_9000e2858ca2630e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T065026Z_webconnectivity_IN_55836_n4_4AOvLloShdk4dqE0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019065026.687856_IN_webconnectivity_24b195bae9bdadbf",
+      "measurement_start_time": "2026-10-19T06:50:03.000000Z",
+      "measurement_uid": "20261019065026.687856_IN_webconnectivity_24b195bae9bdadbf",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T064713Z_webconnectivity_IN_55836_n4_oUFImugm4utKVy6G",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019064856.029875_IN_webconnectivity_f96345e7a71b2c1a",
+      "measurement_start_time": "2026-10-19T06:48:39.000000Z",
+      "measurement_uid": "20261019064856.029875_IN_webconnectivity_f96345e7a71b2c1a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019061313.156778_IN_webconnectivity_754532775682e069",
+      "measurement_start_time": "2026-10-19T06:13:13.000000Z",
+      "measurement_uid": "20261019061313.156778_IN_webconnectivity_754532775682e069",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T055231Z_webconnectivity_IN_24560_n4_QBTOG3nuo1c1X0L8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055231.380446_IN_webconnectivity_533840f71e9d711b",
+      "measurement_start_time": "2026-10-19T05:52:25.000000Z",
+      "measurement_uid": "20261019055231.380446_IN_webconnectivity_533840f71e9d711b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T055227Z_webconnectivity_IN_24560_n4_oyX8DnlAlC9plKIZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055227.832681_IN_webconnectivity_d58278273e94ecef",
+      "measurement_start_time": "2026-10-19T05:52:20.000000Z",
+      "measurement_uid": "20261019055227.832681_IN_webconnectivity_d58278273e94ecef",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T035355Z_webconnectivity_IN_9498_n4_PT8QVBOJK5wHUWYc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019035355.262194_IN_webconnectivity_f7e7ea834c92aea2",
+      "measurement_start_time": "2026-10-19T03:53:51.000000Z",
+      "measurement_uid": "20261019035355.262194_IN_webconnectivity_f7e7ea834c92aea2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T001513Z_webconnectivity_IN_24309_n4_H5VZoAAloBedOoNN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019001631.510853_IN_webconnectivity_80cf5c971748d6bb",
+      "measurement_start_time": "2026-10-19T00:16:14.000000Z",
+      "measurement_uid": "20261019001631.510853_IN_webconnectivity_80cf5c971748d6bb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T225305Z_webconnectivity_IN_24560_n4_QjRoidJgPa0DEama",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018225305.218313_IN_webconnectivity_a6081b25eeb09427",
+      "measurement_start_time": "2026-10-18T22:53:01.000000Z",
+      "measurement_uid": "20261018225305.218313_IN_webconnectivity_a6081b25eeb09427",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T172705Z_webconnectivity_IN_24560_n4_23msxVAxRk8es0OP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018172706.010126_IN_webconnectivity_85898cac9899fcc8",
+      "measurement_start_time": "2026-10-18T17:26:17.000000Z",
+      "measurement_uid": "20261018172706.010126_IN_webconnectivity_85898cac9899fcc8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T171104Z_webconnectivity_IN_55836_n4_OIUtKCR9KHsdeq39",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018171105.040820_IN_webconnectivity_f6df30fdade9da7e",
+      "measurement_start_time": "2026-10-18T17:10:03.000000Z",
+      "measurement_uid": "20261018171105.040820_IN_webconnectivity_f6df30fdade9da7e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T170227Z_webconnectivity_IN_55836_n4_4uclpbMttXsRK4L4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170951.760037_IN_webconnectivity_631a73319f533aed",
+      "measurement_start_time": "2026-10-18T17:09:32.000000Z",
+      "measurement_uid": "20261018170951.760037_IN_webconnectivity_631a73319f533aed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261018T161734Z_webconnectivity_IN_17488_n4_Aya46gXxfnjCCu6u",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018161734.901114_IN_webconnectivity_4305bcd7d3f36266",
+      "measurement_start_time": "2026-10-18T16:17:26.000000Z",
+      "measurement_uid": "20261018161734.901114_IN_webconnectivity_4305bcd7d3f36266",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261018T160341Z_webconnectivity_IN_45609_n4_GhoBKNvSoCQrov1Y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018160341.484211_IN_webconnectivity_9f32765dfaabc2ce",
+      "measurement_start_time": "2026-10-18T16:02:42.000000Z",
+      "measurement_uid": "20261018160341.484211_IN_webconnectivity_9f32765dfaabc2ce",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T124042Z_webconnectivity_IN_133982_n4_3oO9aRszAcVmoYtO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018124042.545314_IN_webconnectivity_d25b9e78eccb9eca",
+      "measurement_start_time": "2026-10-18T12:40:41.000000Z",
+      "measurement_uid": "20261018124042.545314_IN_webconnectivity_d25b9e78eccb9eca",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T075539Z_webconnectivity_IN_24560_n4_ezihEuYvUwu3fI3k",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075844.551444_IN_webconnectivity_9d59563d8ce85bc5",
+      "measurement_start_time": "2026-10-18T07:58:39.000000Z",
+      "measurement_uid": "20261018075844.551444_IN_webconnectivity_9d59563d8ce85bc5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T075751Z_webconnectivity_IN_24560_n4_Jz7cmcqvAeJn5Pk8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075751.368688_IN_webconnectivity_de82ee64287f276d",
+      "measurement_start_time": "2026-10-18T07:57:39.000000Z",
+      "measurement_uid": "20261018075751.368688_IN_webconnectivity_de82ee64287f276d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018055608.541499_IN_webconnectivity_1a3f233680df9c18",
+      "measurement_start_time": "2026-10-18T05:56:07.000000Z",
+      "measurement_uid": "20261018055608.541499_IN_webconnectivity_1a3f233680df9c18",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T054045Z_webconnectivity_IN_24309_n4_fmgFtoP7m4JWq0Oq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018054045.722404_IN_webconnectivity_c65af27d91ce5a5a",
+      "measurement_start_time": "2026-10-18T05:40:40.000000Z",
+      "measurement_uid": "20261018054045.722404_IN_webconnectivity_c65af27d91ce5a5a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T040905Z_webconnectivity_IN_24560_n4_0n36sSrN7oxpG9M5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018040905.265608_IN_webconnectivity_6c07469cf1fe6cd7",
+      "measurement_start_time": "2026-10-18T04:08:17.000000Z",
+      "measurement_uid": "20261018040905.265608_IN_webconnectivity_6c07469cf1fe6cd7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261018T011410Z_webconnectivity_IN_136714_n4_Bb2zD1MV2InNwU0Z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018011411.143766_IN_webconnectivity_a02bcf80b0854cd5",
+      "measurement_start_time": "2026-10-18T01:14:05.000000Z",
+      "measurement_uid": "20261018011411.143766_IN_webconnectivity_a02bcf80b0854cd5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T185442Z_webconnectivity_IN_24560_n4_IaIn2VCycwwO4SwJ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017185442.283206_IN_webconnectivity_f67fa0102696abc1",
+      "measurement_start_time": "2026-10-17T18:54:35.000000Z",
+      "measurement_uid": "20261017185442.283206_IN_webconnectivity_f67fa0102696abc1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T165609Z_webconnectivity_IN_55836_n4_mdbg8CcZwGT6MRX7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165609.471995_IN_webconnectivity_130af5f20ded7161",
+      "measurement_start_time": "2026-10-17T16:55:07.000000Z",
+      "measurement_uid": "20261017165609.471995_IN_webconnectivity_130af5f20ded7161",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T164752Z_webconnectivity_IN_55836_n4_T2vMSftboRSVSL5T",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165510.536355_IN_webconnectivity_b9cf05f59b4a8536",
+      "measurement_start_time": "2026-10-17T16:54:53.000000Z",
+      "measurement_uid": "20261017165510.536355_IN_webconnectivity_b9cf05f59b4a8536",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T165521Z_webconnectivity_IN_55836_n4_l7XghYoPrjZqaiRz",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165521.211722_IN_webconnectivity_4260ba1c4302a85a",
+      "measurement_start_time": "2026-10-17T16:54:20.000000Z",
+      "measurement_uid": "20261017165521.211722_IN_webconnectivity_4260ba1c4302a85a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T164320Z_webconnectivity_IN_55836_n4_rSERKuuHqvZOojfq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165428.075335_IN_webconnectivity_ea0411cc887d9e0c",
+      "measurement_start_time": "2026-10-17T16:54:08.000000Z",
+      "measurement_uid": "20261017165428.075335_IN_webconnectivity_ea0411cc887d9e0c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T132634Z_webconnectivity_IN_24560_n4_oiayCOm6ZNg9TqXY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017133008.419009_IN_webconnectivity_06f781769dcdaca6",
+      "measurement_start_time": "2026-10-17T13:29:46.000000Z",
+      "measurement_uid": "20261017133008.419009_IN_webconnectivity_06f781769dcdaca6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261017T082301Z_webconnectivity_IN_9829_n4_nIzd7TH6JgPsELHQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017082301.538621_IN_webconnectivity_115c0fcfd5d30f22",
+      "measurement_start_time": "2026-10-17T08:22:55.000000Z",
+      "measurement_uid": "20261017082301.538621_IN_webconnectivity_115c0fcfd5d30f22",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T074003Z_webconnectivity_IN_18209_n4_bz8W5apL4oNp6n88",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017074003.357300_IN_webconnectivity_7783c1a913a8e646",
+      "measurement_start_time": "2026-10-17T07:39:58.000000Z",
+      "measurement_uid": "20261017074003.357300_IN_webconnectivity_7783c1a913a8e646",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017053043.263418_IN_webconnectivity_5b153c9d3521b148",
+      "measurement_start_time": "2026-10-17T05:30:42.000000Z",
+      "measurement_uid": "20261017053043.263418_IN_webconnectivity_5b153c9d3521b148",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T051232Z_webconnectivity_IN_24560_n4_Xg6oHytjqPouLX49",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017051232.763445_IN_webconnectivity_427a23fd23b71675",
+      "measurement_start_time": "2026-10-17T05:11:45.000000Z",
+      "measurement_uid": "20261017051232.763445_IN_webconnectivity_427a23fd23b71675",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T031404Z_webconnectivity_IN_55836_n4_vx66ohp1uLOEnQZA",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017031404.173181_IN_webconnectivity_31195054c53dde22",
+      "measurement_start_time": "2026-10-17T03:13:02.000000Z",
+      "measurement_uid": "20261017031404.173181_IN_webconnectivity_31195054c53dde22",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T030614Z_webconnectivity_IN_55836_n4_nbDHniWkAeReRZRt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017031020.799627_IN_webconnectivity_8fff4a6a7f432107",
+      "measurement_start_time": "2026-10-17T03:10:00.000000Z",
+      "measurement_uid": "20261017031020.799627_IN_webconnectivity_8fff4a6a7f432107",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T224751Z_webconnectivity_IN_55836_n4_OJxZ4agQJZxLMP3i",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016224751.045598_IN_webconnectivity_1346416b95fbfa24",
+      "measurement_start_time": "2026-10-16T22:46:50.000000Z",
+      "measurement_uid": "20261016224751.045598_IN_webconnectivity_1346416b95fbfa24",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T181119Z_webconnectivity_IN_55836_n4_1atIsVgGB26WNCuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016181119.598224_IN_webconnectivity_14b9154d5d3dbe2e",
+      "measurement_start_time": "2026-10-16T18:10:17.000000Z",
+      "measurement_uid": "20261016181119.598224_IN_webconnectivity_14b9154d5d3dbe2e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T162757Z_webconnectivity_IN_24560_n4_6L2gNFqioqKDg5bE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016162757.405367_IN_webconnectivity_3a47852982231521",
+      "measurement_start_time": "2026-10-16T16:27:09.000000Z",
+      "measurement_uid": "20261016162757.405367_IN_webconnectivity_3a47852982231521",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T162529Z_webconnectivity_IN_24560_n4_0kzAUik3rx1GxTxC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016162711.331790_IN_webconnectivity_594df6314dbc42ca",
+      "measurement_start_time": "2026-10-16T16:26:52.000000Z",
+      "measurement_uid": "20261016162711.331790_IN_webconnectivity_594df6314dbc42ca",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T150540Z_webconnectivity_IN_55836_n4_Q3wlGY3YoTCxpTe2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016150541.784440_IN_webconnectivity_974bfebcd58fbf8c",
+      "measurement_start_time": "2026-10-16T15:05:20.000000Z",
+      "measurement_uid": "20261016150541.784440_IN_webconnectivity_974bfebcd58fbf8c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T123914Z_webconnectivity_IN_133982_n4_pdiH9q19Ut1DsT3a",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016123914.357584_IN_webconnectivity_bf257a519741e30c",
+      "measurement_start_time": "2026-10-16T12:39:10.000000Z",
+      "measurement_uid": "20261016123914.357584_IN_webconnectivity_bf257a519741e30c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T091516Z_webconnectivity_IN_24309_n4_wVoomtlaRnh79oNk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016091516.800132_IN_webconnectivity_03cd5af9b5e29f2e",
+      "measurement_start_time": "2026-10-16T09:15:12.000000Z",
+      "measurement_uid": "20261016091516.800132_IN_webconnectivity_03cd5af9b5e29f2e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T090937Z_webconnectivity_IN_24309_n4_BW6xCVoDslfaOGod",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016091412.881624_IN_webconnectivity_2e63aaa16b15b4c5",
+      "measurement_start_time": "2026-10-16T09:13:54.000000Z",
+      "measurement_uid": "20261016091412.881624_IN_webconnectivity_2e63aaa16b15b4c5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T060444Z_webconnectivity_IN_55836_n4_HMk7JnbolvJuOV4T",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016060444.960965_IN_webconnectivity_44db690c57e55289",
+      "measurement_start_time": "2026-10-16T06:03:43.000000Z",
+      "measurement_uid": "20261016060444.960965_IN_webconnectivity_44db690c57e55289",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016060017.252599_IN_webconnectivity_4d2d9df24bec2e4a",
+      "measurement_start_time": "2026-10-16T06:00:17.000000Z",
+      "measurement_uid": "20261016060017.252599_IN_webconnectivity_4d2d9df24bec2e4a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T012450Z_webconnectivity_IN_55836_n4_0lj3sjjbo526FY0B",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016012450.650997_IN_webconnectivity_29a8621724aac050",
+      "measurement_start_time": "2026-10-16T01:23:46.000000Z",
+      "measurement_uid": "20261016012450.650997_IN_webconnectivity_29a8621724aac050",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T222739Z_webconnectivity_IN_24560_n4_eP1tastkkInJ0sCQ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016005303.513872_IN_webconnectivity_1b39883e3192faf9",
+      "measurement_start_time": "2026-10-16T00:52:44.000000Z",
+      "measurement_uid": "20261016005303.513872_IN_webconnectivity_1b39883e3192faf9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T224654Z_webconnectivity_IN_24560_n4_OxAURtCwuSXhtdze",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015224656.203195_IN_webconnectivity_3099121f7a51a15e",
+      "measurement_start_time": "2026-10-15T22:45:37.000000Z",
+      "measurement_uid": "20261015224656.203195_IN_webconnectivity_3099121f7a51a15e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T224627Z_webconnectivity_IN_24560_n4_hrPImlzRiNUUv0of",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015224628.485814_IN_webconnectivity_1c6e6b621d3f4cd6",
+      "measurement_start_time": "2026-10-15T22:45:20.000000Z",
+      "measurement_uid": "20261015224628.485814_IN_webconnectivity_1c6e6b621d3f4cd6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T140231Z_webconnectivity_IN_24560_n4_co7Q4Duj91ApZC2y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015140231.108825_IN_webconnectivity_21a6c41cb182b687",
+      "measurement_start_time": "2026-10-15T14:02:24.000000Z",
+      "measurement_uid": "20261015140231.108825_IN_webconnectivity_21a6c41cb182b687",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T121641Z_webconnectivity_IN_55836_n4_YxzFGyTF69ZqWhBM",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015121641.787585_IN_webconnectivity_b9ea27f3d4bed629",
+      "measurement_start_time": "2026-10-15T12:15:55.000000Z",
+      "measurement_uid": "20261015121641.787585_IN_webconnectivity_b9ea27f3d4bed629",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T121646Z_webconnectivity_IN_55836_n4_XtooVPZUPFSe3PUy",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015121646.416827_IN_webconnectivity_57f179aa1ebc81ba",
+      "measurement_start_time": "2026-10-15T12:15:45.000000Z",
+      "measurement_uid": "20261015121646.416827_IN_webconnectivity_57f179aa1ebc81ba",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T101638Z_webconnectivity_IN_24309_n4_oKvw9bO8KGEQwdiO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015101739.635591_IN_webconnectivity_851471250e139b6a",
+      "measurement_start_time": "2026-10-15T10:17:21.000000Z",
+      "measurement_uid": "20261015101739.635591_IN_webconnectivity_851471250e139b6a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T080543Z_webconnectivity_IN_55836_n4_VNP0IUTVsgvdF3wH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 15,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015080544.962995_IN_webconnectivity_7d35537d414ce477",
+      "measurement_start_time": "2026-10-15T08:04:39.000000Z",
+      "measurement_uid": "20261015080544.962995_IN_webconnectivity_7d35537d414ce477",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015053047.001850_IN_webconnectivity_b735e044542da777",
+      "measurement_start_time": "2026-10-15T05:30:46.000000Z",
+      "measurement_uid": "20261015053047.001850_IN_webconnectivity_b735e044542da777",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T051053Z_webconnectivity_IN_45609_n4_O6Z1M3o0MkKNweyX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015051053.207641_IN_webconnectivity_b975ac8ca7f378f9",
+      "measurement_start_time": "2026-10-15T05:09:36.000000Z",
+      "measurement_uid": "20261015051053.207641_IN_webconnectivity_b975ac8ca7f378f9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T033546Z_webconnectivity_IN_24560_n4_2rWgh7Q9VuhqznGX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015033548.136376_IN_webconnectivity_cce2ca5a7f992630",
+      "measurement_start_time": "2026-10-15T03:34:50.000000Z",
+      "measurement_uid": "20261015033548.136376_IN_webconnectivity_cce2ca5a7f992630",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T032913Z_webconnectivity_IN_24560_n4_oowm1XWF4NgXoXMM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015033237.399042_IN_webconnectivity_ee643392a6b34225",
+      "measurement_start_time": "2026-10-15T03:32:18.000000Z",
+      "measurement_uid": "20261015033237.399042_IN_webconnectivity_ee643392a6b34225",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T012441Z_webconnectivity_IN_55836_n4_ixKFPfJzzGRLPlvi",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015012441.859059_IN_webconnectivity_152bef9007334cae",
+      "measurement_start_time": "2026-10-15T01:23:40.000000Z",
+      "measurement_uid": "20261015012441.859059_IN_webconnectivity_152bef9007334cae",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T231700Z_webconnectivity_IN_24560_n4_oDWWf3xdMDR60Pls",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014231700.447779_IN_webconnectivity_699ff5e0ffdcd3ac",
+      "measurement_start_time": "2026-10-14T23:16:55.000000Z",
+      "measurement_uid": "20261014231700.447779_IN_webconnectivity_699ff5e0ffdcd3ac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T162409Z_webconnectivity_IN_55836_n4_lcKXCXnI0KJQjprQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162409.359843_IN_webconnectivity_e7e0e91a5a11ae8a",
+      "measurement_start_time": "2026-10-14T16:23:21.000000Z",
+      "measurement_uid": "20261014162409.359843_IN_webconnectivity_e7e0e91a5a11ae8a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T160903Z_webconnectivity_IN_55836_n4_7Fv42XHuodVz7Zd7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162148.757602_IN_webconnectivity_d9ecbbbcc6196571",
+      "measurement_start_time": "2026-10-14T16:21:48.000000Z",
+      "measurement_uid": "20261014162148.757602_IN_webconnectivity_d9ecbbbcc6196571",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T155305Z_webconnectivity_IN_24560_n4_PlpSBwkVjB5c431S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_generic_404",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014155539.899260_IN_webconnectivity_8257cdd8268d7e09",
+      "measurement_start_time": "2026-10-14T15:55:34.000000Z",
+      "measurement_uid": "20261014155539.899260_IN_webconnectivity_8257cdd8268d7e09",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014150206.615096_IN_webconnectivity_719a6b61a91d6d58",
+      "measurement_start_time": "2026-10-14T15:01:43.000000Z",
+      "measurement_uid": "20261014150206.615096_IN_webconnectivity_719a6b61a91d6d58",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T121308Z_webconnectivity_IN_24560_n4_4onMqmGZySkYF2gz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014121308.607677_IN_webconnectivity_e9b095601d9c1073",
+      "measurement_start_time": "2026-10-14T12:12:22.000000Z",
+      "measurement_uid": "20261014121308.607677_IN_webconnectivity_e9b095601d9c1073",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014092801.442436_IN_webconnectivity_863edbaeca3bcea6",
+      "measurement_start_time": "2026-10-14T09:28:01.000000Z",
+      "measurement_uid": "20261014092801.442436_IN_webconnectivity_863edbaeca3bcea6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.sina.com.cn/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T090605Z_webconnectivity_IN_24560_n4_UKc7nm5YtHM9yHCn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_generic_404",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_tengine",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014091240.668693_IN_webconnectivity_38534f1307ed88bf",
+      "measurement_start_time": "2026-10-14T09:12:35.000000Z",
+      "measurement_uid": "20261014091240.668693_IN_webconnectivity_38534f1307ed88bf",
+      "verification_status": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,5077 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.3052253723144531
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS31898",
+      "probe_cc": "IN",
+      "report_id": "20261020T215957Z_webconnectivity_IN_31898_n4_XHRXgVGXVS2XGYES",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215957.280967_IN_webconnectivity_2b875e8f278bef1b",
+      "measurement_start_time": "2026-10-20T21:59:56.000000Z",
+      "measurement_uid": "20261020215957.280967_IN_webconnectivity_2b875e8f278bef1b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T213430Z_webconnectivity_IN_24560_n4_cRjoiN3IUWT88Csw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020213431.185920_IN_webconnectivity_75cb1d7129de9c2d",
+      "measurement_start_time": "2026-10-20T21:33:43.000000Z",
+      "measurement_uid": "20261020213431.185920_IN_webconnectivity_75cb1d7129de9c2d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T212627Z_webconnectivity_IN_18209_n4_Us4SLgFWtUZDoyj7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020212627.981897_IN_webconnectivity_69057053e0dd158a",
+      "measurement_start_time": "2026-10-20T21:26:26.000000Z",
+      "measurement_uid": "20261020212627.981897_IN_webconnectivity_69057053e0dd158a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T203010Z_webconnectivity_IN_55836_n4_avU145LzghooMX9c",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020203010.814948_IN_webconnectivity_3a547b5d72b92ff3",
+      "measurement_start_time": "2026-10-20T20:30:09.000000Z",
+      "measurement_uid": "20261020203010.814948_IN_webconnectivity_3a547b5d72b92ff3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261020T201541Z_webconnectivity_IN_133982_n4_jQa23XVKh46Ly7R4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020201541.193981_IN_webconnectivity_a9f63b85d0e8c715",
+      "measurement_start_time": "2026-10-20T20:15:38.000000Z",
+      "measurement_uid": "20261020201541.193981_IN_webconnectivity_a9f63b85d0e8c715",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261020T195231Z_webconnectivity_IN_133982_n4_yu5YmhDcX8wi8ANj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020195231.151060_IN_webconnectivity_cdd2ee097322833b",
+      "measurement_start_time": "2026-10-20T19:52:31.000000Z",
+      "measurement_uid": "20261020195231.151060_IN_webconnectivity_cdd2ee097322833b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T172922Z_webconnectivity_IN_55836_n4_bzx7pmXxvKYZlVa7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020172922.212000_IN_webconnectivity_85d2c68210675119",
+      "measurement_start_time": "2026-10-20T17:28:20.000000Z",
+      "measurement_uid": "20261020172922.212000_IN_webconnectivity_85d2c68210675119",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T171957Z_webconnectivity_IN_55836_n4_yt7KrdCMaQoSCe9P",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020172354.493158_IN_webconnectivity_70b9b7630d90ccda",
+      "measurement_start_time": "2026-10-20T17:23:38.000000Z",
+      "measurement_uid": "20261020172354.493158_IN_webconnectivity_70b9b7630d90ccda",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T171759Z_webconnectivity_IN_24560_n4_PN6uccvValDfzTCS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020172121.059978_IN_webconnectivity_a432f7cae84909de",
+      "measurement_start_time": "2026-10-20T17:21:20.000000Z",
+      "measurement_uid": "20261020172121.059978_IN_webconnectivity_a432f7cae84909de",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T144506Z_webconnectivity_IN_24560_n4_xoAZPUV0eEr7e326",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020144506.171998_IN_webconnectivity_a335396d3e7cead4",
+      "measurement_start_time": "2026-10-20T14:44:19.000000Z",
+      "measurement_uid": "20261020144506.171998_IN_webconnectivity_a335396d3e7cead4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261020T135107Z_webconnectivity_IN_133982_n4_F517S5xGGxEvTt7w",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020135107.177969_IN_webconnectivity_54ecd896d733e7bb",
+      "measurement_start_time": "2026-10-20T13:51:05.000000Z",
+      "measurement_uid": "20261020135107.177969_IN_webconnectivity_54ecd896d733e7bb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS58765",
+      "probe_cc": "IN",
+      "report_id": "20261020T130454Z_webconnectivity_IN_58765_n4_TFBb4EoKtwEztoka",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020130907.625227_IN_webconnectivity_f2ff069496c5ff58",
+      "measurement_start_time": "2026-10-20T13:09:06.000000Z",
+      "measurement_uid": "20261020130907.625227_IN_webconnectivity_f2ff069496c5ff58",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261020T130209Z_webconnectivity_IN_17488_n4_P5Gsf0zRgIR4sbCU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020130209.845223_IN_webconnectivity_2db9236acd1c317a",
+      "measurement_start_time": "2026-10-20T13:02:06.000000Z",
+      "measurement_uid": "20261020130209.845223_IN_webconnectivity_2db9236acd1c317a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261020T105446Z_webconnectivity_IN_9829_n4_V3oQFiowWIvwyARw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020105446.634377_IN_webconnectivity_7d17a4ce3fc9d005",
+      "measurement_start_time": "2026-10-20T10:54:43.000000Z",
+      "measurement_uid": "20261020105446.634377_IN_webconnectivity_7d17a4ce3fc9d005",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261020T075229Z_webconnectivity_IN_45609_n4_dueDgb5Y3kyu4Aqr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020075229.365342_IN_webconnectivity_76e876c06148bd61",
+      "measurement_start_time": "2026-10-20T07:51:37.000000Z",
+      "measurement_uid": "20261020075229.365342_IN_webconnectivity_76e876c06148bd61",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261020T071714Z_webconnectivity_IN_132116_n4_ccQzTDMnzoibtQTs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020072128.066860_IN_webconnectivity_0a4450174a3ea2b3",
+      "measurement_start_time": "2026-10-20T07:21:28.000000Z",
+      "measurement_uid": "20261020072128.066860_IN_webconnectivity_0a4450174a3ea2b3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261020T064756Z_webconnectivity_IN_134674_n4_jXmvSUxIouQDeL4i",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020064756.941644_IN_webconnectivity_3fe2a7e287041b76",
+      "measurement_start_time": "2026-10-20T06:47:38.000000Z",
+      "measurement_uid": "20261020064756.941644_IN_webconnectivity_3fe2a7e287041b76",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T061629Z_webconnectivity_IN_18209_n4_MINFZz4yLlSXVq8T",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020061629.369007_IN_webconnectivity_0f0491b53e4304e1",
+      "measurement_start_time": "2026-10-20T06:16:26.000000Z",
+      "measurement_uid": "20261020061629.369007_IN_webconnectivity_0f0491b53e4304e1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261020T060832Z_webconnectivity_IN_133982_n4_oiKGpOM6FSgH0fbK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020060833.096467_IN_webconnectivity_f7ae1a5aa6df1bfe",
+      "measurement_start_time": "2026-10-20T06:08:28.000000Z",
+      "measurement_uid": "20261020060833.096467_IN_webconnectivity_f7ae1a5aa6df1bfe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T054809Z_webconnectivity_IN_24560_n4_4CP460JIzsBO27tq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054821.801188_IN_webconnectivity_91d57fb5316efbde",
+      "measurement_start_time": "2026-10-20T05:48:20.000000Z",
+      "measurement_uid": "20261020054821.801188_IN_webconnectivity_91d57fb5316efbde",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T054816Z_webconnectivity_IN_24560_n4_LCvnpoi4uknjcDKa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054816.939728_IN_webconnectivity_ac235a478ecfb384",
+      "measurement_start_time": "2026-10-20T05:47:30.000000Z",
+      "measurement_uid": "20261020054816.939728_IN_webconnectivity_ac235a478ecfb384",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T054714Z_webconnectivity_IN_55836_n4_YfvOeK8DPfdnzLXd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054714.933417_IN_webconnectivity_a265da8187746567",
+      "measurement_start_time": "2026-10-20T05:46:28.000000Z",
+      "measurement_uid": "20261020054714.933417_IN_webconnectivity_a265da8187746567",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T054607Z_webconnectivity_IN_55836_n4_Llti2nKwvO3UFN12",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054607.284155_IN_webconnectivity_a96b5bac1c7ab6ee",
+      "measurement_start_time": "2026-10-20T05:45:21.000000Z",
+      "measurement_uid": "20261020054607.284155_IN_webconnectivity_a96b5bac1c7ab6ee",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T054019Z_webconnectivity_IN_24309_n4_024m32F1jFo4XCIS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054528.269720_IN_webconnectivity_09cef42d4b31c6d6",
+      "measurement_start_time": "2026-10-20T05:45:12.000000Z",
+      "measurement_uid": "20261020054528.269720_IN_webconnectivity_09cef42d4b31c6d6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24186",
+      "probe_cc": "IN",
+      "report_id": "20261020T054026Z_webconnectivity_IN_24186_n4_QYzp07AKAvnV1QoI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020054027.045527_IN_webconnectivity_7e748239c9e3ad05",
+      "measurement_start_time": "2026-10-20T05:40:17.000000Z",
+      "measurement_uid": "20261020054027.045527_IN_webconnectivity_7e748239c9e3ad05",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T043259Z_webconnectivity_IN_24309_n4_KPIvEJwQPy5zQkah",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020043829.271845_IN_webconnectivity_7b443612cc6f95df",
+      "measurement_start_time": "2026-10-20T04:38:10.000000Z",
+      "measurement_uid": "20261020043829.271845_IN_webconnectivity_7b443612cc6f95df",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020043604.784606_IN_webconnectivity_7dcf854dc2f4b610",
+      "measurement_start_time": "2026-10-20T04:36:04.000000Z",
+      "measurement_uid": "20261020043604.784606_IN_webconnectivity_7dcf854dc2f4b610",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T040636Z_webconnectivity_IN_55836_n4_2791Ivxgduzee9oo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020041206.702089_IN_webconnectivity_1a24ab108c1996fd",
+      "measurement_start_time": "2026-10-20T04:11:50.000000Z",
+      "measurement_uid": "20261020041206.702089_IN_webconnectivity_1a24ab108c1996fd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T040026Z_webconnectivity_IN_24560_n4_MICbBry5qj7coJIY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020040027.459754_IN_webconnectivity_5d77a61e9be563e7",
+      "measurement_start_time": "2026-10-20T03:59:23.000000Z",
+      "measurement_uid": "20261020040027.459754_IN_webconnectivity_5d77a61e9be563e7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T020903Z_webconnectivity_IN_24309_n4_Z6xQWv3JKr5IVwno",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020021227.687227_IN_webconnectivity_b93b349219bb3251",
+      "measurement_start_time": "2026-10-20T02:12:12.000000Z",
+      "measurement_uid": "20261020021227.687227_IN_webconnectivity_b93b349219bb3251",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136285",
+      "probe_cc": "IN",
+      "report_id": "20261019T175523Z_webconnectivity_IN_136285_n4_MoTfvH4wjOviwlvY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019175523.209423_IN_webconnectivity_0aedcba5d4c9b2c0",
+      "measurement_start_time": "2026-10-19T17:55:21.000000Z",
+      "measurement_uid": "20261019175523.209423_IN_webconnectivity_0aedcba5d4c9b2c0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T171232Z_webconnectivity_IN_24560_n4_A2UWCFrKPZbumnDe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019171232.469177_IN_webconnectivity_6845978c6adb8417",
+      "measurement_start_time": "2026-10-19T17:11:46.000000Z",
+      "measurement_uid": "20261019171232.469177_IN_webconnectivity_6845978c6adb8417",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T170535Z_webconnectivity_IN_24560_n4_48qWe8sp62HygU6o",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019171011.855254_IN_webconnectivity_4a38ec0b619ef47c",
+      "measurement_start_time": "2026-10-19T17:09:54.000000Z",
+      "measurement_uid": "20261019171011.855254_IN_webconnectivity_4a38ec0b619ef47c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T134308Z_webconnectivity_IN_45609_n4_4w7eEFH2YzXIJoxb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019134308.583462_IN_webconnectivity_cfc1e95433277225",
+      "measurement_start_time": "2026-10-19T13:43:06.000000Z",
+      "measurement_uid": "20261019134308.583462_IN_webconnectivity_cfc1e95433277225",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T132557Z_webconnectivity_IN_24560_n4_rmwB4UYpbRFkv1TV",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019132557.848959_IN_webconnectivity_506d5056997edeb9",
+      "measurement_start_time": "2026-10-19T13:25:11.000000Z",
+      "measurement_uid": "20261019132557.848959_IN_webconnectivity_506d5056997edeb9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T123150Z_webconnectivity_IN_55836_n4_hRbIBdTJWI04x63B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019123150.470433_IN_webconnectivity_b526808206b82692",
+      "measurement_start_time": "2026-10-19T12:31:48.000000Z",
+      "measurement_uid": "20261019123150.470433_IN_webconnectivity_b526808206b82692",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS146902",
+      "probe_cc": "IN",
+      "report_id": "20261019T113037Z_webconnectivity_IN_146902_n4_7bVtXfPE1Z35ghtb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113037.695541_IN_webconnectivity_2cddb6c41cb41453",
+      "measurement_start_time": "2026-10-19T11:30:35.000000Z",
+      "measurement_uid": "20261019113037.695541_IN_webconnectivity_2cddb6c41cb41453",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T100312Z_webconnectivity_IN_55836_n4_j9FDKe1eaeYNjkvg",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019100312.882366_IN_webconnectivity_2e5bc4fae765cb70",
+      "measurement_start_time": "2026-10-19T10:02:11.000000Z",
+      "measurement_uid": "20261019100312.882366_IN_webconnectivity_2e5bc4fae765cb70",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T100014Z_webconnectivity_IN_55836_n4_ML8Mhn1Y2DlzBCXS",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019100103.853806_IN_webconnectivity_746c69f762ebca36",
+      "measurement_start_time": "2026-10-19T10:00:47.000000Z",
+      "measurement_uid": "20261019100103.853806_IN_webconnectivity_746c69f762ebca36",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T100058Z_webconnectivity_IN_55836_n4_l7NApnho34ii2KVL",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019100058.460625_IN_webconnectivity_1c1873201425cbaf",
+      "measurement_start_time": "2026-10-19T10:00:11.000000Z",
+      "measurement_uid": "20261019100058.460625_IN_webconnectivity_1c1873201425cbaf",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261019T085405Z_webconnectivity_IN_9829_n4_VZ3PoOXYqAouo747",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019085405.704632_IN_webconnectivity_0635ca2a4ab36910",
+      "measurement_start_time": "2026-10-19T08:54:04.000000Z",
+      "measurement_uid": "20261019085405.704632_IN_webconnectivity_0635ca2a4ab36910",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T074346Z_webconnectivity_IN_24560_n4_lwNVZJsakWSUk4Dh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019074346.911568_IN_webconnectivity_86196c3fa1640e7a",
+      "measurement_start_time": "2026-10-19T07:43:13.000000Z",
+      "measurement_uid": "20261019074346.911568_IN_webconnectivity_86196c3fa1640e7a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T074311Z_webconnectivity_IN_24560_n4_7bOHVnH5hpFP1GAx",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019074311.229854_IN_webconnectivity_34ce0260f6ad44fe",
+      "measurement_start_time": "2026-10-19T07:42:24.000000Z",
+      "measurement_uid": "20261019074311.229854_IN_webconnectivity_34ce0260f6ad44fe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20261019T070904Z_webconnectivity_IN_63949_n4_J7oApZUCFoyHg11s",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019070905.177391_IN_webconnectivity_90c6d8c673691856",
+      "measurement_start_time": "2026-10-19T07:09:02.000000Z",
+      "measurement_uid": "20261019070905.177391_IN_webconnectivity_90c6d8c673691856",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T070150Z_webconnectivity_IN_133982_n4_yNT6Mop7rMQvDhmr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019070150.735408_IN_webconnectivity_03f243d515034b19",
+      "measurement_start_time": "2026-10-19T07:01:48.000000Z",
+      "measurement_uid": "20261019070150.735408_IN_webconnectivity_03f243d515034b19",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T055455Z_webconnectivity_IN_24309_n4_uFMRxz5DbBFyf3Gb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019060011.236037_IN_webconnectivity_7c117c85db8b8337",
+      "measurement_start_time": "2026-10-19T05:59:55.000000Z",
+      "measurement_uid": "20261019060011.236037_IN_webconnectivity_7c117c85db8b8337",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019041507.993560_IN_webconnectivity_632405c9539b4666",
+      "measurement_start_time": "2026-10-19T04:15:07.000000Z",
+      "measurement_uid": "20261019041507.993560_IN_webconnectivity_632405c9539b4666",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T032812Z_webconnectivity_IN_55836_n4_DIssLAhoOGKRxkYp",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019032813.194243_IN_webconnectivity_5b1095d69932c030",
+      "measurement_start_time": "2026-10-19T03:27:11.000000Z",
+      "measurement_uid": "20261019032813.194243_IN_webconnectivity_5b1095d69932c030",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T230957Z_webconnectivity_IN_24560_n4_9utA3GST57dO4lR7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018230957.555272_IN_webconnectivity_ba73dfbfb3348109",
+      "measurement_start_time": "2026-10-18T21:42:07.000000Z",
+      "measurement_uid": "20261018230957.555272_IN_webconnectivity_ba73dfbfb3348109",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T214255Z_webconnectivity_IN_24560_n4_j2nyu2skpBXVM77p",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018214255.222431_IN_webconnectivity_03b4b548fc4a70bd",
+      "measurement_start_time": "2026-10-18T21:42:07.000000Z",
+      "measurement_uid": "20261018214255.222431_IN_webconnectivity_03b4b548fc4a70bd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T214029Z_webconnectivity_IN_55836_n4_ljweduoR6EYwjc2a",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018214029.482417_IN_webconnectivity_6010f59bf9e4dea2",
+      "measurement_start_time": "2026-10-18T21:39:27.000000Z",
+      "measurement_uid": "20261018214029.482417_IN_webconnectivity_6010f59bf9e4dea2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T174807Z_webconnectivity_IN_24560_n4_tfIl6WGikI89zWTa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018174807.824222_IN_webconnectivity_cb2658644576ee04",
+      "measurement_start_time": "2026-10-18T17:47:02.000000Z",
+      "measurement_uid": "20261018174807.824222_IN_webconnectivity_cb2658644576ee04",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T160825Z_webconnectivity_IN_24309_n4_eQi0zEYHZ2VLeS7R",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018161538.735700_IN_webconnectivity_8206dec512248494",
+      "measurement_start_time": "2026-10-18T16:15:23.000000Z",
+      "measurement_uid": "20261018161538.735700_IN_webconnectivity_8206dec512248494",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T124348Z_webconnectivity_IN_55836_n4_ZPEpA7IFu37rrwYT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018124504.506805_IN_webconnectivity_1e0cf124c9298e7e",
+      "measurement_start_time": "2026-10-18T12:44:48.000000Z",
+      "measurement_uid": "20261018124504.506805_IN_webconnectivity_1e0cf124c9298e7e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T124524Z_webconnectivity_IN_55836_n4_2Oj1KHpEkQAlBLJQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018124524.185985_IN_webconnectivity_103d8c22b77aca7e",
+      "measurement_start_time": "2026-10-18T12:44:45.000000Z",
+      "measurement_uid": "20261018124524.185985_IN_webconnectivity_103d8c22b77aca7e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20261018T102328Z_webconnectivity_IN_45769_n4_EKfIKWLeYddaJp6q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018102328.966292_IN_webconnectivity_0c4102f744817ec5",
+      "measurement_start_time": "2026-10-18T10:23:27.000000Z",
+      "measurement_uid": "20261018102328.966292_IN_webconnectivity_0c4102f744817ec5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T095220Z_webconnectivity_IN_24560_n4_etKhuhflxyE9Dqba",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018095220.934720_IN_webconnectivity_18407cfec5bd1bb3",
+      "measurement_start_time": "2026-10-18T09:52:14.000000Z",
+      "measurement_uid": "20261018095220.934720_IN_webconnectivity_18407cfec5bd1bb3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T095257Z_webconnectivity_IN_24560_n4_aqoCDJNPWdnn4RTA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018095257.570852_IN_webconnectivity_f442b3553317193a",
+      "measurement_start_time": "2026-10-18T09:52:09.000000Z",
+      "measurement_uid": "20261018095257.570852_IN_webconnectivity_f442b3553317193a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261018T083108Z_webconnectivity_IN_17488_n4_XSUsmnUxSSU8LLzj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018083108.875247_IN_webconnectivity_284a6bb42e6eb4a0",
+      "measurement_start_time": "2026-10-18T08:31:06.000000Z",
+      "measurement_uid": "20261018083108.875247_IN_webconnectivity_284a6bb42e6eb4a0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T045042Z_webconnectivity_IN_24560_n4_2ff8dIY3cOq8Kmyh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018045043.744256_IN_webconnectivity_f0fd1be2dceee311",
+      "measurement_start_time": "2026-10-18T04:49:38.000000Z",
+      "measurement_uid": "20261018045043.744256_IN_webconnectivity_f0fd1be2dceee311",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018041246.864747_IN_webconnectivity_0560b306e2adb91b",
+      "measurement_start_time": "2026-10-18T04:12:46.000000Z",
+      "measurement_uid": "20261018041246.864747_IN_webconnectivity_0560b306e2adb91b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T032352Z_webconnectivity_IN_55836_n4_tUxnjs48YOlKLwxA",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018032352.269415_IN_webconnectivity_217ff7ede9f1dc8b",
+      "measurement_start_time": "2026-10-18T03:22:20.000000Z",
+      "measurement_uid": "20261018032352.269415_IN_webconnectivity_217ff7ede9f1dc8b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T030853Z_webconnectivity_IN_24560_n4_KGoyuRsQomhdoCsY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018031542.126449_IN_webconnectivity_51c4656ee6e060d2",
+      "measurement_start_time": "2026-10-18T03:15:26.000000Z",
+      "measurement_uid": "20261018031542.126449_IN_webconnectivity_51c4656ee6e060d2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T025949Z_webconnectivity_IN_55836_n4_tCaeN90Y8kiiWCKc",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018025949.383121_IN_webconnectivity_6ab1f5085a65ca47",
+      "measurement_start_time": "2026-10-18T02:58:46.000000Z",
+      "measurement_uid": "20261018025949.383121_IN_webconnectivity_6ab1f5085a65ca47",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T025855Z_webconnectivity_IN_55836_n4_JQwgzUlJUUqRduXt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018025855.676587_IN_webconnectivity_348a1e1e03b8b0ce",
+      "measurement_start_time": "2026-10-18T02:57:54.000000Z",
+      "measurement_uid": "20261018025855.676587_IN_webconnectivity_348a1e1e03b8b0ce",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T215349Z_webconnectivity_IN_24560_n4_o0wQ5OzVmIBGqfen",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017215349.409496_IN_webconnectivity_9e61a31dd8e0756d",
+      "measurement_start_time": "2026-10-17T21:53:47.000000Z",
+      "measurement_uid": "20261017215349.409496_IN_webconnectivity_9e61a31dd8e0756d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T200015Z_webconnectivity_IN_55836_n4_yGS3rAqZjgiyBmoU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017200521.900274_IN_webconnectivity_6c027341d3c24894",
+      "measurement_start_time": "2026-10-17T20:05:07.000000Z",
+      "measurement_uid": "20261017200521.900274_IN_webconnectivity_6c027341d3c24894",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS137127",
+      "probe_cc": "IN",
+      "report_id": "20261017T191953Z_webconnectivity_IN_137127_n4_0vm2riDoia05bThp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017191953.365992_IN_webconnectivity_97153c0997819d26",
+      "measurement_start_time": "2026-10-17T19:19:50.000000Z",
+      "measurement_uid": "20261017191953.365992_IN_webconnectivity_97153c0997819d26",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T184330Z_webconnectivity_IN_24309_n4_FSbY0VGYYMPQcw7E",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017184330.252841_IN_webconnectivity_56c73d4468f6c290",
+      "measurement_start_time": "2026-10-17T18:43:27.000000Z",
+      "measurement_uid": "20261017184330.252841_IN_webconnectivity_56c73d4468f6c290",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261017T164519Z_webconnectivity_IN_132116_n4_YwLCn6iseFZhl30o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017164539.725562_IN_webconnectivity_54ac2f34e80b7c73",
+      "measurement_start_time": "2026-10-17T16:45:36.000000Z",
+      "measurement_uid": "20261017164539.725562_IN_webconnectivity_54ac2f34e80b7c73",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261017T163514Z_webconnectivity_IN_132116_n4_EOZaPGtWOXwTM7bT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163533.592286_IN_webconnectivity_c9a820d3143307a6",
+      "measurement_start_time": "2026-10-17T16:35:34.000000Z",
+      "measurement_uid": "20261017163533.592286_IN_webconnectivity_c9a820d3143307a6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T162529Z_webconnectivity_IN_24560_n4_p9oWAKKsmK5FOJnv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017162701.452464_IN_webconnectivity_9f907f03315e026c",
+      "measurement_start_time": "2026-10-17T16:26:46.000000Z",
+      "measurement_uid": "20261017162701.452464_IN_webconnectivity_9f907f03315e026c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T135051Z_webconnectivity_IN_133982_n4_o8A7oMO7zpvAFfGS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017135051.282403_IN_webconnectivity_3b35aea3564e0d7b",
+      "measurement_start_time": "2026-10-17T13:50:46.000000Z",
+      "measurement_uid": "20261017135051.282403_IN_webconnectivity_3b35aea3564e0d7b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134319",
+      "probe_cc": "IN",
+      "report_id": "20261017T132045Z_webconnectivity_IN_134319_n4_5jnj1uGsSCe1DHDt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017132045.178429_IN_webconnectivity_694dd375d94b7863",
+      "measurement_start_time": "2026-10-17T13:20:43.000000Z",
+      "measurement_uid": "20261017132045.178429_IN_webconnectivity_694dd375d94b7863",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T121538Z_webconnectivity_IN_24560_n4_zioQBpbtNFwsfLyC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017121703.238451_IN_webconnectivity_de364c04d50df6a1",
+      "measurement_start_time": "2026-10-17T12:16:46.000000Z",
+      "measurement_uid": "20261017121703.238451_IN_webconnectivity_de364c04d50df6a1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T094059Z_webconnectivity_IN_55836_n4_0i1iPNCRXw8p18ZX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017094059.966362_IN_webconnectivity_396750eca577bb73",
+      "measurement_start_time": "2026-10-17T09:39:52.000000Z",
+      "measurement_uid": "20261017094059.966362_IN_webconnectivity_396750eca577bb73",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T094022Z_webconnectivity_IN_55836_n4_oDWs0B8opjaZaRpU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017094022.717293_IN_webconnectivity_8986d25818a1623e",
+      "measurement_start_time": "2026-10-17T09:39:10.000000Z",
+      "measurement_uid": "20261017094022.717293_IN_webconnectivity_8986d25818a1623e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45271",
+      "probe_cc": "IN",
+      "report_id": "20261017T083125Z_webconnectivity_IN_45271_n4_oGUvoXKmVUmGIuq6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017084114.129859_IN_webconnectivity_099bc6cd2f97f692",
+      "measurement_start_time": "2026-10-17T08:41:11.000000Z",
+      "measurement_uid": "20261017084114.129859_IN_webconnectivity_099bc6cd2f97f692",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133676",
+      "probe_cc": "IN",
+      "report_id": "20261017T080846Z_webconnectivity_IN_133676_n4_MuFY7cmm1NOImYoc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017080846.758564_IN_webconnectivity_e64c864ea3c196f1",
+      "measurement_start_time": "2026-10-17T08:08:42.000000Z",
+      "measurement_uid": "20261017080846.758564_IN_webconnectivity_e64c864ea3c196f1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261017T055942Z_webconnectivity_IN_132116_n4_80uH022LsOfpVSOo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017060028.204753_IN_webconnectivity_70f8934075e9928a",
+      "measurement_start_time": "2026-10-17T06:00:28.000000Z",
+      "measurement_uid": "20261017060028.204753_IN_webconnectivity_70f8934075e9928a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T044750Z_webconnectivity_IN_24560_n4_AEP4fdjw4MH6FQTA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017044751.476849_IN_webconnectivity_44710f7772435811",
+      "measurement_start_time": "2026-10-17T04:46:48.000000Z",
+      "measurement_uid": "20261017044751.476849_IN_webconnectivity_44710f7772435811",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017041402.327673_IN_webconnectivity_1e99c738f4c8d371",
+      "measurement_start_time": "2026-10-17T04:14:02.000000Z",
+      "measurement_uid": "20261017041402.327673_IN_webconnectivity_1e99c738f4c8d371",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T022517Z_webconnectivity_IN_55836_n4_5LgkJI2ETuPNSVmE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017022517.897193_IN_webconnectivity_0b0ee5c2ea9fb02f",
+      "measurement_start_time": "2026-10-17T02:24:15.000000Z",
+      "measurement_uid": "20261017022517.897193_IN_webconnectivity_0b0ee5c2ea9fb02f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T230656Z_webconnectivity_IN_24309_n4_XoI0AFyzq35hEEto",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016230656.694200_IN_webconnectivity_84082250e4e7f370",
+      "measurement_start_time": "2026-10-16T23:06:53.000000Z",
+      "measurement_uid": "20261016230656.694200_IN_webconnectivity_84082250e4e7f370",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T213658Z_webconnectivity_IN_24560_n4_UbZaW7Ubi3VtKzQP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016213658.258869_IN_webconnectivity_92812e3be0a7f956",
+      "measurement_start_time": "2026-10-16T21:36:12.000000Z",
+      "measurement_uid": "20261016213658.258869_IN_webconnectivity_92812e3be0a7f956",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T211022Z_webconnectivity_IN_24560_n4_3KZDWlNeShDNFq2r",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016211536.808406_IN_webconnectivity_8900a726ace4ee6e",
+      "measurement_start_time": "2026-10-16T21:15:36.000000Z",
+      "measurement_uid": "20261016211536.808406_IN_webconnectivity_8900a726ace4ee6e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T193321Z_webconnectivity_IN_55836_n4_U6JWZo15K5CVhk8l",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016193321.932307_IN_webconnectivity_29d6dc6402ae1574",
+      "measurement_start_time": "2026-10-16T19:32:03.000000Z",
+      "measurement_uid": "20261016193321.932307_IN_webconnectivity_29d6dc6402ae1574",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T193226Z_webconnectivity_IN_55836_n4_2eo4V7QYeCKi6Ekh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016193226.387371_IN_webconnectivity_5b7ea550117c4be5",
+      "measurement_start_time": "2026-10-16T19:31:24.000000Z",
+      "measurement_uid": "20261016193226.387371_IN_webconnectivity_5b7ea550117c4be5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T175645Z_webconnectivity_IN_24560_n4_TJYUFUjNA9VodSwD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016175645.478686_IN_webconnectivity_a148e539c8c1e1ae",
+      "measurement_start_time": "2026-10-16T17:56:42.000000Z",
+      "measurement_uid": "20261016175645.478686_IN_webconnectivity_a148e539c8c1e1ae",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T161025Z_webconnectivity_IN_55836_n4_hoNxWJA1cSCU1UYJ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016161025.539476_IN_webconnectivity_717ac8442a56415c",
+      "measurement_start_time": "2026-10-16T16:09:49.000000Z",
+      "measurement_uid": "20261016161025.539476_IN_webconnectivity_717ac8442a56415c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133660",
+      "probe_cc": "IN",
+      "report_id": "20261016T130234Z_webconnectivity_IN_133660_n4_Zzfl8oVSRr59vEpo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016130234.632852_IN_webconnectivity_57d25d0eb8a1f0f6",
+      "measurement_start_time": "2026-10-16T13:02:16.000000Z",
+      "measurement_uid": "20261016130234.632852_IN_webconnectivity_57d25d0eb8a1f0f6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T101853Z_webconnectivity_IN_24309_n4_w3z758J1Faf8i1Fo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016102120.905923_IN_webconnectivity_445706e81b1e37ab",
+      "measurement_start_time": "2026-10-16T10:21:05.000000Z",
+      "measurement_uid": "20261016102120.905923_IN_webconnectivity_445706e81b1e37ab",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261016T094833Z_webconnectivity_IN_132116_n4_E9LxYqSOewy0H6zU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016095033.143807_IN_webconnectivity_849a0c0d7342c11d",
+      "measurement_start_time": "2026-10-16T09:50:33.000000Z",
+      "measurement_uid": "20261016095033.143807_IN_webconnectivity_849a0c0d7342c11d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS4755",
+      "probe_cc": "IN",
+      "report_id": "20261016T092236Z_webconnectivity_IN_4755_n4_oPU7dqT3hGtUhIMI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016092236.618430_IN_webconnectivity_5a1ec6a3da66020d",
+      "measurement_start_time": "2026-10-16T09:22:34.000000Z",
+      "measurement_uid": "20261016092236.618430_IN_webconnectivity_5a1ec6a3da66020d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T084212Z_webconnectivity_IN_24560_n4_xesOwoQQWu4ufZON",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016084212.248223_IN_webconnectivity_dc27109e7a327a24",
+      "measurement_start_time": "2026-10-16T08:41:23.000000Z",
+      "measurement_uid": "20261016084212.248223_IN_webconnectivity_dc27109e7a327a24",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T084055Z_webconnectivity_IN_24560_n4_CtsVQ7DEK4EojNpW",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016084056.256977_IN_webconnectivity_e04006fc13ddd723",
+      "measurement_start_time": "2026-10-16T08:40:19.000000Z",
+      "measurement_uid": "20261016084056.256977_IN_webconnectivity_e04006fc13ddd723",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T081054Z_webconnectivity_IN_55836_n4_p8eIwI0SIF0eZY0K",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016081055.017042_IN_webconnectivity_648c8fcf2013b299",
+      "measurement_start_time": "2026-10-16T08:09:52.000000Z",
+      "measurement_uid": "20261016081055.017042_IN_webconnectivity_648c8fcf2013b299",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T073858Z_webconnectivity_IN_24560_n4_96ugqXe1IPQpmnW2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016073858.577012_IN_webconnectivity_b9056f89a2382610",
+      "measurement_start_time": "2026-10-16T07:37:59.000000Z",
+      "measurement_uid": "20261016073858.577012_IN_webconnectivity_b9056f89a2382610",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T053350Z_webconnectivity_IN_55836_n4_DFl5BONMbE4MY5EZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016053350.580858_IN_webconnectivity_eb746caab775f436",
+      "measurement_start_time": "2026-10-16T05:32:58.000000Z",
+      "measurement_uid": "20261016053350.580858_IN_webconnectivity_eb746caab775f436",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T053352Z_webconnectivity_IN_55836_n4_77QdX0j5bNfJRGvI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016053352.637807_IN_webconnectivity_583e29bc957947bf",
+      "measurement_start_time": "2026-10-16T05:32:50.000000Z",
+      "measurement_uid": "20261016053352.637807_IN_webconnectivity_583e29bc957947bf",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261016T043754Z_webconnectivity_IN_45609_n4_RXiRC2thrJQw3eJ0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016043754.944249_IN_webconnectivity_ed684584b9ba3bfe",
+      "measurement_start_time": "2026-10-16T04:36:38.000000Z",
+      "measurement_uid": "20261016043754.944249_IN_webconnectivity_ed684584b9ba3bfe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016041317.777259_IN_webconnectivity_9aaa02142b1ffa73",
+      "measurement_start_time": "2026-10-16T04:13:17.000000Z",
+      "measurement_uid": "20261016041317.777259_IN_webconnectivity_9aaa02142b1ffa73",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T022458Z_webconnectivity_IN_24560_n4_FgDUxJSZXDaKAMI0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016022458.553433_IN_webconnectivity_fccad9b09402d7f7",
+      "measurement_start_time": "2026-10-16T02:24:11.000000Z",
+      "measurement_uid": "20261016022458.553433_IN_webconnectivity_fccad9b09402d7f7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261016T012818Z_webconnectivity_IN_132116_n4_4ocFHqRibNEE117r",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016012916.824747_IN_webconnectivity_0f443dd36de7e8f4",
+      "measurement_start_time": "2026-10-16T01:29:17.000000Z",
+      "measurement_uid": "20261016012916.824747_IN_webconnectivity_0f443dd36de7e8f4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261016T011845Z_webconnectivity_IN_132116_n4_v8QtlMhofLF4nekk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011938.165511_IN_webconnectivity_75e939d910bcadf9",
+      "measurement_start_time": "2026-10-16T01:19:38.000000Z",
+      "measurement_uid": "20261016011938.165511_IN_webconnectivity_75e939d910bcadf9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261016T011022Z_webconnectivity_IN_132116_n4_29vrnDn6koYhi0Ak",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011106.704671_IN_webconnectivity_6698a027b86b556d",
+      "measurement_start_time": "2026-10-16T01:11:07.000000Z",
+      "measurement_uid": "20261016011106.704671_IN_webconnectivity_6698a027b86b556d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261016T010117Z_webconnectivity_IN_132116_n4_ZXFy6gcSjHuc1f0U",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016010217.402484_IN_webconnectivity_8f635bb8e6b752a8",
+      "measurement_start_time": "2026-10-16T01:02:17.000000Z",
+      "measurement_uid": "20261016010217.402484_IN_webconnectivity_8f635bb8e6b752a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T191832Z_webconnectivity_IN_24560_n4_oFOYV1P1o6paW4tO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015191832.135663_IN_webconnectivity_9c4746c2c488df98",
+      "measurement_start_time": "2026-10-15T19:17:45.000000Z",
+      "measurement_uid": "20261015191832.135663_IN_webconnectivity_9c4746c2c488df98",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T190618Z_webconnectivity_IN_24309_n4_1qw6k0Dy7SJlKcow",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015190618.514849_IN_webconnectivity_ec79a38dedc9cd1d",
+      "measurement_start_time": "2026-10-15T19:06:15.000000Z",
+      "measurement_uid": "20261015190618.514849_IN_webconnectivity_ec79a38dedc9cd1d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24186",
+      "probe_cc": "IN",
+      "report_id": "20261015T175633Z_webconnectivity_IN_24186_n4_kGPBDxickOiIz5wf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015175633.361125_IN_webconnectivity_43d4b716038a4103",
+      "measurement_start_time": "2026-10-15T17:56:31.000000Z",
+      "measurement_uid": "20261015175633.361125_IN_webconnectivity_43d4b716038a4103",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T164512Z_webconnectivity_IN_55836_n4_V5Bo0ZUTBgoqCAaF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015165000.614342_IN_webconnectivity_cc50e5e3ef781b7a",
+      "measurement_start_time": "2026-10-15T16:49:44.000000Z",
+      "measurement_uid": "20261015165000.614342_IN_webconnectivity_cc50e5e3ef781b7a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T164333Z_webconnectivity_IN_55836_n4_c75beiITP2otp93S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015164925.107542_IN_webconnectivity_5f4b233b6fefbd6b",
+      "measurement_start_time": "2026-10-15T16:49:10.000000Z",
+      "measurement_uid": "20261015164925.107542_IN_webconnectivity_5f4b233b6fefbd6b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261015T141958Z_webconnectivity_IN_132116_n4_FMMJg7ZSqqGEZKDy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015142118.907459_IN_webconnectivity_3f5947c004697739",
+      "measurement_start_time": "2026-10-15T14:21:19.000000Z",
+      "measurement_uid": "20261015142118.907459_IN_webconnectivity_3f5947c004697739",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261015T140318Z_webconnectivity_IN_132116_n4_LoSmaGOgo79Gg309",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015140529.706771_IN_webconnectivity_898ccafdbe66e918",
+      "measurement_start_time": "2026-10-15T14:05:30.000000Z",
+      "measurement_uid": "20261015140529.706771_IN_webconnectivity_898ccafdbe66e918",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T130001Z_webconnectivity_IN_24560_n4_iD5P0IzNqbqoO5lL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015130001.232380_IN_webconnectivity_440f11a14207d836",
+      "measurement_start_time": "2026-10-15T12:59:59.000000Z",
+      "measurement_uid": "20261015130001.232380_IN_webconnectivity_440f11a14207d836",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261015T125129Z_webconnectivity_IN_136714_n4_Q5YqhT3GFZGHIMB4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015125129.927034_IN_webconnectivity_974a082f5ed6da74",
+      "measurement_start_time": "2026-10-15T12:51:20.000000Z",
+      "measurement_uid": "20261015125129.927034_IN_webconnectivity_974a082f5ed6da74",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T122836Z_webconnectivity_IN_55836_n4_DcLGguPI4teY4oo4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015123416.418795_IN_webconnectivity_9549657468784188",
+      "measurement_start_time": "2026-10-15T12:34:01.000000Z",
+      "measurement_uid": "20261015123416.418795_IN_webconnectivity_9549657468784188",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134014",
+      "probe_cc": "IN",
+      "report_id": "20261015T111148Z_webconnectivity_IN_134014_n4_AyE7aX7oooqYYqTd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015111148.680666_IN_webconnectivity_b62f27674728520d",
+      "measurement_start_time": "2026-10-15T11:11:47.000000Z",
+      "measurement_uid": "20261015111148.680666_IN_webconnectivity_b62f27674728520d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261015T110905Z_webconnectivity_IN_132497_n4_j7Xcqe6hKA7UPDoR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110905.698619_IN_webconnectivity_fb3db8252d38e565",
+      "measurement_start_time": "2026-10-15T11:09:02.000000Z",
+      "measurement_uid": "20261015110905.698619_IN_webconnectivity_fb3db8252d38e565",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS4758",
+      "probe_cc": "IN",
+      "report_id": "20261015T104447Z_webconnectivity_IN_4758_n4_vWU2Fo7EYqzYZLsQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015104447.557511_IN_webconnectivity_dfff9ad9aa251ccb",
+      "measurement_start_time": "2026-10-15T10:44:41.000000Z",
+      "measurement_uid": "20261015104447.557511_IN_webconnectivity_dfff9ad9aa251ccb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261015T092709Z_webconnectivity_IN_9498_n4_2sBwtCEU3smLzNfC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015092709.226815_IN_webconnectivity_ee936de8c5917e1f",
+      "measurement_start_time": "2026-10-15T09:27:07.000000Z",
+      "measurement_uid": "20261015092709.226815_IN_webconnectivity_ee936de8c5917e1f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55256",
+      "probe_cc": "IN",
+      "report_id": "20261015T085337Z_webconnectivity_IN_55256_n4_kGV1v4pbAx29XQwt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015085338.070743_IN_webconnectivity_f3c38b5519085f00",
+      "measurement_start_time": "2026-10-15T08:53:37.000000Z",
+      "measurement_uid": "20261015085338.070743_IN_webconnectivity_f3c38b5519085f00",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS38266",
+      "probe_cc": "IN",
+      "report_id": "20261015T074716Z_webconnectivity_IN_38266_n4_GOdaZFSsRekpc5HZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015074716.100843_IN_webconnectivity_ae8a4aeb0896c5da",
+      "measurement_start_time": "2026-10-15T07:47:12.000000Z",
+      "measurement_uid": "20261015074716.100843_IN_webconnectivity_ae8a4aeb0896c5da",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T074431Z_webconnectivity_IN_24560_n4_bd1SwaZshvn7n8uj",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015074431.718589_IN_webconnectivity_4c1f3943e450af01",
+      "measurement_start_time": "2026-10-15T07:43:44.000000Z",
+      "measurement_uid": "20261015074431.718589_IN_webconnectivity_4c1f3943e450af01",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261015T071540Z_webconnectivity_IN_9498_n4_wSb7vgRhOczpIsPE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071540.525115_IN_webconnectivity_0a8ef721e1146218",
+      "measurement_start_time": "2026-10-15T07:15:39.000000Z",
+      "measurement_uid": "20261015071540.525115_IN_webconnectivity_0a8ef721e1146218",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261015T055459Z_webconnectivity_IN_9498_n4_Ppr8oxst28XH0j7C",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015055459.402087_IN_webconnectivity_97ef0790ab83a929",
+      "measurement_start_time": "2026-10-15T05:54:59.000000Z",
+      "measurement_uid": "20261015055459.402087_IN_webconnectivity_97ef0790ab83a929",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261015T044839Z_webconnectivity_IN_18209_n4_NBCA6n2372YGJYUM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015044840.077801_IN_webconnectivity_11d7c9014bd1baac",
+      "measurement_start_time": "2026-10-15T04:48:35.000000Z",
+      "measurement_uid": "20261015044840.077801_IN_webconnectivity_11d7c9014bd1baac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015041444.443203_IN_webconnectivity_0b1e450e8e616fe8",
+      "measurement_start_time": "2026-10-15T04:14:44.000000Z",
+      "measurement_uid": "20261015041444.443203_IN_webconnectivity_0b1e450e8e616fe8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T035321Z_webconnectivity_IN_24560_n4_mwxZvcdBV4FTVUKx",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015035321.563918_IN_webconnectivity_79cb98168d5ab69d",
+      "measurement_start_time": "2026-10-15T03:52:32.000000Z",
+      "measurement_uid": "20261015035321.563918_IN_webconnectivity_79cb98168d5ab69d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS58765",
+      "probe_cc": "IN",
+      "report_id": "20261015T032033Z_webconnectivity_IN_58765_n4_17VU32zFY1ru3oWF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015032403.756175_IN_webconnectivity_a819e637c20a226f",
+      "measurement_start_time": "2026-10-15T03:24:02.000000Z",
+      "measurement_uid": "20261015032403.756175_IN_webconnectivity_a819e637c20a226f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261015T020438Z_webconnectivity_IN_134674_n4_70LbvJO6ovs4UqkG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015020859.168683_IN_webconnectivity_c915f497153484ce",
+      "measurement_start_time": "2026-10-15T02:08:58.000000Z",
+      "measurement_uid": "20261015020859.168683_IN_webconnectivity_c915f497153484ce",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T005521Z_webconnectivity_IN_24560_n4_CcB25Qsh3BRCHnYi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015010019.202895_IN_webconnectivity_588fc0763fe580ce",
+      "measurement_start_time": "2026-10-15T01:00:18.000000Z",
+      "measurement_uid": "20261015010019.202895_IN_webconnectivity_588fc0763fe580ce",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS131473",
+      "probe_cc": "IN",
+      "report_id": "20261015T005405Z_webconnectivity_IN_131473_n4_T716KoVpJwxaS3ED",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015005405.458956_IN_webconnectivity_f5594e6f1ad6a14f",
+      "measurement_start_time": "2026-10-15T00:53:30.000000Z",
+      "measurement_uid": "20261015005405.458956_IN_webconnectivity_f5594e6f1ad6a14f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS31898",
+      "probe_cc": "IN",
+      "report_id": "20261014T231149Z_webconnectivity_IN_31898_n4_fgS4DPWeWLSbCgKm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014231149.534448_IN_webconnectivity_0f3e813e976445f1",
+      "measurement_start_time": "2026-10-14T23:11:47.000000Z",
+      "measurement_uid": "20261014231149.534448_IN_webconnectivity_0f3e813e976445f1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133661",
+      "probe_cc": "IN",
+      "report_id": "20261014T224526Z_webconnectivity_IN_133661_n4_LO47EYGoXUZO1fd7",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014224526.232499_IN_webconnectivity_59e2120a54b94e78",
+      "measurement_start_time": "2026-10-14T22:45:16.000000Z",
+      "measurement_uid": "20261014224526.232499_IN_webconnectivity_59e2120a54b94e78",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T221421Z_webconnectivity_IN_24309_n4_WNxnedTmI8RqXghV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014221421.883389_IN_webconnectivity_1171b9e10d5a449d",
+      "measurement_start_time": "2026-10-14T22:14:19.000000Z",
+      "measurement_uid": "20261014221421.883389_IN_webconnectivity_1171b9e10d5a449d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T212059Z_webconnectivity_IN_24560_n4_9QzJTiIvLoxkoTuI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014212059.225446_IN_webconnectivity_f4d454e7daba7507",
+      "measurement_start_time": "2026-10-14T21:20:11.000000Z",
+      "measurement_uid": "20261014212059.225446_IN_webconnectivity_f4d454e7daba7507",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS137654",
+      "probe_cc": "IN",
+      "report_id": "20261014T201656Z_webconnectivity_IN_137654_n4_nPUgLuI309io26WF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201656.899900_IN_webconnectivity_6709f11d49e4ec3a",
+      "measurement_start_time": "2026-10-14T20:16:55.000000Z",
+      "measurement_uid": "20261014201656.899900_IN_webconnectivity_6709f11d49e4ec3a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T201254Z_webconnectivity_IN_55836_n4_27HIHd9OuhazIlm5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201254.302662_IN_webconnectivity_c8b84578ffb0fba4",
+      "measurement_start_time": "2026-10-14T20:12:07.000000Z",
+      "measurement_uid": "20261014201254.302662_IN_webconnectivity_c8b84578ffb0fba4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9583",
+      "probe_cc": "IN",
+      "report_id": "20261014T172924Z_webconnectivity_IN_9583_n4_tPYoodWw0zOvNRUm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014172924.897342_IN_webconnectivity_7e33bc3a3d25b7c3",
+      "measurement_start_time": "2026-10-14T17:27:40.000000Z",
+      "measurement_uid": "20261014172924.897342_IN_webconnectivity_7e33bc3a3d25b7c3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20261014T165707Z_webconnectivity_IN_55824_n4_VRMsz0YoZxGBmlhj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014165707.794290_IN_webconnectivity_4c377a6defbd914f",
+      "measurement_start_time": "2026-10-14T16:57:06.000000Z",
+      "measurement_uid": "20261014165707.794290_IN_webconnectivity_4c377a6defbd914f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136297",
+      "probe_cc": "IN",
+      "report_id": "20261014T165258Z_webconnectivity_IN_136297_n4_J1oxDqOcYeii2MoM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014165258.245418_IN_webconnectivity_74568916c51d7345",
+      "measurement_start_time": "2026-10-14T16:52:56.000000Z",
+      "measurement_uid": "20261014165258.245418_IN_webconnectivity_74568916c51d7345",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134053",
+      "probe_cc": "IN",
+      "report_id": "20261014T163038Z_webconnectivity_IN_134053_n4_N7pPPgXZOaVz5Sky",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014163038.503683_IN_webconnectivity_47d16cf43e025634",
+      "measurement_start_time": "2026-10-14T16:30:35.000000Z",
+      "measurement_uid": "20261014163038.503683_IN_webconnectivity_47d16cf43e025634",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55410",
+      "probe_cc": "IN",
+      "report_id": "20261014T162918Z_webconnectivity_IN_55410_n4_HPjhRjdcnIqotVmi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162918.732940_IN_webconnectivity_4595f93e6417cd0d",
+      "measurement_start_time": "2026-10-14T16:28:01.000000Z",
+      "measurement_uid": "20261014162918.732940_IN_webconnectivity_4595f93e6417cd0d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261014T153015Z_webconnectivity_IN_9829_n4_6actXKNVtjv2pzBK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014153016.069923_IN_webconnectivity_e405ce1214263dda",
+      "measurement_start_time": "2026-10-14T15:30:15.000000Z",
+      "measurement_uid": "20261014153016.069923_IN_webconnectivity_e405ce1214263dda",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T145349Z_webconnectivity_IN_24309_n4_qV74Y1EpzRdKwoMR",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014145928.363822_IN_webconnectivity_63f23f5831b3f032",
+      "measurement_start_time": "2026-10-14T14:59:12.000000Z",
+      "measurement_uid": "20261014145928.363822_IN_webconnectivity_63f23f5831b3f032",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133676",
+      "probe_cc": "IN",
+      "report_id": "20261014T143847Z_webconnectivity_IN_133676_n4_huKRdiIfqysouaD0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014143847.753433_IN_webconnectivity_76a40a7446103223",
+      "measurement_start_time": "2026-10-14T14:38:43.000000Z",
+      "measurement_uid": "20261014143847.753433_IN_webconnectivity_76a40a7446103223",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261014T143158Z_webconnectivity_IN_132116_n4_IpLOb9qNtRykRHq1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014143547.505169_IN_webconnectivity_901af0d50fb392ee",
+      "measurement_start_time": "2026-10-14T14:35:48.000000Z",
+      "measurement_uid": "20261014143547.505169_IN_webconnectivity_901af0d50fb392ee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17465",
+      "probe_cc": "IN",
+      "report_id": "20261014T142702Z_webconnectivity_IN_17465_n4_TZVEViSivEBneoop",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 1,
+          "x_null_null_flags": 17,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_15",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014143127.267579_IN_webconnectivity_84f956ed4668599b",
+      "measurement_start_time": "2026-10-14T14:31:26.000000Z",
+      "measurement_uid": "20261014143127.267579_IN_webconnectivity_84f956ed4668599b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20261014T141350Z_webconnectivity_IN_138754_n4_wn6tciSOiQygjs1D",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014141350.569616_IN_webconnectivity_e24335230282aa7e",
+      "measurement_start_time": "2026-10-14T14:13:44.000000Z",
+      "measurement_uid": "20261014141350.569616_IN_webconnectivity_e24335230282aa7e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261014T135122Z_webconnectivity_IN_136286_n4_lcvcPeVxYNuABkKm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014135122.763835_IN_webconnectivity_649017d64d929b62",
+      "measurement_start_time": "2026-10-14T13:51:19.000000Z",
+      "measurement_uid": "20261014135122.763835_IN_webconnectivity_649017d64d929b62",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261014T133041Z_webconnectivity_IN_17762_n4_DBioBJmGHnpMfjoZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014133042.253887_IN_webconnectivity_681369ed16854061",
+      "measurement_start_time": "2026-10-14T13:29:36.000000Z",
+      "measurement_uid": "20261014133042.253887_IN_webconnectivity_681369ed16854061",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136311",
+      "probe_cc": "IN",
+      "report_id": "20261014T131300Z_webconnectivity_IN_136311_n4_6zWnCQ7dzVgZLRsT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014131300.834758_IN_webconnectivity_26c9cb04b894af45",
+      "measurement_start_time": "2026-10-14T13:12:29.000000Z",
+      "measurement_uid": "20261014131300.834758_IN_webconnectivity_26c9cb04b894af45",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261014T130752Z_webconnectivity_IN_45609_n4_PJq8pYbSLbFQqWiS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014130752.688569_IN_webconnectivity_c56c3220d97a3616",
+      "measurement_start_time": "2026-10-14T13:07:48.000000Z",
+      "measurement_uid": "20261014130752.688569_IN_webconnectivity_c56c3220d97a3616",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T125600Z_webconnectivity_IN_55836_n4_ZubllqLbJNImVllR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014125600.599224_IN_webconnectivity_0db9376c2f5edaf9",
+      "measurement_start_time": "2026-10-14T12:54:59.000000Z",
+      "measurement_uid": "20261014125600.599224_IN_webconnectivity_0db9376c2f5edaf9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T124100Z_webconnectivity_IN_55836_n4_bFIFzZc5X026G632",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014125350.740411_IN_webconnectivity_4e28e44cc09d0a0c",
+      "measurement_start_time": "2026-10-14T12:53:33.000000Z",
+      "measurement_uid": "20261014125350.740411_IN_webconnectivity_4e28e44cc09d0a0c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T125334Z_webconnectivity_IN_55836_n4_TP3I7n1hToj8t1cJ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014125334.485756_IN_webconnectivity_f85fedd0ca34afed",
+      "measurement_start_time": "2026-10-14T12:53:01.000000Z",
+      "measurement_uid": "20261014125334.485756_IN_webconnectivity_f85fedd0ca34afed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T124705Z_webconnectivity_IN_24560_n4_rDTE57abB8hB4Big",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014124706.308122_IN_webconnectivity_5e6a72a6dabf0a29",
+      "measurement_start_time": "2026-10-14T12:46:11.000000Z",
+      "measurement_uid": "20261014124706.308122_IN_webconnectivity_5e6a72a6dabf0a29",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261014T123622Z_webconnectivity_IN_133982_n4_bGPQ103G7dh8IWqW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014123622.966286_IN_webconnectivity_416531205f24889e",
+      "measurement_start_time": "2026-10-14T12:35:51.000000Z",
+      "measurement_uid": "20261014123622.966286_IN_webconnectivity_416531205f24889e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS134107",
+      "probe_cc": "IN",
+      "report_id": "20261014T122117Z_webconnectivity_IN_134107_n4_OqEsUOBE6SPeBeTE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014122118.065632_IN_webconnectivity_64bee1549ec63736",
+      "measurement_start_time": "2026-10-14T12:21:17.000000Z",
+      "measurement_uid": "20261014122118.065632_IN_webconnectivity_64bee1549ec63736",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T121425Z_webconnectivity_IN_24560_n4_FolysayewLAHwQPH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 21
+        },
+        "fingerprints": [
+          {
+            "name": "cl.dns_prod_opendns_1",
+            "scope": "prod",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014121644.747760_IN_webconnectivity_5272f91dfdb5cec7",
+      "measurement_start_time": "2026-10-14T12:16:39.000000Z",
+      "measurement_uid": "20261014121644.747760_IN_webconnectivity_5272f91dfdb5cec7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS136311",
+      "probe_cc": "IN",
+      "report_id": "20261014T121425Z_webconnectivity_IN_136311_n4_H4XWnotbxL3B8Wqx",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014121425.893466_IN_webconnectivity_a27c342d1376c263",
+      "measurement_start_time": "2026-10-14T12:13:40.000000Z",
+      "measurement_uid": "20261014121425.893466_IN_webconnectivity_a27c342d1376c263",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T120231Z_webconnectivity_IN_55836_n4_JCwKKRGCoqHNqy10",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014120231.615346_IN_webconnectivity_25a95add23e2a7d8",
+      "measurement_start_time": "2026-10-14T12:02:29.000000Z",
+      "measurement_uid": "20261014120231.615346_IN_webconnectivity_25a95add23e2a7d8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T120211Z_webconnectivity_IN_55836_n4_9oT8oLUnGyCIE8Tq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014120211.546891_IN_webconnectivity_ef4c16c4369ed940",
+      "measurement_start_time": "2026-10-14T12:01:09.000000Z",
+      "measurement_uid": "20261014120211.546891_IN_webconnectivity_ef4c16c4369ed940",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261014T115902Z_webconnectivity_IN_45609_n4_WdU3Zpu3mKYMxAH8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014115902.875919_IN_webconnectivity_5ef54c808be32396",
+      "measurement_start_time": "2026-10-14T11:58:54.000000Z",
+      "measurement_uid": "20261014115902.875919_IN_webconnectivity_5ef54c808be32396",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS139555",
+      "probe_cc": "IN",
+      "report_id": "20261014T115859Z_webconnectivity_IN_139555_n4_xDpmEPSk9KwacoVs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014115900.221626_IN_webconnectivity_cbd7b8faee3e7403",
+      "measurement_start_time": "2026-10-14T11:58:53.000000Z",
+      "measurement_uid": "20261014115900.221626_IN_webconnectivity_cbd7b8faee3e7403",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T114755Z_webconnectivity_IN_24560_n4_aLNwWTbfbPHjwWse",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014114755.999967_IN_webconnectivity_825029c55d02bbfa",
+      "measurement_start_time": "2026-10-14T11:47:06.000000Z",
+      "measurement_uid": "20261014114755.999967_IN_webconnectivity_825029c55d02bbfa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261014T114721Z_webconnectivity_IN_17762_n4_gTrmc5snO76v6uo5",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014114721.295489_IN_webconnectivity_c1bf40d44ea040a6",
+      "measurement_start_time": "2026-10-14T11:45:37.000000Z",
+      "measurement_uid": "20261014114721.295489_IN_webconnectivity_c1bf40d44ea040a6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014114123.653918_IN_webconnectivity_ab1cb5a94d13b6fb",
+      "measurement_start_time": "2026-10-14T11:41:02.000000Z",
+      "measurement_uid": "20261014114123.653918_IN_webconnectivity_ab1cb5a94d13b6fb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T113102Z_webconnectivity_IN_55836_n4_Co1cjzhgtoLorFZt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014113557.172329_IN_webconnectivity_ab3ac9b6e438141f",
+      "measurement_start_time": "2026-10-14T11:35:41.000000Z",
+      "measurement_uid": "20261014113557.172329_IN_webconnectivity_ab3ac9b6e438141f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T112354Z_webconnectivity_IN_24560_n4_rGfeCzaWnejO2aAW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014112750.538042_IN_webconnectivity_1e7b2f05b111afea",
+      "measurement_start_time": "2026-10-14T11:27:49.000000Z",
+      "measurement_uid": "20261014112750.538042_IN_webconnectivity_1e7b2f05b111afea",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS131269",
+      "probe_cc": "IN",
+      "report_id": "20261014T112909Z_webconnectivity_IN_131269_n4_z7zbraSXAvk13NpG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014112910.615184_IN_webconnectivity_2cce1c7202795c7d",
+      "measurement_start_time": "2026-10-14T11:27:34.000000Z",
+      "measurement_uid": "20261014112910.615184_IN_webconnectivity_2cce1c7202795c7d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS38266",
+      "probe_cc": "IN",
+      "report_id": "20261017T051309Z_webconnectivity_IN_38266_n4_QGjAxg2o1IdvkQgL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017051309.595208_IN_webconnectivity_38f6e4962651b52c",
+      "measurement_start_time": "2026-10-14T11:18:50.000000Z",
+      "measurement_uid": "20261017051309.595208_IN_webconnectivity_38f6e4962651b52c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T110639Z_webconnectivity_IN_24560_n4_038PIWBMgalijoP4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014111051.900582_IN_webconnectivity_d3669ede7e3a8d35",
+      "measurement_start_time": "2026-10-14T11:10:51.000000Z",
+      "measurement_uid": "20261014111051.900582_IN_webconnectivity_d3669ede7e3a8d35",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T110643Z_webconnectivity_IN_55836_n4_GTR2figq5SYC3APU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014110643.576958_IN_webconnectivity_44ee3b4a621ba203",
+      "measurement_start_time": "2026-10-14T11:06:25.000000Z",
+      "measurement_uid": "20261014110643.576958_IN_webconnectivity_44ee3b4a621ba203",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T104405Z_webconnectivity_IN_55836_n4_glVMv2K7h5WlQtRQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014110009.641675_IN_webconnectivity_6133c4e1d7c4d5d9",
+      "measurement_start_time": "2026-10-14T11:00:09.000000Z",
+      "measurement_uid": "20261014110009.641675_IN_webconnectivity_6133c4e1d7c4d5d9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T105223Z_webconnectivity_IN_24560_n4_naG4ybzu9Z9NOv5b",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014105224.232359_IN_webconnectivity_68a9015d4d50a4aa",
+      "measurement_start_time": "2026-10-14T10:51:01.000000Z",
+      "measurement_uid": "20261014105224.232359_IN_webconnectivity_68a9015d4d50a4aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261014T105009Z_webconnectivity_IN_17762_n4_OfvJLHxvA94pwLB8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014105009.458656_IN_webconnectivity_5551a213d721ae98",
+      "measurement_start_time": "2026-10-14T10:47:48.000000Z",
+      "measurement_uid": "20261014105009.458656_IN_webconnectivity_5551a213d721ae98",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T101709Z_webconnectivity_IN_24560_n4_ofa1ri4e2BQMByi9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014102014.640850_IN_webconnectivity_02409084f6c57dcc",
+      "measurement_start_time": "2026-10-14T10:20:13.000000Z",
+      "measurement_uid": "20261014102014.640850_IN_webconnectivity_02409084f6c57dcc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T101530Z_webconnectivity_IN_55836_n4_ej1H1SMhwcZASgrH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014101530.973967_IN_webconnectivity_9d1e551bb92b1140",
+      "measurement_start_time": "2026-10-14T10:15:02.000000Z",
+      "measurement_uid": "20261014101530.973967_IN_webconnectivity_9d1e551bb92b1140",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T094824Z_webconnectivity_IN_24560_n4_FkeCtusi8c7r2whm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014100232.082138_IN_webconnectivity_7dddb6dc4075a002",
+      "measurement_start_time": "2026-10-14T10:02:30.000000Z",
+      "measurement_uid": "20261014100232.082138_IN_webconnectivity_7dddb6dc4075a002",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": true,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20261014T094740Z_webconnectivity_IN_55577_n4_n1h9bMROsIWa9NsN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_19",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014095305.958092_IN_webconnectivity_79626f2209956dfc",
+      "measurement_start_time": "2026-10-14T09:53:05.000000Z",
+      "measurement_uid": "20261014095305.958092_IN_webconnectivity_79626f2209956dfc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T094915Z_webconnectivity_IN_24560_n4_XoBUPqMWk1YDpkYM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014094916.262526_IN_webconnectivity_9a6a04512c0bb2bb",
+      "measurement_start_time": "2026-10-14T09:48:06.000000Z",
+      "measurement_uid": "20261014094916.262526_IN_webconnectivity_9a6a04512c0bb2bb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261014T092301Z_webconnectivity_IN_45609_n4_IOnXOynd8S9LGKIr",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014092301.598749_IN_webconnectivity_cbb038fced4ec381",
+      "measurement_start_time": "2026-10-14T09:22:33.000000Z",
+      "measurement_uid": "20261014092301.598749_IN_webconnectivity_cbb038fced4ec381",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.helo-app.com/",
+      "probe_asn": "AS17762",
+      "probe_cc": "IN",
+      "report_id": "20261014T085802Z_webconnectivity_IN_17762_n4_oav46kiIq55yIQiH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014085803.031064_IN_webconnectivity_438b438e087e5fcb",
+      "measurement_start_time": "2026-10-14T08:57:28.000000Z",
+      "measurement_uid": "20261014085803.031064_IN_webconnectivity_438b438e087e5fcb",
+      "verification_status": "unverified"
+    }
+  ]
+}

@@ -1,0 +1,1921 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.37140679359436035
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261020T174749Z_webconnectivity_IN_136714_n4_MhFQIk0A5zgafVFA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020174749.123468_IN_webconnectivity_c8a603eccb6a883d",
+      "measurement_start_time": "2026-10-20T17:47:29.000000Z",
+      "measurement_uid": "20261020174749.123468_IN_webconnectivity_c8a603eccb6a883d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T170413Z_webconnectivity_IN_24309_n4_HsfsreRexM3JLogi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020171013.364358_IN_webconnectivity_c2d827d3b8ac67ba",
+      "measurement_start_time": "2026-10-20T17:09:57.000000Z",
+      "measurement_uid": "20261020171013.364358_IN_webconnectivity_c2d827d3b8ac67ba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164357Z_webconnectivity_IN_55836_n4_Py1D6QyF4QwZjm1b",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164442.662627_IN_webconnectivity_fd4ea3f9a63d5efd",
+      "measurement_start_time": "2026-10-20T16:44:31.000000Z",
+      "measurement_uid": "20261020164442.662627_IN_webconnectivity_fd4ea3f9a63d5efd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164315Z_webconnectivity_IN_55836_n4_rBhWoJqFsp7HDkbu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164315.346067_IN_webconnectivity_c853f1ad33b55502",
+      "measurement_start_time": "2026-10-20T16:42:58.000000Z",
+      "measurement_uid": "20261020164315.346067_IN_webconnectivity_c853f1ad33b55502",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164251Z_webconnectivity_IN_55836_n4_Rs2EUjV1gxNDJmoa",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164251.471233_IN_webconnectivity_611434f7a66a1f1d",
+      "measurement_start_time": "2026-10-20T16:42:34.000000Z",
+      "measurement_uid": "20261020164251.471233_IN_webconnectivity_611434f7a66a1f1d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T112326Z_webconnectivity_IN_55836_n4_uYuZKUqz04wPnT3F",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020113208.373704_IN_webconnectivity_d922697378318027",
+      "measurement_start_time": "2026-10-20T11:31:52.000000Z",
+      "measurement_uid": "20261020113208.373704_IN_webconnectivity_d922697378318027",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T092912Z_webconnectivity_IN_24560_n4_DD1BC9HJzawpzo4i",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020092912.625060_IN_webconnectivity_f69d46dd58579346",
+      "measurement_start_time": "2026-10-20T09:28:55.000000Z",
+      "measurement_uid": "20261020092912.625060_IN_webconnectivity_f69d46dd58579346",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T092247Z_webconnectivity_IN_24560_n4_Doh0zTVVri7kePjr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020092247.958761_IN_webconnectivity_b5be63775ff51141",
+      "measurement_start_time": "2026-10-20T09:22:14.000000Z",
+      "measurement_uid": "20261020092247.958761_IN_webconnectivity_b5be63775ff51141",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T092247Z_webconnectivity_IN_24560_n4_1teEkCJTxMc0Rgu4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020092247.865274_IN_webconnectivity_44e94d0b6876f704",
+      "measurement_start_time": "2026-10-20T09:22:00.000000Z",
+      "measurement_uid": "20261020092247.865274_IN_webconnectivity_44e94d0b6876f704",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020062100.443707_IN_webconnectivity_9784989e2ba01ca4",
+      "measurement_start_time": "2026-10-20T06:20:59.000000Z",
+      "measurement_uid": "20261020062100.443707_IN_webconnectivity_9784989e2ba01ca4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T205209Z_webconnectivity_IN_55836_n4_tvOQltTNotVoVDJe",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019205209.547486_IN_webconnectivity_393edd920dd1c941",
+      "measurement_start_time": "2026-10-19T20:51:50.000000Z",
+      "measurement_uid": "20261019205209.547486_IN_webconnectivity_393edd920dd1c941",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T204345Z_webconnectivity_IN_55836_n4_pbSpOJTCoiSXaXC7",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019204827.122344_IN_webconnectivity_5cf3641b0040809b",
+      "measurement_start_time": "2026-10-19T20:48:10.000000Z",
+      "measurement_uid": "20261019204827.122344_IN_webconnectivity_5cf3641b0040809b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T161833Z_webconnectivity_IN_24560_n4_75blIZCz3KowBO4b",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019161834.151814_IN_webconnectivity_6cdf049cc4d9bc14",
+      "measurement_start_time": "2026-10-19T16:18:03.000000Z",
+      "measurement_uid": "20261019161834.151814_IN_webconnectivity_6cdf049cc4d9bc14",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T161314Z_webconnectivity_IN_24560_n4_2Ro9MMOqeeKiQ30j",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019161314.515911_IN_webconnectivity_ef8ea8c8ff796524",
+      "measurement_start_time": "2026-10-19T16:12:28.000000Z",
+      "measurement_uid": "20261019161314.515911_IN_webconnectivity_ef8ea8c8ff796524",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T104240Z_webconnectivity_IN_55836_n4_t7Qj94JzJMSIwwpL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019104240.383113_IN_webconnectivity_f0b9be929cdad464",
+      "measurement_start_time": "2026-10-19T10:42:10.000000Z",
+      "measurement_uid": "20261019104240.383113_IN_webconnectivity_f0b9be929cdad464",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T095957Z_webconnectivity_IN_9498_n4_zpTZ28hWkkaipZbw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019095957.458518_IN_webconnectivity_2cd71dae2124d634",
+      "measurement_start_time": "2026-10-19T09:59:39.000000Z",
+      "measurement_uid": "20261019095957.458518_IN_webconnectivity_2cd71dae2124d634",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS4755",
+      "probe_cc": "IN",
+      "report_id": "20261019T090723Z_webconnectivity_IN_4755_n4_Uw8A1GYcZCZTSjXJ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019090723.700630_IN_webconnectivity_2e93a678a1216ed3",
+      "measurement_start_time": "2026-10-19T09:07:06.000000Z",
+      "measurement_uid": "20261019090723.700630_IN_webconnectivity_2e93a678a1216ed3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T082528Z_webconnectivity_IN_24560_n4_hFJL3bGBo1s9aMbd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019082710.685569_IN_webconnectivity_ef8bfc5f47920f04",
+      "measurement_start_time": "2026-10-19T08:26:55.000000Z",
+      "measurement_uid": "20261019082710.685569_IN_webconnectivity_ef8bfc5f47920f04",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T082252Z_webconnectivity_IN_45609_n4_iQxoZomaNPzk85Ci",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019082252.630261_IN_webconnectivity_72c4ba25a4b5f574",
+      "measurement_start_time": "2026-10-19T08:22:05.000000Z",
+      "measurement_uid": "20261019082252.630261_IN_webconnectivity_72c4ba25a4b5f574",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019063828.822930_IN_webconnectivity_a7deaaba7226f3b0",
+      "measurement_start_time": "2026-10-19T06:38:28.000000Z",
+      "measurement_uid": "20261019063828.822930_IN_webconnectivity_a7deaaba7226f3b0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T232350Z_webconnectivity_IN_24560_n4_TdunZiaAHlB7BeDS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018232350.656539_IN_webconnectivity_8b64a82774baa463",
+      "measurement_start_time": "2026-10-18T23:23:02.000000Z",
+      "measurement_uid": "20261018232350.656539_IN_webconnectivity_8b64a82774baa463",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T225820Z_webconnectivity_IN_55836_n4_nZJYKzIjnEqMBLMh",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018225820.408824_IN_webconnectivity_3551e683b863d0bc",
+      "measurement_start_time": "2026-10-18T22:58:02.000000Z",
+      "measurement_uid": "20261018225820.408824_IN_webconnectivity_3551e683b863d0bc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T204810Z_webconnectivity_IN_133982_n4_6aQhKaXmrWCMxD6m",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204810.126209_IN_webconnectivity_f4386f683f352aab",
+      "measurement_start_time": "2026-10-18T20:47:54.000000Z",
+      "measurement_uid": "20261018204810.126209_IN_webconnectivity_f4386f683f352aab",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T160428Z_webconnectivity_IN_55836_n4_ADmfHaVMLX3frWSF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018160838.432774_IN_webconnectivity_0d68b74a16bc07e8",
+      "measurement_start_time": "2026-10-18T16:08:23.000000Z",
+      "measurement_uid": "20261018160838.432774_IN_webconnectivity_0d68b74a16bc07e8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T155308Z_webconnectivity_IN_24560_n4_GoAL7XMN6BkcofR2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018155308.594199_IN_webconnectivity_c8deaeaf6e2a1742",
+      "measurement_start_time": "2026-10-18T15:52:49.000000Z",
+      "measurement_uid": "20261018155308.594199_IN_webconnectivity_c8deaeaf6e2a1742",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T083026Z_webconnectivity_IN_24560_n4_egqfMeAvb59Rw4KP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018084642.330746_IN_webconnectivity_b1517072f0f066aa",
+      "measurement_start_time": "2026-10-18T08:46:19.000000Z",
+      "measurement_uid": "20261018084642.330746_IN_webconnectivity_b1517072f0f066aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T084628Z_webconnectivity_IN_55836_n4_5lfbFfIKj5VoVcdy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018084629.694204_IN_webconnectivity_c87d20e8070a2607",
+      "measurement_start_time": "2026-10-18T08:46:05.000000Z",
+      "measurement_uid": "20261018084629.694204_IN_webconnectivity_c87d20e8070a2607",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T065433Z_webconnectivity_IN_24309_n4_LCnGZxonrHQcIoIb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018065433.168861_IN_webconnectivity_3f1abeb024fe86a1",
+      "measurement_start_time": "2026-10-18T06:54:15.000000Z",
+      "measurement_uid": "20261018065433.168861_IN_webconnectivity_3f1abeb024fe86a1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T065149Z_webconnectivity_IN_24309_n4_ZMrQQ2T8ZCMucTvN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018065351.841616_IN_webconnectivity_d7896032b2321b95",
+      "measurement_start_time": "2026-10-18T06:53:35.000000Z",
+      "measurement_uid": "20261018065351.841616_IN_webconnectivity_d7896032b2321b95",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018061705.321417_IN_webconnectivity_e8bec845c0abd715",
+      "measurement_start_time": "2026-10-18T06:17:04.000000Z",
+      "measurement_uid": "20261018061705.321417_IN_webconnectivity_e8bec845c0abd715",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261018T032319Z_webconnectivity_IN_9829_n4_3odjT3oD6kcovVOk",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_10",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018032319.975174_IN_webconnectivity_c1f1f7012deaab02",
+      "measurement_start_time": "2026-10-18T03:22:32.000000Z",
+      "measurement_uid": "20261018032319.975174_IN_webconnectivity_c1f1f7012deaab02",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T224301Z_webconnectivity_IN_18209_n4_yEtyRzXxojp3VqNI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017224302.213202_IN_webconnectivity_739cadcf218bba2f",
+      "measurement_start_time": "2026-10-17T22:42:44.000000Z",
+      "measurement_uid": "20261017224302.213202_IN_webconnectivity_739cadcf218bba2f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T163708Z_webconnectivity_IN_24560_n4_hZeTbiknIMwB4CNl",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163708.406243_IN_webconnectivity_907b8c41d9e5ff71",
+      "measurement_start_time": "2026-10-17T16:36:21.000000Z",
+      "measurement_uid": "20261017163708.406243_IN_webconnectivity_907b8c41d9e5ff71",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T162529Z_webconnectivity_IN_24560_n4_p9oWAKKsmK5FOJnv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163315.213827_IN_webconnectivity_bca18b81509afe54",
+      "measurement_start_time": "2026-10-17T16:32:58.000000Z",
+      "measurement_uid": "20261017163315.213827_IN_webconnectivity_bca18b81509afe54",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261017T063850Z_webconnectivity_IN_136286_n4_mfQYXZtj58SEn7RX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017063850.979857_IN_webconnectivity_ba9a99ed9c3656d2",
+      "measurement_start_time": "2026-10-17T06:38:26.000000Z",
+      "measurement_uid": "20261017063850.979857_IN_webconnectivity_ba9a99ed9c3656d2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017063349.724229_IN_webconnectivity_6866820e7791773b",
+      "measurement_start_time": "2026-10-17T06:33:49.000000Z",
+      "measurement_uid": "20261017063349.724229_IN_webconnectivity_6866820e7791773b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T054236Z_webconnectivity_IN_24560_n4_2Kogo7GHHvhB1S6z",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 8,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017054237.726826_IN_webconnectivity_30981db49265857a",
+      "measurement_start_time": "2026-10-17T05:41:42.000000Z",
+      "measurement_uid": "20261017054237.726826_IN_webconnectivity_30981db49265857a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T195441Z_webconnectivity_IN_55836_n4_bCbCrftP6JxXzn64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016195441.668313_IN_webconnectivity_91a60bdd7e001328",
+      "measurement_start_time": "2026-10-16T19:53:55.000000Z",
+      "measurement_uid": "20261016195441.668313_IN_webconnectivity_91a60bdd7e001328",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T195249Z_webconnectivity_IN_55836_n4_V5E3HrNIZaeiodkz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016195249.680528_IN_webconnectivity_720eb26b847abc46",
+      "measurement_start_time": "2026-10-16T19:52:32.000000Z",
+      "measurement_uid": "20261016195249.680528_IN_webconnectivity_720eb26b847abc46",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T194957Z_webconnectivity_IN_55836_n4_BpZqhq52ljPvtiPW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016194957.063299_IN_webconnectivity_e670d9ee2e94a183",
+      "measurement_start_time": "2026-10-16T19:49:40.000000Z",
+      "measurement_uid": "20261016194957.063299_IN_webconnectivity_e670d9ee2e94a183",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T194642Z_webconnectivity_IN_55836_n4_gPetgQhD4jOss52c",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016194940.547957_IN_webconnectivity_9d69f638837b41d0",
+      "measurement_start_time": "2026-10-16T19:49:25.000000Z",
+      "measurement_uid": "20261016194940.547957_IN_webconnectivity_9d69f638837b41d0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T185658Z_webconnectivity_IN_24309_n4_LQifo07sAdLuScQF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016185659.047501_IN_webconnectivity_33108e1a00a16095",
+      "measurement_start_time": "2026-10-16T18:56:46.000000Z",
+      "measurement_uid": "20261016185659.047501_IN_webconnectivity_33108e1a00a16095",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T184700Z_webconnectivity_IN_133982_n4_pWkZSpuZUznTX37E",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016184700.668592_IN_webconnectivity_910a95e17e873ae2",
+      "measurement_start_time": "2026-10-16T18:46:41.000000Z",
+      "measurement_uid": "20261016184700.668592_IN_webconnectivity_910a95e17e873ae2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T130449Z_webconnectivity_IN_55836_n4_1NB72oLtbP029DpP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016130449.852419_IN_webconnectivity_2e81bed96a033c8b",
+      "measurement_start_time": "2026-10-16T13:04:33.000000Z",
+      "measurement_uid": "20261016130449.852419_IN_webconnectivity_2e81bed96a033c8b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T122851Z_webconnectivity_IN_24560_n4_xzDo8mnBYzrYrNrs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016122853.557891_IN_webconnectivity_bfe0930e481c5395",
+      "measurement_start_time": "2026-10-16T12:27:57.000000Z",
+      "measurement_uid": "20261016122853.557891_IN_webconnectivity_bfe0930e481c5395",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T122804Z_webconnectivity_IN_24560_n4_awpl2k3Da6i0leyG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016122804.836989_IN_webconnectivity_4d10dbaf6779419a",
+      "measurement_start_time": "2026-10-16T12:27:17.000000Z",
+      "measurement_uid": "20261016122804.836989_IN_webconnectivity_4d10dbaf6779419a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016061445.328575_IN_webconnectivity_f9a6a9d1f87e6f9c",
+      "measurement_start_time": "2026-10-16T06:14:44.000000Z",
+      "measurement_uid": "20261016061445.328575_IN_webconnectivity_f9a6a9d1f87e6f9c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T165730Z_webconnectivity_IN_24309_n4_2pcUatIQxVYaggeg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015170035.527468_IN_webconnectivity_d713434d15db5672",
+      "measurement_start_time": "2026-10-15T17:00:19.000000Z",
+      "measurement_uid": "20261015170035.527468_IN_webconnectivity_d713434d15db5672",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T160307Z_webconnectivity_IN_45609_n4_N0GEglFf4w7TmCpY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015160307.829066_IN_webconnectivity_e7fa3ac648b9b54e",
+      "measurement_start_time": "2026-10-15T16:02:45.000000Z",
+      "measurement_uid": "20261015160307.829066_IN_webconnectivity_e7fa3ac648b9b54e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110110Z_webconnectivity_IN_55836_n4_sWxS2m0yRazPvlob",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110730.337716_IN_webconnectivity_90e16c931e91e6eb",
+      "measurement_start_time": "2026-10-15T11:07:19.000000Z",
+      "measurement_uid": "20261015110730.337716_IN_webconnectivity_90e16c931e91e6eb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110641Z_webconnectivity_IN_55836_n4_2zVQzsGKZJoPoJU9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110641.139427_IN_webconnectivity_68373ff9340f52a4",
+      "measurement_start_time": "2026-10-15T11:06:22.000000Z",
+      "measurement_uid": "20261015110641.139427_IN_webconnectivity_68373ff9340f52a4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110658Z_webconnectivity_IN_55836_n4_SXtVkrIGDKadofsp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110659.409699_IN_webconnectivity_16500c6b64736820",
+      "measurement_start_time": "2026-10-15T11:06:05.000000Z",
+      "measurement_uid": "20261015110659.409699_IN_webconnectivity_16500c6b64736820",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T062608Z_webconnectivity_IN_24560_n4_cXeCfGASUBbg0H1p",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062608.890104_IN_webconnectivity_ba1f7ae3e9873c4a",
+      "measurement_start_time": "2026-10-15T06:25:21.000000Z",
+      "measurement_uid": "20261015062608.890104_IN_webconnectivity_ba1f7ae3e9873c4a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T062605Z_webconnectivity_IN_24560_n4_o0veASCfwc0ftBdt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 8,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062606.533533_IN_webconnectivity_433d0439facebd0a",
+      "measurement_start_time": "2026-10-15T06:25:13.000000Z",
+      "measurement_uid": "20261015062606.533533_IN_webconnectivity_433d0439facebd0a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T062530Z_webconnectivity_IN_24560_n4_5unnYcJ7Bncp6SYg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062530.644037_IN_webconnectivity_902a26ce771c03ed",
+      "measurement_start_time": "2026-10-15T06:24:43.000000Z",
+      "measurement_uid": "20261015062530.644037_IN_webconnectivity_902a26ce771c03ed",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015055813.232937_IN_webconnectivity_5e22fefe2f3a8fd7",
+      "measurement_start_time": "2026-10-15T05:58:12.000000Z",
+      "measurement_uid": "20261015055813.232937_IN_webconnectivity_5e22fefe2f3a8fd7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T003404Z_webconnectivity_IN_24560_n4_1oVQdq762FMqQw1K",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_redirect_just",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015003558.162522_IN_webconnectivity_1538e6dbb13cbced",
+      "measurement_start_time": "2026-10-15T00:35:41.000000Z",
+      "measurement_uid": "20261015003558.162522_IN_webconnectivity_1538e6dbb13cbced",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T175701Z_webconnectivity_IN_24560_n4_mR0NPfVVB5qbVPbS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014175701.678177_IN_webconnectivity_d4bf561b971ab1bd",
+      "measurement_start_time": "2026-10-14T17:56:14.000000Z",
+      "measurement_uid": "20261014175701.678177_IN_webconnectivity_d4bf561b971ab1bd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T175228Z_webconnectivity_IN_55836_n4_GCDFg76ZAumU3Pru",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 2,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014175229.249422_IN_webconnectivity_13f2f6795c417222",
+      "measurement_start_time": "2026-10-14T17:52:05.000000Z",
+      "measurement_uid": "20261014175229.249422_IN_webconnectivity_13f2f6795c417222",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T174356Z_webconnectivity_IN_55836_n4_sQsy8XoFf0kXNDvt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 2
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014175200.753956_IN_webconnectivity_1ff8ecd8021964be",
+      "measurement_start_time": "2026-10-14T17:51:43.000000Z",
+      "measurement_uid": "20261014175200.753956_IN_webconnectivity_1ff8ecd8021964be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162003.658894_IN_webconnectivity_c7aa51c5426b79b0",
+      "measurement_start_time": "2026-10-14T16:19:33.000000Z",
+      "measurement_uid": "20261014162003.658894_IN_webconnectivity_c7aa51c5426b79b0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://collegehumor.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014100700.153566_IN_webconnectivity_40c9b08163d9981b",
+      "measurement_start_time": "2026-10-14T10:06:59.000000Z",
+      "measurement_uid": "20261014100700.153566_IN_webconnectivity_40c9b08163d9981b",
+      "verification_status": "unverified"
+    }
+  ]
+}

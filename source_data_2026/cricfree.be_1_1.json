@@ -1,0 +1,2395 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.4239842891693115
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T204037Z_webconnectivity_IN_24560_n4_B7fU9HvuvyTs5cEo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020204628.563255_IN_webconnectivity_b623ebbec322e789",
+      "measurement_start_time": "2026-10-20T20:46:27.000000Z",
+      "measurement_uid": "20261020204628.563255_IN_webconnectivity_b623ebbec322e789",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T194121Z_webconnectivity_IN_55836_n4_JDpDLoAzOqabfWAt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020194121.711920_IN_webconnectivity_0cf860d58686ff38",
+      "measurement_start_time": "2026-10-20T19:41:19.000000Z",
+      "measurement_uid": "20261020194121.711920_IN_webconnectivity_0cf860d58686ff38",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T194037Z_webconnectivity_IN_55836_n4_2rl23woNenuOgeTZ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020194037.877039_IN_webconnectivity_e5dad17a5c543871",
+      "measurement_start_time": "2026-10-20T19:40:36.000000Z",
+      "measurement_uid": "20261020194037.877039_IN_webconnectivity_e5dad17a5c543871",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T162413Z_webconnectivity_IN_24560_n4_YZwVysBtoFUYcLhP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020163309.844835_IN_webconnectivity_66d1f2809cb39bb9",
+      "measurement_start_time": "2026-10-20T16:33:07.000000Z",
+      "measurement_uid": "20261020163309.844835_IN_webconnectivity_66d1f2809cb39bb9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T112419Z_webconnectivity_IN_24309_n4_WyQdSZ8cQexBOTfX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020112857.951569_IN_webconnectivity_8a60dae65b7a6ee5",
+      "measurement_start_time": "2026-10-20T11:28:42.000000Z",
+      "measurement_uid": "20261020112857.951569_IN_webconnectivity_8a60dae65b7a6ee5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T083012Z_webconnectivity_IN_55836_n4_xvVobVo2jNx1Q9rc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020083012.213246_IN_webconnectivity_5de113475f49b199",
+      "measurement_start_time": "2026-10-20T08:30:07.000000Z",
+      "measurement_uid": "20261020083012.213246_IN_webconnectivity_5de113475f49b199",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T082944Z_webconnectivity_IN_55836_n4_Y9MzoaLrq09Rtxz4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020082944.521905_IN_webconnectivity_e66955919a58a176",
+      "measurement_start_time": "2026-10-20T08:29:41.000000Z",
+      "measurement_uid": "20261020082944.521905_IN_webconnectivity_e66955919a58a176",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T080343Z_webconnectivity_IN_24560_n4_6hmlbHoAeWOq2BTo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020080421.840841_IN_webconnectivity_c3b1e91cace504c1",
+      "measurement_start_time": "2026-10-20T08:04:18.000000Z",
+      "measurement_uid": "20261020080421.840841_IN_webconnectivity_c3b1e91cace504c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T080406Z_webconnectivity_IN_24560_n4_Vn8Wi2AoRSpf6VPP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020080406.395839_IN_webconnectivity_3b55008b387dec02",
+      "measurement_start_time": "2026-10-20T08:04:03.000000Z",
+      "measurement_uid": "20261020080406.395839_IN_webconnectivity_3b55008b387dec02",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020061734.014783_IN_webconnectivity_939867962d428f0e",
+      "measurement_start_time": "2026-10-20T06:17:33.000000Z",
+      "measurement_uid": "20261020061734.014783_IN_webconnectivity_939867962d428f0e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261020T040010Z_webconnectivity_IN_45609_n4_rlqDDaibXCTjNYjq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020040010.955295_IN_webconnectivity_1bd33a6884e494d4",
+      "measurement_start_time": "2026-10-20T03:59:23.000000Z",
+      "measurement_uid": "20261020040010.955295_IN_webconnectivity_1bd33a6884e494d4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T020837Z_webconnectivity_IN_55836_n4_aDl1UX0EtuBo8wgm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020020838.165250_IN_webconnectivity_2dfbb8d14409ae69",
+      "measurement_start_time": "2026-10-20T02:08:33.000000Z",
+      "measurement_uid": "20261020020838.165250_IN_webconnectivity_2dfbb8d14409ae69",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T015426Z_webconnectivity_IN_24560_n4_JHZaeGRxdvRKRCfB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020015426.298304_IN_webconnectivity_7c1336cab45bd763",
+      "measurement_start_time": "2026-10-20T01:54:22.000000Z",
+      "measurement_uid": "20261020015426.298304_IN_webconnectivity_7c1336cab45bd763",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS137654",
+      "probe_cc": "IN",
+      "report_id": "20261019T211859Z_webconnectivity_IN_137654_n4_moy2Fu846T7Bp0kc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019211859.085653_IN_webconnectivity_931b5da2b7b3a120",
+      "measurement_start_time": "2026-10-19T21:18:55.000000Z",
+      "measurement_uid": "20261019211859.085653_IN_webconnectivity_931b5da2b7b3a120",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T170633Z_webconnectivity_IN_24309_n4_BrhOtO54JZzK2Lgv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019171134.747545_IN_webconnectivity_b398d4f6ea122963",
+      "measurement_start_time": "2026-10-19T17:11:18.000000Z",
+      "measurement_uid": "20261019171134.747545_IN_webconnectivity_b398d4f6ea122963",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T145716Z_webconnectivity_IN_24560_n4_sxADL36Ci5Lk6vDG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019145716.996584_IN_webconnectivity_6282aa571054e079",
+      "measurement_start_time": "2026-10-19T14:57:13.000000Z",
+      "measurement_uid": "20261019145716.996584_IN_webconnectivity_6282aa571054e079",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T145614Z_webconnectivity_IN_24560_n4_vJVarcoZ0NgjFuvt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019145614.842120_IN_webconnectivity_2caa62205d80a95f",
+      "measurement_start_time": "2026-10-19T14:56:11.000000Z",
+      "measurement_uid": "20261019145614.842120_IN_webconnectivity_2caa62205d80a95f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T131459Z_webconnectivity_IN_55836_n4_BzAslmxMUVJpsw2Y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019131459.528742_IN_webconnectivity_d73ae9554f4f644d",
+      "measurement_start_time": "2026-10-19T13:14:36.000000Z",
+      "measurement_uid": "20261019131459.528742_IN_webconnectivity_d73ae9554f4f644d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T130453Z_webconnectivity_IN_55836_n4_A9pVXKktPo73NIVt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019130848.786566_IN_webconnectivity_a93c47348226fc68",
+      "measurement_start_time": "2026-10-19T13:08:46.000000Z",
+      "measurement_uid": "20261019130848.786566_IN_webconnectivity_a93c47348226fc68",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T100021Z_webconnectivity_IN_24560_n4_aGlx4F1DW59ju8LD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019100021.613217_IN_webconnectivity_f5fcc439f2430f67",
+      "measurement_start_time": "2026-10-19T10:00:14.000000Z",
+      "measurement_uid": "20261019100021.613217_IN_webconnectivity_f5fcc439f2430f67",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019061046.986970_IN_webconnectivity_3723d4b814b62ab5",
+      "measurement_start_time": "2026-10-19T06:10:46.000000Z",
+      "measurement_uid": "20261019061046.986970_IN_webconnectivity_3723d4b814b62ab5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T060045Z_webconnectivity_IN_55836_n4_v3dRmnBXY2joZtQl",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019060045.519249_IN_webconnectivity_c474abfa7d52b9aa",
+      "measurement_start_time": "2026-10-19T06:00:35.000000Z",
+      "measurement_uid": "20261019060045.519249_IN_webconnectivity_c474abfa7d52b9aa",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T052100Z_webconnectivity_IN_24560_n4_DloaecDYZ2J5jAXP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019052100.476672_IN_webconnectivity_1da0a5c09577af52",
+      "measurement_start_time": "2026-10-19T05:21:00.000000Z",
+      "measurement_uid": "20261019052100.476672_IN_webconnectivity_1da0a5c09577af52",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T051740Z_webconnectivity_IN_24560_n4_O8zk9SlY6rvdoa5W",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019051741.600323_IN_webconnectivity_4035115b476d87d4",
+      "measurement_start_time": "2026-10-19T05:16:32.000000Z",
+      "measurement_uid": "20261019051741.600323_IN_webconnectivity_4035115b476d87d4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T222330Z_webconnectivity_IN_24309_n4_Tpkh1kGLzfW3nEPr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018222330.658449_IN_webconnectivity_23760eee2342783d",
+      "measurement_start_time": "2026-10-18T22:23:25.000000Z",
+      "measurement_uid": "20261018222330.658449_IN_webconnectivity_23760eee2342783d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T215437Z_webconnectivity_IN_24560_n4_93iKoCoqaZu9e6kS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018215437.766582_IN_webconnectivity_76a90b9b71866a3f",
+      "measurement_start_time": "2026-10-18T21:54:32.000000Z",
+      "measurement_uid": "20261018215437.766582_IN_webconnectivity_76a90b9b71866a3f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T214628Z_webconnectivity_IN_55836_n4_SLbrvvIcjw4lEsCV",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018215023.470113_IN_webconnectivity_3bf44ca02c5fd54e",
+      "measurement_start_time": "2026-10-18T21:50:18.000000Z",
+      "measurement_uid": "20261018215023.470113_IN_webconnectivity_3bf44ca02c5fd54e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261018T175004Z_webconnectivity_IN_132497_n4_7yX1YDZBvDoJz9cI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018175004.972483_IN_webconnectivity_cae5d42f347eb29d",
+      "measurement_start_time": "2026-10-18T17:50:00.000000Z",
+      "measurement_uid": "20261018175004.972483_IN_webconnectivity_cae5d42f347eb29d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T165313Z_webconnectivity_IN_24560_n4_SHJwFVWMCKTIqowr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018165313.771799_IN_webconnectivity_558f7ff529464e9c",
+      "measurement_start_time": "2026-10-18T16:53:11.000000Z",
+      "measurement_uid": "20261018165313.771799_IN_webconnectivity_558f7ff529464e9c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T122526Z_webconnectivity_IN_24560_n4_jY3cLElQwMueoVWb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018122749.822624_IN_webconnectivity_1654d927c48a02b1",
+      "measurement_start_time": "2026-10-18T12:27:47.000000Z",
+      "measurement_uid": "20261018122749.822624_IN_webconnectivity_1654d927c48a02b1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261018T120239Z_webconnectivity_IN_134674_n4_0ijRnJoBbvD4osDC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018120240.082748_IN_webconnectivity_2da0e1b9f87e8931",
+      "measurement_start_time": "2026-10-18T12:02:30.000000Z",
+      "measurement_uid": "20261018120240.082748_IN_webconnectivity_2da0e1b9f87e8931",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T114607Z_webconnectivity_IN_55836_n4_A9h1cCWlVgXvZuoM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018114607.132012_IN_webconnectivity_adb97124e027b7a6",
+      "measurement_start_time": "2026-10-18T11:45:47.000000Z",
+      "measurement_uid": "20261018114607.132012_IN_webconnectivity_adb97124e027b7a6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T114312Z_webconnectivity_IN_55836_n4_bo22od6Iq2253VZQ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018114312.502044_IN_webconnectivity_b45b62c58f9163ad",
+      "measurement_start_time": "2026-10-18T11:42:55.000000Z",
+      "measurement_uid": "20261018114312.502044_IN_webconnectivity_b45b62c58f9163ad",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261018T104042Z_webconnectivity_IN_45609_n4_p13yeRwoGMUCrMCy",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018104042.378267_IN_webconnectivity_c634bae30b2e6bba",
+      "measurement_start_time": "2026-10-18T10:40:39.000000Z",
+      "measurement_uid": "20261018104042.378267_IN_webconnectivity_c634bae30b2e6bba",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T065625Z_webconnectivity_IN_24560_n4_2RJLglmZvudzY6of",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018065625.406779_IN_webconnectivity_0c90ed92dd73e417",
+      "measurement_start_time": "2026-10-18T06:56:22.000000Z",
+      "measurement_uid": "20261018065625.406779_IN_webconnectivity_0c90ed92dd73e417",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018062402.612803_IN_webconnectivity_72a364387d53b25c",
+      "measurement_start_time": "2026-10-18T06:24:02.000000Z",
+      "measurement_uid": "20261018062402.612803_IN_webconnectivity_72a364387d53b25c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T225005Z_webconnectivity_IN_24560_n4_OTwlI3vSfw4BksAY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017225142.193516_IN_webconnectivity_4e867e93057e71b0",
+      "measurement_start_time": "2026-10-17T22:51:40.000000Z",
+      "measurement_uid": "20261017225142.193516_IN_webconnectivity_4e867e93057e71b0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T224833Z_webconnectivity_IN_133982_n4_hHh1gLBWRrFgMP5K",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017224834.170638_IN_webconnectivity_8d98588dd924d2ad",
+      "measurement_start_time": "2026-10-17T22:48:25.000000Z",
+      "measurement_uid": "20261017224834.170638_IN_webconnectivity_8d98588dd924d2ad",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T205831Z_webconnectivity_IN_55836_n4_VeSToc6EnmO6honI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017205831.070844_IN_webconnectivity_256ad5b44434803c",
+      "measurement_start_time": "2026-10-17T20:58:28.000000Z",
+      "measurement_uid": "20261017205831.070844_IN_webconnectivity_256ad5b44434803c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T205746Z_webconnectivity_IN_55836_n4_uWrjra6FmUrBB45D",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017205746.875634_IN_webconnectivity_86714a68aa848944",
+      "measurement_start_time": "2026-10-17T20:57:42.000000Z",
+      "measurement_uid": "20261017205746.875634_IN_webconnectivity_86714a68aa848944",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261017T192721Z_webconnectivity_IN_9498_n4_hVogVIqOhxX8AoSP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017192721.899972_IN_webconnectivity_0f03ee9b0585a464",
+      "measurement_start_time": "2026-10-17T19:27:20.000000Z",
+      "measurement_uid": "20261017192721.899972_IN_webconnectivity_0f03ee9b0585a464",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T184626Z_webconnectivity_IN_24309_n4_BwGn2LMA7DanGgb0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017184626.355133_IN_webconnectivity_eb50746d0899d6d4",
+      "measurement_start_time": "2026-10-17T18:46:21.000000Z",
+      "measurement_uid": "20261017184626.355133_IN_webconnectivity_eb50746d0899d6d4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T181919Z_webconnectivity_IN_24560_n4_vrxoXaC56C0Bkso9",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017182014.938397_IN_webconnectivity_ea7db5345765f723",
+      "measurement_start_time": "2026-10-17T18:20:13.000000Z",
+      "measurement_uid": "20261017182014.938397_IN_webconnectivity_ea7db5345765f723",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T161843Z_webconnectivity_IN_55836_n4_CtVohL6pNCBos1Tr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017161843.154217_IN_webconnectivity_df0608fc57649343",
+      "measurement_start_time": "2026-10-17T16:18:23.000000Z",
+      "measurement_uid": "20261017161843.154217_IN_webconnectivity_df0608fc57649343",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T160250Z_webconnectivity_IN_55836_n4_4vOCZ2ldZOzZMr0c",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017160609.776773_IN_webconnectivity_26b3a4c8c918a9b8",
+      "measurement_start_time": "2026-10-17T16:06:09.000000Z",
+      "measurement_uid": "20261017160609.776773_IN_webconnectivity_26b3a4c8c918a9b8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T121538Z_webconnectivity_IN_24560_n4_zioQBpbtNFwsfLyC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017122051.174182_IN_webconnectivity_64df95baa1d677b2",
+      "measurement_start_time": "2026-10-17T12:20:49.000000Z",
+      "measurement_uid": "20261017122051.174182_IN_webconnectivity_64df95baa1d677b2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261017T113038Z_webconnectivity_IN_136714_n4_CLxpUNrGQ7LBNcFF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017113038.919099_IN_webconnectivity_3d1e719cff4ad04d",
+      "measurement_start_time": "2026-10-17T11:30:30.000000Z",
+      "measurement_uid": "20261017113038.919099_IN_webconnectivity_3d1e719cff4ad04d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017061748.125359_IN_webconnectivity_e044ef5efb33fe1e",
+      "measurement_start_time": "2026-10-17T06:17:47.000000Z",
+      "measurement_uid": "20261017061748.125359_IN_webconnectivity_e044ef5efb33fe1e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T045405Z_webconnectivity_IN_24560_n4_tPlzhYUvJEEAzO2n",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017045405.569329_IN_webconnectivity_2eabfa1027e54644",
+      "measurement_start_time": "2026-10-17T04:54:02.000000Z",
+      "measurement_uid": "20261017045405.569329_IN_webconnectivity_2eabfa1027e54644",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T041528Z_webconnectivity_IN_18209_n4_qouQmQIL4o9MvhYT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017041528.506999_IN_webconnectivity_c8fec51f6e78df48",
+      "measurement_start_time": "2026-10-17T04:15:26.000000Z",
+      "measurement_uid": "20261017041528.506999_IN_webconnectivity_c8fec51f6e78df48",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T023107Z_webconnectivity_IN_55836_n4_7AcqiCJghdUvyljG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017023107.540437_IN_webconnectivity_6d8fe75a3095484c",
+      "measurement_start_time": "2026-10-17T02:31:04.000000Z",
+      "measurement_uid": "20261017023107.540437_IN_webconnectivity_6d8fe75a3095484c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T022956Z_webconnectivity_IN_55836_n4_1acu3SQYaK0FhheD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017022956.898623_IN_webconnectivity_c2fe9489e7069ce8",
+      "measurement_start_time": "2026-10-17T02:29:53.000000Z",
+      "measurement_uid": "20261017022956.898623_IN_webconnectivity_c2fe9489e7069ce8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261017T004825Z_webconnectivity_IN_17488_n4_WG5nKGj4nKu9AG2f",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017004825.693883_IN_webconnectivity_a50a65792d043f61",
+      "measurement_start_time": "2026-10-17T00:48:24.000000Z",
+      "measurement_uid": "20261017004825.693883_IN_webconnectivity_a50a65792d043f61",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T214724Z_webconnectivity_IN_24309_n4_58rujUDPc75K7Oe0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016215412.031356_IN_webconnectivity_df3ccd3cfe41f984",
+      "measurement_start_time": "2026-10-16T21:53:55.000000Z",
+      "measurement_uid": "20261016215412.031356_IN_webconnectivity_df3ccd3cfe41f984",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T174324Z_webconnectivity_IN_55836_n4_I0LMbt0W2oy5GFQG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016174958.140588_IN_webconnectivity_5f6459ca017418cf",
+      "measurement_start_time": "2026-10-16T17:49:57.000000Z",
+      "measurement_uid": "20261016174958.140588_IN_webconnectivity_5f6459ca017418cf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T174824Z_webconnectivity_IN_55836_n4_MKBdeev4oJ7fzRW3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016174824.143482_IN_webconnectivity_16c3fe49fd64c0d4",
+      "measurement_start_time": "2026-10-16T17:48:22.000000Z",
+      "measurement_uid": "20261016174824.143482_IN_webconnectivity_16c3fe49fd64c0d4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T154525Z_webconnectivity_IN_24560_n4_CgkP0e46QnMwFnVU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016154526.997869_IN_webconnectivity_2d6363e17c7cb57a",
+      "measurement_start_time": "2026-10-16T15:43:46.000000Z",
+      "measurement_uid": "20261016154526.997869_IN_webconnectivity_2d6363e17c7cb57a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T153041Z_webconnectivity_IN_24560_n4_hPCiH17tYYRSpdV1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016153352.517733_IN_webconnectivity_da7a47558ecefa06",
+      "measurement_start_time": "2026-10-16T15:33:51.000000Z",
+      "measurement_uid": "20261016153352.517733_IN_webconnectivity_da7a47558ecefa06",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T111104Z_webconnectivity_IN_55836_n4_9YHSlJOYlErXtQI9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016111104.825338_IN_webconnectivity_29ab7052b2686249",
+      "measurement_start_time": "2026-10-16T11:10:46.000000Z",
+      "measurement_uid": "20261016111104.825338_IN_webconnectivity_29ab7052b2686249",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261016T084153Z_webconnectivity_IN_9829_n4_g689lcP71irYlUmA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016084153.819203_IN_webconnectivity_0b90bc9cf67a0112",
+      "measurement_start_time": "2026-10-16T08:41:47.000000Z",
+      "measurement_uid": "20261016084153.819203_IN_webconnectivity_0b90bc9cf67a0112",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T074557Z_webconnectivity_IN_55836_n4_XGXzcqFBrwTspDXE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016075300.257278_IN_webconnectivity_4a67f4dd3afc7178",
+      "measurement_start_time": "2026-10-16T07:52:57.000000Z",
+      "measurement_uid": "20261016075300.257278_IN_webconnectivity_4a67f4dd3afc7178",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T064915Z_webconnectivity_IN_24309_n4_aD1nCf0ssmfJALvF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016065315.186961_IN_webconnectivity_8fc23fd78f96051e",
+      "measurement_start_time": "2026-10-16T06:52:59.000000Z",
+      "measurement_uid": "20261016065315.186961_IN_webconnectivity_8fc23fd78f96051e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261016T060228Z_webconnectivity_IN_136286_n4_qdi03tHkkos0eCKK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016060228.429031_IN_webconnectivity_1dd842c0f810d0db",
+      "measurement_start_time": "2026-10-16T06:02:22.000000Z",
+      "measurement_uid": "20261016060228.429031_IN_webconnectivity_1dd842c0f810d0db",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016055132.064632_IN_webconnectivity_bc95e2016fbcf012",
+      "measurement_start_time": "2026-10-16T05:51:31.000000Z",
+      "measurement_uid": "20261016055132.064632_IN_webconnectivity_bc95e2016fbcf012",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T050653Z_webconnectivity_IN_24560_n4_dw7GiYoyMtJrjDds",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016050653.697486_IN_webconnectivity_c05d94f22a1bb509",
+      "measurement_start_time": "2026-10-16T05:06:46.000000Z",
+      "measurement_uid": "20261016050653.697486_IN_webconnectivity_c05d94f22a1bb509",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T050625Z_webconnectivity_IN_24560_n4_47RHiZAO3GyGWiHk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016050625.344773_IN_webconnectivity_655ff99d8c372b69",
+      "measurement_start_time": "2026-10-16T05:06:21.000000Z",
+      "measurement_uid": "20261016050625.344773_IN_webconnectivity_655ff99d8c372b69",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T221342Z_webconnectivity_IN_24560_n4_9oQINPYodQR1Vdtu",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015221454.854971_IN_webconnectivity_e03b11d587942271",
+      "measurement_start_time": "2026-10-15T22:14:52.000000Z",
+      "measurement_uid": "20261015221454.854971_IN_webconnectivity_e03b11d587942271",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261015T171058Z_webconnectivity_IN_133982_n4_jvgDcdC5Q3qXWK9c",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015171058.827574_IN_webconnectivity_99ec1ee74772e725",
+      "measurement_start_time": "2026-10-15T17:10:54.000000Z",
+      "measurement_uid": "20261015171058.827574_IN_webconnectivity_99ec1ee74772e725",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T164333Z_webconnectivity_IN_55836_n4_c75beiITP2otp93S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015165408.472963_IN_webconnectivity_736756ac9b9f9cb8",
+      "measurement_start_time": "2026-10-15T16:54:05.000000Z",
+      "measurement_uid": "20261015165408.472963_IN_webconnectivity_736756ac9b9f9cb8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T164512Z_webconnectivity_IN_55836_n4_V5Bo0ZUTBgoqCAaF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015165355.376258_IN_webconnectivity_bb9486162695637b",
+      "measurement_start_time": "2026-10-15T16:53:48.000000Z",
+      "measurement_uid": "20261015165355.376258_IN_webconnectivity_bb9486162695637b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T073931Z_webconnectivity_IN_55836_n4_j6qF7oanQOmHqgC1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015073931.749660_IN_webconnectivity_110c20360df058d7",
+      "measurement_start_time": "2026-10-15T07:39:08.000000Z",
+      "measurement_uid": "20261015073931.749660_IN_webconnectivity_110c20360df058d7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T072905Z_webconnectivity_IN_55836_n4_Qo2c6Am9MtrKhGBX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015072905.411924_IN_webconnectivity_e70ba81a3e3b6f31",
+      "measurement_start_time": "2026-10-15T07:29:00.000000Z",
+      "measurement_uid": "20261015072905.411924_IN_webconnectivity_e70ba81a3e3b6f31",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T071500Z_webconnectivity_IN_24309_n4_unwnLjL06qKjauMM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071657.422867_IN_webconnectivity_d04ac406b262e40a",
+      "measurement_start_time": "2026-10-15T07:16:41.000000Z",
+      "measurement_uid": "20261015071657.422867_IN_webconnectivity_d04ac406b262e40a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T071311Z_webconnectivity_IN_24560_n4_EfeKo7rD7UgA4rwQ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071311.492458_IN_webconnectivity_a09d90c9beedf440",
+      "measurement_start_time": "2026-10-15T07:12:53.000000Z",
+      "measurement_uid": "20261015071311.492458_IN_webconnectivity_a09d90c9beedf440",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T070849Z_webconnectivity_IN_24560_n4_uKGK5xZYxUZnJkka",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071211.121296_IN_webconnectivity_1a7442bd4ea9924f",
+      "measurement_start_time": "2026-10-15T07:12:09.000000Z",
+      "measurement_uid": "20261015071211.121296_IN_webconnectivity_1a7442bd4ea9924f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015051228.434729_IN_webconnectivity_35255a40df71bd13",
+      "measurement_start_time": "2026-10-15T05:12:27.000000Z",
+      "measurement_uid": "20261015051228.434729_IN_webconnectivity_35255a40df71bd13",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T023515Z_webconnectivity_IN_45609_n4_LEfroYoTCfiVsFfj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015023515.523645_IN_webconnectivity_5172590e2fa56f74",
+      "measurement_start_time": "2026-10-15T02:34:40.000000Z",
+      "measurement_uid": "20261015023515.523645_IN_webconnectivity_5172590e2fa56f74",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T232939Z_webconnectivity_IN_55836_n4_bBAeb0AXPBOHqZyK",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014232940.023813_IN_webconnectivity_b9a19dfbac9687e3",
+      "measurement_start_time": "2026-10-14T23:29:30.000000Z",
+      "measurement_uid": "20261014232940.023813_IN_webconnectivity_b9a19dfbac9687e3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T154349Z_webconnectivity_IN_55836_n4_ph7GkaP1TbWrKUbq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014154520.608491_IN_webconnectivity_954e57373243fa69",
+      "measurement_start_time": "2026-10-14T15:45:18.000000Z",
+      "measurement_uid": "20261014154520.608491_IN_webconnectivity_954e57373243fa69",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T152013Z_webconnectivity_IN_24560_n4_VzkWZBkAvaluhZl9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014152014.375597_IN_webconnectivity_8a5b8fdbcf5a0a11",
+      "measurement_start_time": "2026-10-14T15:18:58.000000Z",
+      "measurement_uid": "20261014152014.375597_IN_webconnectivity_8a5b8fdbcf5a0a11",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T151606Z_webconnectivity_IN_24560_n4_ThBpBZJioHvCpzJa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014151607.167973_IN_webconnectivity_6a11ae5efee72f16",
+      "measurement_start_time": "2026-10-14T15:16:04.000000Z",
+      "measurement_uid": "20261014151607.167973_IN_webconnectivity_6a11ae5efee72f16",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T151010Z_webconnectivity_IN_24560_n4_ZQeKAAw3pKDT6RY4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014151523.005880_IN_webconnectivity_59f605a9b6f9e6f4",
+      "measurement_start_time": "2026-10-14T15:15:21.000000Z",
+      "measurement_uid": "20261014151523.005880_IN_webconnectivity_59f605a9b6f9e6f4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014141311.215506_IN_webconnectivity_636c5aad86c0c9c2",
+      "measurement_start_time": "2026-10-14T14:12:49.000000Z",
+      "measurement_uid": "20261014141311.215506_IN_webconnectivity_636c5aad86c0c9c2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014090724.536087_IN_webconnectivity_b13a6f9916f0c495",
+      "measurement_start_time": "2026-10-14T09:07:24.000000Z",
+      "measurement_uid": "20261014090724.536087_IN_webconnectivity_b13a6f9916f0c495",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T081421Z_webconnectivity_IN_55836_n4_SDN5YiaomXDwBPKs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014083535.493690_IN_webconnectivity_ee7a3aedb72675ba",
+      "measurement_start_time": "2026-10-14T08:35:31.000000Z",
+      "measurement_uid": "20261014083535.493690_IN_webconnectivity_ee7a3aedb72675ba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://cricfree.be/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T080037Z_webconnectivity_IN_55836_n4_kzfY0lOw1XUhYHUi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014082841.388253_IN_webconnectivity_2a55e860a04583fc",
+      "measurement_start_time": "2026-10-14T08:28:39.000000Z",
+      "measurement_uid": "20261014082841.388253_IN_webconnectivity_2a55e860a04583fc",
+      "verification_status": "unverified"
+    }
+  ]
+}

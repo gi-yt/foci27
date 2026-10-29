@@ -1,0 +1,2344 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.2159583568572998
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250915T192858Z_webconnectivity_IN_45769_n4_h0fNSAbAj1ruTDlu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915192922.043158_IN_webconnectivity_40c27273f6555215",
+      "measurement_start_time": "2025-09-15T19:29:12.000000Z",
+      "measurement_uid": "20250915192922.043158_IN_webconnectivity_40c27273f6555215",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915060058.521934_IN_webconnectivity_4e112b8347e71048",
+      "measurement_start_time": "2025-09-15T06:00:58.000000Z",
+      "measurement_uid": "20250915060058.521934_IN_webconnectivity_4e112b8347e71048",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915024129.838962_IN_webconnectivity_db2e7a3b35a73f18",
+      "measurement_start_time": "2025-09-15T02:41:08.000000Z",
+      "measurement_uid": "20250915024129.838962_IN_webconnectivity_db2e7a3b35a73f18",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915020459.694434_IN_webconnectivity_6df2469af6ec7396",
+      "measurement_start_time": "2025-09-15T02:04:44.000000Z",
+      "measurement_uid": "20250915020459.694434_IN_webconnectivity_6df2469af6ec7396",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T054246Z_webconnectivity_IN_55836_n4_4OR3SdV2ASdl44Nm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914161234.114508_IN_webconnectivity_ff8f55911aedbfdd",
+      "measurement_start_time": "2025-09-14T16:11:50.000000Z",
+      "measurement_uid": "20250914161234.114508_IN_webconnectivity_ff8f55911aedbfdd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250914T142438Z_webconnectivity_IN_24560_n4_zmoo61ZqNdFp10WO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914142821.420866_IN_webconnectivity_5d10ef7ea6bae1a2",
+      "measurement_start_time": "2025-09-14T14:27:56.000000Z",
+      "measurement_uid": "20250914142821.420866_IN_webconnectivity_5d10ef7ea6bae1a2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250914T091717Z_webconnectivity_IN_17488_n4_9RQIro0jt2FgL7WS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914092210.476617_IN_webconnectivity_30bcb7160dd30a08",
+      "measurement_start_time": "2025-09-14T09:22:04.000000Z",
+      "measurement_uid": "20250914092210.476617_IN_webconnectivity_30bcb7160dd30a08",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914053417.378174_IN_webconnectivity_36e8732a0baa372d",
+      "measurement_start_time": "2025-09-14T05:34:16.000000Z",
+      "measurement_uid": "20250914053417.378174_IN_webconnectivity_36e8732a0baa372d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914025901.431809_IN_webconnectivity_15043f2c314908a0",
+      "measurement_start_time": "2025-09-14T02:58:40.000000Z",
+      "measurement_uid": "20250914025901.431809_IN_webconnectivity_15043f2c314908a0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914021050.922772_IN_webconnectivity_ff7cb94ef792282e",
+      "measurement_start_time": "2025-09-14T02:10:35.000000Z",
+      "measurement_uid": "20250914021050.922772_IN_webconnectivity_ff7cb94ef792282e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913200357.246747_IN_webconnectivity_947b36546f166fd3",
+      "measurement_start_time": "2025-09-13T20:03:33.000000Z",
+      "measurement_uid": "20250913200357.246747_IN_webconnectivity_947b36546f166fd3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T194713Z_webconnectivity_IN_55836_n4_LKOq8azwjlaOB34m",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913200152.692649_IN_webconnectivity_2376b3e4533a9b9c",
+      "measurement_start_time": "2025-09-13T20:01:14.000000Z",
+      "measurement_uid": "20250913200152.692649_IN_webconnectivity_2376b3e4533a9b9c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913060025.440553_IN_webconnectivity_3955eb9ec043c390",
+      "measurement_start_time": "2025-09-13T06:00:24.000000Z",
+      "measurement_uid": "20250913060025.440553_IN_webconnectivity_3955eb9ec043c390",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913021834.223786_IN_webconnectivity_aead816b9ae58c53",
+      "measurement_start_time": "2025-09-13T02:18:11.000000Z",
+      "measurement_uid": "20250913021834.223786_IN_webconnectivity_aead816b9ae58c53",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913020558.086711_IN_webconnectivity_2d8a850d8ec70c26",
+      "measurement_start_time": "2025-09-13T02:05:42.000000Z",
+      "measurement_uid": "20250913020558.086711_IN_webconnectivity_2d8a850d8ec70c26",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250912T133646Z_webconnectivity_IN_24560_n4_u214BaACH1sogOyk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912134145.346002_IN_webconnectivity_9642e205ea2895af",
+      "measurement_start_time": "2025-09-12T13:41:27.000000Z",
+      "measurement_uid": "20250912134145.346002_IN_webconnectivity_9642e205ea2895af",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250912T120345Z_webconnectivity_IN_55577_n4_g7ak6JHW7JlJo48c",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912120449.063232_IN_webconnectivity_9fca00500b98cf13",
+      "measurement_start_time": "2025-09-12T12:04:47.000000Z",
+      "measurement_uid": "20250912120449.063232_IN_webconnectivity_9fca00500b98cf13",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912063525.751403_IN_webconnectivity_ab48903730ed136f",
+      "measurement_start_time": "2025-09-12T06:35:25.000000Z",
+      "measurement_uid": "20250912063525.751403_IN_webconnectivity_ab48903730ed136f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911061035.150187_IN_webconnectivity_357b5faec59e51ff",
+      "measurement_start_time": "2025-09-11T06:10:34.000000Z",
+      "measurement_uid": "20250911061035.150187_IN_webconnectivity_357b5faec59e51ff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911030328.047318_IN_webconnectivity_6d07a0848d22c1ed",
+      "measurement_start_time": "2025-09-11T03:03:06.000000Z",
+      "measurement_uid": "20250911030328.047318_IN_webconnectivity_6d07a0848d22c1ed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911021045.903641_IN_webconnectivity_4092f4072f3636bb",
+      "measurement_start_time": "2025-09-11T02:10:30.000000Z",
+      "measurement_uid": "20250911021045.903641_IN_webconnectivity_4092f4072f3636bb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910090832.710623_IN_webconnectivity_6ef84f2e61c17928",
+      "measurement_start_time": "2025-09-10T09:08:21.000000Z",
+      "measurement_uid": "20250910090832.710623_IN_webconnectivity_6ef84f2e61c17928",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143733Z_webconnectivity_IN_55836_n1_VI57udlEF336T3C2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910081035.478976_IN_webconnectivity_824d58f7a17b6065",
+      "measurement_start_time": "2025-09-10T08:09:54.000000Z",
+      "measurement_uid": "20250910081035.478976_IN_webconnectivity_824d58f7a17b6065",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143659Z_webconnectivity_IN_55836_n1_0nJipok9TmzClLVs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910081023.925812_IN_webconnectivity_e22964eec8015808",
+      "measurement_start_time": "2025-09-10T08:09:42.000000Z",
+      "measurement_uid": "20250910081023.925812_IN_webconnectivity_e22964eec8015808",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250910T072756Z_webconnectivity_IN_24560_n1_B5bQw0W9FlOM27hh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910073156.839258_IN_webconnectivity_14ff9bc6b62d68a8",
+      "measurement_start_time": "2025-09-10T07:31:50.000000Z",
+      "measurement_uid": "20250910073156.839258_IN_webconnectivity_14ff9bc6b62d68a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910063625.625380_IN_webconnectivity_bcbdb2ff272567c2",
+      "measurement_start_time": "2025-09-10T06:36:25.000000Z",
+      "measurement_uid": "20250910063625.625380_IN_webconnectivity_bcbdb2ff272567c2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250910T053359Z_webconnectivity_IN_9829_n1_kg7BzfCeRClOoOgH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910060530.735619_IN_webconnectivity_3e59441aadc468bc",
+      "measurement_start_time": "2025-09-10T06:05:06.000000Z",
+      "measurement_uid": "20250910060530.735619_IN_webconnectivity_3e59441aadc468bc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250910T043555Z_webconnectivity_IN_134375_n1_tBGEEoOqA5nn44UW",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910044511.133840_IN_webconnectivity_be386e1419ac7064",
+      "measurement_start_time": "2025-09-10T04:44:59.000000Z",
+      "measurement_uid": "20250910044511.133840_IN_webconnectivity_be386e1419ac7064",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910040303.930221_IN_webconnectivity_4cf0736a25e853fd",
+      "measurement_start_time": "2025-09-10T04:02:51.000000Z",
+      "measurement_uid": "20250910040303.930221_IN_webconnectivity_4cf0736a25e853fd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910020912.401490_IN_webconnectivity_3fdd1082480bef09",
+      "measurement_start_time": "2025-09-10T02:09:01.000000Z",
+      "measurement_uid": "20250910020912.401490_IN_webconnectivity_3fdd1082480bef09",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910020027.505005_IN_webconnectivity_58a6498a049621da",
+      "measurement_start_time": "2025-09-10T02:00:11.000000Z",
+      "measurement_uid": "20250910020027.505005_IN_webconnectivity_58a6498a049621da",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250910T013006Z_webconnectivity_IN_138754_n1_HZ3ocsaESrkETjQf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910013038.900421_IN_webconnectivity_b3c6017d37114c68",
+      "measurement_start_time": "2025-09-10T01:30:37.000000Z",
+      "measurement_uid": "20250910013038.900421_IN_webconnectivity_b3c6017d37114c68",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T004333Z_webconnectivity_IN_55836_n1_rydooWzuhMO6ynTw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910004931.600180_IN_webconnectivity_486b51ad559b4d2a",
+      "measurement_start_time": "2025-09-10T00:49:05.000000Z",
+      "measurement_uid": "20250910004931.600180_IN_webconnectivity_486b51ad559b4d2a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910004620.990794_IN_webconnectivity_d19eb8e8ea704144",
+      "measurement_start_time": "2025-09-10T00:45:59.000000Z",
+      "measurement_uid": "20250910004620.990794_IN_webconnectivity_d19eb8e8ea704144",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250910T003004Z_webconnectivity_IN_138754_n1_X2qooUXdw20ioFYz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910003453.774795_IN_webconnectivity_645d13ea2ddb8ab5",
+      "measurement_start_time": "2025-09-10T00:34:53.000000Z",
+      "measurement_uid": "20250910003453.774795_IN_webconnectivity_645d13ea2ddb8ab5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909225420.443087_IN_webconnectivity_d8206002018cb6fe",
+      "measurement_start_time": "2025-09-09T22:54:10.000000Z",
+      "measurement_uid": "20250909225420.443087_IN_webconnectivity_d8206002018cb6fe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250909T182148Z_webconnectivity_IN_45916_n1_cl7D5bZsgzD1bwGc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909183658.387608_IN_webconnectivity_72f21a63a801f7c7",
+      "measurement_start_time": "2025-09-09T18:36:41.000000Z",
+      "measurement_uid": "20250909183658.387608_IN_webconnectivity_72f21a63a801f7c7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T134520Z_webconnectivity_IN_63949_n1_JR24ptcgI9ooljz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909142423.692955_IN_webconnectivity_1d6d2c59fbaaa195",
+      "measurement_start_time": "2025-09-09T14:24:07.000000Z",
+      "measurement_uid": "20250909142423.692955_IN_webconnectivity_1d6d2c59fbaaa195",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250909T122105Z_webconnectivity_IN_45609_n1_ofwr0WfLAiQlMln0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909124237.804570_IN_webconnectivity_a2cd7f8936ae06da",
+      "measurement_start_time": "2025-09-09T12:42:36.000000Z",
+      "measurement_uid": "20250909124237.804570_IN_webconnectivity_a2cd7f8936ae06da",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909114821.526445_IN_webconnectivity_3d8d7c6ff9844b5f",
+      "measurement_start_time": "2025-09-09T11:48:21.000000Z",
+      "measurement_uid": "20250909114821.526445_IN_webconnectivity_3d8d7c6ff9844b5f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250909T110335Z_webconnectivity_IN_55577_n1_oGpdOdsY4GNU2MyZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909110632.444564_IN_webconnectivity_a15ec295ee47693c",
+      "measurement_start_time": "2025-09-09T11:06:23.000000Z",
+      "measurement_uid": "20250909110632.444564_IN_webconnectivity_a15ec295ee47693c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909020721.559798_IN_webconnectivity_d6c6af6e4afd74a9",
+      "measurement_start_time": "2025-09-09T02:07:00.000000Z",
+      "measurement_uid": "20250909020721.559798_IN_webconnectivity_d6c6af6e4afd74a9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909020258.256429_IN_webconnectivity_6a1b8cb5be9e77f7",
+      "measurement_start_time": "2025-09-09T02:02:42.000000Z",
+      "measurement_uid": "20250909020258.256429_IN_webconnectivity_6a1b8cb5be9e77f7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909015416.477407_IN_webconnectivity_88acc5b89f91f5db",
+      "measurement_start_time": "2025-09-09T01:54:04.000000Z",
+      "measurement_uid": "20250909015416.477407_IN_webconnectivity_88acc5b89f91f5db",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250908T111623Z_webconnectivity_IN_45820_n1_VjFx5ClbzCvolm75",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.dns_br_localhost",
+            "scope": "vbw",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908112701.652185_IN_webconnectivity_4caaa023af3e693f",
+      "measurement_start_time": "2025-09-08T11:26:45.000000Z",
+      "measurement_uid": "20250908112701.652185_IN_webconnectivity_4caaa023af3e693f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T202245Z_webconnectivity_IN_55836_n1_jPEyCn4Sm2YohTbE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908093100.149407_IN_webconnectivity_07021ed1fbd519d9",
+      "measurement_start_time": "2025-09-08T09:30:20.000000Z",
+      "measurement_uid": "20250908093100.149407_IN_webconnectivity_07021ed1fbd519d9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908063359.405987_IN_webconnectivity_c545dcb9dbed2593",
+      "measurement_start_time": "2025-09-08T06:33:58.000000Z",
+      "measurement_uid": "20250908063359.405987_IN_webconnectivity_c545dcb9dbed2593",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908022502.751092_IN_webconnectivity_6515d8391abc13b1",
+      "measurement_start_time": "2025-09-08T02:24:42.000000Z",
+      "measurement_uid": "20250908022502.751092_IN_webconnectivity_6515d8391abc13b1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908020324.608503_IN_webconnectivity_5c551c9cc11253f0",
+      "measurement_start_time": "2025-09-08T02:03:08.000000Z",
+      "measurement_uid": "20250908020324.608503_IN_webconnectivity_5c551c9cc11253f0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T213853Z_webconnectivity_IN_24560_n1_ecwIHyDi1R5G0rp8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907215310.632097_IN_webconnectivity_4e844c39f36cbc1d",
+      "measurement_start_time": "2025-09-07T21:52:45.000000Z",
+      "measurement_uid": "20250907215310.632097_IN_webconnectivity_4e844c39f36cbc1d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250907T205026Z_webconnectivity_IN_138754_n1_7EpgwUwoQNG4hV7S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907210044.665088_IN_webconnectivity_6b7da01c3707525a",
+      "measurement_start_time": "2025-09-07T21:00:24.000000Z",
+      "measurement_uid": "20250907210044.665088_IN_webconnectivity_6b7da01c3707525a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T142251Z_webconnectivity_IN_24309_n1_xMPo4FxVkNnR9X33",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907191141.731391_IN_webconnectivity_b66d0cecee7a0cd9",
+      "measurement_start_time": "2025-09-07T19:11:27.000000Z",
+      "measurement_uid": "20250907191141.731391_IN_webconnectivity_b66d0cecee7a0cd9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250907T162101Z_webconnectivity_IN_134540_n1_933vdUoUoZZ52MAe",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907162945.226507_IN_webconnectivity_bbe90d813fec6b64",
+      "measurement_start_time": "2025-09-07T16:29:30.000000Z",
+      "measurement_uid": "20250907162945.226507_IN_webconnectivity_bbe90d813fec6b64",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907060348.274885_IN_webconnectivity_c8206a018f4e9e00",
+      "measurement_start_time": "2025-09-07T06:03:47.000000Z",
+      "measurement_uid": "20250907060348.274885_IN_webconnectivity_c8206a018f4e9e00",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907045757.639377_IN_webconnectivity_ab6e1dec6719b5f3",
+      "measurement_start_time": "2025-09-07T04:57:36.000000Z",
+      "measurement_uid": "20250907045757.639377_IN_webconnectivity_ab6e1dec6719b5f3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250906T194935Z_webconnectivity_IN_17488_n1_ETB6hb0qQLecSrGE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906200104.244698_IN_webconnectivity_8d2e546d8dec8e09",
+      "measurement_start_time": "2025-09-06T20:00:56.000000Z",
+      "measurement_uid": "20250906200104.244698_IN_webconnectivity_8d2e546d8dec8e09",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250906T071941Z_webconnectivity_IN_24560_n1_WSoFdGa4AIH9SRJr",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906073054.397462_IN_webconnectivity_02c68e6b0b58312b",
+      "measurement_start_time": "2025-09-06T07:30:33.000000Z",
+      "measurement_uid": "20250906073054.397462_IN_webconnectivity_02c68e6b0b58312b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906053228.274619_IN_webconnectivity_2cd1b6262e2317b8",
+      "measurement_start_time": "2025-09-06T05:32:27.000000Z",
+      "measurement_uid": "20250906053228.274619_IN_webconnectivity_2cd1b6262e2317b8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906024154.095104_IN_webconnectivity_17383cdd644639de",
+      "measurement_start_time": "2025-09-06T02:41:33.000000Z",
+      "measurement_uid": "20250906024154.095104_IN_webconnectivity_17383cdd644639de",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906022140.294431_IN_webconnectivity_2e2c825295e24c68",
+      "measurement_start_time": "2025-09-06T02:21:24.000000Z",
+      "measurement_uid": "20250906022140.294431_IN_webconnectivity_2e2c825295e24c68",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250905T180857Z_webconnectivity_IN_55577_n1_qcqtqalFAsH2ilc6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905181057.237378_IN_webconnectivity_78d433266895defe",
+      "measurement_start_time": "2025-09-05T18:10:50.000000Z",
+      "measurement_uid": "20250905181057.237378_IN_webconnectivity_78d433266895defe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905053140.571977_IN_webconnectivity_03b27d0040077b9e",
+      "measurement_start_time": "2025-09-05T05:31:40.000000Z",
+      "measurement_uid": "20250905053140.571977_IN_webconnectivity_03b27d0040077b9e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905022636.161033_IN_webconnectivity_3829dfb7fa508aaf",
+      "measurement_start_time": "2025-09-05T02:26:15.000000Z",
+      "measurement_uid": "20250905022636.161033_IN_webconnectivity_3829dfb7fa508aaf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T013003Z_webconnectivity_IN_24309_n1_pWytI0Io0T2VJKor",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905013334.777001_IN_webconnectivity_d9582964f1395559",
+      "measurement_start_time": "2025-09-05T01:33:27.000000Z",
+      "measurement_uid": "20250905013334.777001_IN_webconnectivity_d9582964f1395559",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075000Z_webconnectivity_IN_55836_n1_urLrsisw4MrDHIh7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904101706.411216_IN_webconnectivity_a3bba33879f91521",
+      "measurement_start_time": "2025-09-04T10:16:28.000000Z",
+      "measurement_uid": "20250904101706.411216_IN_webconnectivity_a3bba33879f91521",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075424Z_webconnectivity_IN_55836_n1_UY5ToQn9ZLWGzETY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904101654.006735_IN_webconnectivity_a46e34257f35b075",
+      "measurement_start_time": "2025-09-04T10:16:17.000000Z",
+      "measurement_uid": "20250904101654.006735_IN_webconnectivity_a46e34257f35b075",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904054609.265010_IN_webconnectivity_04eaac2de7c537a4",
+      "measurement_start_time": "2025-09-04T05:46:09.000000Z",
+      "measurement_uid": "20250904054609.265010_IN_webconnectivity_04eaac2de7c537a4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250904T023615Z_webconnectivity_IN_24560_n1_Sl6GZuZzhfZgWvQ6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904024742.212289_IN_webconnectivity_c993e4873124df90",
+      "measurement_start_time": "2025-09-04T02:47:19.000000Z",
+      "measurement_uid": "20250904024742.212289_IN_webconnectivity_c993e4873124df90",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T212330Z_webconnectivity_IN_55836_n1_swh5nsVAo2btoWPN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903213632.328606_IN_webconnectivity_57155df1c8c3a574",
+      "measurement_start_time": "2025-09-03T21:35:53.000000Z",
+      "measurement_uid": "20250903213632.328606_IN_webconnectivity_57155df1c8c3a574",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250903T060450Z_webconnectivity_IN_55577_n1_ooBBnu1MyoXsv9tI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903060643.059522_IN_webconnectivity_7a3ed07a2f9d4689",
+      "measurement_start_time": "2025-09-03T06:06:35.000000Z",
+      "measurement_uid": "20250903060643.059522_IN_webconnectivity_7a3ed07a2f9d4689",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903050708.026563_IN_webconnectivity_714d1fce2883e3b3",
+      "measurement_start_time": "2025-09-03T05:07:07.000000Z",
+      "measurement_uid": "20250903050708.026563_IN_webconnectivity_714d1fce2883e3b3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903011554.593480_IN_webconnectivity_35d13505a4d40dac",
+      "measurement_start_time": "2025-09-03T01:15:38.000000Z",
+      "measurement_uid": "20250903011554.593480_IN_webconnectivity_35d13505a4d40dac",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T231006Z_webconnectivity_IN_138754_n1_Hd4lzOIV4oV6Eofo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902231355.557873_IN_webconnectivity_6ad547f9ada67f9f",
+      "measurement_start_time": "2025-09-02T23:13:54.000000Z",
+      "measurement_uid": "20250902231355.557873_IN_webconnectivity_6ad547f9ada67f9f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T203600Z_webconnectivity_IN_55836_n1_nRNrsgFcSqChUGwz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902204150.517299_IN_webconnectivity_bc8897232ed6147e",
+      "measurement_start_time": "2025-09-02T20:41:10.000000Z",
+      "measurement_uid": "20250902204150.517299_IN_webconnectivity_bc8897232ed6147e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250902T101508Z_webconnectivity_IN_24560_n1_KlcNJrHPWBy4Ge8z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902102119.841665_IN_webconnectivity_b2bada5272bf1fd1",
+      "measurement_start_time": "2025-09-02T10:21:09.000000Z",
+      "measurement_uid": "20250902102119.841665_IN_webconnectivity_b2bada5272bf1fd1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902061223.310252_IN_webconnectivity_7cae99b1699ddcaa",
+      "measurement_start_time": "2025-09-02T06:12:23.000000Z",
+      "measurement_uid": "20250902061223.310252_IN_webconnectivity_7cae99b1699ddcaa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902005351.569918_IN_webconnectivity_2e534c6cd348cad9",
+      "measurement_start_time": "2025-09-02T00:53:36.000000Z",
+      "measurement_uid": "20250902005351.569918_IN_webconnectivity_2e534c6cd348cad9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T141153Z_webconnectivity_IN_55836_n1_2c9YlMFsxoHfTLja",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901143156.749627_IN_webconnectivity_c354ff166c4eb610",
+      "measurement_start_time": "2025-09-01T14:31:10.000000Z",
+      "measurement_uid": "20250901143156.749627_IN_webconnectivity_c354ff166c4eb610",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T140652Z_webconnectivity_IN_55836_n1_Hob7fZObsBLNmnaX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901142134.992154_IN_webconnectivity_effeeee59d4fa249",
+      "measurement_start_time": "2025-09-01T14:21:07.000000Z",
+      "measurement_uid": "20250901142134.992154_IN_webconnectivity_effeeee59d4fa249",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901060735.038559_IN_webconnectivity_b49def89c826af0f",
+      "measurement_start_time": "2025-09-01T06:07:34.000000Z",
+      "measurement_uid": "20250901060735.038559_IN_webconnectivity_b49def89c826af0f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170149Z_webconnectivity_IN_55836_n1_TEhr7GRQeWKZeIkW",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901044848.289977_IN_webconnectivity_cdb616dc56287bc6",
+      "measurement_start_time": "2025-09-01T04:48:06.000000Z",
+      "measurement_uid": "20250901044848.289977_IN_webconnectivity_cdb616dc56287bc6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170155Z_webconnectivity_IN_55836_n1_govj7QXR0N5zIfoP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901044846.785569_IN_webconnectivity_ae160138218d6120",
+      "measurement_start_time": "2025-09-01T04:48:06.000000Z",
+      "measurement_uid": "20250901044846.785569_IN_webconnectivity_ae160138218d6120",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T184932Z_webconnectivity_IN_55836_n1_9nZKUxEUOJm0tUWG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831192321.241642_IN_webconnectivity_99e59394d08c0957",
+      "measurement_start_time": "2025-08-31T19:22:40.000000Z",
+      "measurement_uid": "20250831192321.241642_IN_webconnectivity_99e59394d08c0957",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831061332.697569_IN_webconnectivity_db40fea0af9a0060",
+      "measurement_start_time": "2025-08-31T06:13:32.000000Z",
+      "measurement_uid": "20250831061332.697569_IN_webconnectivity_db40fea0af9a0060",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T235747Z_webconnectivity_IN_55836_n1_tYreld22qp0PHbbS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831000211.763114_IN_webconnectivity_edafb4a17cf91d5d",
+      "measurement_start_time": "2025-08-31T00:02:00.000000Z",
+      "measurement_uid": "20250831000211.763114_IN_webconnectivity_edafb4a17cf91d5d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T232857Z_webconnectivity_IN_138754_n1_BjISZ0nFZ7ClD2MM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830233145.689002_IN_webconnectivity_28917d41025c1acc",
+      "measurement_start_time": "2025-08-30T23:31:44.000000Z",
+      "measurement_uid": "20250830233145.689002_IN_webconnectivity_28917d41025c1acc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830060945.975925_IN_webconnectivity_4aaeac18c0b34a8b",
+      "measurement_start_time": "2025-08-30T06:09:45.000000Z",
+      "measurement_uid": "20250830060945.975925_IN_webconnectivity_4aaeac18c0b34a8b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829060808.532808_IN_webconnectivity_8a0f0ba16f18d03b",
+      "measurement_start_time": "2025-08-29T06:08:08.000000Z",
+      "measurement_uid": "20250829060808.532808_IN_webconnectivity_8a0f0ba16f18d03b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829014625.346126_IN_webconnectivity_7be29b3b98b98a15",
+      "measurement_start_time": "2025-08-29T01:46:09.000000Z",
+      "measurement_uid": "20250829014625.346126_IN_webconnectivity_7be29b3b98b98a15",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828080824.522933_IN_webconnectivity_018093f51ca7e10d",
+      "measurement_start_time": "2025-08-28T08:08:15.000000Z",
+      "measurement_uid": "20250828080824.522933_IN_webconnectivity_018093f51ca7e10d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828060038.167656_IN_webconnectivity_c1bff503caffc956",
+      "measurement_start_time": "2025-08-28T06:00:37.000000Z",
+      "measurement_uid": "20250828060038.167656_IN_webconnectivity_c1bff503caffc956",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T013418Z_webconnectivity_IN_24309_n1_fMrkVRFJejyTg40M",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828013557.878154_IN_webconnectivity_87734222fcbf9185",
+      "measurement_start_time": "2025-08-28T01:35:55.000000Z",
+      "measurement_uid": "20250828013557.878154_IN_webconnectivity_87734222fcbf9185",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://alipay.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250827T223123Z_webconnectivity_IN_24309_n1_zawMMx1WF2MMrFHW",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828013441.673794_IN_webconnectivity_56b93b1576cea515",
+      "measurement_start_time": "2025-08-28T01:34:26.000000Z",
+      "measurement_uid": "20250828013441.673794_IN_webconnectivity_56b93b1576cea515",
+      "verification_status": "unverified"
+    }
+  ]
+}

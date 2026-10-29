@@ -1,0 +1,3218 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.24202704429626465
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250915T183242Z_webconnectivity_IN_45769_n4_RwAUr3j0fborN7Xq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915183756.600567_IN_webconnectivity_f2367278902bd449",
+      "measurement_start_time": "2025-09-15T18:37:39.000000Z",
+      "measurement_uid": "20250915183756.600567_IN_webconnectivity_f2367278902bd449",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250915T074600Z_webconnectivity_IN_138754_n4_fKxlpu5j0QiOsyQx",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915075150.061551_IN_webconnectivity_218208c0faa4db48",
+      "measurement_start_time": "2025-09-15T07:51:49.000000Z",
+      "measurement_uid": "20250915075150.061551_IN_webconnectivity_218208c0faa4db48",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915071218.562650_IN_webconnectivity_9ec808c16e8773d4",
+      "measurement_start_time": "2025-09-15T07:12:18.000000Z",
+      "measurement_uid": "20250915071218.562650_IN_webconnectivity_9ec808c16e8773d4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915030430.390915_IN_webconnectivity_d37524a802c5e817",
+      "measurement_start_time": "2025-09-15T03:03:45.000000Z",
+      "measurement_uid": "20250915030430.390915_IN_webconnectivity_d37524a802c5e817",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915015556.900173_IN_webconnectivity_ab7d44de4f37a99a",
+      "measurement_start_time": "2025-09-15T01:55:41.000000Z",
+      "measurement_uid": "20250915015556.900173_IN_webconnectivity_ab7d44de4f37a99a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T054246Z_webconnectivity_IN_55836_n4_4OR3SdV2ASdl44Nm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914165101.716899_IN_webconnectivity_61dab84dd489fd16",
+      "measurement_start_time": "2025-09-14T16:49:58.000000Z",
+      "measurement_uid": "20250914165101.716899_IN_webconnectivity_61dab84dd489fd16",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914070126.562035_IN_webconnectivity_3cff68ce33816ee8",
+      "measurement_start_time": "2025-09-14T07:01:25.000000Z",
+      "measurement_uid": "20250914070126.562035_IN_webconnectivity_3cff68ce33816ee8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914014831.580697_IN_webconnectivity_3b06731e16717511",
+      "measurement_start_time": "2025-09-14T01:48:15.000000Z",
+      "measurement_uid": "20250914014831.580697_IN_webconnectivity_3b06731e16717511",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914014435.639247_IN_webconnectivity_d80e9cbd07afe1da",
+      "measurement_start_time": "2025-09-14T01:43:49.000000Z",
+      "measurement_uid": "20250914014435.639247_IN_webconnectivity_d80e9cbd07afe1da",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914001015.335840_IN_webconnectivity_eba95e73dc7fb7d8",
+      "measurement_start_time": "2025-09-14T00:09:29.000000Z",
+      "measurement_uid": "20250914001015.335840_IN_webconnectivity_eba95e73dc7fb7d8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250913T232200Z_webconnectivity_IN_24560_n4_G3jecT2kP0hsSebT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913233706.356833_IN_webconnectivity_3691479034a4b71e",
+      "measurement_start_time": "2025-09-13T23:37:03.000000Z",
+      "measurement_uid": "20250913233706.356833_IN_webconnectivity_3691479034a4b71e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250913T205350Z_webconnectivity_IN_17488_n4_B2MOJ72o988JJ1fy",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913205413.553445_IN_webconnectivity_2b575a452cf8e42e",
+      "measurement_start_time": "2025-09-13T20:54:12.000000Z",
+      "measurement_uid": "20250913205413.553445_IN_webconnectivity_2b575a452cf8e42e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913062754.516743_IN_webconnectivity_df0d75a0a94c0524",
+      "measurement_start_time": "2025-09-13T06:27:53.000000Z",
+      "measurement_uid": "20250913062754.516743_IN_webconnectivity_df0d75a0a94c0524",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250913T034022Z_webconnectivity_IN_134540_n4_WCUbE8k94Mka1Pvz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913034317.025775_IN_webconnectivity_3f5abf7a1daf5d76",
+      "measurement_start_time": "2025-09-13T03:43:15.000000Z",
+      "measurement_uid": "20250913034317.025775_IN_webconnectivity_3f5abf7a1daf5d76",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913025811.517694_IN_webconnectivity_f6427683d0a1ca8c",
+      "measurement_start_time": "2025-09-13T02:57:26.000000Z",
+      "measurement_uid": "20250913025811.517694_IN_webconnectivity_f6427683d0a1ca8c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913014344.149162_IN_webconnectivity_ac624b0110a4dadb",
+      "measurement_start_time": "2025-09-13T01:43:28.000000Z",
+      "measurement_uid": "20250913014344.149162_IN_webconnectivity_ac624b0110a4dadb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T141138Z_webconnectivity_IN_55836_n4_aRoTTdaqyJW9o0bq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912141831.064574_IN_webconnectivity_b4a44500cf993d50",
+      "measurement_start_time": "2025-09-12T14:17:31.000000Z",
+      "measurement_uid": "20250912141831.064574_IN_webconnectivity_b4a44500cf993d50",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T140827Z_webconnectivity_IN_55836_n4_i6wao0D1zqrk5c2i",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912141721.652744_IN_webconnectivity_95c919f3f2f88629",
+      "measurement_start_time": "2025-09-12T14:16:21.000000Z",
+      "measurement_uid": "20250912141721.652744_IN_webconnectivity_95c919f3f2f88629",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912064431.397418_IN_webconnectivity_f54589243e5789e7",
+      "measurement_start_time": "2025-09-12T06:44:30.000000Z",
+      "measurement_uid": "20250912064431.397418_IN_webconnectivity_f54589243e5789e7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T130447Z_webconnectivity_IN_55577_n4_j5Y1HoZQ9efIjKAo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911130503.849213_IN_webconnectivity_2da33b7336d13531",
+      "measurement_start_time": "2025-09-11T13:05:03.000000Z",
+      "measurement_uid": "20250911130503.849213_IN_webconnectivity_2da33b7336d13531",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T120341Z_webconnectivity_IN_55577_n4_lVxDZSdhRf1CdQIO",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911120824.542979_IN_webconnectivity_5175158845fc7302",
+      "measurement_start_time": "2025-09-11T12:08:24.000000Z",
+      "measurement_uid": "20250911120824.542979_IN_webconnectivity_5175158845fc7302",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911062604.022695_IN_webconnectivity_ac2063b38efe6c60",
+      "measurement_start_time": "2025-09-11T06:26:02.000000Z",
+      "measurement_uid": "20250911062604.022695_IN_webconnectivity_ac2063b38efe6c60",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911024316.573833_IN_webconnectivity_49578f4258285247",
+      "measurement_start_time": "2025-09-11T02:42:31.000000Z",
+      "measurement_uid": "20250911024316.573833_IN_webconnectivity_49578f4258285247",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911014540.882074_IN_webconnectivity_b9f85c9692ed2473",
+      "measurement_start_time": "2025-09-11T01:45:25.000000Z",
+      "measurement_uid": "20250911014540.882074_IN_webconnectivity_b9f85c9692ed2473",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250910T235718Z_webconnectivity_IN_24560_n4_BHrigbNumYSvrAZk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911000428.461337_IN_webconnectivity_212106bd1ba05473",
+      "measurement_start_time": "2025-09-11T00:04:26.000000Z",
+      "measurement_uid": "20250911000428.461337_IN_webconnectivity_212106bd1ba05473",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910090001.020474_IN_webconnectivity_a36989113823cf60",
+      "measurement_start_time": "2025-09-10T08:59:52.000000Z",
+      "measurement_uid": "20250910090001.020474_IN_webconnectivity_a36989113823cf60",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143659Z_webconnectivity_IN_55836_n1_0nJipok9TmzClLVs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910070004.931357_IN_webconnectivity_c0bb35b45295e8e5",
+      "measurement_start_time": "2025-09-10T06:59:05.000000Z",
+      "measurement_uid": "20250910070004.931357_IN_webconnectivity_c0bb35b45295e8e5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143733Z_webconnectivity_IN_55836_n1_VI57udlEF336T3C2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910070004.291089_IN_webconnectivity_fb88b6c466f49b4a",
+      "measurement_start_time": "2025-09-10T06:59:03.000000Z",
+      "measurement_uid": "20250910070004.291089_IN_webconnectivity_fb88b6c466f49b4a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910061411.508659_IN_webconnectivity_9958a20df5d1e7b8",
+      "measurement_start_time": "2025-09-10T06:14:09.000000Z",
+      "measurement_uid": "20250910061411.508659_IN_webconnectivity_9958a20df5d1e7b8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250910T053359Z_webconnectivity_IN_9829_n1_kg7BzfCeRClOoOgH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910054101.617777_IN_webconnectivity_df98934379e1ce71",
+      "measurement_start_time": "2025-09-10T05:40:16.000000Z",
+      "measurement_uid": "20250910054101.617777_IN_webconnectivity_df98934379e1ce71",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250910T043555Z_webconnectivity_IN_134375_n1_tBGEEoOqA5nn44UW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910044106.414889_IN_webconnectivity_6e60124cd34cbc5c",
+      "measurement_start_time": "2025-09-10T04:41:00.000000Z",
+      "measurement_uid": "20250910044106.414889_IN_webconnectivity_6e60124cd34cbc5c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910031929.115516_IN_webconnectivity_f01f58f0be787e7b",
+      "measurement_start_time": "2025-09-10T03:19:24.000000Z",
+      "measurement_uid": "20250910031929.115516_IN_webconnectivity_f01f58f0be787e7b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910015942.921039_IN_webconnectivity_87380ee02af93b47",
+      "measurement_start_time": "2025-09-10T01:59:35.000000Z",
+      "measurement_uid": "20250910015942.921039_IN_webconnectivity_87380ee02af93b47",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910015242.182799_IN_webconnectivity_7151355478113386",
+      "measurement_start_time": "2025-09-10T01:51:56.000000Z",
+      "measurement_uid": "20250910015242.182799_IN_webconnectivity_7151355478113386",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910011712.214623_IN_webconnectivity_b65801e55d6258d2",
+      "measurement_start_time": "2025-09-10T01:16:56.000000Z",
+      "measurement_uid": "20250910011712.214623_IN_webconnectivity_b65801e55d6258d2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909213053.192791_IN_webconnectivity_730735a3ae36b3fe",
+      "measurement_start_time": "2025-09-09T21:30:50.000000Z",
+      "measurement_uid": "20250909213053.192791_IN_webconnectivity_730735a3ae36b3fe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T203344Z_webconnectivity_IN_55836_n1_FyJQrxFfcoGj7y1Y",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909204055.934664_IN_webconnectivity_dc6b998f0a67f617",
+      "measurement_start_time": "2025-09-09T20:39:56.000000Z",
+      "measurement_uid": "20250909204055.934664_IN_webconnectivity_dc6b998f0a67f617",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250909T182148Z_webconnectivity_IN_45916_n1_cl7D5bZsgzD1bwGc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909182720.466044_IN_webconnectivity_77cf84338276128b",
+      "measurement_start_time": "2025-09-09T18:26:20.000000Z",
+      "measurement_uid": "20250909182720.466044_IN_webconnectivity_77cf84338276128b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250909T182132Z_webconnectivity_IN_138754_n1_xMBellVii2mWeyfZ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909182449.106344_IN_webconnectivity_9c336dea55610caa",
+      "measurement_start_time": "2025-09-09T18:24:48.000000Z",
+      "measurement_uid": "20250909182449.106344_IN_webconnectivity_9c336dea55610caa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T134520Z_webconnectivity_IN_63949_n1_JR24ptcgI9ooljz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909142011.997820_IN_webconnectivity_8c0298c677cb1a58",
+      "measurement_start_time": "2025-09-09T14:20:07.000000Z",
+      "measurement_uid": "20250909142011.997820_IN_webconnectivity_8c0298c677cb1a58",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250909T135301Z_webconnectivity_IN_45609_n1_fcuvTLvUJkMullYk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909135410.571753_IN_webconnectivity_efeff7daccd753a0",
+      "measurement_start_time": "2025-09-09T13:54:07.000000Z",
+      "measurement_uid": "20250909135410.571753_IN_webconnectivity_efeff7daccd753a0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250909T130141Z_webconnectivity_IN_45609_n1_oDnHlTt2Jq9HI5sU",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909130719.859447_IN_webconnectivity_5f7029387c6aff0e",
+      "measurement_start_time": "2025-09-09T13:07:19.000000Z",
+      "measurement_uid": "20250909130719.859447_IN_webconnectivity_5f7029387c6aff0e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250909T122105Z_webconnectivity_IN_45609_n1_ofwr0WfLAiQlMln0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909122939.470088_IN_webconnectivity_0c7926079aee962a",
+      "measurement_start_time": "2025-09-09T12:29:39.000000Z",
+      "measurement_uid": "20250909122939.470088_IN_webconnectivity_0c7926079aee962a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909105141.425473_IN_webconnectivity_d508227f84a21c79",
+      "measurement_start_time": "2025-09-09T10:51:40.000000Z",
+      "measurement_uid": "20250909105141.425473_IN_webconnectivity_d508227f84a21c79",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909014816.233301_IN_webconnectivity_99b1a979c04fa8c1",
+      "measurement_start_time": "2025-09-09T01:48:12.000000Z",
+      "measurement_uid": "20250909014816.233301_IN_webconnectivity_99b1a979c04fa8c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909012111.365546_IN_webconnectivity_c5437439a112f0f3",
+      "measurement_start_time": "2025-09-09T01:20:55.000000Z",
+      "measurement_uid": "20250909012111.365546_IN_webconnectivity_c5437439a112f0f3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909010438.264426_IN_webconnectivity_8fba1e4f0c9b7ae8",
+      "measurement_start_time": "2025-09-09T01:03:52.000000Z",
+      "measurement_uid": "20250909010438.264426_IN_webconnectivity_8fba1e4f0c9b7ae8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250908T233605Z_webconnectivity_IN_24560_n1_zdrGR7rIvjxodHph",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908234250.658184_IN_webconnectivity_e80c8888a2803996",
+      "measurement_start_time": "2025-09-08T23:42:48.000000Z",
+      "measurement_uid": "20250908234250.658184_IN_webconnectivity_e80c8888a2803996",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250908T100446Z_webconnectivity_IN_55577_n1_sgGVvmQRGyzTN2H5",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908100847.385181_IN_webconnectivity_f00c395116ab15aa",
+      "measurement_start_time": "2025-09-08T10:08:39.000000Z",
+      "measurement_uid": "20250908100847.385181_IN_webconnectivity_f00c395116ab15aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250908T093743Z_webconnectivity_IN_45820_n1_7VULIEiyMiNIv25b",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908100053.352234_IN_webconnectivity_3dcc8d9ed03b5b1a",
+      "measurement_start_time": "2025-09-08T10:00:36.000000Z",
+      "measurement_uid": "20250908100053.352234_IN_webconnectivity_3dcc8d9ed03b5b1a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T202245Z_webconnectivity_IN_55836_n1_jPEyCn4Sm2YohTbE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908083453.059413_IN_webconnectivity_b4e347ca77d91c9d",
+      "measurement_start_time": "2025-09-08T08:33:53.000000Z",
+      "measurement_uid": "20250908083453.059413_IN_webconnectivity_b4e347ca77d91c9d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908052043.478994_IN_webconnectivity_a86281abd33e988d",
+      "measurement_start_time": "2025-09-08T05:20:42.000000Z",
+      "measurement_uid": "20250908052043.478994_IN_webconnectivity_a86281abd33e988d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908015739.486610_IN_webconnectivity_19c56f5f9e394a37",
+      "measurement_start_time": "2025-09-08T01:56:54.000000Z",
+      "measurement_uid": "20250908015739.486610_IN_webconnectivity_19c56f5f9e394a37",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908004839.478431_IN_webconnectivity_38b421979b1478a5",
+      "measurement_start_time": "2025-09-08T00:48:23.000000Z",
+      "measurement_uid": "20250908004839.478431_IN_webconnectivity_38b421979b1478a5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250907T162101Z_webconnectivity_IN_134540_n1_933vdUoUoZZ52MAe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_netsweeper_inject_3",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907162431.587646_IN_webconnectivity_2c4447dfb0edf462",
+      "measurement_start_time": "2025-09-07T16:24:30.000000Z",
+      "measurement_uid": "20250907162431.587646_IN_webconnectivity_2c4447dfb0edf462",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T161128Z_webconnectivity_IN_55836_n1_cyZaxpM4IIihAAOo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907161444.054097_IN_webconnectivity_8cc7b7912629bd21",
+      "measurement_start_time": "2025-09-07T16:13:42.000000Z",
+      "measurement_uid": "20250907161444.054097_IN_webconnectivity_8cc7b7912629bd21",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T142251Z_webconnectivity_IN_24309_n1_xMPo4FxVkNnR9X33",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907160105.278740_IN_webconnectivity_013653c0b636b8a9",
+      "measurement_start_time": "2025-09-07T16:00:50.000000Z",
+      "measurement_uid": "20250907160105.278740_IN_webconnectivity_013653c0b636b8a9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T092350Z_webconnectivity_IN_24560_n1_wspQzlnsnacqyoHF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907092419.903035_IN_webconnectivity_e9645fca0cedc860",
+      "measurement_start_time": "2025-09-07T09:24:17.000000Z",
+      "measurement_uid": "20250907092419.903035_IN_webconnectivity_e9645fca0cedc860",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250907T061936Z_webconnectivity_IN_17488_n1_gxZ19KDXah5ht7sv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907062002.724239_IN_webconnectivity_7eb81cf91123f22d",
+      "measurement_start_time": "2025-09-07T06:19:59.000000Z",
+      "measurement_uid": "20250907062002.724239_IN_webconnectivity_7eb81cf91123f22d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907053828.813529_IN_webconnectivity_61701a0b3b7eac59",
+      "measurement_start_time": "2025-09-07T05:38:28.000000Z",
+      "measurement_uid": "20250907053828.813529_IN_webconnectivity_61701a0b3b7eac59",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907015326.702830_IN_webconnectivity_3e870103e1e8f7a1",
+      "measurement_start_time": "2025-09-07T01:52:41.000000Z",
+      "measurement_uid": "20250907015326.702830_IN_webconnectivity_3e870103e1e8f7a1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250906T194935Z_webconnectivity_IN_17488_n1_ETB6hb0qQLecSrGE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906195013.919124_IN_webconnectivity_dabdb049089fa09d",
+      "measurement_start_time": "2025-09-06T19:50:13.000000Z",
+      "measurement_uid": "20250906195013.919124_IN_webconnectivity_dabdb049089fa09d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906051017.192839_IN_webconnectivity_2fd3c4ad0e55cac3",
+      "measurement_start_time": "2025-09-06T05:10:16.000000Z",
+      "measurement_uid": "20250906051017.192839_IN_webconnectivity_2fd3c4ad0e55cac3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250906T005300Z_webconnectivity_IN_24309_n1_vNaGj4hn0ZLtPgdc",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906005817.145858_IN_webconnectivity_4d02faf70d5379d1",
+      "measurement_start_time": "2025-09-06T00:58:18.000000Z",
+      "measurement_uid": "20250906005817.145858_IN_webconnectivity_4d02faf70d5379d1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906005518.606478_IN_webconnectivity_fd3716536f08984b",
+      "measurement_start_time": "2025-09-06T00:55:02.000000Z",
+      "measurement_uid": "20250906005518.606478_IN_webconnectivity_fd3716536f08984b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906004854.341525_IN_webconnectivity_fc4b4c39b8a23681",
+      "measurement_start_time": "2025-09-06T00:48:09.000000Z",
+      "measurement_uid": "20250906004854.341525_IN_webconnectivity_fc4b4c39b8a23681",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250905T191504Z_webconnectivity_IN_24560_n1_ydccqku2UofFl2Tt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905192502.297285_IN_webconnectivity_32f2f2ea3c60a8be",
+      "measurement_start_time": "2025-09-05T19:24:59.000000Z",
+      "measurement_uid": "20250905192502.297285_IN_webconnectivity_32f2f2ea3c60a8be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250905T063746Z_webconnectivity_IN_55577_n1_9EE3paF7lOcpUQLB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905063956.177383_IN_webconnectivity_dff7d072f9fe6dc8",
+      "measurement_start_time": "2025-09-05T06:39:51.000000Z",
+      "measurement_uid": "20250905063956.177383_IN_webconnectivity_dff7d072f9fe6dc8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905051506.695532_IN_webconnectivity_f5fafed68cb69354",
+      "measurement_start_time": "2025-09-05T05:15:06.000000Z",
+      "measurement_uid": "20250905051506.695532_IN_webconnectivity_f5fafed68cb69354",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250905T043929Z_webconnectivity_IN_138754_n1_YUJO3n3kOZuznvW5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905044623.242056_IN_webconnectivity_087a96b9267f1c8d",
+      "measurement_start_time": "2025-09-05T04:46:22.000000Z",
+      "measurement_uid": "20250905044623.242056_IN_webconnectivity_087a96b9267f1c8d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905013455.168783_IN_webconnectivity_5e820e68b8a1248a",
+      "measurement_start_time": "2025-09-05T01:34:09.000000Z",
+      "measurement_uid": "20250905013455.168783_IN_webconnectivity_5e820e68b8a1248a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250904T173722Z_webconnectivity_IN_24309_n1_S4fh13719qfYui7l",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904173919.929626_IN_webconnectivity_7bd1e7a6631c0f53",
+      "measurement_start_time": "2025-09-04T17:39:04.000000Z",
+      "measurement_uid": "20250904173919.929626_IN_webconnectivity_7bd1e7a6631c0f53",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20250904T195440Z_webconnectivity_IN_9498_n1_RNjaqAoXhAz1X7Xz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.f_gen_blocked_7",
+            "scope": "vbw",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.f_gen_web_filter",
+            "scope": "vbw",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.a_prod_fortinet_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.vbw_web_page_blocked",
+            "scope": "vbw",
+            "location_found": "body",
+            "confidence_no_fp": 8,
+            "expected_countries": []
+          },
+          {
+            "name": "cl.prod_fortiguard_ips_block",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 10,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904195441.258081_IN_webconnectivity_b1ee2187fbcf6ae4",
+      "measurement_start_time": "2025-09-04T17:00:18.000000Z",
+      "measurement_uid": "20250904195441.258081_IN_webconnectivity_b1ee2187fbcf6ae4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075424Z_webconnectivity_IN_55836_n1_UY5ToQn9ZLWGzETY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904072821.307930_IN_webconnectivity_1c107522b6262793",
+      "measurement_start_time": "2025-09-04T07:27:23.000000Z",
+      "measurement_uid": "20250904072821.307930_IN_webconnectivity_1c107522b6262793",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075000Z_webconnectivity_IN_55836_n1_urLrsisw4MrDHIh7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904072821.108671_IN_webconnectivity_a4ebd98c0a819862",
+      "measurement_start_time": "2025-09-04T07:27:23.000000Z",
+      "measurement_uid": "20250904072821.108671_IN_webconnectivity_a4ebd98c0a819862",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904052950.797953_IN_webconnectivity_0b63a2ae2007b70f",
+      "measurement_start_time": "2025-09-04T05:29:50.000000Z",
+      "measurement_uid": "20250904052950.797953_IN_webconnectivity_0b63a2ae2007b70f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250903T185044Z_webconnectivity_IN_24560_n1_jinmuuEHepW3GOSv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903185356.565490_IN_webconnectivity_3ac62e1393e220d7",
+      "measurement_start_time": "2025-09-03T18:53:13.000000Z",
+      "measurement_uid": "20250903185356.565490_IN_webconnectivity_3ac62e1393e220d7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T145952Z_webconnectivity_IN_55836_n1_Dycy8URvqROFb58b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903150709.144471_IN_webconnectivity_69c2480ff1386111",
+      "measurement_start_time": "2025-09-03T15:06:09.000000Z",
+      "measurement_uid": "20250903150709.144471_IN_webconnectivity_69c2480ff1386111",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903061038.672912_IN_webconnectivity_3c5245b01388bcfb",
+      "measurement_start_time": "2025-09-03T06:10:38.000000Z",
+      "measurement_uid": "20250903061038.672912_IN_webconnectivity_3c5245b01388bcfb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250903T050303Z_webconnectivity_IN_55577_n1_Lmgel9WJ1Cc2MBGB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903050743.882960_IN_webconnectivity_429dac4479074e28",
+      "measurement_start_time": "2025-09-03T05:07:40.000000Z",
+      "measurement_uid": "20250903050743.882960_IN_webconnectivity_429dac4479074e28",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T031005Z_webconnectivity_IN_138754_n1_iwo6p03Jze4TZVam",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903031022.386433_IN_webconnectivity_537c06bc0e625a5d",
+      "measurement_start_time": "2025-09-03T03:10:21.000000Z",
+      "measurement_uid": "20250903031022.386433_IN_webconnectivity_537c06bc0e625a5d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T030542Z_webconnectivity_IN_138754_n1_22SwaqAFzynrnBt9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903030607.018308_IN_webconnectivity_a6640bc1e0b1f722",
+      "measurement_start_time": "2025-09-03T03:06:08.000000Z",
+      "measurement_uid": "20250903030607.018308_IN_webconnectivity_a6640bc1e0b1f722",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T020748Z_webconnectivity_IN_138754_n1_u9YnlDLQjhLCZzyq",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903020807.967716_IN_webconnectivity_237cba65f7f560e6",
+      "measurement_start_time": "2025-09-03T02:08:07.000000Z",
+      "measurement_uid": "20250903020807.967716_IN_webconnectivity_237cba65f7f560e6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T015302Z_webconnectivity_IN_138754_n1_urCSMmYovo1A2cwE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903015322.265878_IN_webconnectivity_334df34d771a9c13",
+      "measurement_start_time": "2025-09-03T01:53:23.000000Z",
+      "measurement_uid": "20250903015322.265878_IN_webconnectivity_334df34d771a9c13",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T011255Z_webconnectivity_IN_138754_n1_jRwBU9H51oSF0tf3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903011312.507281_IN_webconnectivity_02e695ec05faf225",
+      "measurement_start_time": "2025-09-03T01:13:12.000000Z",
+      "measurement_uid": "20250903011312.507281_IN_webconnectivity_02e695ec05faf225",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T003804Z_webconnectivity_IN_138754_n1_hdPxeuBdiEL1OoGz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903003825.136054_IN_webconnectivity_1816f52be9136753",
+      "measurement_start_time": "2025-09-03T00:38:26.000000Z",
+      "measurement_uid": "20250903003825.136054_IN_webconnectivity_1816f52be9136753",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T001314Z_webconnectivity_IN_138754_n1_5wxhZRwoiksPtKlF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903001334.647594_IN_webconnectivity_fe471ce1fb7f08fe",
+      "measurement_start_time": "2025-09-03T00:13:34.000000Z",
+      "measurement_uid": "20250903001334.647594_IN_webconnectivity_fe471ce1fb7f08fe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903000413.930229_IN_webconnectivity_4bcd243a1dff62fc",
+      "measurement_start_time": "2025-09-03T00:03:58.000000Z",
+      "measurement_uid": "20250903000413.930229_IN_webconnectivity_4bcd243a1dff62fc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T232326Z_webconnectivity_IN_138754_n1_XGbreTRU5eOTXDfo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902232407.200872_IN_webconnectivity_65a4a8ec4a4004a8",
+      "measurement_start_time": "2025-09-02T23:24:08.000000Z",
+      "measurement_uid": "20250902232407.200872_IN_webconnectivity_65a4a8ec4a4004a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T231006Z_webconnectivity_IN_138754_n1_Hd4lzOIV4oV6Eofo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902231141.518490_IN_webconnectivity_d97a033a2a610473",
+      "measurement_start_time": "2025-09-02T23:11:41.000000Z",
+      "measurement_uid": "20250902231141.518490_IN_webconnectivity_d97a033a2a610473",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T221314Z_webconnectivity_IN_138754_n1_kPHdDGr1zVXDfwhS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902222203.610206_IN_webconnectivity_35b5f3626d6d9a92",
+      "measurement_start_time": "2025-09-02T22:22:03.000000Z",
+      "measurement_uid": "20250902222203.610206_IN_webconnectivity_35b5f3626d6d9a92",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T141420Z_webconnectivity_IN_55836_n1_LhMWzEkcu0uK3glD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902143321.079863_IN_webconnectivity_fb1b12ce642c2816",
+      "measurement_start_time": "2025-09-02T14:32:20.000000Z",
+      "measurement_uid": "20250902143321.079863_IN_webconnectivity_fb1b12ce642c2816",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250902T101508Z_webconnectivity_IN_24560_n1_KlcNJrHPWBy4Ge8z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902101723.506677_IN_webconnectivity_c1c2b53921fa56ff",
+      "measurement_start_time": "2025-09-02T10:17:19.000000Z",
+      "measurement_uid": "20250902101723.506677_IN_webconnectivity_c1c2b53921fa56ff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902061003.972170_IN_webconnectivity_d3e6adea84853232",
+      "measurement_start_time": "2025-09-02T06:10:03.000000Z",
+      "measurement_uid": "20250902061003.972170_IN_webconnectivity_d3e6adea84853232",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902004938.235740_IN_webconnectivity_dbb173c1b90f35fe",
+      "measurement_start_time": "2025-09-02T00:49:22.000000Z",
+      "measurement_uid": "20250902004938.235740_IN_webconnectivity_dbb173c1b90f35fe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T140652Z_webconnectivity_IN_55836_n1_Hob7fZObsBLNmnaX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901140753.769087_IN_webconnectivity_fcd03d73cc69f9cd",
+      "measurement_start_time": "2025-09-01T14:07:07.000000Z",
+      "measurement_uid": "20250901140753.769087_IN_webconnectivity_fcd03d73cc69f9cd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T135934Z_webconnectivity_IN_55836_n1_Ao482VYrFFblrphZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901140738.801432_IN_webconnectivity_70f75bd57b5adac1",
+      "measurement_start_time": "2025-09-01T14:06:38.000000Z",
+      "measurement_uid": "20250901140738.801432_IN_webconnectivity_70f75bd57b5adac1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901060529.765889_IN_webconnectivity_ce39868369e0d79b",
+      "measurement_start_time": "2025-09-01T06:05:29.000000Z",
+      "measurement_uid": "20250901060529.765889_IN_webconnectivity_ce39868369e0d79b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170149Z_webconnectivity_IN_55836_n1_TEhr7GRQeWKZeIkW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901043851.612122_IN_webconnectivity_97c92676e62f0efa",
+      "measurement_start_time": "2025-09-01T04:37:50.000000Z",
+      "measurement_uid": "20250901043851.612122_IN_webconnectivity_97c92676e62f0efa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170155Z_webconnectivity_IN_55836_n1_govj7QXR0N5zIfoP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901043851.182755_IN_webconnectivity_0e232e7d5ce88360",
+      "measurement_start_time": "2025-09-01T04:37:50.000000Z",
+      "measurement_uid": "20250901043851.182755_IN_webconnectivity_0e232e7d5ce88360",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T184932Z_webconnectivity_IN_55836_n1_9nZKUxEUOJm0tUWG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831190435.575882_IN_webconnectivity_2e23694c77d57428",
+      "measurement_start_time": "2025-08-31T19:03:34.000000Z",
+      "measurement_uid": "20250831190435.575882_IN_webconnectivity_2e23694c77d57428",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831061117.892705_IN_webconnectivity_0e7a8ac820311438",
+      "measurement_start_time": "2025-08-31T06:11:17.000000Z",
+      "measurement_uid": "20250831061117.892705_IN_webconnectivity_0e7a8ac820311438",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T235747Z_webconnectivity_IN_55836_n1_tYreld22qp0PHbbS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cl.prod_netsweeper_inject_2",
+            "scope": "prod",
+            "location_found": "body",
+            "confidence_no_fp": 6,
+            "expected_countries": []
+          }
+        ],
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830235928.492713_IN_webconnectivity_3d240ee89738a41b",
+      "measurement_start_time": "2025-08-30T23:59:27.000000Z",
+      "measurement_uid": "20250830235928.492713_IN_webconnectivity_3d240ee89738a41b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T230902Z_webconnectivity_IN_138754_n1_AKC4OIVZxwKn7XTN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830231754.492127_IN_webconnectivity_ee61dfe3c5517f87",
+      "measurement_start_time": "2025-08-30T23:17:53.000000Z",
+      "measurement_uid": "20250830231754.492127_IN_webconnectivity_ee61dfe3c5517f87",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830060722.899736_IN_webconnectivity_780f4d2f05281fb6",
+      "measurement_start_time": "2025-08-30T06:07:22.000000Z",
+      "measurement_uid": "20250830060722.899736_IN_webconnectivity_780f4d2f05281fb6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829060604.570109_IN_webconnectivity_29671a6943cfbb49",
+      "measurement_start_time": "2025-08-29T06:06:04.000000Z",
+      "measurement_uid": "20250829060604.570109_IN_webconnectivity_29671a6943cfbb49",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829014305.262183_IN_webconnectivity_783bf9799ec49524",
+      "measurement_start_time": "2025-08-29T01:42:49.000000Z",
+      "measurement_uid": "20250829014305.262183_IN_webconnectivity_783bf9799ec49524",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250828T125251Z_webconnectivity_IN_134375_n1_1GNJ14nCcFprmlsT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828125402.030834_IN_webconnectivity_0d99b07c10e9ead8",
+      "measurement_start_time": "2025-08-28T12:53:57.000000Z",
+      "measurement_uid": "20250828125402.030834_IN_webconnectivity_0d99b07c10e9ead8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828080536.711103_IN_webconnectivity_f109feb0c89861eb",
+      "measurement_start_time": "2025-08-28T08:05:35.000000Z",
+      "measurement_uid": "20250828080536.711103_IN_webconnectivity_f109feb0c89861eb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828055836.715462_IN_webconnectivity_a2d8ccf69af98bf1",
+      "measurement_start_time": "2025-08-28T05:58:36.000000Z",
+      "measurement_uid": "20250828055836.715462_IN_webconnectivity_a2d8ccf69af98bf1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://www.pof.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250827T223123Z_webconnectivity_IN_24309_n1_zawMMx1WF2MMrFHW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828013119.638195_IN_webconnectivity_3b4b4962a0ea744e",
+      "measurement_start_time": "2025-08-28T01:31:04.000000Z",
+      "measurement_uid": "20250828013119.638195_IN_webconnectivity_3b4b4962a0ea744e",
+      "verification_status": "unverified"
+    }
+  ]
+}

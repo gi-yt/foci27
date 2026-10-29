@@ -1,0 +1,1925 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.18830037117004395
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T201803Z_webconnectivity_IN_24560_n4_HLobzrM2w6o8HkqA",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020201803.594320_IN_webconnectivity_b147b03ceba977b3",
+      "measurement_start_time": "2026-10-20T20:17:16.000000Z",
+      "measurement_uid": "20261020201803.594320_IN_webconnectivity_b147b03ceba977b3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T201708Z_webconnectivity_IN_24560_n4_oBk01I9ocJKGFDKZ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020201708.943647_IN_webconnectivity_fc08e987af7cc07e",
+      "measurement_start_time": "2026-10-20T20:16:21.000000Z",
+      "measurement_uid": "20261020201708.943647_IN_webconnectivity_fc08e987af7cc07e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261020T174901Z_webconnectivity_IN_136714_n4_jSSqXlutjmsJF6Vo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020174901.784898_IN_webconnectivity_e3e6262e09ff0145",
+      "measurement_start_time": "2026-10-20T17:48:57.000000Z",
+      "measurement_uid": "20261020174901.784898_IN_webconnectivity_e3e6262e09ff0145",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T170413Z_webconnectivity_IN_24309_n4_HsfsreRexM3JLogi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020171140.772920_IN_webconnectivity_32981c0432d18d2c",
+      "measurement_start_time": "2026-10-20T17:11:24.000000Z",
+      "measurement_uid": "20261020171140.772920_IN_webconnectivity_32981c0432d18d2c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164357Z_webconnectivity_IN_55836_n4_Py1D6QyF4QwZjm1b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164621.454852_IN_webconnectivity_995611362fa98803",
+      "measurement_start_time": "2026-10-20T16:46:08.000000Z",
+      "measurement_uid": "20261020164621.454852_IN_webconnectivity_995611362fa98803",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164556Z_webconnectivity_IN_55836_n4_I012oF74ORk4qCAg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164556.869214_IN_webconnectivity_216d18048af9fcf9",
+      "measurement_start_time": "2026-10-20T16:45:22.000000Z",
+      "measurement_uid": "20261020164556.869214_IN_webconnectivity_216d18048af9fcf9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164433Z_webconnectivity_IN_55836_n4_spUd5Hyu2SXGryiE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020164433.978041_IN_webconnectivity_310f1b92d5a5aa5c",
+      "measurement_start_time": "2026-10-20T16:44:20.000000Z",
+      "measurement_uid": "20261020164433.978041_IN_webconnectivity_310f1b92d5a5aa5c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T114129Z_webconnectivity_IN_55836_n4_Oa1nxFLqoM9cQCuh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020114131.289511_IN_webconnectivity_394176b5e7b94c69",
+      "measurement_start_time": "2026-10-20T11:41:02.000000Z",
+      "measurement_uid": "20261020114131.289511_IN_webconnectivity_394176b5e7b94c69",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T092533Z_webconnectivity_IN_24560_n4_AojrzzLDXeMiYWiX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020092533.288986_IN_webconnectivity_4410fd08b07398b9",
+      "measurement_start_time": "2026-10-20T09:24:46.000000Z",
+      "measurement_uid": "20261020092533.288986_IN_webconnectivity_4410fd08b07398b9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T092520Z_webconnectivity_IN_24560_n4_xoMSP09mVysPMfzo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020092520.002570_IN_webconnectivity_12be35340cbe0de4",
+      "measurement_start_time": "2026-10-20T09:24:33.000000Z",
+      "measurement_uid": "20261020092520.002570_IN_webconnectivity_12be35340cbe0de4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020062144.467388_IN_webconnectivity_735694290c21855b",
+      "measurement_start_time": "2026-10-20T06:21:43.000000Z",
+      "measurement_uid": "20261020062144.467388_IN_webconnectivity_735694290c21855b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T205456Z_webconnectivity_IN_55836_n4_qgTAC9aHnHxojq27",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019205456.368929_IN_webconnectivity_b0805a8090a00d9e",
+      "measurement_start_time": "2026-10-19T20:54:22.000000Z",
+      "measurement_uid": "20261019205456.368929_IN_webconnectivity_b0805a8090a00d9e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T204345Z_webconnectivity_IN_55836_n4_pbSpOJTCoiSXaXC7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 6,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019204947.294862_IN_webconnectivity_8025f095d441b94d",
+      "measurement_start_time": "2026-10-19T20:49:35.000000Z",
+      "measurement_uid": "20261019204947.294862_IN_webconnectivity_8025f095d441b94d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T203016Z_webconnectivity_IN_24560_n4_ZNOZGlWaNPQzIEYP",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 7,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019204454.271882_IN_webconnectivity_2b9a360ba0769e10",
+      "measurement_start_time": "2026-10-19T20:44:37.000000Z",
+      "measurement_uid": "20261019204454.271882_IN_webconnectivity_2b9a360ba0769e10",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T204340Z_webconnectivity_IN_24560_n4_EXmo3O2kSfj40N9L",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019204340.702893_IN_webconnectivity_6967f50686522249",
+      "measurement_start_time": "2026-10-19T20:43:34.000000Z",
+      "measurement_uid": "20261019204340.702893_IN_webconnectivity_6967f50686522249",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T161523Z_webconnectivity_IN_24560_n4_Ys0Hlo5Y8IDQyoGh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019161523.960239_IN_webconnectivity_4a5b9bc0c44835b8",
+      "measurement_start_time": "2026-10-19T16:14:38.000000Z",
+      "measurement_uid": "20261019161523.960239_IN_webconnectivity_4a5b9bc0c44835b8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T110436Z_webconnectivity_IN_55836_n4_w0CyWAY4LWTUkH7T",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019110529.092287_IN_webconnectivity_c0cfb5b775b4dd98",
+      "measurement_start_time": "2026-10-19T11:05:17.000000Z",
+      "measurement_uid": "20261019110529.092287_IN_webconnectivity_c0cfb5b775b4dd98",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T100115Z_webconnectivity_IN_9498_n4_EjeFeFgwbhwcQboQ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019100115.996156_IN_webconnectivity_d166edbdbed5928c",
+      "measurement_start_time": "2026-10-19T10:01:13.000000Z",
+      "measurement_uid": "20261019100115.996156_IN_webconnectivity_d166edbdbed5928c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T093249Z_webconnectivity_IN_24309_n4_MuxI8PgDbsNy6rlS",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019093354.732303_IN_webconnectivity_c31543878a57bfb3",
+      "measurement_start_time": "2026-10-19T09:33:38.000000Z",
+      "measurement_uid": "20261019093354.732303_IN_webconnectivity_c31543878a57bfb3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS4755",
+      "probe_cc": "IN",
+      "report_id": "20261019T090845Z_webconnectivity_IN_4755_n4_btqABJl68qvUS38Q",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019090845.599180_IN_webconnectivity_c68974ddbb0f172c",
+      "measurement_start_time": "2026-10-19T09:08:24.000000Z",
+      "measurement_uid": "20261019090845.599180_IN_webconnectivity_c68974ddbb0f172c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T082528Z_webconnectivity_IN_24560_n4_hFJL3bGBo1s9aMbd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019082824.915135_IN_webconnectivity_7199ee3a2ce07f04",
+      "measurement_start_time": "2026-10-19T08:28:08.000000Z",
+      "measurement_uid": "20261019082824.915135_IN_webconnectivity_7199ee3a2ce07f04",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T082545Z_webconnectivity_IN_45609_n4_4xEsfyQSeBRmKe9M",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019082545.313942_IN_webconnectivity_0fc1e1cf8e1c2c4d",
+      "measurement_start_time": "2026-10-19T08:24:55.000000Z",
+      "measurement_uid": "20261019082545.313942_IN_webconnectivity_0fc1e1cf8e1c2c4d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019060531.131155_IN_webconnectivity_93fe3c4c34aa4329",
+      "measurement_start_time": "2026-10-19T06:05:30.000000Z",
+      "measurement_uid": "20261019060531.131155_IN_webconnectivity_93fe3c4c34aa4329",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T234625Z_webconnectivity_IN_55836_n4_GZmwVQ3uy3oycQoP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 6,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018234746.996496_IN_webconnectivity_dee3de8cb5ccd40c",
+      "measurement_start_time": "2026-10-18T23:47:32.000000Z",
+      "measurement_uid": "20261018234746.996496_IN_webconnectivity_dee3de8cb5ccd40c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T215425Z_webconnectivity_IN_133982_n4_okPMSjwJniKJkddl",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018215425.807416_IN_webconnectivity_54df36b5d2934a46",
+      "measurement_start_time": "2026-10-18T21:54:21.000000Z",
+      "measurement_uid": "20261018215425.807416_IN_webconnectivity_54df36b5d2934a46",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T160428Z_webconnectivity_IN_55836_n4_ADmfHaVMLX3frWSF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 14,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018161007.026173_IN_webconnectivity_2af5e00a6a108ac2",
+      "measurement_start_time": "2026-10-18T16:09:53.000000Z",
+      "measurement_uid": "20261018161007.026173_IN_webconnectivity_2af5e00a6a108ac2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T155556Z_webconnectivity_IN_24560_n4_YiHdRRiCyNg8hlbw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018155556.201038_IN_webconnectivity_2750d5b0a8596b7f",
+      "measurement_start_time": "2026-10-18T15:55:08.000000Z",
+      "measurement_uid": "20261018155556.201038_IN_webconnectivity_2750d5b0a8596b7f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T155406Z_webconnectivity_IN_24560_n4_3bS8naet8bPqSdoN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018155406.313292_IN_webconnectivity_7f9144805a900e84",
+      "measurement_start_time": "2026-10-18T15:54:03.000000Z",
+      "measurement_uid": "20261018155406.313292_IN_webconnectivity_7f9144805a900e84",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T085303Z_webconnectivity_IN_24560_n4_DVah0owkTwqaYpCD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018085304.135516_IN_webconnectivity_7bca5d9d24c9c7f1",
+      "measurement_start_time": "2026-10-18T08:53:00.000000Z",
+      "measurement_uid": "20261018085304.135516_IN_webconnectivity_7bca5d9d24c9c7f1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T084853Z_webconnectivity_IN_55836_n4_wYyyaJx3jsx9wHya",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 3,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018084853.308271_IN_webconnectivity_a36023ce488d4295",
+      "measurement_start_time": "2026-10-18T08:48:24.000000Z",
+      "measurement_uid": "20261018084853.308271_IN_webconnectivity_a36023ce488d4295",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T065149Z_webconnectivity_IN_24309_n4_ZMrQQ2T8ZCMucTvN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018065714.744068_IN_webconnectivity_50de854b0c87fc89",
+      "measurement_start_time": "2026-10-18T06:56:58.000000Z",
+      "measurement_uid": "20261018065714.744068_IN_webconnectivity_50de854b0c87fc89",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018051442.524627_IN_webconnectivity_b137f03b945ee61f",
+      "measurement_start_time": "2026-10-18T05:14:41.000000Z",
+      "measurement_uid": "20261018051442.524627_IN_webconnectivity_b137f03b945ee61f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261018T043321Z_webconnectivity_IN_9829_n4_aeukvC9TXnUCIgMG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043321.289431_IN_webconnectivity_57bea609323bb30a",
+      "measurement_start_time": "2026-10-18T04:33:05.000000Z",
+      "measurement_uid": "20261018043321.289431_IN_webconnectivity_57bea609323bb30a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T224401Z_webconnectivity_IN_18209_n4_vo69IELLErsfvVjW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017224401.579464_IN_webconnectivity_67be46de53018a22",
+      "measurement_start_time": "2026-10-17T22:43:59.000000Z",
+      "measurement_uid": "20261017224401.579464_IN_webconnectivity_67be46de53018a22",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T210721Z_webconnectivity_IN_55836_n4_HoUoAgoVgBSRlmst",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 6,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017211133.553721_IN_webconnectivity_329ca0c6b613fc10",
+      "measurement_start_time": "2026-10-17T21:11:24.000000Z",
+      "measurement_uid": "20261017211133.553721_IN_webconnectivity_329ca0c6b613fc10",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T163945Z_webconnectivity_IN_24560_n4_PTUvOSSrozJWCmMF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163945.645168_IN_webconnectivity_06af8ef93175a658",
+      "measurement_start_time": "2026-10-17T16:38:57.000000Z",
+      "measurement_uid": "20261017163945.645168_IN_webconnectivity_06af8ef93175a658",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T162529Z_webconnectivity_IN_24560_n4_p9oWAKKsmK5FOJnv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017163511.067777_IN_webconnectivity_a7b1ab34807397ec",
+      "measurement_start_time": "2026-10-17T16:34:51.000000Z",
+      "measurement_uid": "20261017163511.067777_IN_webconnectivity_a7b1ab34807397ec",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T143034Z_webconnectivity_IN_55836_n4_774GeegCMoLruUIq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017143035.142736_IN_webconnectivity_ca902da8334df352",
+      "measurement_start_time": "2026-10-17T14:30:14.000000Z",
+      "measurement_uid": "20261017143035.142736_IN_webconnectivity_ca902da8334df352",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T054734Z_webconnectivity_IN_24560_n4_sntQWRp5WyatLafe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017054741.690297_IN_webconnectivity_5f765e93a9bc7daa",
+      "measurement_start_time": "2026-10-17T05:46:44.000000Z",
+      "measurement_uid": "20261017054741.690297_IN_webconnectivity_5f765e93a9bc7daa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017054418.557341_IN_webconnectivity_fa73c54e00713c98",
+      "measurement_start_time": "2026-10-17T05:44:18.000000Z",
+      "measurement_uid": "20261017054418.557341_IN_webconnectivity_fa73c54e00713c98",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T030614Z_webconnectivity_IN_55836_n4_nbDHniWkAeReRZRt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017031543.465050_IN_webconnectivity_6483dc0ae03d2dea",
+      "measurement_start_time": "2026-10-17T03:15:31.000000Z",
+      "measurement_uid": "20261017031543.465050_IN_webconnectivity_6483dc0ae03d2dea",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T192328Z_webconnectivity_IN_24309_n4_Rq2SDPTP5sgNtaG4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016192707.755663_IN_webconnectivity_9a09411109cfbc59",
+      "measurement_start_time": "2026-10-16T19:26:51.000000Z",
+      "measurement_uid": "20261016192707.755663_IN_webconnectivity_9a09411109cfbc59",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T185738Z_webconnectivity_IN_24309_n4_khf06qbBvbvbTzXo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016185738.621335_IN_webconnectivity_7932cdf57ab1ada4",
+      "measurement_start_time": "2026-10-16T18:57:38.000000Z",
+      "measurement_uid": "20261016185738.621335_IN_webconnectivity_7932cdf57ab1ada4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T184849Z_webconnectivity_IN_133982_n4_w6rbLwodZgGl4w5L",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016184850.171973_IN_webconnectivity_baee0cbd1adf0926",
+      "measurement_start_time": "2026-10-16T18:48:48.000000Z",
+      "measurement_uid": "20261016184850.171973_IN_webconnectivity_baee0cbd1adf0926",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T182345Z_webconnectivity_IN_24560_n4_8vgzkg5D3udxixIw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016182345.173128_IN_webconnectivity_0134c8c8dae30212",
+      "measurement_start_time": "2026-10-16T18:23:42.000000Z",
+      "measurement_uid": "20261016182345.173128_IN_webconnectivity_0134c8c8dae30212",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T130725Z_webconnectivity_IN_55836_n4_OGiPKoiTMwgfqRu0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016130726.022504_IN_webconnectivity_761fb31a61233c6d",
+      "measurement_start_time": "2026-10-16T13:06:35.000000Z",
+      "measurement_uid": "20261016130726.022504_IN_webconnectivity_761fb31a61233c6d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016045903.356296_IN_webconnectivity_029de9e7955bf6ac",
+      "measurement_start_time": "2026-10-16T04:59:02.000000Z",
+      "measurement_uid": "20261016045903.356296_IN_webconnectivity_029de9e7955bf6ac",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T033910Z_webconnectivity_IN_24560_n4_1wk8QUZ6KFfvEWOI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016033911.777673_IN_webconnectivity_5041d4ac480e15d4",
+      "measurement_start_time": "2026-10-16T03:38:42.000000Z",
+      "measurement_uid": "20261016033911.777673_IN_webconnectivity_5041d4ac480e15d4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T033731Z_webconnectivity_IN_24560_n4_2oHvkIEhmsdRh3J3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016033731.523191_IN_webconnectivity_4ae11527845ef6cc",
+      "measurement_start_time": "2026-10-16T03:36:44.000000Z",
+      "measurement_uid": "20261016033731.523191_IN_webconnectivity_4ae11527845ef6cc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T165730Z_webconnectivity_IN_24309_n4_2pcUatIQxVYaggeg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          },
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015170222.853720_IN_webconnectivity_d246f5c5848f3387",
+      "measurement_start_time": "2026-10-15T17:02:06.000000Z",
+      "measurement_uid": "20261015170222.853720_IN_webconnectivity_d246f5c5848f3387",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T160516Z_webconnectivity_IN_45609_n4_pA7jVUfIWhB1Ztvt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015160516.959600_IN_webconnectivity_214398e13aeca11f",
+      "measurement_start_time": "2026-10-15T16:05:01.000000Z",
+      "measurement_uid": "20261015160516.959600_IN_webconnectivity_214398e13aeca11f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T142912Z_webconnectivity_IN_55836_n4_Yvg2ERKJL0iLfuqg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016142913.211768_IN_webconnectivity_29126369592f9938",
+      "measurement_start_time": "2026-10-15T14:30:50.000000Z",
+      "measurement_uid": "20261016142913.211768_IN_webconnectivity_29126369592f9938",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110110Z_webconnectivity_IN_55836_n4_sWxS2m0yRazPvlob",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110839.207877_IN_webconnectivity_9fb6845082f3a699",
+      "measurement_start_time": "2026-10-15T11:08:27.000000Z",
+      "measurement_uid": "20261015110839.207877_IN_webconnectivity_9fb6845082f3a699",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110842Z_webconnectivity_IN_55836_n4_IpZXf9ZUR6TQiR1P",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110843.911404_IN_webconnectivity_253b3cd02e95b452",
+      "measurement_start_time": "2026-10-15T11:08:19.000000Z",
+      "measurement_uid": "20261015110843.911404_IN_webconnectivity_253b3cd02e95b452",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T110735Z_webconnectivity_IN_55836_n4_zNqdwZhWQUfhSHFe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015110735.704930_IN_webconnectivity_bf15d26935e26f0b",
+      "measurement_start_time": "2026-10-15T11:07:33.000000Z",
+      "measurement_uid": "20261015110735.704930_IN_webconnectivity_bf15d26935e26f0b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T062923Z_webconnectivity_IN_24560_n4_QhIynEkBiwiwT5jv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062924.515165_IN_webconnectivity_3663ede8002e16c4",
+      "measurement_start_time": "2026-10-15T06:28:43.000000Z",
+      "measurement_uid": "20261015062924.515165_IN_webconnectivity_3663ede8002e16c4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T062752Z_webconnectivity_IN_24560_n4_BB1K8rWsuWs4Megg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062752.267839_IN_webconnectivity_458d9b84d9668c73",
+      "measurement_start_time": "2026-10-15T06:27:05.000000Z",
+      "measurement_uid": "20261015062752.267839_IN_webconnectivity_458d9b84d9668c73",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015055914.680271_IN_webconnectivity_bea66bd50270b521",
+      "measurement_start_time": "2026-10-15T05:59:14.000000Z",
+      "measurement_uid": "20261015055914.680271_IN_webconnectivity_bea66bd50270b521",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T032702Z_webconnectivity_IN_55836_n4_KoBi7l2IuKRKFpIN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015043157.623587_IN_webconnectivity_c6e0ecf16792e02c",
+      "measurement_start_time": "2026-10-15T04:31:57.000000Z",
+      "measurement_uid": "20261015043157.623587_IN_webconnectivity_c6e0ecf16792e02c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T034605Z_webconnectivity_IN_55836_n4_BomqX9BeYUoqz4jx",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015034752.666308_IN_webconnectivity_c8f9ae7d86bc64eb",
+      "measurement_start_time": "2026-10-15T03:47:37.000000Z",
+      "measurement_uid": "20261015034752.666308_IN_webconnectivity_c8f9ae7d86bc64eb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T003404Z_webconnectivity_IN_24560_n4_1oVQdq762FMqQw1K",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015003745.371287_IN_webconnectivity_14f073d497dec2fa",
+      "measurement_start_time": "2026-10-15T00:37:28.000000Z",
+      "measurement_uid": "20261015003745.371287_IN_webconnectivity_14f073d497dec2fa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T180608Z_webconnectivity_IN_24560_n4_4Xf1OcBBoXaodTnt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014180608.978845_IN_webconnectivity_7b375c0f583447e6",
+      "measurement_start_time": "2026-10-14T18:05:02.000000Z",
+      "measurement_uid": "20261014180608.978845_IN_webconnectivity_7b375c0f583447e6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T175537Z_webconnectivity_IN_55836_n4_VSFi2oR5ytgUuotJ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014175538.635820_IN_webconnectivity_97c93f5db5186e4f",
+      "measurement_start_time": "2026-10-14T17:54:55.000000Z",
+      "measurement_uid": "20261014175538.635820_IN_webconnectivity_97c93f5db5186e4f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162450.200558_IN_webconnectivity_c32c19fbc6ce1af8",
+      "measurement_start_time": "2026-10-14T16:24:18.000000Z",
+      "measurement_uid": "20261014162450.200558_IN_webconnectivity_c32c19fbc6ce1af8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://eztv.re/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014100751.220563_IN_webconnectivity_2331910510e36c0a",
+      "measurement_start_time": "2026-10-14T10:07:50.000000Z",
+      "measurement_uid": "20261014100751.220563_IN_webconnectivity_2331910510e36c0a",
+      "verification_status": "unverified"
+    }
+  ]
+}

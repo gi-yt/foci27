@@ -1,0 +1,1152 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1412045955657959
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T225929Z_webconnectivity_IN_24309_n4_uQde7VG5kA58OdXs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020230247.508368_IN_webconnectivity_6368bfd5c749475f",
+      "measurement_start_time": "2026-10-20T23:02:32.000000Z",
+      "measurement_uid": "20261020230247.508368_IN_webconnectivity_6368bfd5c749475f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T155700Z_webconnectivity_IN_24560_n4_0G8gdUIUtbj9oG6Y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020155701.010711_IN_webconnectivity_548735acf00ec204",
+      "measurement_start_time": "2026-10-20T15:56:58.000000Z",
+      "measurement_uid": "20261020155701.010711_IN_webconnectivity_548735acf00ec204",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124612Z_webconnectivity_IN_55836_n4_LotizV4k9RGcIGBb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125429.056612_IN_webconnectivity_8da00c12e52cd729",
+      "measurement_start_time": "2026-10-20T12:54:27.000000Z",
+      "measurement_uid": "20261020125429.056612_IN_webconnectivity_8da00c12e52cd729",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T125401Z_webconnectivity_IN_55836_n4_fs65ymsOhbcZcgwp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125401.532023_IN_webconnectivity_405ff63bab611fd6",
+      "measurement_start_time": "2026-10-20T12:53:59.000000Z",
+      "measurement_uid": "20261020125401.532023_IN_webconnectivity_405ff63bab611fd6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T114452Z_webconnectivity_IN_18209_n4_AFyrJQgBuLJ3gwTK",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020114452.217467_IN_webconnectivity_794efdc70d29cbea",
+      "measurement_start_time": "2026-10-20T11:44:50.000000Z",
+      "measurement_uid": "20261020114452.217467_IN_webconnectivity_794efdc70d29cbea",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T111000Z_webconnectivity_IN_24560_n4_Zo0fQvDQIUs0n96R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020111001.000040_IN_webconnectivity_5ae1a5eb422c2afa",
+      "measurement_start_time": "2026-10-20T11:09:58.000000Z",
+      "measurement_uid": "20261020111001.000040_IN_webconnectivity_5ae1a5eb422c2afa",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020061504.691125_IN_webconnectivity_1cba7b7d907c3fa5",
+      "measurement_start_time": "2026-10-20T06:15:04.000000Z",
+      "measurement_uid": "20261020061504.691125_IN_webconnectivity_1cba7b7d907c3fa5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261020T004344Z_webconnectivity_IN_9498_n4_1op14xTjovCkRAqX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020004344.599488_IN_webconnectivity_6dc17270ebc9e0ba",
+      "measurement_start_time": "2026-10-20T00:43:42.000000Z",
+      "measurement_uid": "20261020004344.599488_IN_webconnectivity_6dc17270ebc9e0ba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T214334Z_webconnectivity_IN_55836_n4_1jcL03T4TNsYRh4Z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019214720.219632_IN_webconnectivity_24fcbcb8a8465d8b",
+      "measurement_start_time": "2026-10-19T21:47:18.000000Z",
+      "measurement_uid": "20261019214720.219632_IN_webconnectivity_24fcbcb8a8465d8b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T200807Z_webconnectivity_IN_45609_n4_qYh61K4QJo43RvuI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019200808.009610_IN_webconnectivity_03f00478cf6f468f",
+      "measurement_start_time": "2026-10-19T20:08:05.000000Z",
+      "measurement_uid": "20261019200808.009610_IN_webconnectivity_03f00478cf6f468f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075553Z_webconnectivity_IN_24560_n4_mmtcs5XgtRPtMw7F",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075553.795533_IN_webconnectivity_c10a8c9e36125adb",
+      "measurement_start_time": "2026-10-19T07:55:49.000000Z",
+      "measurement_uid": "20261019075553.795533_IN_webconnectivity_c10a8c9e36125adb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075526Z_webconnectivity_IN_24560_n4_eN6W7DgS5L4jIZ9q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075526.767696_IN_webconnectivity_76760d6306393f72",
+      "measurement_start_time": "2026-10-19T07:55:16.000000Z",
+      "measurement_uid": "20261019075526.767696_IN_webconnectivity_76760d6306393f72",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075343Z_webconnectivity_IN_24560_n4_8kR8QJiooMZ6MqWF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075343.281126_IN_webconnectivity_be4e23ceaa0a6f97",
+      "measurement_start_time": "2026-10-19T07:53:40.000000Z",
+      "measurement_uid": "20261019075343.281126_IN_webconnectivity_be4e23ceaa0a6f97",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T070735Z_webconnectivity_IN_24309_n4_SchiMTmCpwUrQJqa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019071250.491460_IN_webconnectivity_e3116cb4872c8b6d",
+      "measurement_start_time": "2026-10-19T07:12:34.000000Z",
+      "measurement_uid": "20261019071250.491460_IN_webconnectivity_e3116cb4872c8b6d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019063236.372509_IN_webconnectivity_f3b2b6c09f7bad0a",
+      "measurement_start_time": "2026-10-19T06:32:36.000000Z",
+      "measurement_uid": "20261019063236.372509_IN_webconnectivity_f3b2b6c09f7bad0a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261019T044128Z_webconnectivity_IN_9829_n4_Iuou6mVqA0vtGNfF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019044128.923011_IN_webconnectivity_afa976cb6ccbe440",
+      "measurement_start_time": "2026-10-19T04:41:23.000000Z",
+      "measurement_uid": "20261019044128.923011_IN_webconnectivity_afa976cb6ccbe440",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T205525Z_webconnectivity_IN_24560_n4_KHKQbbhRoQofDSYC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018205526.011307_IN_webconnectivity_46fb914319474f29",
+      "measurement_start_time": "2026-10-18T20:55:22.000000Z",
+      "measurement_uid": "20261018205526.011307_IN_webconnectivity_46fb914319474f29",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T204818Z_webconnectivity_IN_55836_n4_HC8zP3H1Ao7nxf01",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204857.029509_IN_webconnectivity_5ed50a9e19b2b5a7",
+      "measurement_start_time": "2026-10-18T20:48:51.000000Z",
+      "measurement_uid": "20261018204857.029509_IN_webconnectivity_5ed50a9e19b2b5a7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T204758Z_webconnectivity_IN_55836_n4_VM06ObPXmofe5IWz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204758.337802_IN_webconnectivity_6ecfda154fae5c27",
+      "measurement_start_time": "2026-10-18T20:47:07.000000Z",
+      "measurement_uid": "20261018204758.337802_IN_webconnectivity_6ecfda154fae5c27",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T120737Z_webconnectivity_IN_24560_n4_q5NgCiOBEd2D09S3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018120737.430387_IN_webconnectivity_cc3552d3ef48d426",
+      "measurement_start_time": "2026-10-18T12:07:34.000000Z",
+      "measurement_uid": "20261018120737.430387_IN_webconnectivity_cc3552d3ef48d426",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T111333Z_webconnectivity_IN_55836_n4_VZUNwsybsX4qnmDC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018111333.127784_IN_webconnectivity_a451fd6beeb99cbd",
+      "measurement_start_time": "2026-10-18T11:13:29.000000Z",
+      "measurement_uid": "20261018111333.127784_IN_webconnectivity_a451fd6beeb99cbd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018054542.986168_IN_webconnectivity_c440582c1032b288",
+      "measurement_start_time": "2026-10-18T05:45:42.000000Z",
+      "measurement_uid": "20261018054542.986168_IN_webconnectivity_c440582c1032b288",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T231851Z_webconnectivity_IN_55836_n4_fzp6d8EwOrlkJpdt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017231852.020191_IN_webconnectivity_bc9c5174a29df53e",
+      "measurement_start_time": "2026-10-17T23:18:47.000000Z",
+      "measurement_uid": "20261017231852.020191_IN_webconnectivity_bc9c5174a29df53e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T230416Z_webconnectivity_IN_55836_n4_7qbtZqPVdxrsqnmK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017231002.428570_IN_webconnectivity_abc08624ec28be32",
+      "measurement_start_time": "2026-10-17T23:10:02.000000Z",
+      "measurement_uid": "20261017231002.428570_IN_webconnectivity_abc08624ec28be32",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T142014Z_webconnectivity_IN_24309_n4_lxzpAeUK1wf3KowS",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_9",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142014.615413_IN_webconnectivity_444f8c7aeedaecb7",
+      "measurement_start_time": "2026-10-17T14:20:12.000000Z",
+      "measurement_uid": "20261017142014.615413_IN_webconnectivity_444f8c7aeedaecb7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T135243Z_webconnectivity_IN_24560_n4_HQWgi8iFDgd9sGLe",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017135243.490573_IN_webconnectivity_e59681f1a02be268",
+      "measurement_start_time": "2026-10-17T13:52:39.000000Z",
+      "measurement_uid": "20261017135243.490573_IN_webconnectivity_e59681f1a02be268",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T134719Z_webconnectivity_IN_24560_n4_IbMN9nPkKEEQ5dbj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017134954.858377_IN_webconnectivity_08a9f89d87d08316",
+      "measurement_start_time": "2026-10-17T13:49:53.000000Z",
+      "measurement_uid": "20261017134954.858377_IN_webconnectivity_08a9f89d87d08316",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T104507Z_webconnectivity_IN_55836_n4_UpgWTKvBPCmgfWoV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017105649.868294_IN_webconnectivity_3e49d0a6699c3970",
+      "measurement_start_time": "2026-10-17T10:56:45.000000Z",
+      "measurement_uid": "20261017105649.868294_IN_webconnectivity_3e49d0a6699c3970",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017061340.744570_IN_webconnectivity_8caff69ee4e69b02",
+      "measurement_start_time": "2026-10-17T06:13:40.000000Z",
+      "measurement_uid": "20261017061340.744570_IN_webconnectivity_8caff69ee4e69b02",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T041309Z_webconnectivity_IN_133982_n4_T3nD1UrZMFwqyf6i",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017041309.783784_IN_webconnectivity_0297336f75ca83dc",
+      "measurement_start_time": "2026-10-17T04:12:55.000000Z",
+      "measurement_uid": "20261017041309.783784_IN_webconnectivity_0297336f75ca83dc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T133446Z_webconnectivity_IN_24560_n4_VZX3grTgjod1hR0x",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016133449.500470_IN_webconnectivity_2ccc2399103b623b",
+      "measurement_start_time": "2026-10-16T13:33:55.000000Z",
+      "measurement_uid": "20261016133449.500470_IN_webconnectivity_2ccc2399103b623b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T133321Z_webconnectivity_IN_24560_n4_Aoo9j4ijG1k124R6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016133321.977118_IN_webconnectivity_529811e3ab9b457b",
+      "measurement_start_time": "2026-10-16T13:33:17.000000Z",
+      "measurement_uid": "20261016133321.977118_IN_webconnectivity_529811e3ab9b457b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T082428Z_webconnectivity_IN_55836_n4_oAhkA3G11v9KNKWX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016082429.027644_IN_webconnectivity_8d8ad50476bf76cd",
+      "measurement_start_time": "2026-10-16T08:24:10.000000Z",
+      "measurement_uid": "20261016082429.027644_IN_webconnectivity_8d8ad50476bf76cd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016063547.338243_IN_webconnectivity_c252a4546557d657",
+      "measurement_start_time": "2026-10-16T06:35:47.000000Z",
+      "measurement_uid": "20261016063547.338243_IN_webconnectivity_c252a4546557d657",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T054857Z_webconnectivity_IN_55836_n4_EPocg4Gtazg5SjIq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016055037.316870_IN_webconnectivity_fb2d452fd7baed37",
+      "measurement_start_time": "2026-10-16T05:50:34.000000Z",
+      "measurement_uid": "20261016055037.316870_IN_webconnectivity_fb2d452fd7baed37",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T054711Z_webconnectivity_IN_55836_n4_UQCfTmHJgTl4gKIo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016054711.427547_IN_webconnectivity_775413f4e85ae461",
+      "measurement_start_time": "2026-10-16T05:47:06.000000Z",
+      "measurement_uid": "20261016054711.427547_IN_webconnectivity_775413f4e85ae461",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T053641Z_webconnectivity_IN_24309_n4_MltnibVmhrxl0rip",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016053641.499201_IN_webconnectivity_c00480fae3bc3f53",
+      "measurement_start_time": "2026-10-16T05:36:35.000000Z",
+      "measurement_uid": "20261016053641.499201_IN_webconnectivity_c00480fae3bc3f53",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T022542Z_webconnectivity_IN_24560_n4_ogPIFQvfelBR85SM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016023214.212447_IN_webconnectivity_3526686fb40d377c",
+      "measurement_start_time": "2026-10-16T02:32:12.000000Z",
+      "measurement_uid": "20261016023214.212447_IN_webconnectivity_3526686fb40d377c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261016T021450Z_webconnectivity_IN_45609_n4_sCnBpt3FK5lJJalj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016021451.143118_IN_webconnectivity_cdde38ae22dd78e8",
+      "measurement_start_time": "2026-10-16T02:14:18.000000Z",
+      "measurement_uid": "20261016021451.143118_IN_webconnectivity_cdde38ae22dd78e8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T120310Z_webconnectivity_IN_24560_n4_eRNPFdsGF5II2bBw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015120310.387137_IN_webconnectivity_07d17ee6d422145d",
+      "measurement_start_time": "2026-10-15T12:03:06.000000Z",
+      "measurement_uid": "20261015120310.387137_IN_webconnectivity_07d17ee6d422145d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T071020Z_webconnectivity_IN_55836_n4_Es8oOnhmIUfV5s4L",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071021.271899_IN_webconnectivity_93fbebc71665ee4c",
+      "measurement_start_time": "2026-10-15T07:09:53.000000Z",
+      "measurement_uid": "20261015071021.271899_IN_webconnectivity_93fbebc71665ee4c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T070914Z_webconnectivity_IN_55836_n4_R1hrgzw7YY5o7kXU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015070914.609100_IN_webconnectivity_8244f6e3f2c95b8f",
+      "measurement_start_time": "2026-10-15T07:09:10.000000Z",
+      "measurement_uid": "20261015070914.609100_IN_webconnectivity_8244f6e3f2c95b8f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015063808.059271_IN_webconnectivity_8b72d8eb36719163",
+      "measurement_start_time": "2026-10-15T06:38:07.000000Z",
+      "measurement_uid": "20261015063808.059271_IN_webconnectivity_8b72d8eb36719163",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T025928Z_webconnectivity_IN_24560_n4_8vcamU0NpoSa49XN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015025928.753931_IN_webconnectivity_8dc681bf8235950c",
+      "measurement_start_time": "2026-10-15T02:59:19.000000Z",
+      "measurement_uid": "20261015025928.753931_IN_webconnectivity_8dc681bf8235950c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T204511Z_webconnectivity_IN_24309_n4_duyGl6ZoOlzaZLE5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014205148.186266_IN_webconnectivity_f30f2fd60a15ae0b",
+      "measurement_start_time": "2026-10-14T20:51:32.000000Z",
+      "measurement_uid": "20261014205148.186266_IN_webconnectivity_f30f2fd60a15ae0b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T203358Z_webconnectivity_IN_55836_n4_t5R8YoTirKwW1mL9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014203358.484177_IN_webconnectivity_6a461c82dd5573d2",
+      "measurement_start_time": "2026-10-14T20:33:39.000000Z",
+      "measurement_uid": "20261014203358.484177_IN_webconnectivity_6a461c82dd5573d2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T201551Z_webconnectivity_IN_24560_n4_9YsoUxkaiGiiWXZI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201551.616373_IN_webconnectivity_5782025370b9c492",
+      "measurement_start_time": "2026-10-14T20:15:48.000000Z",
+      "measurement_uid": "20261014201551.616373_IN_webconnectivity_5782025370b9c492",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://lockerdome.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014110429.238260_IN_webconnectivity_af111ecac631537a",
+      "measurement_start_time": "2026-10-14T11:04:29.000000Z",
+      "measurement_uid": "20261014110429.238260_IN_webconnectivity_af111ecac631537a",
+      "verification_status": "unverified"
+    }
+  ]
+}

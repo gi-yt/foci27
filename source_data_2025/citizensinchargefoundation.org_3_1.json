@@ -1,0 +1,3185 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.22266912460327148
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250915T172425Z_webconnectivity_IN_45769_n4_6obnvjMKWHWaC8HG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915172517.082427_IN_webconnectivity_109febcd8d7843d6",
+      "measurement_start_time": "2025-09-15T17:25:00.000000Z",
+      "measurement_uid": "20250915172517.082427_IN_webconnectivity_109febcd8d7843d6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250915T073152Z_webconnectivity_IN_138754_n4_7oWe7W7aJjSojZpJ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915073357.210484_IN_webconnectivity_f7039decd7ea88ea",
+      "measurement_start_time": "2025-09-15T07:33:56.000000Z",
+      "measurement_uid": "20250915073357.210484_IN_webconnectivity_f7039decd7ea88ea",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915040538.905671_IN_webconnectivity_cc847367518c3fa5",
+      "measurement_start_time": "2025-09-15T04:05:38.000000Z",
+      "measurement_uid": "20250915040538.905671_IN_webconnectivity_cc847367518c3fa5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915014325.840654_IN_webconnectivity_a83a95364cea3963",
+      "measurement_start_time": "2025-09-15T01:43:09.000000Z",
+      "measurement_uid": "20250915014325.840654_IN_webconnectivity_a83a95364cea3963",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915012642.195642_IN_webconnectivity_d1a931a622b4f06f",
+      "measurement_start_time": "2025-09-15T01:25:56.000000Z",
+      "measurement_uid": "20250915012642.195642_IN_webconnectivity_d1a931a622b4f06f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T172336Z_webconnectivity_IN_55836_n4_yKNuzru6vojC7WCY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914182125.173937_IN_webconnectivity_10bb549c8c00eb7e",
+      "measurement_start_time": "2025-09-14T18:20:24.000000Z",
+      "measurement_uid": "20250914182125.173937_IN_webconnectivity_10bb549c8c00eb7e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T175055Z_webconnectivity_IN_55836_n4_HwX2pAVqEFqFgKJg",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914175413.054166_IN_webconnectivity_3ff9667f1660fed5",
+      "measurement_start_time": "2025-09-14T17:53:29.000000Z",
+      "measurement_uid": "20250914175413.054166_IN_webconnectivity_3ff9667f1660fed5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T173919Z_webconnectivity_IN_55836_n4_tToIQuKhfpIUY0TX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914175204.049666_IN_webconnectivity_a9293ba842586eff",
+      "measurement_start_time": "2025-09-14T17:51:03.000000Z",
+      "measurement_uid": "20250914175204.049666_IN_webconnectivity_a9293ba842586eff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914040752.923046_IN_webconnectivity_052de467a32650c8",
+      "measurement_start_time": "2025-09-14T04:07:52.000000Z",
+      "measurement_uid": "20250914040752.923046_IN_webconnectivity_052de467a32650c8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914022249.981024_IN_webconnectivity_e48e36fc01242831",
+      "measurement_start_time": "2025-09-14T02:22:04.000000Z",
+      "measurement_uid": "20250914022249.981024_IN_webconnectivity_e48e36fc01242831",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914013719.023032_IN_webconnectivity_c4782b07fb6f87e8",
+      "measurement_start_time": "2025-09-14T01:37:03.000000Z",
+      "measurement_uid": "20250914013719.023032_IN_webconnectivity_c4782b07fb6f87e8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250913T215705Z_webconnectivity_IN_24560_n4_lD2EjYJOmxqZFojA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913220528.814972_IN_webconnectivity_e049827eae395655",
+      "measurement_start_time": "2025-09-13T22:05:15.000000Z",
+      "measurement_uid": "20250913220528.814972_IN_webconnectivity_e049827eae395655",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250913T191413Z_webconnectivity_IN_17488_n4_91q1xDnVPADbEoNy",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913191748.142112_IN_webconnectivity_7f0a13ed4911f07d",
+      "measurement_start_time": "2025-09-13T19:17:43.000000Z",
+      "measurement_uid": "20250913191748.142112_IN_webconnectivity_7f0a13ed4911f07d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20250913T153803Z_webconnectivity_IN_132116_n4_0oyYvoCxJqv20QDp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913154435.864409_IN_webconnectivity_174a710577a57d35",
+      "measurement_start_time": "2025-09-13T15:44:22.000000Z",
+      "measurement_uid": "20250913154435.864409_IN_webconnectivity_174a710577a57d35",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913153508.829983_IN_webconnectivity_490c54366864a060",
+      "measurement_start_time": "2025-09-13T15:34:37.000000Z",
+      "measurement_uid": "20250913153508.829983_IN_webconnectivity_490c54366864a060",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T151409Z_webconnectivity_IN_55836_n4_Eaykhc1oXs7U3eSl",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913152838.165542_IN_webconnectivity_1f104fe056434874",
+      "measurement_start_time": "2025-09-13T15:27:37.000000Z",
+      "measurement_uid": "20250913152838.165542_IN_webconnectivity_1f104fe056434874",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913044031.805654_IN_webconnectivity_6447d760cf33eaf3",
+      "measurement_start_time": "2025-09-13T04:40:31.000000Z",
+      "measurement_uid": "20250913044031.805654_IN_webconnectivity_6447d760cf33eaf3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250913T022825Z_webconnectivity_IN_134540_n4_8nSDmZv3fV2Q53BL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913022910.900513_IN_webconnectivity_7536a4cd19ec6c8b",
+      "measurement_start_time": "2025-09-13T02:28:55.000000Z",
+      "measurement_uid": "20250913022910.900513_IN_webconnectivity_7536a4cd19ec6c8b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913013236.796263_IN_webconnectivity_d7148310088c01c7",
+      "measurement_start_time": "2025-09-13T01:32:20.000000Z",
+      "measurement_uid": "20250913013236.796263_IN_webconnectivity_d7148310088c01c7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913011153.489140_IN_webconnectivity_bbb6073149fc94c0",
+      "measurement_start_time": "2025-09-13T01:11:08.000000Z",
+      "measurement_uid": "20250913011153.489140_IN_webconnectivity_bbb6073149fc94c0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T125102Z_webconnectivity_IN_55836_n4_vwXHe0ivxUUMp07O",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912130952.396299_IN_webconnectivity_a887efaa3c7af01a",
+      "measurement_start_time": "2025-09-12T13:08:52.000000Z",
+      "measurement_uid": "20250912130952.396299_IN_webconnectivity_a887efaa3c7af01a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912045136.565046_IN_webconnectivity_4168fa0f1e30903c",
+      "measurement_start_time": "2025-09-12T04:51:36.000000Z",
+      "measurement_uid": "20250912045136.565046_IN_webconnectivity_4168fa0f1e30903c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250911T210641Z_webconnectivity_IN_55836_n4_vPqFdv63Yj5YC2It",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911212002.699797_IN_webconnectivity_7b836de444485ed5",
+      "measurement_start_time": "2025-09-11T21:19:01.000000Z",
+      "measurement_uid": "20250911212002.699797_IN_webconnectivity_7b836de444485ed5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T110633Z_webconnectivity_IN_55577_n4_D1LAJgAkuIjC9PFT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911110808.372911_IN_webconnectivity_78f38b95cbde772a",
+      "measurement_start_time": "2025-09-11T11:08:04.000000Z",
+      "measurement_uid": "20250911110808.372911_IN_webconnectivity_78f38b95cbde772a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911045410.614672_IN_webconnectivity_ecab447f292d1b4c",
+      "measurement_start_time": "2025-09-11T04:54:10.000000Z",
+      "measurement_uid": "20250911045410.614672_IN_webconnectivity_ecab447f292d1b4c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911004457.721816_IN_webconnectivity_b602f9ec516881a8",
+      "measurement_start_time": "2025-09-11T00:44:41.000000Z",
+      "measurement_uid": "20250911004457.721816_IN_webconnectivity_b602f9ec516881a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911002922.030157_IN_webconnectivity_2fb2b58ad91f80a3",
+      "measurement_start_time": "2025-09-11T00:28:36.000000Z",
+      "measurement_uid": "20250911002922.030157_IN_webconnectivity_2fb2b58ad91f80a3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250910T223207Z_webconnectivity_IN_24560_n4_CKNbqbCqzVBgvMzu",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910223405.399641_IN_webconnectivity_c330954e677e3bf9",
+      "measurement_start_time": "2025-09-10T22:33:56.000000Z",
+      "measurement_uid": "20250910223405.399641_IN_webconnectivity_c330954e677e3bf9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T192835Z_webconnectivity_IN_55836_n4_XcU0P246H7wosoHr",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910194709.299675_IN_webconnectivity_951aa62832babb8f",
+      "measurement_start_time": "2025-09-10T19:46:11.000000Z",
+      "measurement_uid": "20250910194709.299675_IN_webconnectivity_951aa62832babb8f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910084745.559528_IN_webconnectivity_a1764dfa54e90238",
+      "measurement_start_time": "2025-09-10T08:47:29.000000Z",
+      "measurement_uid": "20250910084745.559528_IN_webconnectivity_a1764dfa54e90238",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910051048.875530_IN_webconnectivity_cabce29abd0a439c",
+      "measurement_start_time": "2025-09-10T05:10:48.000000Z",
+      "measurement_uid": "20250910051048.875530_IN_webconnectivity_cabce29abd0a439c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910030829.160137_IN_webconnectivity_ae88682c2af6d03c",
+      "measurement_start_time": "2025-09-10T03:08:11.000000Z",
+      "measurement_uid": "20250910030829.160137_IN_webconnectivity_ae88682c2af6d03c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910014219.310725_IN_webconnectivity_21c35ffa6d2f3339",
+      "measurement_start_time": "2025-09-10T01:42:06.000000Z",
+      "measurement_uid": "20250910014219.310725_IN_webconnectivity_21c35ffa6d2f3339",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910013346.647783_IN_webconnectivity_5c075c1117f231aa",
+      "measurement_start_time": "2025-09-10T01:33:01.000000Z",
+      "measurement_uid": "20250910013346.647783_IN_webconnectivity_5c075c1117f231aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910010628.462606_IN_webconnectivity_9c8004bc17d0073d",
+      "measurement_start_time": "2025-09-10T01:06:12.000000Z",
+      "measurement_uid": "20250910010628.462606_IN_webconnectivity_9c8004bc17d0073d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909212044.915390_IN_webconnectivity_6c28dd9630b8a6a4",
+      "measurement_start_time": "2025-09-09T21:20:28.000000Z",
+      "measurement_uid": "20250909212044.915390_IN_webconnectivity_6c28dd9630b8a6a4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T201659Z_webconnectivity_IN_55836_n1_Kty4a0GYHfoihkr0",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909202635.738376_IN_webconnectivity_2eb49a624f2870af",
+      "measurement_start_time": "2025-09-09T20:25:35.000000Z",
+      "measurement_uid": "20250909202635.738376_IN_webconnectivity_2eb49a624f2870af",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250909T175057Z_webconnectivity_IN_138754_n1_SwDV8xVXjMadqxjy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909175639.892705_IN_webconnectivity_fcf81bbe03d62baf",
+      "measurement_start_time": "2025-09-09T17:56:38.000000Z",
+      "measurement_uid": "20250909175639.892705_IN_webconnectivity_fcf81bbe03d62baf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T134520Z_webconnectivity_IN_63949_n1_JR24ptcgI9ooljz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909140704.869869_IN_webconnectivity_06886ab3e9e1459f",
+      "measurement_start_time": "2025-09-09T14:06:45.000000Z",
+      "measurement_uid": "20250909140704.869869_IN_webconnectivity_06886ab3e9e1459f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250909T115236Z_webconnectivity_IN_134375_n1_MOEEQVkoImQvLcQQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909115415.404965_IN_webconnectivity_5ee2e070cd51f840",
+      "measurement_start_time": "2025-09-09T11:53:53.000000Z",
+      "measurement_uid": "20250909115415.404965_IN_webconnectivity_5ee2e070cd51f840",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909105124.721446_IN_webconnectivity_380ca2d129104f3b",
+      "measurement_start_time": "2025-09-09T10:51:24.000000Z",
+      "measurement_uid": "20250909105124.721446_IN_webconnectivity_380ca2d129104f3b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250909T062147Z_webconnectivity_IN_45916_n1_I8LkpojO59FSr6AH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909062322.020947_IN_webconnectivity_4b9c4af0cd23f9f8",
+      "measurement_start_time": "2025-09-09T06:23:08.000000Z",
+      "measurement_uid": "20250909062322.020947_IN_webconnectivity_4b9c4af0cd23f9f8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909013146.269333_IN_webconnectivity_02c0dbc4bbb26d21",
+      "measurement_start_time": "2025-09-09T01:31:37.000000Z",
+      "measurement_uid": "20250909013146.269333_IN_webconnectivity_02c0dbc4bbb26d21",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909010926.515741_IN_webconnectivity_bd0461268be6b47e",
+      "measurement_start_time": "2025-09-09T01:09:10.000000Z",
+      "measurement_uid": "20250909010926.515741_IN_webconnectivity_bd0461268be6b47e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909004840.163754_IN_webconnectivity_ca18543db993bc51",
+      "measurement_start_time": "2025-09-09T00:47:54.000000Z",
+      "measurement_uid": "20250909004840.163754_IN_webconnectivity_ca18543db993bc51",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250908T224014Z_webconnectivity_IN_24560_n1_K6SWBEOsVBJ5SHpo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908224704.401394_IN_webconnectivity_416e3f4912b57ac4",
+      "measurement_start_time": "2025-09-08T22:46:55.000000Z",
+      "measurement_uid": "20250908224704.401394_IN_webconnectivity_416e3f4912b57ac4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250908T190836Z_webconnectivity_IN_45609_n1_UJrJ3PFfVs8PXJo2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908194253.144168_IN_webconnectivity_3bb2a8df3359b479",
+      "measurement_start_time": "2025-09-08T19:42:38.000000Z",
+      "measurement_uid": "20250908194253.144168_IN_webconnectivity_3bb2a8df3359b479",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250908T183108Z_webconnectivity_IN_45609_n1_CenKGiottCVHyeng",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908185510.571715_IN_webconnectivity_f24429f8b88d661d",
+      "measurement_start_time": "2025-09-08T18:55:10.000000Z",
+      "measurement_uid": "20250908185510.571715_IN_webconnectivity_f24429f8b88d661d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250908T090424Z_webconnectivity_IN_55577_n1_rwUzNEUJ36jKq1Zp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908090532.300250_IN_webconnectivity_10965d8393d000d2",
+      "measurement_start_time": "2025-09-08T09:05:07.000000Z",
+      "measurement_uid": "20250908090532.300250_IN_webconnectivity_10965d8393d000d2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250908T065953Z_webconnectivity_IN_9829_n1_12xJ0R2yXLQ3igz0",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_10",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908083018.129363_IN_webconnectivity_f7507fb451542ca9",
+      "measurement_start_time": "2025-09-08T08:29:31.000000Z",
+      "measurement_uid": "20250908083018.129363_IN_webconnectivity_f7507fb451542ca9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250908T081206Z_webconnectivity_IN_45820_n1_5okRp4unaK9XpmmX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908082507.029441_IN_webconnectivity_d7495c17b8ed9132",
+      "measurement_start_time": "2025-09-08T08:24:36.000000Z",
+      "measurement_uid": "20250908082507.029441_IN_webconnectivity_d7495c17b8ed9132",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908061922.686416_IN_webconnectivity_23c3ac2fe665ebbe",
+      "measurement_start_time": "2025-09-08T06:19:22.000000Z",
+      "measurement_uid": "20250908061922.686416_IN_webconnectivity_23c3ac2fe665ebbe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908013737.404474_IN_webconnectivity_bfe30256ae552189",
+      "measurement_start_time": "2025-09-08T01:36:52.000000Z",
+      "measurement_uid": "20250908013737.404474_IN_webconnectivity_bfe30256ae552189",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T012906Z_webconnectivity_IN_55836_n1_CzgiqsvlpsNOK6N9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908013543.961370_IN_webconnectivity_45791bc093c29c7e",
+      "measurement_start_time": "2025-09-08T01:35:39.000000Z",
+      "measurement_uid": "20250908013543.961370_IN_webconnectivity_45791bc093c29c7e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908003741.876666_IN_webconnectivity_911e191c9f48bf1a",
+      "measurement_start_time": "2025-09-08T00:37:26.000000Z",
+      "measurement_uid": "20250908003741.876666_IN_webconnectivity_911e191c9f48bf1a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T203312Z_webconnectivity_IN_24309_n1_xcbZk9XvsxW7cZ69",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907203425.970929_IN_webconnectivity_78619006a50ca3a2",
+      "measurement_start_time": "2025-09-07T20:34:11.000000Z",
+      "measurement_uid": "20250907203425.970929_IN_webconnectivity_78619006a50ca3a2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250907T134332Z_webconnectivity_IN_134540_n1_esGju9eLsTvoJ5UX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907135602.682757_IN_webconnectivity_101781335f876940",
+      "measurement_start_time": "2025-09-07T13:55:42.000000Z",
+      "measurement_uid": "20250907135602.682757_IN_webconnectivity_101781335f876940",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907062820.553493_IN_webconnectivity_0771f13626de8d6b",
+      "measurement_start_time": "2025-09-07T06:28:20.000000Z",
+      "measurement_uid": "20250907062820.553493_IN_webconnectivity_0771f13626de8d6b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907043147.518464_IN_webconnectivity_8c4bee8968d97dd8",
+      "measurement_start_time": "2025-09-07T04:31:02.000000Z",
+      "measurement_uid": "20250907043147.518464_IN_webconnectivity_8c4bee8968d97dd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T034740Z_webconnectivity_IN_24560_n1_xQo5bCpKuok8Ravi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907040023.169937_IN_webconnectivity_dfd6ce8ebcdb9387",
+      "measurement_start_time": "2025-09-07T04:00:14.000000Z",
+      "measurement_uid": "20250907040023.169937_IN_webconnectivity_dfd6ce8ebcdb9387",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T170956Z_webconnectivity_IN_55836_n1_X0sYW4RwWzYMIjQl",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906171617.839845_IN_webconnectivity_4ee36abe76c17698",
+      "measurement_start_time": "2025-09-06T17:15:16.000000Z",
+      "measurement_uid": "20250906171617.839845_IN_webconnectivity_4ee36abe76c17698",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906070529.467194_IN_webconnectivity_e77e16aee488f708",
+      "measurement_start_time": "2025-09-06T07:05:29.000000Z",
+      "measurement_uid": "20250906070529.467194_IN_webconnectivity_e77e16aee488f708",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906004153.677168_IN_webconnectivity_97ee180f7e47d4d8",
+      "measurement_start_time": "2025-09-06T00:41:37.000000Z",
+      "measurement_uid": "20250906004153.677168_IN_webconnectivity_97ee180f7e47d4d8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906003603.384484_IN_webconnectivity_d1bc496934044a11",
+      "measurement_start_time": "2025-09-06T00:35:17.000000Z",
+      "measurement_uid": "20250906003603.384484_IN_webconnectivity_d1bc496934044a11",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250905T230343Z_webconnectivity_IN_17488_n1_xknHpIG3ThQ5B0hf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_correct_403",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          },
+          {
+            "name": "cp.fp_x_generic_500",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905230800.295496_IN_webconnectivity_997ab87adf860750",
+      "measurement_start_time": "2025-09-05T23:07:44.000000Z",
+      "measurement_uid": "20250905230800.295496_IN_webconnectivity_997ab87adf860750",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250905T175119Z_webconnectivity_IN_24560_n1_o6ZifOmWkOxDC2hV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905175554.424299_IN_webconnectivity_1132beb096c7fab2",
+      "measurement_start_time": "2025-09-05T17:55:39.000000Z",
+      "measurement_uid": "20250905175554.424299_IN_webconnectivity_1132beb096c7fab2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T120116Z_webconnectivity_IN_55836_n1_ae0wC8VZzvYJmLng",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905120956.655728_IN_webconnectivity_98e142e19145c661",
+      "measurement_start_time": "2025-09-05T12:08:55.000000Z",
+      "measurement_uid": "20250905120956.655728_IN_webconnectivity_98e142e19145c661",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905060621.397791_IN_webconnectivity_d24565e513dfa37f",
+      "measurement_start_time": "2025-09-05T06:06:20.000000Z",
+      "measurement_uid": "20250905060621.397791_IN_webconnectivity_d24565e513dfa37f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250905T032621Z_webconnectivity_IN_138754_n1_e7kuullk70TcLIHW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905032903.984821_IN_webconnectivity_eadaf5ca178d09e3",
+      "measurement_start_time": "2025-09-05T03:28:32.000000Z",
+      "measurement_uid": "20250905032903.984821_IN_webconnectivity_eadaf5ca178d09e3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250905T031700Z_webconnectivity_IN_55577_n1_pCFadbtwF4wcw4Fr",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905032140.429495_IN_webconnectivity_20dcff54b385917e",
+      "measurement_start_time": "2025-09-05T03:21:36.000000Z",
+      "measurement_uid": "20250905032140.429495_IN_webconnectivity_20dcff54b385917e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904224733.752757_IN_webconnectivity_62efeb35fe25ed48",
+      "measurement_start_time": "2025-09-04T22:46:48.000000Z",
+      "measurement_uid": "20250904224733.752757_IN_webconnectivity_62efeb35fe25ed48",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250904T151104Z_webconnectivity_IN_24309_n1_5m2Wi0rJomqIunHe",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904151615.232380_IN_webconnectivity_8d4ba3af5cc71117",
+      "measurement_start_time": "2025-09-04T15:16:09.000000Z",
+      "measurement_uid": "20250904151615.232380_IN_webconnectivity_8d4ba3af5cc71117",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T121530Z_webconnectivity_IN_55836_n1_hBsmZMOKn8ohgBbR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904122201.119631_IN_webconnectivity_528fb994eadf540b",
+      "measurement_start_time": "2025-09-04T12:21:01.000000Z",
+      "measurement_uid": "20250904122201.119631_IN_webconnectivity_528fb994eadf540b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904052651.218487_IN_webconnectivity_563590872bc627fd",
+      "measurement_start_time": "2025-09-04T05:26:50.000000Z",
+      "measurement_uid": "20250904052651.218487_IN_webconnectivity_563590872bc627fd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250903T162602Z_webconnectivity_IN_24560_n1_UeBDxfzbxCTF6BvA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903163227.909795_IN_webconnectivity_95228167af78de87",
+      "measurement_start_time": "2025-09-03T16:32:03.000000Z",
+      "measurement_uid": "20250903163227.909795_IN_webconnectivity_95228167af78de87",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T143426Z_webconnectivity_IN_55836_n1_PyH3wcro8iglwKob",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903144112.296786_IN_webconnectivity_6da2384a6caa791a",
+      "measurement_start_time": "2025-09-03T14:40:11.000000Z",
+      "measurement_uid": "20250903144112.296786_IN_webconnectivity_6da2384a6caa791a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903060732.553138_IN_webconnectivity_202f328588f87146",
+      "measurement_start_time": "2025-09-03T06:07:32.000000Z",
+      "measurement_uid": "20250903060732.553138_IN_webconnectivity_202f328588f87146",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250903T044715Z_webconnectivity_IN_55577_n1_goAb8cNHYfpygqG6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903045001.262125_IN_webconnectivity_a9eaaae252338dfb",
+      "measurement_start_time": "2025-09-03T04:49:38.000000Z",
+      "measurement_uid": "20250903045001.262125_IN_webconnectivity_a9eaaae252338dfb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902235237.843947_IN_webconnectivity_30a4fabe35275eb2",
+      "measurement_start_time": "2025-09-02T23:52:22.000000Z",
+      "measurement_uid": "20250902235237.843947_IN_webconnectivity_30a4fabe35275eb2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T201005Z_webconnectivity_IN_138754_n1_80oi3QhNoRCDKPqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902202324.350812_IN_webconnectivity_bc78b9d6e0faf189",
+      "measurement_start_time": "2025-09-02T20:23:22.000000Z",
+      "measurement_uid": "20250902202324.350812_IN_webconnectivity_bc78b9d6e0faf189",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T135940Z_webconnectivity_IN_55836_n1_mpn87ErZmPLtiChv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902141403.076333_IN_webconnectivity_deae72cd6e4c1061",
+      "measurement_start_time": "2025-09-02T14:13:02.000000Z",
+      "measurement_uid": "20250902141403.076333_IN_webconnectivity_deae72cd6e4c1061",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902060259.376295_IN_webconnectivity_6cbb93e2d902aeeb",
+      "measurement_start_time": "2025-09-02T06:02:58.000000Z",
+      "measurement_uid": "20250902060259.376295_IN_webconnectivity_6cbb93e2d902aeeb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250902T013448Z_webconnectivity_IN_24560_n1_WnWF2nUdInaEbCJm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902014844.685380_IN_webconnectivity_1f1ebc1923312ec1",
+      "measurement_start_time": "2025-09-02T01:48:01.000000Z",
+      "measurement_uid": "20250902014844.685380_IN_webconnectivity_1f1ebc1923312ec1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902003717.335835_IN_webconnectivity_eeb08a17aa3e7947",
+      "measurement_start_time": "2025-09-02T00:37:01.000000Z",
+      "measurement_uid": "20250902003717.335835_IN_webconnectivity_eeb08a17aa3e7947",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T130743Z_webconnectivity_IN_55836_n1_7iV65IWAFKBKo1IG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901131216.496326_IN_webconnectivity_da801c023c0682ba",
+      "measurement_start_time": "2025-09-01T13:11:15.000000Z",
+      "measurement_uid": "20250901131216.496326_IN_webconnectivity_da801c023c0682ba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T124952Z_webconnectivity_IN_55836_n1_5SseCinBTZkBPaKT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901131125.519328_IN_webconnectivity_492c9cc4012d6558",
+      "measurement_start_time": "2025-09-01T13:10:26.000000Z",
+      "measurement_uid": "20250901131125.519328_IN_webconnectivity_492c9cc4012d6558",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901055843.416010_IN_webconnectivity_e6dcd0657880a81b",
+      "measurement_start_time": "2025-09-01T05:58:42.000000Z",
+      "measurement_uid": "20250901055843.416010_IN_webconnectivity_e6dcd0657880a81b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T173142Z_webconnectivity_IN_55836_n1_jXE2CaOWYo9qD1PR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831174624.710576_IN_webconnectivity_f6317327d12f4be1",
+      "measurement_start_time": "2025-08-31T17:45:24.000000Z",
+      "measurement_uid": "20250831174624.710576_IN_webconnectivity_f6317327d12f4be1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831060454.756124_IN_webconnectivity_079c569ae62c750c",
+      "measurement_start_time": "2025-08-31T06:04:54.000000Z",
+      "measurement_uid": "20250831060454.756124_IN_webconnectivity_079c569ae62c750c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T224907Z_webconnectivity_IN_138754_n1_LstoGyiOU3fBY8mN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830225249.515257_IN_webconnectivity_5d682974f0dc14d1",
+      "measurement_start_time": "2025-08-30T22:52:47.000000Z",
+      "measurement_uid": "20250830225249.515257_IN_webconnectivity_5d682974f0dc14d1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T221144Z_webconnectivity_IN_55836_n1_HNH5pAo0je6I6ou7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830224030.829638_IN_webconnectivity_cb374c95e3413505",
+      "measurement_start_time": "2025-08-30T22:39:28.000000Z",
+      "measurement_uid": "20250830224030.829638_IN_webconnectivity_cb374c95e3413505",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830060039.452359_IN_webconnectivity_48a0e04fe645b1c7",
+      "measurement_start_time": "2025-08-30T06:00:38.000000Z",
+      "measurement_uid": "20250830060039.452359_IN_webconnectivity_48a0e04fe645b1c7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829055758.253077_IN_webconnectivity_7445741c71f481c6",
+      "measurement_start_time": "2025-08-29T05:57:57.000000Z",
+      "measurement_uid": "20250829055758.253077_IN_webconnectivity_7445741c71f481c6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829013107.815555_IN_webconnectivity_b6d691f81f0fe8c0",
+      "measurement_start_time": "2025-08-29T01:30:52.000000Z",
+      "measurement_uid": "20250829013107.815555_IN_webconnectivity_b6d691f81f0fe8c0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828075546.666896_IN_webconnectivity_8379cd2544fb9966",
+      "measurement_start_time": "2025-08-28T07:55:24.000000Z",
+      "measurement_uid": "20250828075546.666896_IN_webconnectivity_8379cd2544fb9966",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828055122.478443_IN_webconnectivity_7ebee00985431be0",
+      "measurement_start_time": "2025-08-28T05:51:21.000000Z",
+      "measurement_uid": "20250828055122.478443_IN_webconnectivity_7ebee00985431be0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://citizensinchargefoundation.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250827T223123Z_webconnectivity_IN_24309_n1_zawMMx1WF2MMrFHW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828012011.145499_IN_webconnectivity_d5970b7d6b65e720",
+      "measurement_start_time": "2025-08-28T01:19:55.000000Z",
+      "measurement_uid": "20250828012011.145499_IN_webconnectivity_d5970b7d6b65e720",
+      "verification_status": "unverified"
+    }
+  ]
+}

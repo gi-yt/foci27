@@ -1,0 +1,2015 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.15721917152404785
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T204449Z_webconnectivity_IN_55836_n4_PboDDoUQVBduzK5n",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020204634.367119_IN_webconnectivity_ddd59401e1590ea2",
+      "measurement_start_time": "2026-10-20T20:46:31.000000Z",
+      "measurement_uid": "20261020204634.367119_IN_webconnectivity_ddd59401e1590ea2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T153111Z_webconnectivity_IN_55836_n4_3TDMceOSL3NpvQw8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020153111.703069_IN_webconnectivity_980874e9819590a9",
+      "measurement_start_time": "2026-10-20T15:30:49.000000Z",
+      "measurement_uid": "20261020153111.703069_IN_webconnectivity_980874e9819590a9",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T134019Z_webconnectivity_IN_24309_n4_bZgWmUPLdUlwi8Dc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020134258.897775_IN_webconnectivity_3bb6df8f2c8a7cae",
+      "measurement_start_time": "2026-10-20T13:42:42.000000Z",
+      "measurement_uid": "20261020134258.897775_IN_webconnectivity_3bb6df8f2c8a7cae",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T132013Z_webconnectivity_IN_24560_n4_Sf41kRZqzncAdbe3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020132013.955799_IN_webconnectivity_62d21a13624f8de8",
+      "measurement_start_time": "2026-10-20T13:19:03.000000Z",
+      "measurement_uid": "20261020132013.955799_IN_webconnectivity_62d21a13624f8de8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T131751Z_webconnectivity_IN_24560_n4_AoIWiczVo6uSSPoX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020131751.088964_IN_webconnectivity_3f2693580f277854",
+      "measurement_start_time": "2026-10-20T13:17:44.000000Z",
+      "measurement_uid": "20261020131751.088964_IN_webconnectivity_3f2693580f277854",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T131710Z_webconnectivity_IN_24560_n4_0gSJ1ouF2mVfxKjA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020131711.013011_IN_webconnectivity_f43c3742dbf6defe",
+      "measurement_start_time": "2026-10-20T13:17:06.000000Z",
+      "measurement_uid": "20261020131711.013011_IN_webconnectivity_f43c3742dbf6defe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T095830Z_webconnectivity_IN_55836_n4_XxmoCrShiaDK0bJD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020095830.650187_IN_webconnectivity_d9fccb596a196758",
+      "measurement_start_time": "2026-10-20T09:58:24.000000Z",
+      "measurement_uid": "20261020095830.650187_IN_webconnectivity_d9fccb596a196758",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T082407Z_webconnectivity_IN_24560_n4_InZyAMDsonP7VU6M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020082407.687946_IN_webconnectivity_dd2f58893a538433",
+      "measurement_start_time": "2026-10-20T08:23:57.000000Z",
+      "measurement_uid": "20261020082407.687946_IN_webconnectivity_dd2f58893a538433",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261020T073744Z_webconnectivity_IN_132497_n4_TBLIjx6kkFgEZQvK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020073744.547019_IN_webconnectivity_3f937b39bf3d4751",
+      "measurement_start_time": "2026-10-20T07:37:37.000000Z",
+      "measurement_uid": "20261020073744.547019_IN_webconnectivity_3f937b39bf3d4751",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020055125.691349_IN_webconnectivity_84061aead4617f0d",
+      "measurement_start_time": "2026-10-20T05:51:25.000000Z",
+      "measurement_uid": "20261020055125.691349_IN_webconnectivity_84061aead4617f0d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T030013Z_webconnectivity_IN_24560_n4_nPTSiUlldvxJJJ17",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020030013.890703_IN_webconnectivity_acfda2b6828f9e58",
+      "measurement_start_time": "2026-10-20T03:00:04.000000Z",
+      "measurement_uid": "20261020030013.890703_IN_webconnectivity_acfda2b6828f9e58",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T025749Z_webconnectivity_IN_24560_n4_RoHe0C7oEYQkWo0w",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020025750.515475_IN_webconnectivity_213bd33528f01348",
+      "measurement_start_time": "2026-10-20T02:57:19.000000Z",
+      "measurement_uid": "20261020025750.515475_IN_webconnectivity_213bd33528f01348",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T192413Z_webconnectivity_IN_24309_n4_2PWwlEVG6kyQQIu8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019192642.251364_IN_webconnectivity_57564a5526449ef3",
+      "measurement_start_time": "2026-10-19T19:26:25.000000Z",
+      "measurement_uid": "20261019192642.251364_IN_webconnectivity_57564a5526449ef3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T191644Z_webconnectivity_IN_55836_n4_p8RdEALQc5cNoDR3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019191644.414462_IN_webconnectivity_12acadc892d8920a",
+      "measurement_start_time": "2026-10-19T19:15:56.000000Z",
+      "measurement_uid": "20261019191644.414462_IN_webconnectivity_12acadc892d8920a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T190612Z_webconnectivity_IN_55836_n4_Od5CnRK3QmD9LmcN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019191024.982046_IN_webconnectivity_54b0e377bdc47cda",
+      "measurement_start_time": "2026-10-19T19:10:22.000000Z",
+      "measurement_uid": "20261019191024.982046_IN_webconnectivity_54b0e377bdc47cda",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T152022Z_webconnectivity_IN_24560_n4_KnDBaFT88oMouDNM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019152022.737618_IN_webconnectivity_5e26eaa25ff56a4c",
+      "measurement_start_time": "2026-10-19T15:19:11.000000Z",
+      "measurement_uid": "20261019152022.737618_IN_webconnectivity_5e26eaa25ff56a4c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T151809Z_webconnectivity_IN_24560_n4_KEm5aKo2YmuzXTru",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019151809.095683_IN_webconnectivity_5ef188503dba1087",
+      "measurement_start_time": "2026-10-19T15:18:07.000000Z",
+      "measurement_uid": "20261019151809.095683_IN_webconnectivity_5ef188503dba1087",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261019T135734Z_webconnectivity_IN_134674_n4_pLwhzTOHRxQI3kbM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019135734.903739_IN_webconnectivity_f102639c41c9cbbd",
+      "measurement_start_time": "2026-10-19T13:57:31.000000Z",
+      "measurement_uid": "20261019135734.903739_IN_webconnectivity_f102639c41c9cbbd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T134358Z_webconnectivity_IN_55836_n4_5NtJftzqYPc30sG8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019134359.063821_IN_webconnectivity_942a37c9f2f1e271",
+      "measurement_start_time": "2026-10-19T13:43:16.000000Z",
+      "measurement_uid": "20261019134359.063821_IN_webconnectivity_942a37c9f2f1e271",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T064432Z_webconnectivity_IN_55836_n4_zidnwsBorHhqVbyw",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019064432.508184_IN_webconnectivity_1b276710c778a00e",
+      "measurement_start_time": "2026-10-19T06:44:13.000000Z",
+      "measurement_uid": "20261019064432.508184_IN_webconnectivity_1b276710c778a00e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019061304.941473_IN_webconnectivity_5819b50b8e71b1fb",
+      "measurement_start_time": "2026-10-19T06:13:04.000000Z",
+      "measurement_uid": "20261019061304.941473_IN_webconnectivity_5819b50b8e71b1fb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T054704Z_webconnectivity_IN_24560_n4_gGH1kaiMVwRPK2yq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055449.999300_IN_webconnectivity_615845816a7b53d2",
+      "measurement_start_time": "2026-10-19T05:54:47.000000Z",
+      "measurement_uid": "20261019055449.999300_IN_webconnectivity_615845816a7b53d2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T055040Z_webconnectivity_IN_24560_n4_UBdesPVEMoL3GiMO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055041.267346_IN_webconnectivity_c827e38b1038cc17",
+      "measurement_start_time": "2026-10-19T05:50:33.000000Z",
+      "measurement_uid": "20261019055041.267346_IN_webconnectivity_c827e38b1038cc17",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T035241Z_webconnectivity_IN_9498_n4_kxIvEX8UZzKun0Bx",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019035241.768331_IN_webconnectivity_bbd6b12b03d84453",
+      "measurement_start_time": "2026-10-19T03:52:38.000000Z",
+      "measurement_uid": "20261019035241.768331_IN_webconnectivity_bbd6b12b03d84453",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T233420Z_webconnectivity_IN_24309_n4_KC0TIBpoQJraqSox",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018233420.079874_IN_webconnectivity_70c026c7f7ede638",
+      "measurement_start_time": "2026-10-18T23:34:06.000000Z",
+      "measurement_uid": "20261018233420.079874_IN_webconnectivity_70c026c7f7ede638",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T172516Z_webconnectivity_IN_24560_n4_8SM0tpEJ01TKyCND",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018172516.879214_IN_webconnectivity_0b3c8ff1d283ef11",
+      "measurement_start_time": "2026-10-18T17:24:17.000000Z",
+      "measurement_uid": "20261018172516.879214_IN_webconnectivity_0b3c8ff1d283ef11",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T172416Z_webconnectivity_IN_24560_n4_UWf6Ez2M4gx1llHI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018172416.079315_IN_webconnectivity_00bdbcf014648b89",
+      "measurement_start_time": "2026-10-18T17:24:10.000000Z",
+      "measurement_uid": "20261018172416.079315_IN_webconnectivity_00bdbcf014648b89",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T170227Z_webconnectivity_IN_55836_n4_4uclpbMttXsRK4L4",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170807.336535_IN_webconnectivity_ba2fb17b19456883",
+      "measurement_start_time": "2026-10-18T17:08:05.000000Z",
+      "measurement_uid": "20261018170807.336535_IN_webconnectivity_ba2fb17b19456883",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T165855Z_webconnectivity_IN_55836_n4_gdCkjoqyCwp2oKhJ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170649.438644_IN_webconnectivity_e7d4358da96652d8",
+      "measurement_start_time": "2026-10-18T17:06:45.000000Z",
+      "measurement_uid": "20261018170649.438644_IN_webconnectivity_e7d4358da96652d8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261018T160023Z_webconnectivity_IN_45609_n4_W4pTn96YkXuvHeHZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018160023.538254_IN_webconnectivity_758d9aff9e46dcc2",
+      "measurement_start_time": "2026-10-18T15:59:28.000000Z",
+      "measurement_uid": "20261018160023.538254_IN_webconnectivity_758d9aff9e46dcc2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T123908Z_webconnectivity_IN_133982_n4_1m9D2lSjcnO9VW9z",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018123908.300724_IN_webconnectivity_9a960cace5c07c6f",
+      "measurement_start_time": "2026-10-18T12:39:07.000000Z",
+      "measurement_uid": "20261018123908.300724_IN_webconnectivity_9a960cace5c07c6f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261018T083529Z_webconnectivity_IN_17488_n4_cVqTAgalaybSgu4S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018083529.271832_IN_webconnectivity_74e4718ad29b9fdd",
+      "measurement_start_time": "2026-10-18T08:35:23.000000Z",
+      "measurement_uid": "20261018083529.271832_IN_webconnectivity_74e4718ad29b9fdd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T075539Z_webconnectivity_IN_24560_n4_ezihEuYvUwu3fI3k",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075648.259628_IN_webconnectivity_549d30e9183ab68a",
+      "measurement_start_time": "2026-10-18T07:56:43.000000Z",
+      "measurement_uid": "20261018075648.259628_IN_webconnectivity_549d30e9183ab68a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T075612Z_webconnectivity_IN_24560_n4_KXgsz3bRhDk1KZx1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075613.015652_IN_webconnectivity_680273f6b9f1b643",
+      "measurement_start_time": "2026-10-18T07:56:03.000000Z",
+      "measurement_uid": "20261018075613.015652_IN_webconnectivity_680273f6b9f1b643",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018055528.851484_IN_webconnectivity_e3c58f59cca671dc",
+      "measurement_start_time": "2026-10-18T05:55:28.000000Z",
+      "measurement_uid": "20261018055528.851484_IN_webconnectivity_e3c58f59cca671dc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T034521Z_webconnectivity_IN_24560_n4_DZ3kHA2BV4t15Awc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018034522.179285_IN_webconnectivity_5209552f4a7145b1",
+      "measurement_start_time": "2026-10-18T03:45:16.000000Z",
+      "measurement_uid": "20261018034522.179285_IN_webconnectivity_5209552f4a7145b1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261018T011243Z_webconnectivity_IN_136714_n4_hvy9LX5WFjs2EwD3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018011243.145404_IN_webconnectivity_dcd078cdf02339a5",
+      "measurement_start_time": "2026-10-18T01:12:33.000000Z",
+      "measurement_uid": "20261018011243.145404_IN_webconnectivity_dcd078cdf02339a5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T203905Z_webconnectivity_IN_24309_n4_oNybJFG52L5qgULO",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017204617.428155_IN_webconnectivity_50fd811760f086a0",
+      "measurement_start_time": "2026-10-17T20:46:00.000000Z",
+      "measurement_uid": "20261017204617.428155_IN_webconnectivity_50fd811760f086a0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T185318Z_webconnectivity_IN_24560_n4_Zmoo4BToLyQtfZcL",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017185318.691412_IN_webconnectivity_0026ba7c7119c445",
+      "measurement_start_time": "2026-10-17T18:53:13.000000Z",
+      "measurement_uid": "20261017185318.691412_IN_webconnectivity_0026ba7c7119c445",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T164752Z_webconnectivity_IN_55836_n4_T2vMSftboRSVSL5T",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165308.967858_IN_webconnectivity_3f74a53c35e56130",
+      "measurement_start_time": "2026-10-17T16:53:06.000000Z",
+      "measurement_uid": "20261017165308.967858_IN_webconnectivity_3f74a53c35e56130",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T164320Z_webconnectivity_IN_55836_n4_rSERKuuHqvZOojfq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165255.036019_IN_webconnectivity_e44224647234f8c1",
+      "measurement_start_time": "2026-10-17T16:52:52.000000Z",
+      "measurement_uid": "20261017165255.036019_IN_webconnectivity_e44224647234f8c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T165240Z_webconnectivity_IN_55836_n4_GxvHGsKeyiFJUpC8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165240.340607_IN_webconnectivity_612b866d602bbd5a",
+      "measurement_start_time": "2026-10-17T16:52:37.000000Z",
+      "measurement_uid": "20261017165240.340607_IN_webconnectivity_612b866d602bbd5a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T165213Z_webconnectivity_IN_55836_n4_soSs5CDlCx6MSio6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165213.943430_IN_webconnectivity_7d01d008e6b75542",
+      "measurement_start_time": "2026-10-17T16:52:10.000000Z",
+      "measurement_uid": "20261017165213.943430_IN_webconnectivity_7d01d008e6b75542",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T132634Z_webconnectivity_IN_24560_n4_oiayCOm6ZNg9TqXY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017132741.601892_IN_webconnectivity_3a4026de805f3efb",
+      "measurement_start_time": "2026-10-17T13:27:37.000000Z",
+      "measurement_uid": "20261017132741.601892_IN_webconnectivity_3a4026de805f3efb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T104507Z_webconnectivity_IN_55836_n4_UpgWTKvBPCmgfWoV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017104954.808253_IN_webconnectivity_fe5481e179b49b41",
+      "measurement_start_time": "2026-10-17T10:49:52.000000Z",
+      "measurement_uid": "20261017104954.808253_IN_webconnectivity_fe5481e179b49b41",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T073839Z_webconnectivity_IN_18209_n4_zEaJo02DqOiPtct6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017073839.196708_IN_webconnectivity_378c33ee601ded60",
+      "measurement_start_time": "2026-10-17T07:38:36.000000Z",
+      "measurement_uid": "20261017073839.196708_IN_webconnectivity_378c33ee601ded60",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017062156.924859_IN_webconnectivity_9b0636576af9852d",
+      "measurement_start_time": "2026-10-17T06:21:56.000000Z",
+      "measurement_uid": "20261017062156.924859_IN_webconnectivity_9b0636576af9852d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T051048Z_webconnectivity_IN_24560_n4_zoLt59h6iiwehGjl",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017051048.072035_IN_webconnectivity_54e0650520531169",
+      "measurement_start_time": "2026-10-17T05:10:44.000000Z",
+      "measurement_uid": "20261017051048.072035_IN_webconnectivity_54e0650520531169",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261017T021055Z_webconnectivity_IN_9829_n4_F1pNsv1u7RpDYolY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017021055.666425_IN_webconnectivity_add62bf9cd09d468",
+      "measurement_start_time": "2026-10-17T02:10:45.000000Z",
+      "measurement_uid": "20261017021055.666425_IN_webconnectivity_add62bf9cd09d468",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T224420Z_webconnectivity_IN_55836_n4_8Q4X4xdPPtkNXfJB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016224420.899663_IN_webconnectivity_7e8b00ee7966575f",
+      "measurement_start_time": "2026-10-16T22:44:16.000000Z",
+      "measurement_uid": "20261016224420.899663_IN_webconnectivity_7e8b00ee7966575f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T224302Z_webconnectivity_IN_55836_n4_tpyDSTuDe714Tof3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016224302.367385_IN_webconnectivity_5c692252478835cd",
+      "measurement_start_time": "2026-10-16T22:42:57.000000Z",
+      "measurement_uid": "20261016224302.367385_IN_webconnectivity_5c692252478835cd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T162449Z_webconnectivity_IN_24560_n4_glbsZZoa05hxcOEo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016162449.242834_IN_webconnectivity_087f81662f04118a",
+      "measurement_start_time": "2026-10-16T16:24:45.000000Z",
+      "measurement_uid": "20261016162449.242834_IN_webconnectivity_087f81662f04118a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T162449Z_webconnectivity_IN_24560_n4_ErgrOotNBvgOawl5",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016162449.804486_IN_webconnectivity_bd6efc7ef7a9782e",
+      "measurement_start_time": "2026-10-16T16:24:44.000000Z",
+      "measurement_uid": "20261016162449.804486_IN_webconnectivity_bd6efc7ef7a9782e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261016T131537Z_webconnectivity_IN_136286_n4_ZONrAEyjzKj4YFgk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016131537.840878_IN_webconnectivity_0c45e5e79a447cd1",
+      "measurement_start_time": "2026-10-16T13:15:32.000000Z",
+      "measurement_uid": "20261016131537.840878_IN_webconnectivity_0c45e5e79a447cd1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T123707Z_webconnectivity_IN_133982_n4_SCtiCnoAyTeqrce7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016123707.451322_IN_webconnectivity_16bc7361216e49c6",
+      "measurement_start_time": "2026-10-16T12:37:02.000000Z",
+      "measurement_uid": "20261016123707.451322_IN_webconnectivity_16bc7361216e49c6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T113210Z_webconnectivity_IN_55836_n4_b0y9UOcYsCOGIQql",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016113211.060564_IN_webconnectivity_5f4a8bd582628c4f",
+      "measurement_start_time": "2026-10-16T11:31:51.000000Z",
+      "measurement_uid": "20261016113211.060564_IN_webconnectivity_5f4a8bd582628c4f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T091244Z_webconnectivity_IN_24309_n4_U6uUtyBDRRHoUCB8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016091244.146505_IN_webconnectivity_e9514d8288bc8a03",
+      "measurement_start_time": "2026-10-16T09:12:28.000000Z",
+      "measurement_uid": "20261016091244.146505_IN_webconnectivity_e9514d8288bc8a03",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T090937Z_webconnectivity_IN_24309_n4_BW6xCVoDslfaOGod",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016091228.474365_IN_webconnectivity_711311e157ddf240",
+      "measurement_start_time": "2026-10-16T09:12:11.000000Z",
+      "measurement_uid": "20261016091228.474365_IN_webconnectivity_711311e157ddf240",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T084353Z_webconnectivity_IN_55836_n4_oMvfB0P54rQHx6gp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016084636.585021_IN_webconnectivity_742ca004f0b40cd8",
+      "measurement_start_time": "2026-10-16T08:46:32.000000Z",
+      "measurement_uid": "20261016084636.585021_IN_webconnectivity_742ca004f0b40cd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T084539Z_webconnectivity_IN_55836_n4_i5yfynar3ArXonFY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016084539.880954_IN_webconnectivity_ad385b8640ab7283",
+      "measurement_start_time": "2026-10-16T08:45:35.000000Z",
+      "measurement_uid": "20261016084539.880954_IN_webconnectivity_ad385b8640ab7283",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016055856.007890_IN_webconnectivity_263a4c23c8333a98",
+      "measurement_start_time": "2026-10-16T05:58:55.000000Z",
+      "measurement_uid": "20261016055856.007890_IN_webconnectivity_263a4c23c8333a98",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T222739Z_webconnectivity_IN_24560_n4_eP1tastkkInJ0sCQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016005114.702502_IN_webconnectivity_c5ecef9d1ab3a2be",
+      "measurement_start_time": "2026-10-16T00:51:09.000000Z",
+      "measurement_uid": "20261016005114.702502_IN_webconnectivity_c5ecef9d1ab3a2be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T224413Z_webconnectivity_IN_24560_n4_Cr372tsd7x2IvMoG",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015224414.528526_IN_webconnectivity_430f83a677a0fd12",
+      "measurement_start_time": "2026-10-15T22:43:38.000000Z",
+      "measurement_uid": "20261015224414.528526_IN_webconnectivity_430f83a677a0fd12",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T224354Z_webconnectivity_IN_24560_n4_dPx8mr1TVo8oQZDJ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015224355.159635_IN_webconnectivity_a4aea71f300ed814",
+      "measurement_start_time": "2026-10-15T22:43:17.000000Z",
+      "measurement_uid": "20261015224355.159635_IN_webconnectivity_a4aea71f300ed814",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T171858Z_webconnectivity_IN_55836_n4_9mFlKNaj0EtQoC9h",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015171858.648970_IN_webconnectivity_32d2e2f9dcdd5ab7",
+      "measurement_start_time": "2026-10-15T17:18:37.000000Z",
+      "measurement_uid": "20261015171858.648970_IN_webconnectivity_32d2e2f9dcdd5ab7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T171659Z_webconnectivity_IN_55836_n4_1WltlGsSTR7R6nDo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015171810.679142_IN_webconnectivity_111574dd606de3a8",
+      "measurement_start_time": "2026-10-15T17:18:06.000000Z",
+      "measurement_uid": "20261015171810.679142_IN_webconnectivity_111574dd606de3a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T140101Z_webconnectivity_IN_24560_n4_XHTd7VHQo0T7wL0c",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015140101.446909_IN_webconnectivity_d0daaba84824635b",
+      "measurement_start_time": "2026-10-15T14:00:56.000000Z",
+      "measurement_uid": "20261015140101.446909_IN_webconnectivity_d0daaba84824635b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T121440Z_webconnectivity_IN_55836_n4_Jhm8l2QXj9RGNzHh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015121440.720557_IN_webconnectivity_b0680ce6f3b6c5ee",
+      "measurement_start_time": "2026-10-15T12:14:20.000000Z",
+      "measurement_uid": "20261015121440.720557_IN_webconnectivity_b0680ce6f3b6c5ee",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T095240Z_webconnectivity_IN_24309_n4_wZ8Zz4YYK9LEPgXm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015095240.455045_IN_webconnectivity_949bf71f544be263",
+      "measurement_start_time": "2026-10-15T09:52:37.000000Z",
+      "measurement_uid": "20261015095240.455045_IN_webconnectivity_949bf71f544be263",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T080231Z_webconnectivity_IN_55836_n4_Cn6EkZNoJ4bfWEvf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015080231.924286_IN_webconnectivity_5822e3bf81667236",
+      "measurement_start_time": "2026-10-15T08:01:38.000000Z",
+      "measurement_uid": "20261015080231.924286_IN_webconnectivity_5822e3bf81667236",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015052921.068285_IN_webconnectivity_af20af3a49b4c01d",
+      "measurement_start_time": "2026-10-15T05:29:20.000000Z",
+      "measurement_uid": "20261015052921.068285_IN_webconnectivity_af20af3a49b4c01d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T050833Z_webconnectivity_IN_45609_n4_5htooZlPoSnZs3cT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015050833.584442_IN_webconnectivity_c07c6492929bec9c",
+      "measurement_start_time": "2026-10-15T05:07:59.000000Z",
+      "measurement_uid": "20261015050833.584442_IN_webconnectivity_c07c6492929bec9c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T033228Z_webconnectivity_IN_24560_n4_3JeZZUM3E3dIxAto",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015033229.003871_IN_webconnectivity_7c6952d75d38b503",
+      "measurement_start_time": "2026-10-15T03:31:44.000000Z",
+      "measurement_uid": "20261015033229.003871_IN_webconnectivity_7c6952d75d38b503",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T032913Z_webconnectivity_IN_24560_n4_oowm1XWF4NgXoXMM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015033112.327515_IN_webconnectivity_a03aec363a0aec5c",
+      "measurement_start_time": "2026-10-15T03:31:07.000000Z",
+      "measurement_uid": "20261015033112.327515_IN_webconnectivity_a03aec363a0aec5c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T231545Z_webconnectivity_IN_24560_n4_9gNNx6r3EgZKLuSJ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014231545.938682_IN_webconnectivity_febf491447025fa1",
+      "measurement_start_time": "2026-10-14T23:15:41.000000Z",
+      "measurement_uid": "20261014231545.938682_IN_webconnectivity_febf491447025fa1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T162104Z_webconnectivity_IN_55836_n4_Eo3YxgjOsDTVCQ07",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014162104.861388_IN_webconnectivity_06771b6a438d39db",
+      "measurement_start_time": "2026-10-14T16:21:00.000000Z",
+      "measurement_uid": "20261014162104.861388_IN_webconnectivity_06771b6a438d39db",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T160903Z_webconnectivity_IN_55836_n4_7Fv42XHuodVz7Zd7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014161902.025930_IN_webconnectivity_68351ce06497617b",
+      "measurement_start_time": "2026-10-14T16:19:01.000000Z",
+      "measurement_uid": "20261014161902.025930_IN_webconnectivity_68351ce06497617b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T155305Z_webconnectivity_IN_24560_n4_PlpSBwkVjB5c431S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014155356.280207_IN_webconnectivity_43fbd4b7594a6b0a",
+      "measurement_start_time": "2026-10-14T15:53:53.000000Z",
+      "measurement_uid": "20261014155356.280207_IN_webconnectivity_43fbd4b7594a6b0a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014145635.066288_IN_webconnectivity_e0b177f4fd50b31d",
+      "measurement_start_time": "2026-10-14T14:56:12.000000Z",
+      "measurement_uid": "20261014145635.066288_IN_webconnectivity_e0b177f4fd50b31d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014092622.085835_IN_webconnectivity_623acf40d6f5a66a",
+      "measurement_start_time": "2026-10-14T09:26:22.000000Z",
+      "measurement_uid": "20261014092622.085835_IN_webconnectivity_623acf40d6f5a66a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.newgrounds.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T090605Z_webconnectivity_IN_24560_n4_UKc7nm5YtHM9yHCn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014091027.343257_IN_webconnectivity_08d5cc9211288e68",
+      "measurement_start_time": "2026-10-14T09:10:25.000000Z",
+      "measurement_uid": "20261014091027.343257_IN_webconnectivity_08d5cc9211288e68",
+      "verification_status": "unverified"
+    }
+  ]
+}

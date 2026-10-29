@@ -1,0 +1,4291 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 1.3882670402526855
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250915T090551Z_webconnectivity_IN_138754_n4_kI5JulriUPWapAfv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915091311.165245_IN_webconnectivity_5250563fec8bb805",
+      "measurement_start_time": "2025-09-15T09:13:08.000000Z",
+      "measurement_uid": "20250915091311.165245_IN_webconnectivity_5250563fec8bb805",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915064424.728071_IN_webconnectivity_61e22b623a60a827",
+      "measurement_start_time": "2025-09-15T06:44:24.000000Z",
+      "measurement_uid": "20250915064424.728071_IN_webconnectivity_61e22b623a60a827",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250915T050246Z_webconnectivity_IN_134375_n4_tNJ1AR8kELRyeDJp",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915050534.471445_IN_webconnectivity_2f786292075caad7",
+      "measurement_start_time": "2025-09-15T05:05:31.000000Z",
+      "measurement_uid": "20250915050534.471445_IN_webconnectivity_2f786292075caad7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250915T034124Z_webconnectivity_IN_45820_n4_SXt87HLKhdAEzB4x",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915034417.659058_IN_webconnectivity_c125b7bccdde1c4a",
+      "measurement_start_time": "2025-09-15T03:44:14.000000Z",
+      "measurement_uid": "20250915034417.659058_IN_webconnectivity_c125b7bccdde1c4a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915021951.671341_IN_webconnectivity_cd5d8b57d99bb8c1",
+      "measurement_start_time": "2025-09-15T02:19:06.000000Z",
+      "measurement_uid": "20250915021951.671341_IN_webconnectivity_cd5d8b57d99bb8c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915020150.004728_IN_webconnectivity_816b03a147221ad3",
+      "measurement_start_time": "2025-09-15T02:01:33.000000Z",
+      "measurement_uid": "20250915020150.004728_IN_webconnectivity_816b03a147221ad3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T054246Z_webconnectivity_IN_55836_n4_4OR3SdV2ASdl44Nm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914150021.225090_IN_webconnectivity_a9a73d05da37c3db",
+      "measurement_start_time": "2025-09-14T14:59:20.000000Z",
+      "measurement_uid": "20250914150021.225090_IN_webconnectivity_a9a73d05da37c3db",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250914T122426Z_webconnectivity_IN_45769_n4_ibolKyqTJUVJRntT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914122942.657390_IN_webconnectivity_2664f165b774c07d",
+      "measurement_start_time": "2025-09-14T12:29:37.000000Z",
+      "measurement_uid": "20250914122942.657390_IN_webconnectivity_2664f165b774c07d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250914T075551Z_webconnectivity_IN_17488_n4_ojqlhsYqNnWfmqm6",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914075928.832243_IN_webconnectivity_07984a8edd35c2c8",
+      "measurement_start_time": "2025-09-14T07:59:27.000000Z",
+      "measurement_uid": "20250914075928.832243_IN_webconnectivity_07984a8edd35c2c8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914061449.691128_IN_webconnectivity_4b97027ce4e9b526",
+      "measurement_start_time": "2025-09-14T06:14:48.000000Z",
+      "measurement_uid": "20250914061449.691128_IN_webconnectivity_4b97027ce4e9b526",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914020238.908528_IN_webconnectivity_f53e8f8039055847",
+      "measurement_start_time": "2025-09-14T02:02:23.000000Z",
+      "measurement_uid": "20250914020238.908528_IN_webconnectivity_f53e8f8039055847",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250914T011942Z_webconnectivity_IN_9829_n4_wDqSgpvHIIHo47z3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914012221.772426_IN_webconnectivity_593835b791770840",
+      "measurement_start_time": "2025-09-14T01:22:16.000000Z",
+      "measurement_uid": "20250914012221.772426_IN_webconnectivity_593835b791770840",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914011846.152006_IN_webconnectivity_e03ae21f738de25c",
+      "measurement_start_time": "2025-09-14T01:18:00.000000Z",
+      "measurement_uid": "20250914011846.152006_IN_webconnectivity_e03ae21f738de25c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250913T183903Z_webconnectivity_IN_134540_n4_ovJUqN1EFxK80Iz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913184230.594246_IN_webconnectivity_c43de7adfa09786d",
+      "measurement_start_time": "2025-09-13T18:42:24.000000Z",
+      "measurement_uid": "20250913184230.594246_IN_webconnectivity_c43de7adfa09786d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913162222.682438_IN_webconnectivity_a0c81ca7168da71a",
+      "measurement_start_time": "2025-09-13T16:21:36.000000Z",
+      "measurement_uid": "20250913162222.682438_IN_webconnectivity_a0c81ca7168da71a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913070006.448416_IN_webconnectivity_38535d2abc3c7607",
+      "measurement_start_time": "2025-09-13T07:00:05.000000Z",
+      "measurement_uid": "20250913070006.448416_IN_webconnectivity_38535d2abc3c7607",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913015802.037761_IN_webconnectivity_74b981450ae8e466",
+      "measurement_start_time": "2025-09-13T01:57:46.000000Z",
+      "measurement_uid": "20250913015802.037761_IN_webconnectivity_74b981450ae8e466",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913015351.149595_IN_webconnectivity_b437d3b9338ece82",
+      "measurement_start_time": "2025-09-13T01:53:05.000000Z",
+      "measurement_uid": "20250913015351.149595_IN_webconnectivity_b437d3b9338ece82",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134022",
+      "probe_cc": "IN",
+      "report_id": "20250912T105419Z_webconnectivity_IN_134022_n4_rhlEiq6uQjH3Cn96",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_1",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912110058.427467_IN_webconnectivity_9d988619e3845d99",
+      "measurement_start_time": "2025-09-12T11:00:56.000000Z",
+      "measurement_uid": "20250912110058.427467_IN_webconnectivity_9d988619e3845d99",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912072326.846512_IN_webconnectivity_d2facffd7ae60e29",
+      "measurement_start_time": "2025-09-12T07:23:25.000000Z",
+      "measurement_uid": "20250912072326.846512_IN_webconnectivity_d2facffd7ae60e29",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250912T050033Z_webconnectivity_IN_55577_n4_A4l93t5ZcoS89rA5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912050047.040659_IN_webconnectivity_97d53cffdb226914",
+      "measurement_start_time": "2025-09-12T05:00:46.000000Z",
+      "measurement_uid": "20250912050047.040659_IN_webconnectivity_97d53cffdb226914",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250912T045051Z_webconnectivity_IN_55577_n4_D4V6g7dAjMi2Iltf",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912045657.784823_IN_webconnectivity_7e47540fbac3c6a0",
+      "measurement_start_time": "2025-09-12T04:56:57.000000Z",
+      "measurement_uid": "20250912045657.784823_IN_webconnectivity_7e47540fbac3c6a0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS135799",
+      "probe_cc": "IN",
+      "report_id": "20250911T182925Z_webconnectivity_IN_135799_n4_ts3IjBFMUIZcgP8z",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911183732.858464_IN_webconnectivity_560d9e8eb03a2d45",
+      "measurement_start_time": "2025-09-11T18:37:29.000000Z",
+      "measurement_uid": "20250911183732.858464_IN_webconnectivity_560d9e8eb03a2d45",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250911T171759Z_webconnectivity_IN_24560_n4_coJEd2aoFMQukTA2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911172439.829023_IN_webconnectivity_06dc45baebf28290",
+      "measurement_start_time": "2025-09-11T17:23:54.000000Z",
+      "measurement_uid": "20250911172439.829023_IN_webconnectivity_06dc45baebf28290",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911071230.295051_IN_webconnectivity_7602779194a70d26",
+      "measurement_start_time": "2025-09-11T07:12:28.000000Z",
+      "measurement_uid": "20250911071230.295051_IN_webconnectivity_7602779194a70d26",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911025853.960553_IN_webconnectivity_436a4d12ff523ac9",
+      "measurement_start_time": "2025-09-11T02:58:08.000000Z",
+      "measurement_uid": "20250911025853.960553_IN_webconnectivity_436a4d12ff523ac9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911015957.606950_IN_webconnectivity_e0332e002fc602f6",
+      "measurement_start_time": "2025-09-11T01:59:41.000000Z",
+      "measurement_uid": "20250911015957.606950_IN_webconnectivity_e0332e002fc602f6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143659Z_webconnectivity_IN_55836_n1_0nJipok9TmzClLVs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910091905.965613_IN_webconnectivity_8c9c358f5c057bd8",
+      "measurement_start_time": "2025-09-10T09:18:05.000000Z",
+      "measurement_uid": "20250910091905.965613_IN_webconnectivity_8c9c358f5c057bd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143733Z_webconnectivity_IN_55836_n1_VI57udlEF336T3C2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910091905.879137_IN_webconnectivity_f0b98b625c99b846",
+      "measurement_start_time": "2025-09-10T09:18:04.000000Z",
+      "measurement_uid": "20250910091905.879137_IN_webconnectivity_f0b98b625c99b846",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910090636.544958_IN_webconnectivity_ef29e5918c7dcfbc",
+      "measurement_start_time": "2025-09-10T09:06:29.000000Z",
+      "measurement_uid": "20250910090636.544958_IN_webconnectivity_ef29e5918c7dcfbc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910071409.706078_IN_webconnectivity_4f0984b573b32e5d",
+      "measurement_start_time": "2025-09-10T07:14:08.000000Z",
+      "measurement_uid": "20250910071409.706078_IN_webconnectivity_4f0984b573b32e5d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910032448.043206_IN_webconnectivity_a786255eaa27cf6e",
+      "measurement_start_time": "2025-09-10T03:24:42.000000Z",
+      "measurement_uid": "20250910032448.043206_IN_webconnectivity_a786255eaa27cf6e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910024555.868739_IN_webconnectivity_ff736a0b25703655",
+      "measurement_start_time": "2025-09-10T02:45:10.000000Z",
+      "measurement_uid": "20250910024555.868739_IN_webconnectivity_ff736a0b25703655",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910020714.818793_IN_webconnectivity_ca68963e1d289028",
+      "measurement_start_time": "2025-09-10T02:07:02.000000Z",
+      "measurement_uid": "20250910020714.818793_IN_webconnectivity_ca68963e1d289028",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910015739.710558_IN_webconnectivity_c28a5326ee2cf617",
+      "measurement_start_time": "2025-09-10T01:57:23.000000Z",
+      "measurement_uid": "20250910015739.710558_IN_webconnectivity_c28a5326ee2cf617",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20250910T014246Z_webconnectivity_IN_9498_n1_cknLpbt56i2nH2jq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910014348.245731_IN_webconnectivity_a028c087910c72e3",
+      "measurement_start_time": "2025-09-10T01:43:43.000000Z",
+      "measurement_uid": "20250910014348.245731_IN_webconnectivity_a028c087910c72e3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909220643.553571_IN_webconnectivity_ea6885b1208fe7cc",
+      "measurement_start_time": "2025-09-09T22:06:37.000000Z",
+      "measurement_uid": "20250909220643.553571_IN_webconnectivity_ea6885b1208fe7cc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250909T190706Z_webconnectivity_IN_138754_n1_x7XGredGKtoHolob",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909191603.155012_IN_webconnectivity_910b2417042bc99e",
+      "measurement_start_time": "2025-09-09T19:16:00.000000Z",
+      "measurement_uid": "20250909191603.155012_IN_webconnectivity_910b2417042bc99e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909120919.911850_IN_webconnectivity_656cf5a18df689ef",
+      "measurement_start_time": "2025-09-09T12:09:18.000000Z",
+      "measurement_uid": "20250909120919.911850_IN_webconnectivity_656cf5a18df689ef",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250909T045355Z_webconnectivity_IN_24560_n1_uBPzPOFaoBv0SoNr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909051507.316933_IN_webconnectivity_b0115475160764bf",
+      "measurement_start_time": "2025-09-09T05:14:56.000000Z",
+      "measurement_uid": "20250909051507.316933_IN_webconnectivity_b0115475160764bf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909035555.039114_IN_webconnectivity_eb4b916896116351",
+      "measurement_start_time": "2025-09-09T03:55:00.000000Z",
+      "measurement_uid": "20250909035555.039114_IN_webconnectivity_eb4b916896116351",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909020001.290401_IN_webconnectivity_8f24aac72c041f47",
+      "measurement_start_time": "2025-09-09T01:59:45.000000Z",
+      "measurement_uid": "20250909020001.290401_IN_webconnectivity_8f24aac72c041f47",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250908T230722Z_webconnectivity_IN_63949_n1_2lWCwko4ULdJ2Kio",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908233935.943263_IN_webconnectivity_fba0204b958dd3e3",
+      "measurement_start_time": "2025-09-08T23:39:26.000000Z",
+      "measurement_uid": "20250908233935.943263_IN_webconnectivity_fba0204b958dd3e3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS135780",
+      "probe_cc": "IN",
+      "report_id": "20250908T211245Z_webconnectivity_IN_135780_n1_44LwIAtMd5awjXSZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908212108.308508_IN_webconnectivity_5e61d6258814092b",
+      "measurement_start_time": "2025-09-08T21:21:02.000000Z",
+      "measurement_uid": "20250908212108.308508_IN_webconnectivity_5e61d6258814092b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908165155.565628_IN_webconnectivity_e64eb92824621553",
+      "measurement_start_time": "2025-09-08T16:51:51.000000Z",
+      "measurement_uid": "20250908165155.565628_IN_webconnectivity_e64eb92824621553",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250908T140609Z_webconnectivity_IN_55577_n1_7XxtsesELOx1ojR8",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908141314.482691_IN_webconnectivity_d75d706857d6f38f",
+      "measurement_start_time": "2025-09-08T14:13:06.000000Z",
+      "measurement_uid": "20250908141314.482691_IN_webconnectivity_d75d706857d6f38f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908070604.192437_IN_webconnectivity_f925152ce538326b",
+      "measurement_start_time": "2025-09-08T07:06:03.000000Z",
+      "measurement_uid": "20250908070604.192437_IN_webconnectivity_f925152ce538326b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20250908T050644Z_webconnectivity_IN_18209_n1_06M1FeMGVhrckxbH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908050702.676735_IN_webconnectivity_5bae9a8b176e38ff",
+      "measurement_start_time": "2025-09-08T05:07:00.000000Z",
+      "measurement_uid": "20250908050702.676735_IN_webconnectivity_5bae9a8b176e38ff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T202245Z_webconnectivity_IN_55836_n1_jPEyCn4Sm2YohTbE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908031728.041684_IN_webconnectivity_ec3aaf2b42c2f2ee",
+      "measurement_start_time": "2025-09-08T03:16:23.000000Z",
+      "measurement_uid": "20250908031728.041684_IN_webconnectivity_ec3aaf2b42c2f2ee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908014217.361579_IN_webconnectivity_71bf2a9fc52a3269",
+      "measurement_start_time": "2025-09-08T01:42:01.000000Z",
+      "measurement_uid": "20250908014217.361579_IN_webconnectivity_71bf2a9fc52a3269",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T234518Z_webconnectivity_IN_55836_n1_qL7LkfORsQEoBpqX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907235259.322421_IN_webconnectivity_89d056438dfcfbd1",
+      "measurement_start_time": "2025-09-07T23:51:59.000000Z",
+      "measurement_uid": "20250907235259.322421_IN_webconnectivity_89d056438dfcfbd1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T234308Z_webconnectivity_IN_55836_n1_UOr7hHbNlM8ahQ6O",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907235144.671353_IN_webconnectivity_39501e2065ebe976",
+      "measurement_start_time": "2025-09-07T23:50:43.000000Z",
+      "measurement_uid": "20250907235144.671353_IN_webconnectivity_39501e2065ebe976",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907234824.901051_IN_webconnectivity_f148daa4f8c5677f",
+      "measurement_start_time": "2025-09-07T23:47:39.000000Z",
+      "measurement_uid": "20250907234824.901051_IN_webconnectivity_f148daa4f8c5677f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T173315Z_webconnectivity_IN_24560_n1_dbgpBSP1NNoqhQus",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907173922.185169_IN_webconnectivity_ce0dd7de32abc4a0",
+      "measurement_start_time": "2025-09-07T17:38:37.000000Z",
+      "measurement_uid": "20250907173922.185169_IN_webconnectivity_ce0dd7de32abc4a0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T142251Z_webconnectivity_IN_24309_n1_xMPo4FxVkNnR9X33",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907170430.697723_IN_webconnectivity_7694aaec30b5f8df",
+      "measurement_start_time": "2025-09-07T17:04:15.000000Z",
+      "measurement_uid": "20250907170430.697723_IN_webconnectivity_7694aaec30b5f8df",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907064606.699244_IN_webconnectivity_d1f3c6bb72ab42d0",
+      "measurement_start_time": "2025-09-07T06:46:05.000000Z",
+      "measurement_uid": "20250907064606.699244_IN_webconnectivity_d1f3c6bb72ab42d0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907032828.189499_IN_webconnectivity_6c0432f19292588e",
+      "measurement_start_time": "2025-09-07T03:27:42.000000Z",
+      "measurement_uid": "20250907032828.189499_IN_webconnectivity_6c0432f19292588e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138730",
+      "probe_cc": "IN",
+      "report_id": "20250906T225455Z_webconnectivity_IN_138730_n1_PDb8ZDVkIX9wogio",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906225602.019138_IN_webconnectivity_dcac5a00a059bcda",
+      "measurement_start_time": "2025-09-06T22:56:00.000000Z",
+      "measurement_uid": "20250906225602.019138_IN_webconnectivity_dcac5a00a059bcda",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906070921.239386_IN_webconnectivity_aaa8995cf5177409",
+      "measurement_start_time": "2025-09-06T07:09:20.000000Z",
+      "measurement_uid": "20250906070921.239386_IN_webconnectivity_aaa8995cf5177409",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250906T050744Z_webconnectivity_IN_138754_n1_uZwRlz3QEFRdtYSk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906051722.776544_IN_webconnectivity_fda57574496d3dac",
+      "measurement_start_time": "2025-09-06T05:17:17.000000Z",
+      "measurement_uid": "20250906051722.776544_IN_webconnectivity_fda57574496d3dac",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906022518.999631_IN_webconnectivity_470a310ffa467f30",
+      "measurement_start_time": "2025-09-06T02:24:33.000000Z",
+      "measurement_uid": "20250906022518.999631_IN_webconnectivity_470a310ffa467f30",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906021221.917126_IN_webconnectivity_610357f3879ea812",
+      "measurement_start_time": "2025-09-06T02:12:05.000000Z",
+      "measurement_uid": "20250906021221.917126_IN_webconnectivity_610357f3879ea812",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250905T214329Z_webconnectivity_IN_24560_n1_zv1alZRpsZKx4e9o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905214423.881982_IN_webconnectivity_e7725942ad1797af",
+      "measurement_start_time": "2025-09-05T21:44:18.000000Z",
+      "measurement_uid": "20250905214423.881982_IN_webconnectivity_e7725942ad1797af",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250905T182754Z_webconnectivity_IN_45609_n1_4lZ5kd06Y63mCsgv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905190435.706635_IN_webconnectivity_e02e95654b40b3f9",
+      "measurement_start_time": "2025-09-05T19:04:29.000000Z",
+      "measurement_uid": "20250905190435.706635_IN_webconnectivity_e02e95654b40b3f9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905060859.025091_IN_webconnectivity_fb3ff4dcc9f59079",
+      "measurement_start_time": "2025-09-05T06:08:58.000000Z",
+      "measurement_uid": "20250905060859.025091_IN_webconnectivity_fb3ff4dcc9f59079",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS132296",
+      "probe_cc": "IN",
+      "report_id": "20250905T040811Z_webconnectivity_IN_132296_n1_RzXOKXXqqvwyk9Vy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905041139.090377_IN_webconnectivity_a268ba8979abe402",
+      "measurement_start_time": "2025-09-05T04:11:33.000000Z",
+      "measurement_uid": "20250905041139.090377_IN_webconnectivity_a268ba8979abe402",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905021233.756715_IN_webconnectivity_fe8392b94f7031aa",
+      "measurement_start_time": "2025-09-05T02:11:48.000000Z",
+      "measurement_uid": "20250905021233.756715_IN_webconnectivity_fe8392b94f7031aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS136664",
+      "probe_cc": "IN",
+      "report_id": "20250904T104046Z_webconnectivity_IN_136664_n1_f6AHooGauSuRnZbp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904104832.798478_IN_webconnectivity_c9dbb7e7e930a56a",
+      "measurement_start_time": "2025-09-04T10:48:26.000000Z",
+      "measurement_uid": "20250904104832.798478_IN_webconnectivity_c9dbb7e7e930a56a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075424Z_webconnectivity_IN_55836_n1_UY5ToQn9ZLWGzETY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904093846.009914_IN_webconnectivity_d4bbd5f4ec911ce0",
+      "measurement_start_time": "2025-09-04T09:37:48.000000Z",
+      "measurement_uid": "20250904093846.009914_IN_webconnectivity_d4bbd5f4ec911ce0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075000Z_webconnectivity_IN_55836_n1_urLrsisw4MrDHIh7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904093700.404413_IN_webconnectivity_60202141f537fd01",
+      "measurement_start_time": "2025-09-04T09:36:02.000000Z",
+      "measurement_uid": "20250904093700.404413_IN_webconnectivity_60202141f537fd01",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904053650.482010_IN_webconnectivity_ecd494a93aeb119f",
+      "measurement_start_time": "2025-09-04T05:36:49.000000Z",
+      "measurement_uid": "20250904053650.482010_IN_webconnectivity_ecd494a93aeb119f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20250904T031932Z_webconnectivity_IN_132116_n1_FNGhm6gAQ5oTNIoe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904032459.673250_IN_webconnectivity_c13683b3e4ea24d7",
+      "measurement_start_time": "2025-09-04T03:24:57.000000Z",
+      "measurement_uid": "20250904032459.673250_IN_webconnectivity_c13683b3e4ea24d7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250903T232637Z_webconnectivity_IN_24560_n1_QspFDkXajlsCZzlX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903233432.876070_IN_webconnectivity_de9cb86839d879e5",
+      "measurement_start_time": "2025-09-03T23:33:49.000000Z",
+      "measurement_uid": "20250903233432.876070_IN_webconnectivity_de9cb86839d879e5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T203043Z_webconnectivity_IN_55836_n1_8fjL4UKksVWeID0Y",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903203224.337673_IN_webconnectivity_c9d1d2d6f8eaac8f",
+      "measurement_start_time": "2025-09-03T20:31:24.000000Z",
+      "measurement_uid": "20250903203224.337673_IN_webconnectivity_c9d1d2d6f8eaac8f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS139555",
+      "probe_cc": "IN",
+      "report_id": "20250903T155614Z_webconnectivity_IN_139555_n1_9sDg3ZPASj4SkOyw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903160922.478693_IN_webconnectivity_a72b1bdba14248ee",
+      "measurement_start_time": "2025-09-03T16:09:10.000000Z",
+      "measurement_uid": "20250903160922.478693_IN_webconnectivity_a72b1bdba14248ee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250903T082419Z_webconnectivity_IN_45820_n1_TapZlq7s3QbMHjQM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903083016.369400_IN_webconnectivity_bba3057a134b4888",
+      "measurement_start_time": "2025-09-03T08:30:13.000000Z",
+      "measurement_uid": "20250903083016.369400_IN_webconnectivity_bba3057a134b4888",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903041155.895406_IN_webconnectivity_2d30ba3778811ea8",
+      "measurement_start_time": "2025-09-03T04:11:55.000000Z",
+      "measurement_uid": "20250903041155.895406_IN_webconnectivity_2d30ba3778811ea8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903020044.734219_IN_webconnectivity_6a6350396cb8b501",
+      "measurement_start_time": "2025-09-03T02:00:29.000000Z",
+      "measurement_uid": "20250903020044.734219_IN_webconnectivity_6a6350396cb8b501",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250902T221254Z_webconnectivity_IN_45916_n1_4GFmUVQhp0NBa8Sz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902222137.210239_IN_webconnectivity_aab6a6d62d76de83",
+      "measurement_start_time": "2025-09-02T22:21:14.000000Z",
+      "measurement_uid": "20250902222137.210239_IN_webconnectivity_aab6a6d62d76de83",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250902T172927Z_webconnectivity_IN_17488_n1_s9tx1FE3Bo5Cbu2L",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902173912.936825_IN_webconnectivity_9d96371b2baca23e",
+      "measurement_start_time": "2025-09-02T17:39:11.000000Z",
+      "measurement_uid": "20250902173912.936825_IN_webconnectivity_9d96371b2baca23e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20250902T102949Z_webconnectivity_IN_55824_n1_3HTZonQSxnpShy6M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902103135.261350_IN_webconnectivity_fd6409fc86ea92df",
+      "measurement_start_time": "2025-09-02T10:31:34.000000Z",
+      "measurement_uid": "20250902103135.261350_IN_webconnectivity_fd6409fc86ea92df",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250902T095354Z_webconnectivity_IN_134375_n1_1nsJYtUR9oQjbxlt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902100401.129374_IN_webconnectivity_2676ff5c8b470dee",
+      "measurement_start_time": "2025-09-02T10:03:58.000000Z",
+      "measurement_uid": "20250902100401.129374_IN_webconnectivity_2676ff5c8b470dee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902043226.825475_IN_webconnectivity_9cf0d47d79166487",
+      "measurement_start_time": "2025-09-02T04:32:26.000000Z",
+      "measurement_uid": "20250902043226.825475_IN_webconnectivity_9cf0d47d79166487",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250902T033429Z_webconnectivity_IN_9829_n1_qj841bgCkmyVK8Mf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902033634.344976_IN_webconnectivity_d86cddf084fe2a70",
+      "measurement_start_time": "2025-09-02T03:36:27.000000Z",
+      "measurement_uid": "20250902033634.344976_IN_webconnectivity_d86cddf084fe2a70",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902020341.716616_IN_webconnectivity_0dd4f72b63d3177c",
+      "measurement_start_time": "2025-09-02T02:03:26.000000Z",
+      "measurement_uid": "20250902020341.716616_IN_webconnectivity_0dd4f72b63d3177c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250901T181006Z_webconnectivity_IN_138754_n1_ytO220kxtbKOAxE4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901182030.826286_IN_webconnectivity_f97133a36def8301",
+      "measurement_start_time": "2025-09-01T18:20:29.000000Z",
+      "measurement_uid": "20250901182030.826286_IN_webconnectivity_f97133a36def8301",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T143745Z_webconnectivity_IN_24309_n1_Q0lPaw8EPx7IfMQR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901144359.611800_IN_webconnectivity_b3ae77c3c128ad4c",
+      "measurement_start_time": "2025-09-01T14:43:58.000000Z",
+      "measurement_uid": "20250901144359.611800_IN_webconnectivity_b3ae77c3c128ad4c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250901T125942Z_webconnectivity_IN_134540_n1_DgpU7uoMtCHXkyrX",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901130437.996463_IN_webconnectivity_603e5bafa7019cb5",
+      "measurement_start_time": "2025-09-01T13:04:34.000000Z",
+      "measurement_uid": "20250901130437.996463_IN_webconnectivity_603e5bafa7019cb5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250901T120835Z_webconnectivity_IN_24560_n1_4VaJfYAGJxbjZyV6",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901121639.235067_IN_webconnectivity_8ef8ec3c4325f8ee",
+      "measurement_start_time": "2025-09-01T12:16:09.000000Z",
+      "measurement_uid": "20250901121639.235067_IN_webconnectivity_8ef8ec3c4325f8ee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170155Z_webconnectivity_IN_55836_n1_govj7QXR0N5zIfoP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901115347.376109_IN_webconnectivity_065c847d5b008c87",
+      "measurement_start_time": "2025-09-01T11:53:01.000000Z",
+      "measurement_uid": "20250901115347.376109_IN_webconnectivity_065c847d5b008c87",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170149Z_webconnectivity_IN_55836_n1_TEhr7GRQeWKZeIkW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901115401.809172_IN_webconnectivity_27cc9a0029dc1438",
+      "measurement_start_time": "2025-09-01T11:53:00.000000Z",
+      "measurement_uid": "20250901115401.809172_IN_webconnectivity_27cc9a0029dc1438",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250901T110135Z_webconnectivity_IN_55577_n1_zgVV0tXh738wvvvh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901110513.676273_IN_webconnectivity_2271a31f75eb7e9d",
+      "measurement_start_time": "2025-09-01T11:05:14.000000Z",
+      "measurement_uid": "20250901110513.676273_IN_webconnectivity_2271a31f75eb7e9d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250901T105753Z_webconnectivity_IN_55577_n1_YowvaCHTVbhJoT5o",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901110124.163324_IN_webconnectivity_015a40e6d3352f25",
+      "measurement_start_time": "2025-09-01T11:01:23.000000Z",
+      "measurement_uid": "20250901110124.163324_IN_webconnectivity_015a40e6d3352f25",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T100447Z_webconnectivity_IN_55836_n1_Com0jWOM19bEHp8V",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901101239.178142_IN_webconnectivity_52ce1d40ec0cd4f5",
+      "measurement_start_time": "2025-09-01T10:11:38.000000Z",
+      "measurement_uid": "20250901101239.178142_IN_webconnectivity_52ce1d40ec0cd4f5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250901T060550Z_webconnectivity_IN_134540_n1_aP9uoPxNoO80ChFB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901061004.230784_IN_webconnectivity_13cc3d69770fdebd",
+      "measurement_start_time": "2025-09-01T06:10:00.000000Z",
+      "measurement_uid": "20250901061004.230784_IN_webconnectivity_13cc3d69770fdebd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901042757.498482_IN_webconnectivity_8065693bfb7dbb70",
+      "measurement_start_time": "2025-09-01T04:27:56.000000Z",
+      "measurement_uid": "20250901042757.498482_IN_webconnectivity_8065693bfb7dbb70",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T014029Z_webconnectivity_IN_55836_n1_PGOMjRPcAvzm6Pt5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901014615.326394_IN_webconnectivity_4127978ec5cf461d",
+      "measurement_start_time": "2025-09-01T01:45:29.000000Z",
+      "measurement_uid": "20250901014615.326394_IN_webconnectivity_4127978ec5cf461d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250901T010316Z_webconnectivity_IN_45916_n1_H69g4GN7XgktarG2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901010932.198988_IN_webconnectivity_0ddcfaec9fe53a95",
+      "measurement_start_time": "2025-09-01T01:09:09.000000Z",
+      "measurement_uid": "20250901010932.198988_IN_webconnectivity_0ddcfaec9fe53a95",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T000624Z_webconnectivity_IN_24309_n1_RSGJNPt60BjL3e2n",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901001155.006855_IN_webconnectivity_79cfc5e055212ffd",
+      "measurement_start_time": "2025-09-01T00:11:53.000000Z",
+      "measurement_uid": "20250901001155.006855_IN_webconnectivity_79cfc5e055212ffd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T233515Z_webconnectivity_IN_138754_n1_tIqkHpfoGOvDX4rf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831233709.479241_IN_webconnectivity_9a65d0c41e2e7874",
+      "measurement_start_time": "2025-08-31T23:37:07.000000Z",
+      "measurement_uid": "20250831233709.479241_IN_webconnectivity_9a65d0c41e2e7874",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250831T215602Z_webconnectivity_IN_24560_n1_U9bgMSTIZQjnr37k",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831220150.838096_IN_webconnectivity_0911ffd90d6b188d",
+      "measurement_start_time": "2025-08-31T22:01:46.000000Z",
+      "measurement_uid": "20250831220150.838096_IN_webconnectivity_0911ffd90d6b188d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250831T182601Z_webconnectivity_IN_24560_n1_2ZPyuqomu6uBtoCo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831182646.967311_IN_webconnectivity_1e2d5271df6fbb32",
+      "measurement_start_time": "2025-08-31T18:26:41.000000Z",
+      "measurement_uid": "20250831182646.967311_IN_webconnectivity_1e2d5271df6fbb32",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250831T165534Z_webconnectivity_IN_55577_n1_52A2hDLdRULrV9ab",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831165611.585580_IN_webconnectivity_ea41a2ac93f61617",
+      "measurement_start_time": "2025-08-31T16:56:06.000000Z",
+      "measurement_uid": "20250831165611.585580_IN_webconnectivity_ea41a2ac93f61617",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T151507Z_webconnectivity_IN_138754_n1_Rs05LhzrIi4nhD6f",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831152147.543964_IN_webconnectivity_9e3fe31526be2018",
+      "measurement_start_time": "2025-08-31T15:21:45.000000Z",
+      "measurement_uid": "20250831152147.543964_IN_webconnectivity_9e3fe31526be2018",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250831T104331Z_webconnectivity_IN_17488_n1_DtLrb6L8fmmW45oB",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831104605.569556_IN_webconnectivity_a3239345501b62aa",
+      "measurement_start_time": "2025-08-31T10:46:04.000000Z",
+      "measurement_uid": "20250831104605.569556_IN_webconnectivity_a3239345501b62aa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250831T100240Z_webconnectivity_IN_24309_n1_AKUm4wNcRTfeTjJ6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831100618.898628_IN_webconnectivity_98236fa6e01b4570",
+      "measurement_start_time": "2025-08-31T10:06:18.000000Z",
+      "measurement_uid": "20250831100618.898628_IN_webconnectivity_98236fa6e01b4570",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831043151.881482_IN_webconnectivity_17141241ef2a339c",
+      "measurement_start_time": "2025-08-31T04:31:51.000000Z",
+      "measurement_uid": "20250831043151.881482_IN_webconnectivity_17141241ef2a339c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T034545Z_webconnectivity_IN_55836_n1_56huBZFNBcubJFz3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831035301.741280_IN_webconnectivity_6e227858e1fe876e",
+      "measurement_start_time": "2025-08-31T03:52:15.000000Z",
+      "measurement_uid": "20250831035301.741280_IN_webconnectivity_6e227858e1fe876e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250831T002433Z_webconnectivity_IN_24309_n1_ebB51rAVLECTYtYF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831002930.599402_IN_webconnectivity_b4d329922c7b5b70",
+      "measurement_start_time": "2025-08-31T00:29:30.000000Z",
+      "measurement_uid": "20250831002930.599402_IN_webconnectivity_b4d329922c7b5b70",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS136336",
+      "probe_cc": "IN",
+      "report_id": "20250830T234303Z_webconnectivity_IN_136336_n1_MZYlm5iM8glFlM61",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830235334.282664_IN_webconnectivity_3d29e97e318bcf97",
+      "measurement_start_time": "2025-08-30T23:53:30.000000Z",
+      "measurement_uid": "20250830235334.282664_IN_webconnectivity_3d29e97e318bcf97",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250830T170318Z_webconnectivity_IN_9829_n1_S6aIWtIvqOl23WEW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830170558.188402_IN_webconnectivity_753b862f1feb1160",
+      "measurement_start_time": "2025-08-30T17:05:52.000000Z",
+      "measurement_uid": "20250830170558.188402_IN_webconnectivity_753b862f1feb1160",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T163347Z_webconnectivity_IN_138754_n1_y5o1o0alA8yAl8Td",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830164024.369538_IN_webconnectivity_0cf20abe8307f426",
+      "measurement_start_time": "2025-08-30T16:40:21.000000Z",
+      "measurement_uid": "20250830164024.369538_IN_webconnectivity_0cf20abe8307f426",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250830T104340Z_webconnectivity_IN_24560_n1_Q6v6ER7wJwwfqr2c",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830104534.916845_IN_webconnectivity_747f070011a0740a",
+      "measurement_start_time": "2025-08-30T10:44:50.000000Z",
+      "measurement_uid": "20250830104534.916845_IN_webconnectivity_747f070011a0740a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T102847Z_webconnectivity_IN_55836_n1_DINNix49ncswMuly",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830104340.017597_IN_webconnectivity_6242c4889388d72f",
+      "measurement_start_time": "2025-08-30T10:43:39.000000Z",
+      "measurement_uid": "20250830104340.017597_IN_webconnectivity_6242c4889388d72f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830043303.613979_IN_webconnectivity_e5e1b8fe73d02648",
+      "measurement_start_time": "2025-08-30T04:33:03.000000Z",
+      "measurement_uid": "20250830043303.613979_IN_webconnectivity_e5e1b8fe73d02648",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250830T030538Z_webconnectivity_IN_24309_n1_e7bvOOm9QZUBkUXq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830030629.401350_IN_webconnectivity_a523ba7471ac166e",
+      "measurement_start_time": "2025-08-30T03:06:13.000000Z",
+      "measurement_uid": "20250830030629.401350_IN_webconnectivity_a523ba7471ac166e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T003508Z_webconnectivity_IN_55836_n1_Y1T6AeYdwo2snjjE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830004401.129689_IN_webconnectivity_ccd0bdf651c0b63b",
+      "measurement_start_time": "2025-08-30T00:43:15.000000Z",
+      "measurement_uid": "20250830004401.129689_IN_webconnectivity_ccd0bdf651c0b63b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250829T234143Z_webconnectivity_IN_24560_n1_zYzskB5JxTMZRnS4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829234749.260547_IN_webconnectivity_2c8f5deb94460d95",
+      "measurement_start_time": "2025-08-29T23:47:45.000000Z",
+      "measurement_uid": "20250829234749.260547_IN_webconnectivity_2c8f5deb94460d95",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134326",
+      "probe_cc": "IN",
+      "report_id": "20250829T232037Z_webconnectivity_IN_134326_n1_cmydhpRJ8XhNA1Pu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829232553.644470_IN_webconnectivity_56ce2d390b938bcf",
+      "measurement_start_time": "2025-08-29T23:25:47.000000Z",
+      "measurement_uid": "20250829232553.644470_IN_webconnectivity_56ce2d390b938bcf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250829T155955Z_webconnectivity_IN_24560_n1_EFmtiNO1WIaOoyFS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829160725.624869_IN_webconnectivity_f917da0aacd0ee56",
+      "measurement_start_time": "2025-08-29T16:07:18.000000Z",
+      "measurement_uid": "20250829160725.624869_IN_webconnectivity_f917da0aacd0ee56",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T095131Z_webconnectivity_IN_55836_n1_zQsrf1VLmMm6chUr",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829100231.412970_IN_webconnectivity_55b58344375f2dba",
+      "measurement_start_time": "2025-08-29T10:01:33.000000Z",
+      "measurement_uid": "20250829100231.412970_IN_webconnectivity_55b58344375f2dba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250829T094001Z_webconnectivity_IN_45820_n1_5hEw57siM9UgH2A1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829094029.446803_IN_webconnectivity_93106d9b8048e9ca",
+      "measurement_start_time": "2025-08-29T09:40:27.000000Z",
+      "measurement_uid": "20250829094029.446803_IN_webconnectivity_93106d9b8048e9ca",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250829T081736Z_webconnectivity_IN_134375_n1_tqkPb7oP80dP7Vso",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829082225.482787_IN_webconnectivity_05913d2449450e57",
+      "measurement_start_time": "2025-08-29T08:22:22.000000Z",
+      "measurement_uid": "20250829082225.482787_IN_webconnectivity_05913d2449450e57",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829043038.989347_IN_webconnectivity_da0e5508fe53cd64",
+      "measurement_start_time": "2025-08-29T04:30:38.000000Z",
+      "measurement_uid": "20250829043038.989347_IN_webconnectivity_da0e5508fe53cd64",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134326",
+      "probe_cc": "IN",
+      "report_id": "20250829T032704Z_webconnectivity_IN_134326_n1_pTWvzdsodvY1RVLd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829033253.002439_IN_webconnectivity_bc622b430a8c6ee1",
+      "measurement_start_time": "2025-08-29T03:32:49.000000Z",
+      "measurement_uid": "20250829033253.002439_IN_webconnectivity_bc622b430a8c6ee1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T011643Z_webconnectivity_IN_55836_n1_09B6scNdCbCFtjab",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829012223.937851_IN_webconnectivity_92a85f05349bee0c",
+      "measurement_start_time": "2025-08-29T01:21:38.000000Z",
+      "measurement_uid": "20250829012223.937851_IN_webconnectivity_92a85f05349bee0c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828231257.317933_IN_webconnectivity_654aba06e793cb30",
+      "measurement_start_time": "2025-08-28T23:12:41.000000Z",
+      "measurement_uid": "20250828231257.317933_IN_webconnectivity_654aba06e793cb30",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T191341Z_webconnectivity_IN_24309_n1_hG3x7OaZBThhhZzv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828191919.520951_IN_webconnectivity_c1d87cdf160c2032",
+      "measurement_start_time": "2025-08-28T19:19:18.000000Z",
+      "measurement_uid": "20250828191919.520951_IN_webconnectivity_c1d87cdf160c2032",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250828T182607Z_webconnectivity_IN_134540_n1_HWwV8XCl21yfRoKn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828183206.405026_IN_webconnectivity_3a5665293f4db006",
+      "measurement_start_time": "2025-08-28T18:32:00.000000Z",
+      "measurement_uid": "20250828183206.405026_IN_webconnectivity_3a5665293f4db006",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250828T135006Z_webconnectivity_IN_55836_n1_BMEMQnqQvQRvHMGo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828135235.808101_IN_webconnectivity_4591eb0dedc3dc47",
+      "measurement_start_time": "2025-08-28T13:51:33.000000Z",
+      "measurement_uid": "20250828135235.808101_IN_webconnectivity_4591eb0dedc3dc47",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250828T133709Z_webconnectivity_IN_55836_n1_U9OYzoGlRpRN1FQ6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828133901.288496_IN_webconnectivity_80eff89cc4a3b098",
+      "measurement_start_time": "2025-08-28T13:39:01.000000Z",
+      "measurement_uid": "20250828133901.288496_IN_webconnectivity_80eff89cc4a3b098",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250828T105026Z_webconnectivity_IN_24560_n1_762gd2NpTiTkESws",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "tcp_ip"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828110713.551408_IN_webconnectivity_f853d163276a712f",
+      "measurement_start_time": "2025-08-28T11:06:17.000000Z",
+      "measurement_uid": "20250828110713.551408_IN_webconnectivity_f853d163276a712f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828100115.507723_IN_webconnectivity_a174b177e747fbe9",
+      "measurement_start_time": "2025-08-28T10:01:11.000000Z",
+      "measurement_uid": "20250828100115.507723_IN_webconnectivity_a174b177e747fbe9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250828T094939Z_webconnectivity_IN_45820_n1_aBMS1jjIXq9GXokM",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828095736.545471_IN_webconnectivity_ca49be1580275816",
+      "measurement_start_time": "2025-08-28T09:57:33.000000Z",
+      "measurement_uid": "20250828095736.545471_IN_webconnectivity_ca49be1580275816",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS17465",
+      "probe_cc": "IN",
+      "report_id": "20250828T051506Z_webconnectivity_IN_17465_n1_IAgLWCRZaWmoZLHs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828052115.427899_IN_webconnectivity_c339e989a23c182d",
+      "measurement_start_time": "2025-08-28T05:21:13.000000Z",
+      "measurement_uid": "20250828052115.427899_IN_webconnectivity_c339e989a23c182d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828042255.379340_IN_webconnectivity_917c4dcf7981fb12",
+      "measurement_start_time": "2025-08-28T04:22:54.000000Z",
+      "measurement_uid": "20250828042255.379340_IN_webconnectivity_917c4dcf7981fb12",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://sunonews.tv/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T034253Z_webconnectivity_IN_138754_n1_VgZAWPzPidBGRLnl",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828034737.095453_IN_webconnectivity_30888e76a0bd1a22",
+      "measurement_start_time": "2025-08-28T03:47:36.000000Z",
+      "measurement_uid": "20250828034737.095453_IN_webconnectivity_30888e76a0bd1a22",
+      "verification_status": "unverified"
+    }
+  ]
+}

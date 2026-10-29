@@ -1,0 +1,4423 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.3184483051300049
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250915T144652Z_webconnectivity_IN_138754_n4_vUNBQcLVVPOq9qPG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915144848.641808_IN_webconnectivity_0ba22ce8b413befb",
+      "measurement_start_time": "2025-09-15T14:48:46.000000Z",
+      "measurement_uid": "20250915144848.641808_IN_webconnectivity_0ba22ce8b413befb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915071629.599327_IN_webconnectivity_cc99fc5d51a88e3e",
+      "measurement_start_time": "2025-09-15T07:16:29.000000Z",
+      "measurement_uid": "20250915071629.599327_IN_webconnectivity_cc99fc5d51a88e3e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250915T050246Z_webconnectivity_IN_134375_n4_tNJ1AR8kELRyeDJp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915050602.589000_IN_webconnectivity_c76b5500f40b5d57",
+      "measurement_start_time": "2025-09-15T05:05:57.000000Z",
+      "measurement_uid": "20250915050602.589000_IN_webconnectivity_c76b5500f40b5d57",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250915T034124Z_webconnectivity_IN_45820_n4_SXt87HLKhdAEzB4x",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915034438.131739_IN_webconnectivity_a39f288495b24238",
+      "measurement_start_time": "2025-09-15T03:44:36.000000Z",
+      "measurement_uid": "20250915034438.131739_IN_webconnectivity_a39f288495b24238",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915022124.650973_IN_webconnectivity_e9287286a7cbaee5",
+      "measurement_start_time": "2025-09-15T02:20:39.000000Z",
+      "measurement_uid": "20250915022124.650973_IN_webconnectivity_e9287286a7cbaee5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915020224.680662_IN_webconnectivity_16f3c14990715525",
+      "measurement_start_time": "2025-09-15T02:02:09.000000Z",
+      "measurement_uid": "20250915020224.680662_IN_webconnectivity_16f3c14990715525",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T054246Z_webconnectivity_IN_55836_n4_4OR3SdV2ASdl44Nm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914150239.587299_IN_webconnectivity_be647097f155b4e8",
+      "measurement_start_time": "2025-09-14T15:01:38.000000Z",
+      "measurement_uid": "20250914150239.587299_IN_webconnectivity_be647097f155b4e8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250914T122426Z_webconnectivity_IN_45769_n4_ibolKyqTJUVJRntT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914123228.920313_IN_webconnectivity_5e7c6fbb3eaa3423",
+      "measurement_start_time": "2025-09-14T12:32:24.000000Z",
+      "measurement_uid": "20250914123228.920313_IN_webconnectivity_5e7c6fbb3eaa3423",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250914T075551Z_webconnectivity_IN_17488_n4_ojqlhsYqNnWfmqm6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914075945.622171_IN_webconnectivity_23d2a5b3c7d49ec0",
+      "measurement_start_time": "2025-09-14T07:59:44.000000Z",
+      "measurement_uid": "20250914075945.622171_IN_webconnectivity_23d2a5b3c7d49ec0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914070648.258775_IN_webconnectivity_dab602986375bfe1",
+      "measurement_start_time": "2025-09-14T07:06:47.000000Z",
+      "measurement_uid": "20250914070648.258775_IN_webconnectivity_dab602986375bfe1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250914T050008Z_webconnectivity_IN_138754_n4_wkWomRm4ByvaMXDM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914050153.880228_IN_webconnectivity_da95b0eb96dc895c",
+      "measurement_start_time": "2025-09-14T05:01:52.000000Z",
+      "measurement_uid": "20250914050153.880228_IN_webconnectivity_da95b0eb96dc895c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914020313.810440_IN_webconnectivity_c700bb8e0aa3011b",
+      "measurement_start_time": "2025-09-14T02:02:57.000000Z",
+      "measurement_uid": "20250914020313.810440_IN_webconnectivity_c700bb8e0aa3011b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250914T011942Z_webconnectivity_IN_9829_n4_wDqSgpvHIIHo47z3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914012246.465825_IN_webconnectivity_958df512405223e8",
+      "measurement_start_time": "2025-09-14T01:22:42.000000Z",
+      "measurement_uid": "20250914012246.465825_IN_webconnectivity_958df512405223e8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914012019.053402_IN_webconnectivity_e5c00bb2d2a51bf8",
+      "measurement_start_time": "2025-09-14T01:19:33.000000Z",
+      "measurement_uid": "20250914012019.053402_IN_webconnectivity_e5c00bb2d2a51bf8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250913T183903Z_webconnectivity_IN_134540_n4_ovJUqN1EFxK80Iz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913184545.843283_IN_webconnectivity_0fb2573d8bae8a40",
+      "measurement_start_time": "2025-09-13T18:45:42.000000Z",
+      "measurement_uid": "20250913184545.843283_IN_webconnectivity_0fb2573d8bae8a40",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913163151.430004_IN_webconnectivity_d51a05ca4c25fab4",
+      "measurement_start_time": "2025-09-13T16:31:05.000000Z",
+      "measurement_uid": "20250913163151.430004_IN_webconnectivity_d51a05ca4c25fab4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913064513.728833_IN_webconnectivity_94c4c18d125ba61b",
+      "measurement_start_time": "2025-09-13T06:45:12.000000Z",
+      "measurement_uid": "20250913064513.728833_IN_webconnectivity_94c4c18d125ba61b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913015836.951209_IN_webconnectivity_833345f8530720ca",
+      "measurement_start_time": "2025-09-13T01:58:21.000000Z",
+      "measurement_uid": "20250913015836.951209_IN_webconnectivity_833345f8530720ca",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913015533.417061_IN_webconnectivity_1cdb3deed67bb665",
+      "measurement_start_time": "2025-09-13T01:54:47.000000Z",
+      "measurement_uid": "20250913015533.417061_IN_webconnectivity_1cdb3deed67bb665",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134022",
+      "probe_cc": "IN",
+      "report_id": "20250912T171814Z_webconnectivity_IN_134022_n4_dCHvnNwn3rEIjGEr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912171949.065818_IN_webconnectivity_bd4429579c8a4f2a",
+      "measurement_start_time": "2025-09-12T17:19:44.000000Z",
+      "measurement_uid": "20250912171949.065818_IN_webconnectivity_bd4429579c8a4f2a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912070647.441748_IN_webconnectivity_276a1ddcad7c0fed",
+      "measurement_start_time": "2025-09-12T07:06:46.000000Z",
+      "measurement_uid": "20250912070647.441748_IN_webconnectivity_276a1ddcad7c0fed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250912T050033Z_webconnectivity_IN_55577_n4_A4l93t5ZcoS89rA5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912050339.043890_IN_webconnectivity_745deb008984dd21",
+      "measurement_start_time": "2025-09-12T05:03:24.000000Z",
+      "measurement_uid": "20250912050339.043890_IN_webconnectivity_745deb008984dd21",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS135799",
+      "probe_cc": "IN",
+      "report_id": "20250911T194441Z_webconnectivity_IN_135799_n4_qDnBF3KTp9lucsAO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911194629.101603_IN_webconnectivity_c4f2e54f9034d40c",
+      "measurement_start_time": "2025-09-11T19:46:22.000000Z",
+      "measurement_uid": "20250911194629.101603_IN_webconnectivity_c4f2e54f9034d40c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250911T171759Z_webconnectivity_IN_24560_n4_coJEd2aoFMQukTA2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911172811.471261_IN_webconnectivity_b8d49bed91b9dd4d",
+      "measurement_start_time": "2025-09-11T17:27:25.000000Z",
+      "measurement_uid": "20250911172811.471261_IN_webconnectivity_b8d49bed91b9dd4d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911065142.120375_IN_webconnectivity_f23b45a3e5704721",
+      "measurement_start_time": "2025-09-11T06:51:40.000000Z",
+      "measurement_uid": "20250911065142.120375_IN_webconnectivity_f23b45a3e5704721",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911030027.445303_IN_webconnectivity_ee16ee7b87262f14",
+      "measurement_start_time": "2025-09-11T02:59:42.000000Z",
+      "measurement_uid": "20250911030027.445303_IN_webconnectivity_ee16ee7b87262f14",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911020032.899082_IN_webconnectivity_0cfc2cb0bcd42001",
+      "measurement_start_time": "2025-09-11T02:00:17.000000Z",
+      "measurement_uid": "20250911020032.899082_IN_webconnectivity_0cfc2cb0bcd42001",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143659Z_webconnectivity_IN_55836_n1_0nJipok9TmzClLVs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910092123.789431_IN_webconnectivity_f54074b12a507d6d",
+      "measurement_start_time": "2025-09-10T09:20:23.000000Z",
+      "measurement_uid": "20250910092123.789431_IN_webconnectivity_f54074b12a507d6d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143733Z_webconnectivity_IN_55836_n1_VI57udlEF336T3C2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910092123.676402_IN_webconnectivity_33f063eef7cc4747",
+      "measurement_start_time": "2025-09-10T09:20:23.000000Z",
+      "measurement_uid": "20250910092123.676402_IN_webconnectivity_33f063eef7cc4747",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910090656.187527_IN_webconnectivity_af98a462be7c3790",
+      "measurement_start_time": "2025-09-10T09:06:53.000000Z",
+      "measurement_uid": "20250910090656.187527_IN_webconnectivity_af98a462be7c3790",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910065116.392834_IN_webconnectivity_e24d3615af043a71",
+      "measurement_start_time": "2025-09-10T06:51:15.000000Z",
+      "measurement_uid": "20250910065116.392834_IN_webconnectivity_e24d3615af043a71",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910032510.513381_IN_webconnectivity_d4d33a4d1248e646",
+      "measurement_start_time": "2025-09-10T03:25:05.000000Z",
+      "measurement_uid": "20250910032510.513381_IN_webconnectivity_d4d33a4d1248e646",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20250910T031722Z_webconnectivity_IN_9498_n1_7ODGcjtIzuIB0Z6R",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910031807.202698_IN_webconnectivity_0d0582ec9f3727f7",
+      "measurement_start_time": "2025-09-10T03:18:06.000000Z",
+      "measurement_uid": "20250910031807.202698_IN_webconnectivity_0d0582ec9f3727f7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910024728.873062_IN_webconnectivity_d939c8164e5af5df",
+      "measurement_start_time": "2025-09-10T02:46:43.000000Z",
+      "measurement_uid": "20250910024728.873062_IN_webconnectivity_d939c8164e5af5df",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910020731.093888_IN_webconnectivity_6d766522fd010efa",
+      "measurement_start_time": "2025-09-10T02:07:27.000000Z",
+      "measurement_uid": "20250910020731.093888_IN_webconnectivity_6d766522fd010efa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910015813.708826_IN_webconnectivity_6026c9ad9386cca4",
+      "measurement_start_time": "2025-09-10T01:57:58.000000Z",
+      "measurement_uid": "20250910015813.708826_IN_webconnectivity_6026c9ad9386cca4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909221002.568644_IN_webconnectivity_875f03c85a9ee795",
+      "measurement_start_time": "2025-09-09T22:09:58.000000Z",
+      "measurement_uid": "20250909221002.568644_IN_webconnectivity_875f03c85a9ee795",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250909T202638Z_webconnectivity_IN_138754_n1_KcHjr0oDK6kcm59A",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909202947.569831_IN_webconnectivity_afb39406d5696474",
+      "measurement_start_time": "2025-09-09T20:29:46.000000Z",
+      "measurement_uid": "20250909202947.569831_IN_webconnectivity_afb39406d5696474",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909113655.632785_IN_webconnectivity_4d258bc838f4c50b",
+      "measurement_start_time": "2025-09-09T11:36:54.000000Z",
+      "measurement_uid": "20250909113655.632785_IN_webconnectivity_4d258bc838f4c50b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250909T081737Z_webconnectivity_IN_24560_n1_XqApSZ1Z4yjgGYsW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909082132.264225_IN_webconnectivity_6990811db35e9744",
+      "measurement_start_time": "2025-09-09T08:20:55.000000Z",
+      "measurement_uid": "20250909082132.264225_IN_webconnectivity_6990811db35e9744",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909035756.793220_IN_webconnectivity_4b8c0e159918c52a",
+      "measurement_start_time": "2025-09-09T03:57:02.000000Z",
+      "measurement_uid": "20250909035756.793220_IN_webconnectivity_4b8c0e159918c52a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909020038.395267_IN_webconnectivity_76acca9d2dd0ddcd",
+      "measurement_start_time": "2025-09-09T02:00:22.000000Z",
+      "measurement_uid": "20250909020038.395267_IN_webconnectivity_76acca9d2dd0ddcd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250908T230722Z_webconnectivity_IN_63949_n1_2lWCwko4ULdJ2Kio",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908234556.734801_IN_webconnectivity_133dc7035c596891",
+      "measurement_start_time": "2025-09-08T23:45:49.000000Z",
+      "measurement_uid": "20250908234556.734801_IN_webconnectivity_133dc7035c596891",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS135780",
+      "probe_cc": "IN",
+      "report_id": "20250908T223309Z_webconnectivity_IN_135780_n1_vCV3o7NBoW23K3jp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908223657.711892_IN_webconnectivity_74d14a91f82782c1",
+      "measurement_start_time": "2025-09-08T22:36:48.000000Z",
+      "measurement_uid": "20250908223657.711892_IN_webconnectivity_74d14a91f82782c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908165804.344817_IN_webconnectivity_7db618beed3b697b",
+      "measurement_start_time": "2025-09-08T16:57:59.000000Z",
+      "measurement_uid": "20250908165804.344817_IN_webconnectivity_7db618beed3b697b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250908T145815Z_webconnectivity_IN_55577_n1_H2RjhhzDeLKhm4nj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908145939.914578_IN_webconnectivity_6998063f97f76df7",
+      "measurement_start_time": "2025-09-08T14:59:32.000000Z",
+      "measurement_uid": "20250908145939.914578_IN_webconnectivity_6998063f97f76df7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908062952.814075_IN_webconnectivity_faefa22c688aa8e6",
+      "measurement_start_time": "2025-09-08T06:29:51.000000Z",
+      "measurement_uid": "20250908062952.814075_IN_webconnectivity_faefa22c688aa8e6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20250908T050644Z_webconnectivity_IN_18209_n1_06M1FeMGVhrckxbH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908051239.473986_IN_webconnectivity_c0f067d7e266a268",
+      "measurement_start_time": "2025-09-08T05:12:37.000000Z",
+      "measurement_uid": "20250908051239.473986_IN_webconnectivity_c0f067d7e266a268",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T202245Z_webconnectivity_IN_55836_n1_jPEyCn4Sm2YohTbE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908032828.826180_IN_webconnectivity_55061ce2e8aded55",
+      "measurement_start_time": "2025-09-08T03:27:21.000000Z",
+      "measurement_uid": "20250908032828.826180_IN_webconnectivity_55061ce2e8aded55",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908014302.377471_IN_webconnectivity_edae60bc27982608",
+      "measurement_start_time": "2025-09-08T01:42:46.000000Z",
+      "measurement_uid": "20250908014302.377471_IN_webconnectivity_edae60bc27982608",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T234518Z_webconnectivity_IN_55836_n1_qL7LkfORsQEoBpqX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907235750.660238_IN_webconnectivity_9adeb011880879e3",
+      "measurement_start_time": "2025-09-07T23:56:50.000000Z",
+      "measurement_uid": "20250907235750.660238_IN_webconnectivity_9adeb011880879e3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T234308Z_webconnectivity_IN_55836_n1_UOr7hHbNlM8ahQ6O",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907235521.981474_IN_webconnectivity_b0d82c6f84ed2f22",
+      "measurement_start_time": "2025-09-07T23:54:20.000000Z",
+      "measurement_uid": "20250907235521.981474_IN_webconnectivity_b0d82c6f84ed2f22",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907235130.427759_IN_webconnectivity_d04df5813d3b0e11",
+      "measurement_start_time": "2025-09-07T23:50:45.000000Z",
+      "measurement_uid": "20250907235130.427759_IN_webconnectivity_d04df5813d3b0e11",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T173315Z_webconnectivity_IN_24560_n1_dbgpBSP1NNoqhQus",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907174356.390869_IN_webconnectivity_17a77cb94a78fb2d",
+      "measurement_start_time": "2025-09-07T17:43:11.000000Z",
+      "measurement_uid": "20250907174356.390869_IN_webconnectivity_17a77cb94a78fb2d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T142251Z_webconnectivity_IN_24309_n1_xMPo4FxVkNnR9X33",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907170506.729525_IN_webconnectivity_7a40537145214ebc",
+      "measurement_start_time": "2025-09-07T17:04:51.000000Z",
+      "measurement_uid": "20250907170506.729525_IN_webconnectivity_7a40537145214ebc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907054633.409712_IN_webconnectivity_1b2aeef5accfe335",
+      "measurement_start_time": "2025-09-07T05:46:32.000000Z",
+      "measurement_uid": "20250907054633.409712_IN_webconnectivity_1b2aeef5accfe335",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907033001.059929_IN_webconnectivity_2c95c9191279bed7",
+      "measurement_start_time": "2025-09-07T03:29:15.000000Z",
+      "measurement_uid": "20250907033001.059929_IN_webconnectivity_2c95c9191279bed7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138730",
+      "probe_cc": "IN",
+      "report_id": "20250906T225455Z_webconnectivity_IN_138730_n1_PDb8ZDVkIX9wogio",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906230104.280561_IN_webconnectivity_9112552c9762a611",
+      "measurement_start_time": "2025-09-06T23:00:56.000000Z",
+      "measurement_uid": "20250906230104.280561_IN_webconnectivity_9112552c9762a611",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250906T050744Z_webconnectivity_IN_138754_n1_uZwRlz3QEFRdtYSk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906052355.994728_IN_webconnectivity_0daa3e14446cdfa6",
+      "measurement_start_time": "2025-09-06T05:23:51.000000Z",
+      "measurement_uid": "20250906052355.994728_IN_webconnectivity_0daa3e14446cdfa6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906051859.764174_IN_webconnectivity_06e28b9fa52dbdc3",
+      "measurement_start_time": "2025-09-06T05:18:58.000000Z",
+      "measurement_uid": "20250906051859.764174_IN_webconnectivity_06e28b9fa52dbdc3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906022704.610717_IN_webconnectivity_dde5276ca737de1a",
+      "measurement_start_time": "2025-09-06T02:26:19.000000Z",
+      "measurement_uid": "20250906022704.610717_IN_webconnectivity_dde5276ca737de1a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906021513.037263_IN_webconnectivity_8c454f478d22f591",
+      "measurement_start_time": "2025-09-06T02:14:56.000000Z",
+      "measurement_uid": "20250906021513.037263_IN_webconnectivity_8c454f478d22f591",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250905T214329Z_webconnectivity_IN_24560_n1_zv1alZRpsZKx4e9o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905214700.527427_IN_webconnectivity_65f07b5e4ffe34ae",
+      "measurement_start_time": "2025-09-05T21:46:56.000000Z",
+      "measurement_uid": "20250905214700.527427_IN_webconnectivity_65f07b5e4ffe34ae",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250905T182754Z_webconnectivity_IN_45609_n1_4lZ5kd06Y63mCsgv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905190752.081473_IN_webconnectivity_2ad1b8da57974983",
+      "measurement_start_time": "2025-09-05T19:07:47.000000Z",
+      "measurement_uid": "20250905190752.081473_IN_webconnectivity_2ad1b8da57974983",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250905T095808Z_webconnectivity_IN_55577_n1_7JsWrU6SmckqxeAF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905100631.661873_IN_webconnectivity_439173dba3e6fc57",
+      "measurement_start_time": "2025-09-05T10:06:31.000000Z",
+      "measurement_uid": "20250905100631.661873_IN_webconnectivity_439173dba3e6fc57",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250905T100314Z_webconnectivity_IN_55577_n1_CByot1orZgftXQ2i",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905100610.095460_IN_webconnectivity_3d9006828cbbad2a",
+      "measurement_start_time": "2025-09-05T10:06:05.000000Z",
+      "measurement_uid": "20250905100610.095460_IN_webconnectivity_3d9006828cbbad2a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20250905T052820Z_webconnectivity_IN_132116_n1_nfUQbngVbuKTL9qh",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905052851.661717_IN_webconnectivity_be3f9de7e2290ab3",
+      "measurement_start_time": "2025-09-05T05:28:49.000000Z",
+      "measurement_uid": "20250905052851.661717_IN_webconnectivity_be3f9de7e2290ab3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS132296",
+      "probe_cc": "IN",
+      "report_id": "20250905T040811Z_webconnectivity_IN_132296_n1_RzXOKXXqqvwyk9Vy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905041653.758819_IN_webconnectivity_6edc5230e15e6a33",
+      "measurement_start_time": "2025-09-05T04:16:50.000000Z",
+      "measurement_uid": "20250905041653.758819_IN_webconnectivity_6edc5230e15e6a33",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905041213.093800_IN_webconnectivity_5f110f5a1fa9261d",
+      "measurement_start_time": "2025-09-05T04:12:12.000000Z",
+      "measurement_uid": "20250905041213.093800_IN_webconnectivity_5f110f5a1fa9261d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905021406.491392_IN_webconnectivity_8c89a7137b374b71",
+      "measurement_start_time": "2025-09-05T02:13:21.000000Z",
+      "measurement_uid": "20250905021406.491392_IN_webconnectivity_8c89a7137b374b71",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250904T175252Z_webconnectivity_IN_134540_n1_7R7JvvatKtkyvxT0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904175413.962806_IN_webconnectivity_9b60697783a96395",
+      "measurement_start_time": "2025-09-04T17:54:11.000000Z",
+      "measurement_uid": "20250904175413.962806_IN_webconnectivity_9b60697783a96395",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS136664",
+      "probe_cc": "IN",
+      "report_id": "20250904T115706Z_webconnectivity_IN_136664_n1_JFQjVH3LmlcKw8Rr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904115845.744602_IN_webconnectivity_06a4d4155891e7c8",
+      "measurement_start_time": "2025-09-04T11:58:40.000000Z",
+      "measurement_uid": "20250904115845.744602_IN_webconnectivity_06a4d4155891e7c8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075424Z_webconnectivity_IN_55836_n1_UY5ToQn9ZLWGzETY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904094043.101371_IN_webconnectivity_7d986335ab292c46",
+      "measurement_start_time": "2025-09-04T09:40:00.000000Z",
+      "measurement_uid": "20250904094043.101371_IN_webconnectivity_7d986335ab292c46",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075000Z_webconnectivity_IN_55836_n1_urLrsisw4MrDHIh7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904093914.559265_IN_webconnectivity_a717bc33eb6f4de1",
+      "measurement_start_time": "2025-09-04T09:38:15.000000Z",
+      "measurement_uid": "20250904093914.559265_IN_webconnectivity_a717bc33eb6f4de1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904040741.742814_IN_webconnectivity_7b1d74fa5009c12d",
+      "measurement_start_time": "2025-09-04T04:07:41.000000Z",
+      "measurement_uid": "20250904040741.742814_IN_webconnectivity_7b1d74fa5009c12d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS139555",
+      "probe_cc": "IN",
+      "report_id": "20250904T030845Z_webconnectivity_IN_139555_n1_33CFuIl8DbPFuq9k",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904030952.879887_IN_webconnectivity_4fb2ada527434470",
+      "measurement_start_time": "2025-09-04T03:09:47.000000Z",
+      "measurement_uid": "20250904030952.879887_IN_webconnectivity_4fb2ada527434470",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250903T232637Z_webconnectivity_IN_24560_n1_QspFDkXajlsCZzlX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903233916.833208_IN_webconnectivity_bb614b3341e75bbd",
+      "measurement_start_time": "2025-09-03T23:38:31.000000Z",
+      "measurement_uid": "20250903233916.833208_IN_webconnectivity_bb614b3341e75bbd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T203043Z_webconnectivity_IN_55836_n1_8fjL4UKksVWeID0Y",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903203445.942484_IN_webconnectivity_70d57f3281b44581",
+      "measurement_start_time": "2025-09-03T20:33:45.000000Z",
+      "measurement_uid": "20250903203445.942484_IN_webconnectivity_70d57f3281b44581",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250903T094750Z_webconnectivity_IN_45820_n1_64CQTQEdN5TtOKkH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903094907.953386_IN_webconnectivity_9d7577d8fa85e57c",
+      "measurement_start_time": "2025-09-03T09:49:06.000000Z",
+      "measurement_uid": "20250903094907.953386_IN_webconnectivity_9d7577d8fa85e57c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903041247.769445_IN_webconnectivity_a2f8ed7be9d7d3b2",
+      "measurement_start_time": "2025-09-03T04:12:47.000000Z",
+      "measurement_uid": "20250903041247.769445_IN_webconnectivity_a2f8ed7be9d7d3b2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903020118.134236_IN_webconnectivity_7a93af9a579e78cd",
+      "measurement_start_time": "2025-09-03T02:01:02.000000Z",
+      "measurement_uid": "20250903020118.134236_IN_webconnectivity_7a93af9a579e78cd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250902T232912Z_webconnectivity_IN_45916_n1_d0lFJoy5PEy0iW0E",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902233021.684419_IN_webconnectivity_66072fff2471cc84",
+      "measurement_start_time": "2025-09-02T23:30:00.000000Z",
+      "measurement_uid": "20250902233021.684419_IN_webconnectivity_66072fff2471cc84",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250902T184019Z_webconnectivity_IN_17488_n1_mzEZoogaEQXdN1eH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902184315.002897_IN_webconnectivity_a1a9414e5d51dc4e",
+      "measurement_start_time": "2025-09-02T18:43:13.000000Z",
+      "measurement_uid": "20250902184315.002897_IN_webconnectivity_a1a9414e5d51dc4e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250902T111232Z_webconnectivity_IN_134375_n1_n5J7bMI0kNFS7uqi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902111322.459039_IN_webconnectivity_7842bab14324322d",
+      "measurement_start_time": "2025-09-02T11:13:18.000000Z",
+      "measurement_uid": "20250902111322.459039_IN_webconnectivity_7842bab14324322d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20250902T102949Z_webconnectivity_IN_55824_n1_3HTZonQSxnpShy6M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902103719.858922_IN_webconnectivity_ea465041f0627ed0",
+      "measurement_start_time": "2025-09-02T10:37:18.000000Z",
+      "measurement_uid": "20250902103719.858922_IN_webconnectivity_ea465041f0627ed0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902043409.756453_IN_webconnectivity_969ad8575f64a7c6",
+      "measurement_start_time": "2025-09-02T04:34:09.000000Z",
+      "measurement_uid": "20250902043409.756453_IN_webconnectivity_969ad8575f64a7c6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250902T033429Z_webconnectivity_IN_9829_n1_qj841bgCkmyVK8Mf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902033911.157973_IN_webconnectivity_9c772a85c64a199a",
+      "measurement_start_time": "2025-09-02T03:39:07.000000Z",
+      "measurement_uid": "20250902033911.157973_IN_webconnectivity_9c772a85c64a199a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902020415.901134_IN_webconnectivity_2fbe125421ddb2fe",
+      "measurement_start_time": "2025-09-02T02:04:00.000000Z",
+      "measurement_uid": "20250902020415.901134_IN_webconnectivity_2fbe125421ddb2fe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250901T191150Z_webconnectivity_IN_138754_n1_HBorfjTZ6o6YQnmi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901191510.123134_IN_webconnectivity_8785de2b6272e799",
+      "measurement_start_time": "2025-09-01T19:15:08.000000Z",
+      "measurement_uid": "20250901191510.123134_IN_webconnectivity_8785de2b6272e799",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T155222Z_webconnectivity_IN_24309_n1_SJqJsctM6nYkmzx0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901155237.474756_IN_webconnectivity_3c5da30dcdfb5dd8",
+      "measurement_start_time": "2025-09-01T15:52:33.000000Z",
+      "measurement_uid": "20250901155237.474756_IN_webconnectivity_3c5da30dcdfb5dd8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T151644Z_webconnectivity_IN_24309_n1_4cVlT2KygH7QrqVp",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901151813.664331_IN_webconnectivity_9493f5fc55fc2fe0",
+      "measurement_start_time": "2025-09-01T15:18:13.000000Z",
+      "measurement_uid": "20250901151813.664331_IN_webconnectivity_9493f5fc55fc2fe0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250901T130101Z_webconnectivity_IN_24560_n1_k1qGr5609FXATrYM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901130719.933713_IN_webconnectivity_a5bf7b5bafea178e",
+      "measurement_start_time": "2025-09-01T13:07:17.000000Z",
+      "measurement_uid": "20250901130719.933713_IN_webconnectivity_a5bf7b5bafea178e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170149Z_webconnectivity_IN_55836_n1_TEhr7GRQeWKZeIkW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901115619.122238_IN_webconnectivity_b5f69a739c3d377e",
+      "measurement_start_time": "2025-09-01T11:55:18.000000Z",
+      "measurement_uid": "20250901115619.122238_IN_webconnectivity_b5f69a739c3d377e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170155Z_webconnectivity_IN_55836_n1_govj7QXR0N5zIfoP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901115605.208512_IN_webconnectivity_08e509cc45d31ccf",
+      "measurement_start_time": "2025-09-01T11:55:04.000000Z",
+      "measurement_uid": "20250901115605.208512_IN_webconnectivity_08e509cc45d31ccf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250901T110135Z_webconnectivity_IN_55577_n1_zgVV0tXh738wvvvh",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901110740.447593_IN_webconnectivity_bc6eba7b8c06a3f6",
+      "measurement_start_time": "2025-09-01T11:07:40.000000Z",
+      "measurement_uid": "20250901110740.447593_IN_webconnectivity_bc6eba7b8c06a3f6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250901T105753Z_webconnectivity_IN_55577_n1_YowvaCHTVbhJoT5o",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901110402.075996_IN_webconnectivity_7de0ff821b44cfdd",
+      "measurement_start_time": "2025-09-01T11:04:01.000000Z",
+      "measurement_uid": "20250901110402.075996_IN_webconnectivity_7de0ff821b44cfdd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T100447Z_webconnectivity_IN_55836_n1_Com0jWOM19bEHp8V",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901101447.459850_IN_webconnectivity_77689bb40f852765",
+      "measurement_start_time": "2025-09-01T10:13:46.000000Z",
+      "measurement_uid": "20250901101447.459850_IN_webconnectivity_77689bb40f852765",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250901T061213Z_webconnectivity_IN_134540_n1_o8hzg6pWthHqy0GF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901061330.200221_IN_webconnectivity_79a1f3d492eafdf3",
+      "measurement_start_time": "2025-09-01T06:13:26.000000Z",
+      "measurement_uid": "20250901061330.200221_IN_webconnectivity_79a1f3d492eafdf3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901042945.225954_IN_webconnectivity_167c0fad14672a91",
+      "measurement_start_time": "2025-09-01T04:29:44.000000Z",
+      "measurement_uid": "20250901042945.225954_IN_webconnectivity_167c0fad14672a91",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250901T014029Z_webconnectivity_IN_55836_n1_PGOMjRPcAvzm6Pt5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901015148.557735_IN_webconnectivity_1fbf466811664696",
+      "measurement_start_time": "2025-09-01T01:51:03.000000Z",
+      "measurement_uid": "20250901015148.557735_IN_webconnectivity_1fbf466811664696",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250901T011930Z_webconnectivity_IN_45916_n1_uqOEYYcOYsoZ3v9H",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901012041.016126_IN_webconnectivity_9eb2758ed78abe0f",
+      "measurement_start_time": "2025-09-01T01:20:18.000000Z",
+      "measurement_uid": "20250901012041.016126_IN_webconnectivity_9eb2758ed78abe0f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T011824Z_webconnectivity_IN_24309_n1_cZGSdSq6kBU56fHV",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901012003.243030_IN_webconnectivity_2f5249febd3f6a98",
+      "measurement_start_time": "2025-09-01T01:20:02.000000Z",
+      "measurement_uid": "20250901012003.243030_IN_webconnectivity_2f5249febd3f6a98",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T233515Z_webconnectivity_IN_138754_n1_tIqkHpfoGOvDX4rf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831234110.987569_IN_webconnectivity_1dfd0aa4574ebbe4",
+      "measurement_start_time": "2025-08-31T23:41:08.000000Z",
+      "measurement_uid": "20250831234110.987569_IN_webconnectivity_1dfd0aa4574ebbe4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250831T225242Z_webconnectivity_IN_24560_n1_0MV0bj7kHCpSgfLH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831225550.860763_IN_webconnectivity_a59f92a3738cf510",
+      "measurement_start_time": "2025-08-31T22:55:46.000000Z",
+      "measurement_uid": "20250831225550.860763_IN_webconnectivity_a59f92a3738cf510",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250831T182601Z_webconnectivity_IN_24560_n1_2ZPyuqomu6uBtoCo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831182933.419915_IN_webconnectivity_756cebbd48a0dfa2",
+      "measurement_start_time": "2025-08-31T18:29:31.000000Z",
+      "measurement_uid": "20250831182933.419915_IN_webconnectivity_756cebbd48a0dfa2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250831T165534Z_webconnectivity_IN_55577_n1_52A2hDLdRULrV9ab",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831165856.628967_IN_webconnectivity_89407761b90fdfc9",
+      "measurement_start_time": "2025-08-31T16:58:52.000000Z",
+      "measurement_uid": "20250831165856.628967_IN_webconnectivity_89407761b90fdfc9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T151507Z_webconnectivity_IN_138754_n1_Rs05LhzrIi4nhD6f",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831152634.567138_IN_webconnectivity_e6b1bd64d1bddc87",
+      "measurement_start_time": "2025-08-31T15:26:33.000000Z",
+      "measurement_uid": "20250831152634.567138_IN_webconnectivity_e6b1bd64d1bddc87",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250831T124940Z_webconnectivity_IN_17488_n1_eXBJoDU0HTeLango",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831124955.926599_IN_webconnectivity_0f70ff18b81a1cf8",
+      "measurement_start_time": "2025-08-31T12:49:53.000000Z",
+      "measurement_uid": "20250831124955.926599_IN_webconnectivity_0f70ff18b81a1cf8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250831T123033Z_webconnectivity_IN_24309_n1_GisVLf1U4Mkhb2DB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831123051.299761_IN_webconnectivity_c588ccbaa7d7befa",
+      "measurement_start_time": "2025-08-31T12:30:43.000000Z",
+      "measurement_uid": "20250831123051.299761_IN_webconnectivity_c588ccbaa7d7befa",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250831T121535Z_webconnectivity_IN_24309_n1_LMdLACJ0Wylt00yo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831121552.593336_IN_webconnectivity_818428f76ff31f20",
+      "measurement_start_time": "2025-08-31T12:15:52.000000Z",
+      "measurement_uid": "20250831121552.593336_IN_webconnectivity_818428f76ff31f20",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250831T104331Z_webconnectivity_IN_17488_n1_DtLrb6L8fmmW45oB",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831104839.711754_IN_webconnectivity_dbe560f766038124",
+      "measurement_start_time": "2025-08-31T10:48:39.000000Z",
+      "measurement_uid": "20250831104839.711754_IN_webconnectivity_dbe560f766038124",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250831T100240Z_webconnectivity_IN_24309_n1_AKUm4wNcRTfeTjJ6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831100926.281814_IN_webconnectivity_9c4d4433faeaa76b",
+      "measurement_start_time": "2025-08-31T10:09:26.000000Z",
+      "measurement_uid": "20250831100926.281814_IN_webconnectivity_9c4d4433faeaa76b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831043350.126489_IN_webconnectivity_20a3d1525b79513f",
+      "measurement_start_time": "2025-08-31T04:33:49.000000Z",
+      "measurement_uid": "20250831043350.126489_IN_webconnectivity_20a3d1525b79513f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T034545Z_webconnectivity_IN_55836_n1_56huBZFNBcubJFz3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831035725.846679_IN_webconnectivity_25e0aff8d377e912",
+      "measurement_start_time": "2025-08-31T03:56:40.000000Z",
+      "measurement_uid": "20250831035725.846679_IN_webconnectivity_25e0aff8d377e912",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134022",
+      "probe_cc": "IN",
+      "report_id": "20250830T190802Z_webconnectivity_IN_134022_n1_7LHQcDIEhwvbxtSh",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830191044.077085_IN_webconnectivity_b036933814cc4370",
+      "measurement_start_time": "2025-08-30T19:10:41.000000Z",
+      "measurement_uid": "20250830191044.077085_IN_webconnectivity_b036933814cc4370",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250830T170318Z_webconnectivity_IN_9829_n1_S6aIWtIvqOl23WEW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830171345.852178_IN_webconnectivity_1662acc87607b2c9",
+      "measurement_start_time": "2025-08-30T17:13:16.000000Z",
+      "measurement_uid": "20250830171345.852178_IN_webconnectivity_1662acc87607b2c9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T163347Z_webconnectivity_IN_138754_n1_y5o1o0alA8yAl8Td",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830164815.307733_IN_webconnectivity_b4487e202c4138be",
+      "measurement_start_time": "2025-08-30T16:48:12.000000Z",
+      "measurement_uid": "20250830164815.307733_IN_webconnectivity_b4487e202c4138be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T111537Z_webconnectivity_IN_55836_n1_xaLg0Do9yPosSzMm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830112654.874959_IN_webconnectivity_271c70b35cc5239c",
+      "measurement_start_time": "2025-08-30T11:25:54.000000Z",
+      "measurement_uid": "20250830112654.874959_IN_webconnectivity_271c70b35cc5239c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250830T104340Z_webconnectivity_IN_24560_n1_Q6v6ER7wJwwfqr2c",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830105028.180694_IN_webconnectivity_a629d20dd4ce2d60",
+      "measurement_start_time": "2025-08-30T10:49:43.000000Z",
+      "measurement_uid": "20250830105028.180694_IN_webconnectivity_a629d20dd4ce2d60",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T045704Z_webconnectivity_IN_55836_n1_jvDq7llpJgkYSohZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830045858.667385_IN_webconnectivity_4b4c5e32f74a8b53",
+      "measurement_start_time": "2025-08-30T04:57:57.000000Z",
+      "measurement_uid": "20250830045858.667385_IN_webconnectivity_4b4c5e32f74a8b53",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830043505.464967_IN_webconnectivity_c181506fb4ec1ffe",
+      "measurement_start_time": "2025-08-30T04:35:04.000000Z",
+      "measurement_uid": "20250830043505.464967_IN_webconnectivity_c181506fb4ec1ffe",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T042117Z_webconnectivity_IN_55836_n1_jxvZeoDEUTEgGcoL",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830042227.325146_IN_webconnectivity_ab4a5cfbfe369706",
+      "measurement_start_time": "2025-08-30T04:22:27.000000Z",
+      "measurement_uid": "20250830042227.325146_IN_webconnectivity_ab4a5cfbfe369706",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250830T030538Z_webconnectivity_IN_24309_n1_e7bvOOm9QZUBkUXq",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830031035.315721_IN_webconnectivity_813b4db65b0d410f",
+      "measurement_start_time": "2025-08-30T03:10:19.000000Z",
+      "measurement_uid": "20250830031035.315721_IN_webconnectivity_813b4db65b0d410f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250829T171643Z_webconnectivity_IN_24560_n1_T9UswaoqMhRokA8h",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829171742.309775_IN_webconnectivity_ae539b079386a22b",
+      "measurement_start_time": "2025-08-29T17:17:37.000000Z",
+      "measurement_uid": "20250829171742.309775_IN_webconnectivity_ae539b079386a22b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T105943Z_webconnectivity_IN_55836_n1_pomPXutzm0pLTK9G",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829110132.142359_IN_webconnectivity_e58fc4509093fe26",
+      "measurement_start_time": "2025-08-29T11:00:31.000000Z",
+      "measurement_uid": "20250829110132.142359_IN_webconnectivity_e58fc4509093fe26",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250829T094001Z_webconnectivity_IN_45820_n1_5hEw57siM9UgH2A1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829094336.650742_IN_webconnectivity_a1aa0477ba082020",
+      "measurement_start_time": "2025-08-29T09:43:35.000000Z",
+      "measurement_uid": "20250829094336.650742_IN_webconnectivity_a1aa0477ba082020",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250829T081736Z_webconnectivity_IN_134375_n1_tqkPb7oP80dP7Vso",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829082704.926952_IN_webconnectivity_a2418b138eb3455d",
+      "measurement_start_time": "2025-08-29T08:27:02.000000Z",
+      "measurement_uid": "20250829082704.926952_IN_webconnectivity_a2418b138eb3455d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134326",
+      "probe_cc": "IN",
+      "report_id": "20250829T044015Z_webconnectivity_IN_134326_n1_AzHFEzNs8OU1oxOU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829044101.888291_IN_webconnectivity_c80226b96a5d6738",
+      "measurement_start_time": "2025-08-29T04:40:56.000000Z",
+      "measurement_uid": "20250829044101.888291_IN_webconnectivity_c80226b96a5d6738",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829043235.810382_IN_webconnectivity_ad18ec1ece31bfcc",
+      "measurement_start_time": "2025-08-29T04:32:35.000000Z",
+      "measurement_uid": "20250829043235.810382_IN_webconnectivity_ad18ec1ece31bfcc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T011643Z_webconnectivity_IN_55836_n1_09B6scNdCbCFtjab",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829012747.157585_IN_webconnectivity_2c8f02893cf5e4a6",
+      "measurement_start_time": "2025-08-29T01:27:01.000000Z",
+      "measurement_uid": "20250829012747.157585_IN_webconnectivity_2c8f02893cf5e4a6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828231629.608363_IN_webconnectivity_9baf72e793ed197a",
+      "measurement_start_time": "2025-08-28T23:16:14.000000Z",
+      "measurement_uid": "20250828231629.608363_IN_webconnectivity_9baf72e793ed197a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T202555Z_webconnectivity_IN_24309_n1_Mx9a8xgGpAFW3KJB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828202641.212329_IN_webconnectivity_0c53c4ee244195af",
+      "measurement_start_time": "2025-08-28T20:26:40.000000Z",
+      "measurement_uid": "20250828202641.212329_IN_webconnectivity_0c53c4ee244195af",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250828T133709Z_webconnectivity_IN_55836_n1_U9OYzoGlRpRN1FQ6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828134344.040650_IN_webconnectivity_b59019f3dc338b54",
+      "measurement_start_time": "2025-08-28T13:43:43.000000Z",
+      "measurement_uid": "20250828134344.040650_IN_webconnectivity_b59019f3dc338b54",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250828T125730Z_webconnectivity_IN_24560_n1_Eb9pI7jQW6hiAPfL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828125937.789417_IN_webconnectivity_b6a2ef4c2d138185",
+      "measurement_start_time": "2025-08-28T12:59:34.000000Z",
+      "measurement_uid": "20250828125937.789417_IN_webconnectivity_b6a2ef4c2d138185",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250828T110632Z_webconnectivity_IN_45820_n1_0z6cfGLwoAJHY8o2",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828110909.609703_IN_webconnectivity_5a2f20b1279079b1",
+      "measurement_start_time": "2025-08-28T11:09:08.000000Z",
+      "measurement_uid": "20250828110909.609703_IN_webconnectivity_5a2f20b1279079b1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134022",
+      "probe_cc": "IN",
+      "report_id": "20250828T100654Z_webconnectivity_IN_134022_n1_rTTO0iIcxBP5RXp6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828101050.253913_IN_webconnectivity_d55fda5d660a14fb",
+      "measurement_start_time": "2025-08-28T10:10:46.000000Z",
+      "measurement_uid": "20250828101050.253913_IN_webconnectivity_d55fda5d660a14fb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828053732.384962_IN_webconnectivity_39e00d80f8d45834",
+      "measurement_start_time": "2025-08-28T05:37:29.000000Z",
+      "measurement_uid": "20250828053732.384962_IN_webconnectivity_39e00d80f8d45834",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS134022",
+      "probe_cc": "IN",
+      "report_id": "20250828T044522Z_webconnectivity_IN_134022_n1_ttw69NVolOSHPuDn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828044934.189199_IN_webconnectivity_b7a28ebf94e8c899",
+      "measurement_start_time": "2025-08-28T04:49:31.000000Z",
+      "measurement_uid": "20250828044934.189199_IN_webconnectivity_b7a28ebf94e8c899",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://tribune.com.pk/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_news",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828042441.001148_IN_webconnectivity_5b575092a101158f",
+      "measurement_start_time": "2025-08-28T04:24:40.000000Z",
+      "measurement_uid": "20250828042441.001148_IN_webconnectivity_5b575092a101158f",
+      "verification_status": "unverified"
+    }
+  ]
+}

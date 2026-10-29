@@ -1,0 +1,1523 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1861591339111328
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T203847Z_webconnectivity_IN_24560_n4_LCvt5wYjEqsE1c7C",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020203847.575726_IN_webconnectivity_8adb721d535601f5",
+      "measurement_start_time": "2026-10-20T20:38:43.000000Z",
+      "measurement_uid": "20261020203847.575726_IN_webconnectivity_8adb721d535601f5",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261020T190646Z_webconnectivity_IN_136714_n4_zrqAEyjJEocxEnwh",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020190646.658811_IN_webconnectivity_b0566caff24c82d0",
+      "measurement_start_time": "2026-10-20T19:06:43.000000Z",
+      "measurement_uid": "20261020190646.658811_IN_webconnectivity_b0566caff24c82d0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T180334Z_webconnectivity_IN_24309_n4_66Z6WoUeooU5oDEo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_9",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020180334.429690_IN_webconnectivity_9175ed3c4e86c0fc",
+      "measurement_start_time": "2026-10-20T18:03:31.000000Z",
+      "measurement_uid": "20261020180334.429690_IN_webconnectivity_9175ed3c4e86c0fc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T165418Z_webconnectivity_IN_55836_n4_X19IZ14spqBo37Ql",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020165418.582495_IN_webconnectivity_eb4c3650eee9886f",
+      "measurement_start_time": "2026-10-20T16:54:00.000000Z",
+      "measurement_uid": "20261020165418.582495_IN_webconnectivity_eb4c3650eee9886f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T164357Z_webconnectivity_IN_55836_n4_Py1D6QyF4QwZjm1b",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020165255.179691_IN_webconnectivity_a20bfed828838a69",
+      "measurement_start_time": "2026-10-20T16:52:51.000000Z",
+      "measurement_uid": "20261020165255.179691_IN_webconnectivity_a20bfed828838a69",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T095609Z_webconnectivity_IN_24560_n4_CpmLEoFP9kQaMS1g",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020095610.314686_IN_webconnectivity_edd9190089e2bc00",
+      "measurement_start_time": "2026-10-20T09:55:27.000000Z",
+      "measurement_uid": "20261020095610.314686_IN_webconnectivity_edd9190089e2bc00",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T095325Z_webconnectivity_IN_24560_n4_LF9VaBc0myqAx2GO",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020095325.259752_IN_webconnectivity_8f9bc3b9f54815e0",
+      "measurement_start_time": "2026-10-20T09:53:21.000000Z",
+      "measurement_uid": "20261020095325.259752_IN_webconnectivity_8f9bc3b9f54815e0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T051311Z_webconnectivity_IN_55836_n4_NbcjU6oGAKUGFxXc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020051311.899785_IN_webconnectivity_2115e6db5ef75c59",
+      "measurement_start_time": "2026-10-20T05:13:05.000000Z",
+      "measurement_uid": "20261020051311.899785_IN_webconnectivity_2115e6db5ef75c59",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020043042.007317_IN_webconnectivity_841b16712bee7946",
+      "measurement_start_time": "2026-10-20T04:30:41.000000Z",
+      "measurement_uid": "20261020043042.007317_IN_webconnectivity_841b16712bee7946",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T225328Z_webconnectivity_IN_24560_n4_STSm3nxkvUt7s690",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019225329.056485_IN_webconnectivity_91ef8a269756d50a",
+      "measurement_start_time": "2026-10-19T22:53:24.000000Z",
+      "measurement_uid": "20261019225329.056485_IN_webconnectivity_91ef8a269756d50a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T212005Z_webconnectivity_IN_55836_n4_jvirV1i6fbG5dmAT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019212005.447301_IN_webconnectivity_abfd0217f7f437ad",
+      "measurement_start_time": "2026-10-19T21:19:46.000000Z",
+      "measurement_uid": "20261019212005.447301_IN_webconnectivity_abfd0217f7f437ad",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T163031Z_webconnectivity_IN_24560_n4_PWpPjG9WbQIfMH8o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019163746.980639_IN_webconnectivity_ef7cab888b201667",
+      "measurement_start_time": "2026-10-19T16:37:46.000000Z",
+      "measurement_uid": "20261019163746.980639_IN_webconnectivity_ef7cab888b201667",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T141025Z_webconnectivity_IN_9498_n4_KTooHjSXVgajCt5e",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019141025.859007_IN_webconnectivity_95b517944896fe1c",
+      "measurement_start_time": "2026-10-19T14:10:23.000000Z",
+      "measurement_uid": "20261019141025.859007_IN_webconnectivity_95b517944896fe1c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T115222Z_webconnectivity_IN_45609_n4_pQUQLb8dtjeeXO4w",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019115222.486328_IN_webconnectivity_bf608499c3eba476",
+      "measurement_start_time": "2026-10-19T11:52:17.000000Z",
+      "measurement_uid": "20261019115222.486328_IN_webconnectivity_bf608499c3eba476",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T112713Z_webconnectivity_IN_55836_n4_pUW8soPGLeU9r7Wa",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019112713.393248_IN_webconnectivity_9a8e31db812f838e",
+      "measurement_start_time": "2026-10-19T11:27:03.000000Z",
+      "measurement_uid": "20261019112713.393248_IN_webconnectivity_9a8e31db812f838e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T110430Z_webconnectivity_IN_24309_n4_XNlssRR6paSYuInm",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 4
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019110529.412184_IN_webconnectivity_06293703f88f840e",
+      "measurement_start_time": "2026-10-19T11:05:13.000000Z",
+      "measurement_uid": "20261019110529.412184_IN_webconnectivity_06293703f88f840e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T084955Z_webconnectivity_IN_24560_n4_fARR0vlSfaBp0IFB",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019084955.389396_IN_webconnectivity_076c8937d1447495",
+      "measurement_start_time": "2026-10-19T08:49:53.000000Z",
+      "measurement_uid": "20261019084955.389396_IN_webconnectivity_076c8937d1447495",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019043225.433740_IN_webconnectivity_11d7ed65997f2ca4",
+      "measurement_start_time": "2026-10-19T04:32:25.000000Z",
+      "measurement_uid": "20261019043225.433740_IN_webconnectivity_11d7ed65997f2ca4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T004333Z_webconnectivity_IN_55836_n4_iz9a6B85a6yeUMkA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019004949.466669_IN_webconnectivity_57fb6af2fa5544a2",
+      "measurement_start_time": "2026-10-19T00:49:43.000000Z",
+      "measurement_uid": "20261019004949.466669_IN_webconnectivity_57fb6af2fa5544a2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T002537Z_webconnectivity_IN_24560_n4_k7ozJPK2g3psyozc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019002926.201782_IN_webconnectivity_d77cb9f6da8d4138",
+      "measurement_start_time": "2026-10-19T00:29:24.000000Z",
+      "measurement_uid": "20261019002926.201782_IN_webconnectivity_d77cb9f6da8d4138",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T230933Z_webconnectivity_IN_133982_n4_499w9szCqBzZUDSB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018230933.485245_IN_webconnectivity_39c2177313377355",
+      "measurement_start_time": "2026-10-18T23:09:29.000000Z",
+      "measurement_uid": "20261018230933.485245_IN_webconnectivity_39c2177313377355",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T161353Z_webconnectivity_IN_24560_n4_xUZxR27CsSS7JVtV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018161353.219651_IN_webconnectivity_c5dd38d50de2ccdf",
+      "measurement_start_time": "2026-10-18T16:13:51.000000Z",
+      "measurement_uid": "20261018161353.219651_IN_webconnectivity_c5dd38d50de2ccdf",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T101928Z_webconnectivity_IN_24309_n4_JzLew5uAA0qIr7Gc",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 4
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018102042.953802_IN_webconnectivity_2760719f656714a8",
+      "measurement_start_time": "2026-10-18T10:20:26.000000Z",
+      "measurement_uid": "20261018102042.953802_IN_webconnectivity_2760719f656714a8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T085853Z_webconnectivity_IN_24560_n4_rwRscmvoQKPBoeHX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018085853.980944_IN_webconnectivity_21988328f702056f",
+      "measurement_start_time": "2026-10-18T08:58:51.000000Z",
+      "measurement_uid": "20261018085853.980944_IN_webconnectivity_21988328f702056f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261018T055338Z_webconnectivity_IN_9829_n4_U28Q28x3dagiFuKC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018055338.472774_IN_webconnectivity_6ebb37c0312d5ec6",
+      "measurement_start_time": "2026-10-18T05:53:35.000000Z",
+      "measurement_uid": "20261018055338.472774_IN_webconnectivity_6ebb37c0312d5ec6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043326.332948_IN_webconnectivity_55e89a38903c7468",
+      "measurement_start_time": "2026-10-18T04:33:26.000000Z",
+      "measurement_uid": "20261018043326.332948_IN_webconnectivity_55e89a38903c7468",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T010624Z_webconnectivity_IN_55836_n4_yZennoRfi7oPLLPQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018032908.673370_IN_webconnectivity_94e66327dd81af69",
+      "measurement_start_time": "2026-10-18T03:29:07.000000Z",
+      "measurement_uid": "20261018032908.673370_IN_webconnectivity_94e66327dd81af69",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T011728Z_webconnectivity_IN_55836_n4_8Wim2JB8VgrCY8go",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018011728.488940_IN_webconnectivity_2db5c669add7b5bc",
+      "measurement_start_time": "2026-10-18T01:16:24.000000Z",
+      "measurement_uid": "20261018011728.488940_IN_webconnectivity_2db5c669add7b5bc",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T010720Z_webconnectivity_IN_55836_n4_Tq6GHkxYci02J6ow",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018010837.303477_IN_webconnectivity_8ef0f943516210bb",
+      "measurement_start_time": "2026-10-18T01:08:35.000000Z",
+      "measurement_uid": "20261018010837.303477_IN_webconnectivity_8ef0f943516210bb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T235554Z_webconnectivity_IN_18209_n4_8v2FNUBG7F6FtpHp",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017235554.195079_IN_webconnectivity_f1d3bf034cc4e62c",
+      "measurement_start_time": "2026-10-17T23:55:52.000000Z",
+      "measurement_uid": "20261017235554.195079_IN_webconnectivity_f1d3bf034cc4e62c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T165325Z_webconnectivity_IN_24560_n4_z7uxBPQdkG13sPm2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165326.258104_IN_webconnectivity_b413c2ee87345769",
+      "measurement_start_time": "2026-10-17T16:52:49.000000Z",
+      "measurement_uid": "20261017165326.258104_IN_webconnectivity_b413c2ee87345769",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T165252Z_webconnectivity_IN_24560_n4_IcOdTQCxzoBLbhDb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017165252.093298_IN_webconnectivity_ab00b1ff61fe944a",
+      "measurement_start_time": "2026-10-17T16:52:49.000000Z",
+      "measurement_uid": "20261017165252.093298_IN_webconnectivity_ab00b1ff61fe944a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T144428Z_webconnectivity_IN_55836_n4_bK2oEFDsR1MWC9jL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017144956.405222_IN_webconnectivity_80ec92756ac936f7",
+      "measurement_start_time": "2026-10-17T14:49:55.000000Z",
+      "measurement_uid": "20261017144956.405222_IN_webconnectivity_80ec92756ac936f7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261017T064348Z_webconnectivity_IN_136286_n4_vHgFMNyukFE6E2RB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017064348.959893_IN_webconnectivity_3804c0a225cda227",
+      "measurement_start_time": "2026-10-17T06:43:43.000000Z",
+      "measurement_uid": "20261017064348.959893_IN_webconnectivity_3804c0a225cda227",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017044804.766317_IN_webconnectivity_5484a8bf0e041aa5",
+      "measurement_start_time": "2026-10-17T04:48:04.000000Z",
+      "measurement_uid": "20261017044804.766317_IN_webconnectivity_5484a8bf0e041aa5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T035905Z_webconnectivity_IN_55836_n4_H1B8gMCPIKruju0E",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017035905.639362_IN_webconnectivity_320cce52cbac4b29",
+      "measurement_start_time": "2026-10-17T03:58:22.000000Z",
+      "measurement_uid": "20261017035905.639362_IN_webconnectivity_320cce52cbac4b29",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T204807Z_webconnectivity_IN_55836_n4_On9Osi8EoTAD0WV1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016204807.441290_IN_webconnectivity_cf9ca5efbe16408d",
+      "measurement_start_time": "2026-10-16T20:47:59.000000Z",
+      "measurement_uid": "20261016204807.441290_IN_webconnectivity_cf9ca5efbe16408d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T201523Z_webconnectivity_IN_133982_n4_RiUQfFLgdZbtoh3K",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016201523.511745_IN_webconnectivity_d12be2f4f2371a3c",
+      "measurement_start_time": "2026-10-16T20:15:20.000000Z",
+      "measurement_uid": "20261016201523.511745_IN_webconnectivity_d12be2f4f2371a3c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T193343Z_webconnectivity_IN_24309_n4_Mo9392fQXwDnncDF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016193343.849180_IN_webconnectivity_c3df1e85603bf8c1",
+      "measurement_start_time": "2026-10-16T19:33:40.000000Z",
+      "measurement_uid": "20261016193343.849180_IN_webconnectivity_c3df1e85603bf8c1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T185235Z_webconnectivity_IN_24560_n4_OxvbpZ7g90peyjJR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016185726.886147_IN_webconnectivity_4a6fa524b5d45db6",
+      "measurement_start_time": "2026-10-16T18:57:24.000000Z",
+      "measurement_uid": "20261016185726.886147_IN_webconnectivity_4a6fa524b5d45db6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T185715Z_webconnectivity_IN_24560_n4_oeH3Jlzjwj42olAZ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016185715.991804_IN_webconnectivity_ec8ec883d0cc7635",
+      "measurement_start_time": "2026-10-16T18:57:13.000000Z",
+      "measurement_uid": "20261016185715.991804_IN_webconnectivity_ec8ec883d0cc7635",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T131808Z_webconnectivity_IN_55836_n4_4sYrhMBizXTmjOMR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016131808.713616_IN_webconnectivity_67745c1911937396",
+      "measurement_start_time": "2026-10-16T13:17:10.000000Z",
+      "measurement_uid": "20261016131808.713616_IN_webconnectivity_67745c1911937396",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T124501Z_webconnectivity_IN_24560_n4_CNXyah1BQVb0cn12",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016124502.048359_IN_webconnectivity_1b549447de503bcc",
+      "measurement_start_time": "2026-10-16T12:43:50.000000Z",
+      "measurement_uid": "20261016124502.048359_IN_webconnectivity_1b549447de503bcc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016050557.186336_IN_webconnectivity_3ead98e9bee2ebbc",
+      "measurement_start_time": "2026-10-16T05:05:57.000000Z",
+      "measurement_uid": "20261016050557.186336_IN_webconnectivity_3ead98e9bee2ebbc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T035432Z_webconnectivity_IN_24560_n4_Oo6vK00aNeuCVhId",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016035432.714646_IN_webconnectivity_79995f5c2617bbf2",
+      "measurement_start_time": "2026-10-16T03:54:29.000000Z",
+      "measurement_uid": "20261016035432.714646_IN_webconnectivity_79995f5c2617bbf2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T190248Z_webconnectivity_IN_45609_n4_8LNXE5Jp7qzsx83y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015191313.614580_IN_webconnectivity_15a6b8f53e4ca6f1",
+      "measurement_start_time": "2026-10-15T19:13:10.000000Z",
+      "measurement_uid": "20261015191313.614580_IN_webconnectivity_15a6b8f53e4ca6f1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T184909Z_webconnectivity_IN_55836_n4_TDNLoWhDSJj2GRlV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015184909.474658_IN_webconnectivity_36980fa710cbb330",
+      "measurement_start_time": "2026-10-15T18:49:00.000000Z",
+      "measurement_uid": "20261015184909.474658_IN_webconnectivity_36980fa710cbb330",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T184737Z_webconnectivity_IN_55836_n4_wcpTuF9gyzM9noGz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015184737.957976_IN_webconnectivity_9fd56937607f05ec",
+      "measurement_start_time": "2026-10-15T18:47:33.000000Z",
+      "measurement_uid": "20261015184737.957976_IN_webconnectivity_9fd56937607f05ec",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T175942Z_webconnectivity_IN_24309_n4_EYcl9pomoFgzMQ7h",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015175942.336131_IN_webconnectivity_66ae89ef14d8b80b",
+      "measurement_start_time": "2026-10-15T17:59:40.000000Z",
+      "measurement_uid": "20261015175942.336131_IN_webconnectivity_66ae89ef14d8b80b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T170113Z_webconnectivity_IN_24560_n4_tJ20dOAXTgIZf6qk",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "http-diff"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015170114.579247_IN_webconnectivity_bf5d123157b3f3b1",
+      "measurement_start_time": "2026-10-15T17:01:10.000000Z",
+      "measurement_uid": "20261015170114.579247_IN_webconnectivity_bf5d123157b3f3b1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T065019Z_webconnectivity_IN_24560_n4_26Xx8l2ojqpk1EQx",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015065019.885762_IN_webconnectivity_2a2b19533493a0ac",
+      "measurement_start_time": "2026-10-15T06:50:13.000000Z",
+      "measurement_uid": "20261015065019.885762_IN_webconnectivity_2a2b19533493a0ac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015061001.148161_IN_webconnectivity_c4b8b05905c45969",
+      "measurement_start_time": "2026-10-15T06:10:01.000000Z",
+      "measurement_uid": "20261015061001.148161_IN_webconnectivity_c4b8b05905c45969",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T040924Z_webconnectivity_IN_55836_n4_ZQS1Q0DWhTRSb7oK",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015040924.335486_IN_webconnectivity_4485664adeabeda8",
+      "measurement_start_time": "2026-10-15T04:09:05.000000Z",
+      "measurement_uid": "20261015040924.335486_IN_webconnectivity_4485664adeabeda8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T034605Z_webconnectivity_IN_55836_n4_BomqX9BeYUoqz4jx",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015035557.188073_IN_webconnectivity_8dbc11ec1ecbda3f",
+      "measurement_start_time": "2026-10-15T03:55:52.000000Z",
+      "measurement_uid": "20261015035557.188073_IN_webconnectivity_8dbc11ec1ecbda3f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T181855Z_webconnectivity_IN_55836_n4_r7PBTxjU02wmXFGw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014181855.267936_IN_webconnectivity_0816a9c43e3baf55",
+      "measurement_start_time": "2026-10-14T18:18:45.000000Z",
+      "measurement_uid": "20261014181855.267936_IN_webconnectivity_0816a9c43e3baf55",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T181552Z_webconnectivity_IN_24560_n4_HAPoNfXeJb6vaPYV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014181552.495268_IN_webconnectivity_3df1b66f1b745e49",
+      "measurement_start_time": "2026-10-14T18:15:49.000000Z",
+      "measurement_uid": "20261014181552.495268_IN_webconnectivity_3df1b66f1b745e49",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T180941Z_webconnectivity_IN_24560_n4_EA0ByvGMowOT07D4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 16,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 4,
+          "blocking_type": "http-diff"
+        },
+        "fingerprints": [
+          {
+            "name": "cp.c_isp_in_airtel",
+            "scope": "isp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014181457.534810_IN_webconnectivity_cc79fb90f9b01c0f",
+      "measurement_start_time": "2026-10-14T18:14:56.000000Z",
+      "measurement_uid": "20261014181457.534810_IN_webconnectivity_cc79fb90f9b01c0f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 17,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 4,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014164459.160712_IN_webconnectivity_891a420505f18f4f",
+      "measurement_start_time": "2026-10-14T16:44:38.000000Z",
+      "measurement_uid": "20261014164459.160712_IN_webconnectivity_891a420505f18f4f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "http://watchcric.org/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014101913.499351_IN_webconnectivity_6efdd8b7f0441f28",
+      "measurement_start_time": "2026-10-14T10:19:13.000000Z",
+      "measurement_uid": "20261014101913.499351_IN_webconnectivity_6efdd8b7f0441f28",
+      "verification_status": "unverified"
+    }
+  ]
+}

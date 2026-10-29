@@ -1,0 +1,1592 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1638932228088379
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T215234Z_webconnectivity_IN_24560_n4_D0BH1zVmIVg9PHUu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215234.408415_IN_webconnectivity_dc2608d71cedcd68",
+      "measurement_start_time": "2026-10-20T21:52:31.000000Z",
+      "measurement_uid": "20261020215234.408415_IN_webconnectivity_dc2608d71cedcd68",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T214932Z_webconnectivity_IN_24560_n4_h93IZZlvM38W9aJf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020215047.957628_IN_webconnectivity_9293eb93cb237cc2",
+      "measurement_start_time": "2026-10-20T21:50:47.000000Z",
+      "measurement_uid": "20261020215047.957628_IN_webconnectivity_9293eb93cb237cc2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T203517Z_webconnectivity_IN_24309_n4_UDVcFysvqroLslQ3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020204211.350325_IN_webconnectivity_ac552a6ea0998227",
+      "measurement_start_time": "2026-10-20T20:41:55.000000Z",
+      "measurement_uid": "20261020204211.350325_IN_webconnectivity_ac552a6ea0998227",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T145349Z_webconnectivity_IN_24560_n4_k7hsClgohyz0GfP7",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020145349.910572_IN_webconnectivity_aa35f46b4709d1db",
+      "measurement_start_time": "2026-10-20T14:53:47.000000Z",
+      "measurement_uid": "20261020145349.910572_IN_webconnectivity_aa35f46b4709d1db",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124444Z_webconnectivity_IN_55836_n4_4kEiobQJvTKsPEIl",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124444.428230_IN_webconnectivity_564f1d58eb659d72",
+      "measurement_start_time": "2026-10-20T12:43:43.000000Z",
+      "measurement_uid": "20261020124444.428230_IN_webconnectivity_564f1d58eb659d72",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T122941Z_webconnectivity_IN_55836_n4_SIsNjoZo90MoItKc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020122941.899282_IN_webconnectivity_2de8b93b6261981c",
+      "measurement_start_time": "2026-10-20T12:29:39.000000Z",
+      "measurement_uid": "20261020122941.899282_IN_webconnectivity_2de8b93b6261981c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T104814Z_webconnectivity_IN_24560_n4_ovLoS6zEwv5sGPxE",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020104814.877992_IN_webconnectivity_9d28b8c19f3bb64e",
+      "measurement_start_time": "2026-10-20T10:47:28.000000Z",
+      "measurement_uid": "20261020104814.877992_IN_webconnectivity_9d28b8c19f3bb64e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020043320.768638_IN_webconnectivity_2fb4610133208292",
+      "measurement_start_time": "2026-10-20T04:33:20.000000Z",
+      "measurement_uid": "20261020043320.768638_IN_webconnectivity_2fb4610133208292",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T030554Z_webconnectivity_IN_55836_n4_QX46R0R1GmfxcNfk",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020030554.849741_IN_webconnectivity_77ad44cca833f290",
+      "measurement_start_time": "2026-10-20T03:04:22.000000Z",
+      "measurement_uid": "20261020030554.849741_IN_webconnectivity_77ad44cca833f290",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T024307Z_webconnectivity_IN_55836_n4_VJoMO5VaSptRYoKP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020024935.007472_IN_webconnectivity_4002f2e7baf1d50d",
+      "measurement_start_time": "2026-10-20T02:49:18.000000Z",
+      "measurement_uid": "20261020024935.007472_IN_webconnectivity_4002f2e7baf1d50d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T024205Z_webconnectivity_IN_24309_n4_hLX71OnUcborvUgV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020024206.236053_IN_webconnectivity_7aeb91b896478b16",
+      "measurement_start_time": "2026-10-20T02:41:33.000000Z",
+      "measurement_uid": "20261020024206.236053_IN_webconnectivity_7aeb91b896478b16",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T183850Z_webconnectivity_IN_9498_n4_j0oLTofhHMS9GR05",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019183850.772751_IN_webconnectivity_2b14d3175a370f61",
+      "measurement_start_time": "2026-10-19T18:38:49.000000Z",
+      "measurement_uid": "20261019183850.772751_IN_webconnectivity_2b14d3175a370f61",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T134936Z_webconnectivity_IN_45609_n4_tfUl9xLvHHrlJD9x",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019134936.505292_IN_webconnectivity_ceb01a5f0d4d7e20",
+      "measurement_start_time": "2026-10-19T13:49:34.000000Z",
+      "measurement_uid": "20261019134936.505292_IN_webconnectivity_ceb01a5f0d4d7e20",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T130554Z_webconnectivity_IN_24560_n4_SDcC7hzlB8sSjGA1",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019130554.479489_IN_webconnectivity_2357e05020900314",
+      "measurement_start_time": "2026-10-19T13:05:08.000000Z",
+      "measurement_uid": "20261019130554.479489_IN_webconnectivity_2357e05020900314",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T125420Z_webconnectivity_IN_24560_n4_y6o95BZIGRxgbwTH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019125420.105093_IN_webconnectivity_113f63b9b655c2a6",
+      "measurement_start_time": "2026-10-19T12:54:16.000000Z",
+      "measurement_uid": "20261019125420.105093_IN_webconnectivity_113f63b9b655c2a6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T113818Z_webconnectivity_IN_133982_n4_SkJy3FsxNQ0EoMng",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113818.356316_IN_webconnectivity_b5e81fb4c55825df",
+      "measurement_start_time": "2026-10-19T11:38:16.000000Z",
+      "measurement_uid": "20261019113818.356316_IN_webconnectivity_b5e81fb4c55825df",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T054343Z_webconnectivity_IN_55836_n4_Kec9L0PYNpDyU1Pa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019054450.306907_IN_webconnectivity_87a5ec0b16bfa9eb",
+      "measurement_start_time": "2026-10-19T05:44:34.000000Z",
+      "measurement_uid": "20261019054450.306907_IN_webconnectivity_87a5ec0b16bfa9eb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T054426Z_webconnectivity_IN_55836_n4_yUIbn65SCMIvHc0p",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019054427.044149_IN_webconnectivity_d833beeb3a7a9927",
+      "measurement_start_time": "2026-10-19T05:43:38.000000Z",
+      "measurement_uid": "20261019054427.044149_IN_webconnectivity_d833beeb3a7a9927",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T045422Z_webconnectivity_IN_24560_n4_sTW76w22UqUQhaa2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019045422.883308_IN_webconnectivity_fcf128615af1f329",
+      "measurement_start_time": "2026-10-19T04:54:19.000000Z",
+      "measurement_uid": "20261019045422.883308_IN_webconnectivity_fcf128615af1f329",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019043538.370624_IN_webconnectivity_4f9e31dc166657a7",
+      "measurement_start_time": "2026-10-19T04:35:38.000000Z",
+      "measurement_uid": "20261019043538.370624_IN_webconnectivity_4f9e31dc166657a7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T203955Z_webconnectivity_IN_24309_n4_kqduATIm6udTqf9z",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204644.408102_IN_webconnectivity_07bcc51859e21516",
+      "measurement_start_time": "2026-10-18T20:46:29.000000Z",
+      "measurement_uid": "20261018204644.408102_IN_webconnectivity_07bcc51859e21516",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T175552Z_webconnectivity_IN_24560_n4_wqPzViq7YKWhC4CN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018175553.063223_IN_webconnectivity_fccfcc4911fe1416",
+      "measurement_start_time": "2026-10-18T17:55:50.000000Z",
+      "measurement_uid": "20261018175553.063223_IN_webconnectivity_fccfcc4911fe1416",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T174239Z_webconnectivity_IN_55836_n4_sG4I8tSRD8nXoly1",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018174239.320731_IN_webconnectivity_18fe422e66cccc50",
+      "measurement_start_time": "2026-10-18T17:41:37.000000Z",
+      "measurement_uid": "20261018174239.320731_IN_webconnectivity_18fe422e66cccc50",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261018T135917Z_webconnectivity_IN_9829_n4_XtyMV6S5gyk5TTOv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018135917.365595_IN_webconnectivity_752df37246a019d4",
+      "measurement_start_time": "2026-10-18T13:58:14.000000Z",
+      "measurement_uid": "20261018135917.365595_IN_webconnectivity_752df37246a019d4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T101812Z_webconnectivity_IN_24560_n4_d1bQM0njnDSJA8At",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018101812.775261_IN_webconnectivity_1c1234c709dd3f36",
+      "measurement_start_time": "2026-10-18T10:17:09.000000Z",
+      "measurement_uid": "20261018101812.775261_IN_webconnectivity_1c1234c709dd3f36",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T092738Z_webconnectivity_IN_55836_n4_YvmlITvveXowj83l",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018093645.055561_IN_webconnectivity_aeac9cdafd11a01a",
+      "measurement_start_time": "2026-10-18T09:36:28.000000Z",
+      "measurement_uid": "20261018093645.055561_IN_webconnectivity_aeac9cdafd11a01a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261018T063208Z_webconnectivity_IN_18209_n4_2reUSndm0EbtkJoJ",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018063208.743390_IN_webconnectivity_6fb5842078446d4a",
+      "measurement_start_time": "2026-10-18T06:32:06.000000Z",
+      "measurement_uid": "20261018063208.743390_IN_webconnectivity_6fb5842078446d4a",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043749.836287_IN_webconnectivity_e353ae5c2b627d03",
+      "measurement_start_time": "2026-10-18T04:37:49.000000Z",
+      "measurement_uid": "20261018043749.836287_IN_webconnectivity_e353ae5c2b627d03",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T021628Z_webconnectivity_IN_24560_n4_rLxFWpvIn3nw2L7X",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018021807.030888_IN_webconnectivity_c0e3dfb1295600b7",
+      "measurement_start_time": "2026-10-18T02:18:06.000000Z",
+      "measurement_uid": "20261018021807.030888_IN_webconnectivity_c0e3dfb1295600b7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T015124Z_webconnectivity_IN_55836_n4_oB7qAmWbw1tGBCsZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018015330.911656_IN_webconnectivity_123318fcfc1dc9cc",
+      "measurement_start_time": "2026-10-18T01:53:14.000000Z",
+      "measurement_uid": "20261018015330.911656_IN_webconnectivity_123318fcfc1dc9cc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T134839Z_webconnectivity_IN_55836_n4_oWyZXvf01BHrB5Cw",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017135639.082020_IN_webconnectivity_43307a703596efcb",
+      "measurement_start_time": "2026-10-17T13:56:22.000000Z",
+      "measurement_uid": "20261017135639.082020_IN_webconnectivity_43307a703596efcb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017045335.270171_IN_webconnectivity_dfdac27342c9d551",
+      "measurement_start_time": "2026-10-17T04:53:35.000000Z",
+      "measurement_uid": "20261017045335.270171_IN_webconnectivity_dfdac27342c9d551",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T035507Z_webconnectivity_IN_24560_n4_XPlLhxi4KmxAwGST",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017035507.251249_IN_webconnectivity_54e779a266e98c70",
+      "measurement_start_time": "2026-10-17T03:53:48.000000Z",
+      "measurement_uid": "20261017035507.251249_IN_webconnectivity_54e779a266e98c70",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T035257Z_webconnectivity_IN_24560_n4_hRkbrJg9BaBSro46",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017035257.643800_IN_webconnectivity_2d742053d4442e50",
+      "measurement_start_time": "2026-10-17T03:52:47.000000Z",
+      "measurement_uid": "20261017035257.643800_IN_webconnectivity_2d742053d4442e50",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T030037Z_webconnectivity_IN_133982_n4_WyeIkR9o0gsGYsKm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017030038.202641_IN_webconnectivity_8b07eab7ee72c931",
+      "measurement_start_time": "2026-10-17T03:00:31.000000Z",
+      "measurement_uid": "20261017030038.202641_IN_webconnectivity_8b07eab7ee72c931",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T012628Z_webconnectivity_IN_55836_n4_j5Jck5ZwpP91kYLF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017012628.274228_IN_webconnectivity_f87865b2960ef1cb",
+      "measurement_start_time": "2026-10-17T01:25:27.000000Z",
+      "measurement_uid": "20261017012628.274228_IN_webconnectivity_f87865b2960ef1cb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T001234Z_webconnectivity_IN_24309_n4_tafG3Bp7KoLxXacI",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017001234.439042_IN_webconnectivity_1a3895993b690614",
+      "measurement_start_time": "2026-10-17T00:12:31.000000Z",
+      "measurement_uid": "20261017001234.439042_IN_webconnectivity_1a3895993b690614",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T123828Z_webconnectivity_IN_55836_n4_RJwW3gJgcnOflqQa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016123828.106908_IN_webconnectivity_58659aa82f588e5d",
+      "measurement_start_time": "2026-10-16T12:37:26.000000Z",
+      "measurement_uid": "20261016123828.106908_IN_webconnectivity_58659aa82f588e5d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T101417Z_webconnectivity_IN_55836_n4_Ns7y0AQzaqAHpnAX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016102109.006181_IN_webconnectivity_d2ffb33f439f66ea",
+      "measurement_start_time": "2026-10-16T10:20:51.000000Z",
+      "measurement_uid": "20261016102109.006181_IN_webconnectivity_d2ffb33f439f66ea",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T075420Z_webconnectivity_IN_24560_n4_i5iAHF183Noeoyl2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016075515.496449_IN_webconnectivity_105c722eaf929d19",
+      "measurement_start_time": "2026-10-16T07:55:14.000000Z",
+      "measurement_uid": "20261016075515.496449_IN_webconnectivity_105c722eaf929d19",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T075435Z_webconnectivity_IN_24560_n4_KniMeazCe4K2x7Zi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016075435.245961_IN_webconnectivity_910298339bfd4a58",
+      "measurement_start_time": "2026-10-16T07:54:30.000000Z",
+      "measurement_uid": "20261016075435.245961_IN_webconnectivity_910298339bfd4a58",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016051338.532753_IN_webconnectivity_b1a4e5d36a02fc2d",
+      "measurement_start_time": "2026-10-16T05:13:38.000000Z",
+      "measurement_uid": "20261016051338.532753_IN_webconnectivity_b1a4e5d36a02fc2d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T234221Z_webconnectivity_IN_45609_n4_2CQqXJ5ZEU71QUIt",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015234221.786046_IN_webconnectivity_af5abffc6153f8b6",
+      "measurement_start_time": "2026-10-15T23:41:04.000000Z",
+      "measurement_uid": "20261015234221.786046_IN_webconnectivity_af5abffc6153f8b6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T213053Z_webconnectivity_IN_24560_n4_ojtoniCcAH5kjYWd",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015213054.981179_IN_webconnectivity_75a43c0318980850",
+      "measurement_start_time": "2026-10-15T21:30:05.000000Z",
+      "measurement_uid": "20261015213054.981179_IN_webconnectivity_75a43c0318980850",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T192234Z_webconnectivity_IN_24309_n4_hYgokGYP9C5Rfi3e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015192429.533780_IN_webconnectivity_d43565571f7ae06b",
+      "measurement_start_time": "2026-10-15T19:24:14.000000Z",
+      "measurement_uid": "20261015192429.533780_IN_webconnectivity_d43565571f7ae06b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T131816Z_webconnectivity_IN_55836_n4_2sENCnrtcNawZJHG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015131816.298250_IN_webconnectivity_ef16a9815ad6e435",
+      "measurement_start_time": "2026-10-15T13:17:44.000000Z",
+      "measurement_uid": "20261015131816.298250_IN_webconnectivity_ef16a9815ad6e435",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T130520Z_webconnectivity_IN_55836_n4_tVbUFUpoNoIy5hCR",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015131204.434910_IN_webconnectivity_f838a94b98b1890a",
+      "measurement_start_time": "2026-10-15T13:11:47.000000Z",
+      "measurement_uid": "20261015131204.434910_IN_webconnectivity_f838a94b98b1890a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T081654Z_webconnectivity_IN_24560_n4_wCc3Q1EWglfS7Raz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015081747.498423_IN_webconnectivity_76e3664aab79509c",
+      "measurement_start_time": "2026-10-15T08:17:46.000000Z",
+      "measurement_uid": "20261015081747.498423_IN_webconnectivity_76e3664aab79509c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015062911.127816_IN_webconnectivity_a467e49878bae949",
+      "measurement_start_time": "2026-10-15T06:29:11.000000Z",
+      "measurement_uid": "20261015062911.127816_IN_webconnectivity_a467e49878bae949",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T044408Z_webconnectivity_IN_55836_n4_rTi2PyXorSzPFT8U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015045302.988716_IN_webconnectivity_c7549bb7258b2f03",
+      "measurement_start_time": "2026-10-15T04:52:44.000000Z",
+      "measurement_uid": "20261015045302.988716_IN_webconnectivity_c7549bb7258b2f03",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T195935Z_webconnectivity_IN_24560_n4_uJqD3qRV2xJDNaNH",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195935.837151_IN_webconnectivity_cafb4ba105b6b8d1",
+      "measurement_start_time": "2026-10-14T19:58:50.000000Z",
+      "measurement_uid": "20261014195935.837151_IN_webconnectivity_cafb4ba105b6b8d1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T195916Z_webconnectivity_IN_24560_n4_IlZXU2pvn9YXhxHD",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014195916.548009_IN_webconnectivity_d8bdfee71d99f2d2",
+      "measurement_start_time": "2026-10-14T19:58:28.000000Z",
+      "measurement_uid": "20261014195916.548009_IN_webconnectivity_d8bdfee71d99f2d2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T193642Z_webconnectivity_IN_55836_n4_Es6EpaZqQp3ur0mz",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014193642.803821_IN_webconnectivity_cc26fb6cc4847116",
+      "measurement_start_time": "2026-10-14T19:35:53.000000Z",
+      "measurement_uid": "20261014193642.803821_IN_webconnectivity_cc26fb6cc4847116",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T182028Z_webconnectivity_IN_24309_n4_MtoWaZozlezgeNzz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 17
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014182808.902189_IN_webconnectivity_7e7a8b8c429e557a",
+      "measurement_start_time": "2026-10-14T18:27:53.000000Z",
+      "measurement_uid": "20261014182808.902189_IN_webconnectivity_7e7a8b8c429e557a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.azaadmic.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014104112.750038_IN_webconnectivity_84af3f1fce67753b",
+      "measurement_start_time": "2026-10-14T10:41:12.000000Z",
+      "measurement_uid": "20261014104112.750038_IN_webconnectivity_84af3f1fce67753b",
+      "verification_status": "unverified"
+    }
+  ]
+}

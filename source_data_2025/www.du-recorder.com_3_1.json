@@ -1,0 +1,4191 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.27356815338134766
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250915T202002Z_webconnectivity_IN_24560_n4_E51TxtFzrpn8P6op",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915202429.747927_IN_webconnectivity_7a4a8b945d1a880f",
+      "measurement_start_time": "2025-09-15T20:24:25.000000Z",
+      "measurement_uid": "20250915202429.747927_IN_webconnectivity_7a4a8b945d1a880f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250915T040012Z_webconnectivity_IN_14061_n4_HkrXHccHPS7Kiu60",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915055714.068015_IN_webconnectivity_27bde20a02175417",
+      "measurement_start_time": "2025-09-15T05:57:13.000000Z",
+      "measurement_uid": "20250915055714.068015_IN_webconnectivity_27bde20a02175417",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250915T043238Z_webconnectivity_IN_55577_n4_w3oowQoezcQ0lIdo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915043829.377930_IN_webconnectivity_f2f83066700dafce",
+      "measurement_start_time": "2025-09-15T04:38:28.000000Z",
+      "measurement_uid": "20250915043829.377930_IN_webconnectivity_f2f83066700dafce",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS45769",
+      "probe_cc": "IN",
+      "report_id": "20250915T042428Z_webconnectivity_IN_45769_n4_rsyciG3ItGEXETJI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915042655.039415_IN_webconnectivity_c56817de5fdf96b1",
+      "measurement_start_time": "2025-09-15T04:26:50.000000Z",
+      "measurement_uid": "20250915042655.039415_IN_webconnectivity_c56817de5fdf96b1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T223711Z_webconnectivity_IN_55836_n4_A70YinXyNuTDOdYn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915014530.296239_IN_webconnectivity_62841c9146adad9f",
+      "measurement_start_time": "2025-09-15T01:44:44.000000Z",
+      "measurement_uid": "20250915014530.296239_IN_webconnectivity_62841c9146adad9f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250915T005400Z_webconnectivity_IN_24560_n4_8UCVo9IowFOEgCoL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915010539.074360_IN_webconnectivity_39d212e1e904a47a",
+      "measurement_start_time": "2025-09-15T01:05:21.000000Z",
+      "measurement_uid": "20250915010539.074360_IN_webconnectivity_39d212e1e904a47a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250914T223139Z_webconnectivity_IN_24309_n4_y9UvoGu9us9VSGmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250915004554.022397_IN_webconnectivity_5ebdea9b27a32988",
+      "measurement_start_time": "2025-09-15T00:45:38.000000Z",
+      "measurement_uid": "20250915004554.022397_IN_webconnectivity_5ebdea9b27a32988",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250914T222807Z_webconnectivity_IN_9829_n4_S2jCT4nN4aN6DG9F",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914223514.727938_IN_webconnectivity_ad63504b4697ea90",
+      "measurement_start_time": "2025-09-14T22:35:12.000000Z",
+      "measurement_uid": "20250914223514.727938_IN_webconnectivity_ad63504b4697ea90",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250914T054246Z_webconnectivity_IN_55836_n4_4OR3SdV2ASdl44Nm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914132115.037176_IN_webconnectivity_30f0e19187acf2d8",
+      "measurement_start_time": "2025-09-14T13:20:14.000000Z",
+      "measurement_uid": "20250914132115.037176_IN_webconnectivity_30f0e19187acf2d8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250914T040638Z_webconnectivity_IN_14061_n4_4ST0SWM74K6gop3B",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250914061054.434507_IN_webconnectivity_cfe352ab5a7e6193",
+      "measurement_start_time": "2025-09-14T06:10:54.000000Z",
+      "measurement_uid": "20250914061054.434507_IN_webconnectivity_cfe352ab5a7e6193",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250913T223803Z_webconnectivity_IN_24309_n4_pPvNZkADwaTMln9r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913235526.125500_IN_webconnectivity_cf4a9cf954ea8509",
+      "measurement_start_time": "2025-09-13T23:55:10.000000Z",
+      "measurement_uid": "20250913235526.125500_IN_webconnectivity_cf4a9cf954ea8509",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T223250Z_webconnectivity_IN_55836_n4_hqmTG73oThab4k5g",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913235019.267117_IN_webconnectivity_e3100181143b68cd",
+      "measurement_start_time": "2025-09-13T23:49:33.000000Z",
+      "measurement_uid": "20250913235019.267117_IN_webconnectivity_e3100181143b68cd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250913T114713Z_webconnectivity_IN_55836_n4_6lhJKNA2eb2vmPKb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913172813.728565_IN_webconnectivity_b5bc7fced5a99021",
+      "measurement_start_time": "2025-09-13T17:27:27.000000Z",
+      "measurement_uid": "20250913172813.728565_IN_webconnectivity_b5bc7fced5a99021",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250913T041043Z_webconnectivity_IN_14061_n4_WzC1SA65l4yKq9MO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913045652.318764_IN_webconnectivity_4ee5bb77c73e62b3",
+      "measurement_start_time": "2025-09-13T04:56:51.000000Z",
+      "measurement_uid": "20250913045652.318764_IN_webconnectivity_4ee5bb77c73e62b3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250912T223207Z_webconnectivity_IN_24309_n4_lDFZoxppJYhEuS1S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250913000048.756346_IN_webconnectivity_412ff7cd3fe651ff",
+      "measurement_start_time": "2025-09-13T00:00:32.000000Z",
+      "measurement_uid": "20250913000048.756346_IN_webconnectivity_412ff7cd3fe651ff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T224655Z_webconnectivity_IN_55836_n4_Jm8NE0KO9x7IHwY1",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912230857.767640_IN_webconnectivity_1f99a534cb512979",
+      "measurement_start_time": "2025-09-12T23:08:13.000000Z",
+      "measurement_uid": "20250912230857.767640_IN_webconnectivity_1f99a534cb512979",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T230136Z_webconnectivity_IN_55836_n4_EtiUeimDpXMB0cWc",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912230359.459405_IN_webconnectivity_6a784fbe58318be7",
+      "measurement_start_time": "2025-09-12T23:02:58.000000Z",
+      "measurement_uid": "20250912230359.459405_IN_webconnectivity_6a784fbe58318be7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T223140Z_webconnectivity_IN_55836_n4_8YoyVCcTiMTkOxcF",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912230227.753522_IN_webconnectivity_6ab0a0d2c98a4796",
+      "measurement_start_time": "2025-09-12T23:01:42.000000Z",
+      "measurement_uid": "20250912230227.753522_IN_webconnectivity_6ab0a0d2c98a4796",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250912T124612Z_webconnectivity_IN_134375_n4_pS4YoL2YSox6c4Hq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912125231.944426_IN_webconnectivity_128bcd5a8321d1ee",
+      "measurement_start_time": "2025-09-12T12:52:27.000000Z",
+      "measurement_uid": "20250912125231.944426_IN_webconnectivity_128bcd5a8321d1ee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250912T105034Z_webconnectivity_IN_55836_n4_eq8oYYCaM6oLnyka",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912105226.230178_IN_webconnectivity_0d0ee1a1b2ad635a",
+      "measurement_start_time": "2025-09-12T10:51:26.000000Z",
+      "measurement_uid": "20250912105226.230178_IN_webconnectivity_0d0ee1a1b2ad635a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250912T040801Z_webconnectivity_IN_14061_n4_lXd7qqtoYWZokVG2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_error_code",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912051330.409921_IN_webconnectivity_aeff70f1dc10c920",
+      "measurement_start_time": "2025-09-12T05:13:30.000000Z",
+      "measurement_uid": "20250912051330.409921_IN_webconnectivity_aeff70f1dc10c920",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20250912T030137Z_webconnectivity_IN_18209_n4_wudvvtNeRoL8kMr5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912030358.242178_IN_webconnectivity_06f40285ad7cd98b",
+      "measurement_start_time": "2025-09-12T03:03:56.000000Z",
+      "measurement_uid": "20250912030358.242178_IN_webconnectivity_06f40285ad7cd98b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS132296",
+      "probe_cc": "IN",
+      "report_id": "20250912T011036Z_webconnectivity_IN_132296_n4_mQQo2EOCPchccLQi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250912011335.986177_IN_webconnectivity_13622324782de7ef",
+      "measurement_start_time": "2025-09-12T01:13:33.000000Z",
+      "measurement_uid": "20250912011335.986177_IN_webconnectivity_13622324782de7ef",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250911T224035Z_webconnectivity_IN_24560_n4_CQGv1Cty3jTQoeld",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911225735.644946_IN_webconnectivity_b032992e4caf863e",
+      "measurement_start_time": "2025-09-11T22:56:50.000000Z",
+      "measurement_uid": "20250911225735.644946_IN_webconnectivity_b032992e4caf863e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T170315Z_webconnectivity_IN_55577_n4_yFEkQQo35WzQeoy3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911170342.841723_IN_webconnectivity_e0843a6306736168",
+      "measurement_start_time": "2025-09-11T17:03:41.000000Z",
+      "measurement_uid": "20250911170342.841723_IN_webconnectivity_e0843a6306736168",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T160012Z_webconnectivity_IN_55577_n4_ooW1R531TcLQn8Qv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911160044.733278_IN_webconnectivity_d244ff90ab9cefee",
+      "measurement_start_time": "2025-09-11T16:00:44.000000Z",
+      "measurement_uid": "20250911160044.733278_IN_webconnectivity_d244ff90ab9cefee",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250911T154418Z_webconnectivity_IN_55836_n4_8HfCS94FiGac9dKe",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911155831.649142_IN_webconnectivity_30025c3f46318fd3",
+      "measurement_start_time": "2025-09-11T15:57:47.000000Z",
+      "measurement_uid": "20250911155831.649142_IN_webconnectivity_30025c3f46318fd3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250911T153716Z_webconnectivity_IN_55836_n4_DoCjaWw2kXyjdWRs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911155706.553199_IN_webconnectivity_770f116e5247608d",
+      "measurement_start_time": "2025-09-11T15:56:05.000000Z",
+      "measurement_uid": "20250911155706.553199_IN_webconnectivity_770f116e5247608d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250911T151515Z_webconnectivity_IN_134540_n4_nTKhJjXeopoXGRGl",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911151904.290033_IN_webconnectivity_935edd15366025be",
+      "measurement_start_time": "2025-09-11T15:19:02.000000Z",
+      "measurement_uid": "20250911151904.290033_IN_webconnectivity_935edd15366025be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T145756Z_webconnectivity_IN_55577_n4_3DeiyY6p15w63C9x",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911150206.699549_IN_webconnectivity_aafef7a371877187",
+      "measurement_start_time": "2025-09-11T15:02:06.000000Z",
+      "measurement_uid": "20250911150206.699549_IN_webconnectivity_aafef7a371877187",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250911T140748Z_webconnectivity_IN_55577_n4_PEmFk4oFBfwAC2oz",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911141311.330860_IN_webconnectivity_f713e71b008473b8",
+      "measurement_start_time": "2025-09-11T14:13:15.000000Z",
+      "measurement_uid": "20250911141311.330860_IN_webconnectivity_f713e71b008473b8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250911T061254Z_webconnectivity_IN_45820_n4_0rdromHGZZ8nJQrl",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911062158.058712_IN_webconnectivity_d26ffde486d1b6fd",
+      "measurement_start_time": "2025-09-11T06:21:55.000000Z",
+      "measurement_uid": "20250911062158.058712_IN_webconnectivity_d26ffde486d1b6fd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250911T040013Z_webconnectivity_IN_14061_n4_oGNoZPpsodjldwkL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911045717.097570_IN_webconnectivity_3a63e55ade5179ed",
+      "measurement_start_time": "2025-09-11T04:57:16.000000Z",
+      "measurement_uid": "20250911045717.097570_IN_webconnectivity_3a63e55ade5179ed",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T223205Z_webconnectivity_IN_24309_n4_GGq7SCWGQQFybtmY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911012849.139657_IN_webconnectivity_4babac7cf3237d5c",
+      "measurement_start_time": "2025-09-11T01:28:33.000000Z",
+      "measurement_uid": "20250911012849.139657_IN_webconnectivity_4babac7cf3237d5c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T223200Z_webconnectivity_IN_55836_n4_xiXJlLZogwoEFnq6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250911012634.733634_IN_webconnectivity_71709fadb037d557",
+      "measurement_start_time": "2025-09-11T01:25:49.000000Z",
+      "measurement_uid": "20250911012634.733634_IN_webconnectivity_71709fadb037d557",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250910T221335Z_webconnectivity_IN_138754_n4_KhiPXBIXn2zydoWd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910221723.294530_IN_webconnectivity_f3cd863e8b071314",
+      "measurement_start_time": "2025-09-10T22:17:22.000000Z",
+      "measurement_uid": "20250910221723.294530_IN_webconnectivity_f3cd863e8b071314",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250910T210207Z_webconnectivity_IN_24560_n4_gKzLtXzgq341cxOM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910211137.088027_IN_webconnectivity_9927300b711a08b6",
+      "measurement_start_time": "2025-09-10T21:11:18.000000Z",
+      "measurement_uid": "20250910211137.088027_IN_webconnectivity_9927300b711a08b6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T162336Z_webconnectivity_IN_55836_n4_zIwcDCph7pw6uRv4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910163920.957608_IN_webconnectivity_200605fc95ad716d",
+      "measurement_start_time": "2025-09-10T16:38:21.000000Z",
+      "measurement_uid": "20250910163920.957608_IN_webconnectivity_200605fc95ad716d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T162539Z_webconnectivity_IN_55836_n4_4To9zChN6CxSsTgo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910163039.011463_IN_webconnectivity_c5c723de7d97ad50",
+      "measurement_start_time": "2025-09-10T16:29:38.000000Z",
+      "measurement_uid": "20250910163039.011463_IN_webconnectivity_c5c723de7d97ad50",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS139555",
+      "probe_cc": "IN",
+      "report_id": "20250910T134629Z_webconnectivity_IN_139555_n1_Y8hoF5ujvh6fRePS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910135521.754949_IN_webconnectivity_ce8f9b16e3f87c2d",
+      "measurement_start_time": "2025-09-10T13:55:19.000000Z",
+      "measurement_uid": "20250910135521.754949_IN_webconnectivity_ce8f9b16e3f87c2d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T052052Z_webconnectivity_IN_63949_n1_2QbFbqmjvov4wdKP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910073305.001089_IN_webconnectivity_a329015f8dc92b04",
+      "measurement_start_time": "2025-09-10T07:32:59.000000Z",
+      "measurement_uid": "20250910073305.001089_IN_webconnectivity_a329015f8dc92b04",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250910T040013Z_webconnectivity_IN_14061_n1_B842p5gBQVSLJI64",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910044757.443681_IN_webconnectivity_7f4de8b04c9b9e0d",
+      "measurement_start_time": "2025-09-10T04:47:56.000000Z",
+      "measurement_uid": "20250910044757.443681_IN_webconnectivity_7f4de8b04c9b9e0d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250910T043404Z_webconnectivity_IN_55577_n1_FdjXoL7wYCsfoQup",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910043902.693008_IN_webconnectivity_66a704db4739dde1",
+      "measurement_start_time": "2025-09-10T04:38:54.000000Z",
+      "measurement_uid": "20250910043902.693008_IN_webconnectivity_66a704db4739dde1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250910T005310Z_webconnectivity_IN_63949_n1_RCCuqzeiTQiS8gqk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910025316.529519_IN_webconnectivity_b59463f504236f22",
+      "measurement_start_time": "2025-09-10T02:53:13.000000Z",
+      "measurement_uid": "20250910025316.529519_IN_webconnectivity_b59463f504236f22",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T223722Z_webconnectivity_IN_24309_n1_MIdrZLyRFBD9A19U",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910003302.452378_IN_webconnectivity_0034e39df156e408",
+      "measurement_start_time": "2025-09-10T00:32:46.000000Z",
+      "measurement_uid": "20250910003302.452378_IN_webconnectivity_0034e39df156e408",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250910T002634Z_webconnectivity_IN_24309_n1_C8nUcBABnMSzDWyG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910003107.990113_IN_webconnectivity_a29b9ea7849c9cfb",
+      "measurement_start_time": "2025-09-10T00:31:07.000000Z",
+      "measurement_uid": "20250910003107.990113_IN_webconnectivity_a29b9ea7849c9cfb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250910T001843Z_webconnectivity_IN_55836_n1_c87TnTLNPduhdBXC",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910002908.370518_IN_webconnectivity_b602596876639eb5",
+      "measurement_start_time": "2025-09-10T00:28:07.000000Z",
+      "measurement_uid": "20250910002908.370518_IN_webconnectivity_b602596876639eb5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250909T223132Z_webconnectivity_IN_55836_n1_3ptAHU61e5tWlcuX",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250910002449.025237_IN_webconnectivity_8f796a11a0d6a56a",
+      "measurement_start_time": "2025-09-10T00:24:03.000000Z",
+      "measurement_uid": "20250910002449.025237_IN_webconnectivity_8f796a11a0d6a56a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T205223Z_webconnectivity_IN_63949_n1_Wmn9U8PP3c0foJsi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909233209.955412_IN_webconnectivity_dc17cf5933934c68",
+      "measurement_start_time": "2025-09-09T23:32:06.000000Z",
+      "measurement_uid": "20250909233209.955412_IN_webconnectivity_dc17cf5933934c68",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250909T201812Z_webconnectivity_IN_24309_n1_lLYio1KoUz5oX1bD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909202307.082615_IN_webconnectivity_f5077cab902b7fe4",
+      "measurement_start_time": "2025-09-09T20:23:03.000000Z",
+      "measurement_uid": "20250909202307.082615_IN_webconnectivity_f5077cab902b7fe4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20250909T201911Z_webconnectivity_IN_55824_n1_liiyoR7nsFi8oEH1",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909201943.970199_IN_webconnectivity_013a06d25f59a3e9",
+      "measurement_start_time": "2025-09-09T20:19:42.000000Z",
+      "measurement_uid": "20250909201943.970199_IN_webconnectivity_013a06d25f59a3e9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250909T194032Z_webconnectivity_IN_24560_n1_gFcWMmjo3pVhzB3F",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909195130.578031_IN_webconnectivity_e00b1c4e0d223b9e",
+      "measurement_start_time": "2025-09-09T19:51:12.000000Z",
+      "measurement_uid": "20250909195130.578031_IN_webconnectivity_e00b1c4e0d223b9e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250909T134520Z_webconnectivity_IN_63949_n1_JR24ptcgI9ooljz4",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909174606.067102_IN_webconnectivity_ccf54f04dbd9bd33",
+      "measurement_start_time": "2025-09-09T17:46:03.000000Z",
+      "measurement_uid": "20250909174606.067102_IN_webconnectivity_ccf54f04dbd9bd33",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250909T171621Z_webconnectivity_IN_138754_n1_WGKehKl95coUiIoE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909171743.835717_IN_webconnectivity_d9c0dbf0a33960b9",
+      "measurement_start_time": "2025-09-09T17:17:42.000000Z",
+      "measurement_uid": "20250909171743.835717_IN_webconnectivity_d9c0dbf0a33960b9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250909T031004Z_webconnectivity_IN_141549_n1_T4GUv7dNWM9op2Hy",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909142736.785154_IN_webconnectivity_26e2e3f4378cb280",
+      "measurement_start_time": "2025-09-09T14:27:34.000000Z",
+      "measurement_uid": "20250909142736.785154_IN_webconnectivity_26e2e3f4378cb280",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250909T043735Z_webconnectivity_IN_14061_n1_o2lt6hlWyEQTkaO2",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909072808.575356_IN_webconnectivity_f5e009e4504cc3cb",
+      "measurement_start_time": "2025-09-09T07:27:56.000000Z",
+      "measurement_uid": "20250909072808.575356_IN_webconnectivity_f5e009e4504cc3cb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250909T050349Z_webconnectivity_IN_17488_n1_TY0xSJAvjERZGetP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909050503.649935_IN_webconnectivity_e5d32fc5788c678f",
+      "measurement_start_time": "2025-09-09T05:04:53.000000Z",
+      "measurement_uid": "20250909050503.649935_IN_webconnectivity_e5d32fc5788c678f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T223631Z_webconnectivity_IN_55836_n1_7npociHd4yDowAs7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909025856.256290_IN_webconnectivity_18edfd1e5c09c425",
+      "measurement_start_time": "2025-09-09T02:58:06.000000Z",
+      "measurement_uid": "20250909025856.256290_IN_webconnectivity_18edfd1e5c09c425",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20250908T230722Z_webconnectivity_IN_63949_n1_2lWCwko4ULdJ2Kio",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250909012534.976663_IN_webconnectivity_2817347bf9d6a75b",
+      "measurement_start_time": "2025-09-09T01:25:29.000000Z",
+      "measurement_uid": "20250909012534.976663_IN_webconnectivity_2817347bf9d6a75b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250908T223659Z_webconnectivity_IN_24309_n1_XpotRdv8foyXiN8b",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908234111.824943_IN_webconnectivity_525bafe276fd1de4",
+      "measurement_start_time": "2025-09-08T23:40:56.000000Z",
+      "measurement_uid": "20250908234111.824943_IN_webconnectivity_525bafe276fd1de4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS141549",
+      "probe_cc": "IN",
+      "report_id": "20250908T154125Z_webconnectivity_IN_141549_n1_W11W0DwQ5j4O8ooo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908182212.368210_IN_webconnectivity_af6ab1ad136feaa3",
+      "measurement_start_time": "2025-09-08T18:22:08.000000Z",
+      "measurement_uid": "20250908182212.368210_IN_webconnectivity_af6ab1ad136feaa3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T150819Z_webconnectivity_IN_55836_n1_TMGJ1V5ugtoHN1Jv",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908152105.535704_IN_webconnectivity_b328ff63a89c73bc",
+      "measurement_start_time": "2025-09-08T15:20:05.000000Z",
+      "measurement_uid": "20250908152105.535704_IN_webconnectivity_b328ff63a89c73bc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143659Z_webconnectivity_IN_55836_n1_0nJipok9TmzClLVs",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908152034.006192_IN_webconnectivity_592a642ee73f709c",
+      "measurement_start_time": "2025-09-08T15:19:45.000000Z",
+      "measurement_uid": "20250908152034.006192_IN_webconnectivity_592a642ee73f709c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T143733Z_webconnectivity_IN_55836_n1_VI57udlEF336T3C2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908152033.331693_IN_webconnectivity_a3b97cf02614f61c",
+      "measurement_start_time": "2025-09-08T15:19:32.000000Z",
+      "measurement_uid": "20250908152033.331693_IN_webconnectivity_a3b97cf02614f61c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250908T145051Z_webconnectivity_IN_138754_n1_sTwW0efPHQ5wryrx",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908145631.358653_IN_webconnectivity_8ecbb76cd605c9be",
+      "measurement_start_time": "2025-09-08T14:56:30.000000Z",
+      "measurement_uid": "20250908145631.358653_IN_webconnectivity_8ecbb76cd605c9be",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250908T063412Z_webconnectivity_IN_24560_n1_R1kG70WWIYQNooRh",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908065146.616835_IN_webconnectivity_65b6771bb2a69e67",
+      "measurement_start_time": "2025-09-08T06:50:55.000000Z",
+      "measurement_uid": "20250908065146.616835_IN_webconnectivity_65b6771bb2a69e67",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250908T060500Z_webconnectivity_IN_55577_n1_lHtoo5KeXS0WdyEu",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908060741.477019_IN_webconnectivity_d3bf28b2546330b2",
+      "measurement_start_time": "2025-09-08T06:07:34.000000Z",
+      "measurement_uid": "20250908060741.477019_IN_webconnectivity_d3bf28b2546330b2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250908T041133Z_webconnectivity_IN_14061_n1_5EDltoQ34oHs8o3q",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908051612.588229_IN_webconnectivity_aa25e60d612c4451",
+      "measurement_start_time": "2025-09-08T05:16:12.000000Z",
+      "measurement_uid": "20250908051612.588229_IN_webconnectivity_aa25e60d612c4451",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250908T012906Z_webconnectivity_IN_55836_n1_CzgiqsvlpsNOK6N9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908013013.182762_IN_webconnectivity_eb3ff13958b6bc74",
+      "measurement_start_time": "2025-09-08T01:30:12.000000Z",
+      "measurement_uid": "20250908013013.182762_IN_webconnectivity_eb3ff13958b6bc74",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T223659Z_webconnectivity_IN_55836_n1_Q8nQXQnHBUz5I1r5",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908012927.160952_IN_webconnectivity_6a811339309f69b2",
+      "measurement_start_time": "2025-09-08T01:28:41.000000Z",
+      "measurement_uid": "20250908012927.160952_IN_webconnectivity_6a811339309f69b2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T223753Z_webconnectivity_IN_24309_n1_EEZjTuswKD22ljeQ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250908002223.572961_IN_webconnectivity_425080589446e6df",
+      "measurement_start_time": "2025-09-08T00:22:07.000000Z",
+      "measurement_uid": "20250908002223.572961_IN_webconnectivity_425080589446e6df",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T202245Z_webconnectivity_IN_55836_n1_jPEyCn4Sm2YohTbE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907220627.739162_IN_webconnectivity_88fae79d37b322f2",
+      "measurement_start_time": "2025-09-07T22:05:27.000000Z",
+      "measurement_uid": "20250907220627.739162_IN_webconnectivity_88fae79d37b322f2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T142251Z_webconnectivity_IN_24309_n1_xMPo4FxVkNnR9X33",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907174156.901049_IN_webconnectivity_8edac651ab72edc6",
+      "measurement_start_time": "2025-09-07T17:41:42.000000Z",
+      "measurement_uid": "20250907174156.901049_IN_webconnectivity_8edac651ab72edc6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250907T110505Z_webconnectivity_IN_24560_n1_Q8G1yogqGqxdKP0n",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907112032.764682_IN_webconnectivity_1eeb2536c55225c3",
+      "measurement_start_time": "2025-09-07T11:20:14.000000Z",
+      "measurement_uid": "20250907112032.764682_IN_webconnectivity_1eeb2536c55225c3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250907T100825Z_webconnectivity_IN_55836_n1_iWRgBFTB1wjPT7s2",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907101919.395285_IN_webconnectivity_ae42056324d83146",
+      "measurement_start_time": "2025-09-07T10:18:19.000000Z",
+      "measurement_uid": "20250907101919.395285_IN_webconnectivity_ae42056324d83146",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20250907T082238Z_webconnectivity_IN_132116_n1_PdOOToCC4bYhEf3n",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907083420.110023_IN_webconnectivity_d23208eb8e43d044",
+      "measurement_start_time": "2025-09-07T08:34:16.000000Z",
+      "measurement_uid": "20250907083420.110023_IN_webconnectivity_d23208eb8e43d044",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250907T040014Z_webconnectivity_IN_14061_n1_TR3lVkMXY1dCj36o",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907045936.336920_IN_webconnectivity_fa584c08627728bd",
+      "measurement_start_time": "2025-09-07T04:59:35.000000Z",
+      "measurement_uid": "20250907045936.336920_IN_webconnectivity_fa584c08627728bd",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250907T013855Z_webconnectivity_IN_24309_n1_oWxUKSEvEoNHZltV",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907014534.416917_IN_webconnectivity_d7a40d9cadc8a788",
+      "measurement_start_time": "2025-09-07T01:45:33.000000Z",
+      "measurement_uid": "20250907014534.416917_IN_webconnectivity_d7a40d9cadc8a788",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250906T223638Z_webconnectivity_IN_55836_n1_PtmcJpR4gKkSgafa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250907004417.072136_IN_webconnectivity_321acc992ba87076",
+      "measurement_start_time": "2025-09-07T00:43:31.000000Z",
+      "measurement_uid": "20250907004417.072136_IN_webconnectivity_321acc992ba87076",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS45916",
+      "probe_cc": "IN",
+      "report_id": "20250906T165353Z_webconnectivity_IN_45916_n1_BuIMJNhwtoIvHY5h",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906170347.454404_IN_webconnectivity_d457fc8f0ef9bf8a",
+      "measurement_start_time": "2025-09-06T17:03:15.000000Z",
+      "measurement_uid": "20250906170347.454404_IN_webconnectivity_d457fc8f0ef9bf8a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250906T152800Z_webconnectivity_IN_24560_n1_vZo9tpb4foBtVOgB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906153407.932238_IN_webconnectivity_605a89bbabbf2409",
+      "measurement_start_time": "2025-09-06T15:34:05.000000Z",
+      "measurement_uid": "20250906153407.932238_IN_webconnectivity_605a89bbabbf2409",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250906T080656Z_webconnectivity_IN_55577_n1_gQby5wBOfXnxHJln",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906080733.023341_IN_webconnectivity_ebb0ed3b48538c2b",
+      "measurement_start_time": "2025-09-06T08:07:26.000000Z",
+      "measurement_uid": "20250906080733.023341_IN_webconnectivity_ebb0ed3b48538c2b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS134540",
+      "probe_cc": "IN",
+      "report_id": "20250906T073232Z_webconnectivity_IN_134540_n1_7TFO6KB9eXol7twn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906074529.893206_IN_webconnectivity_1e5d0891b4ba7cd7",
+      "measurement_start_time": "2025-09-06T07:45:26.000000Z",
+      "measurement_uid": "20250906074529.893206_IN_webconnectivity_1e5d0891b4ba7cd7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250906T040011Z_webconnectivity_IN_14061_n1_znqlU4lKTQTvP8xw",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906054106.857785_IN_webconnectivity_f213f99db08099d2",
+      "measurement_start_time": "2025-09-06T05:41:06.000000Z",
+      "measurement_uid": "20250906054106.857785_IN_webconnectivity_f213f99db08099d2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T223616Z_webconnectivity_IN_55836_n1_hHeEmMZtojvTlFSN",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906020206.252365_IN_webconnectivity_29f07f6876254256",
+      "measurement_start_time": "2025-09-06T02:01:20.000000Z",
+      "measurement_uid": "20250906020206.252365_IN_webconnectivity_29f07f6876254256",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T223910Z_webconnectivity_IN_24309_n1_yd3DRoAXjKX5Acdn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250906012141.006079_IN_webconnectivity_4a7dfd08977fab6c",
+      "measurement_start_time": "2025-09-06T01:21:25.000000Z",
+      "measurement_uid": "20250906012141.006079_IN_webconnectivity_4a7dfd08977fab6c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20250905T182754Z_webconnectivity_IN_45609_n1_4lZ5kd06Y63mCsgv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905200814.915882_IN_webconnectivity_5f35f6fa107f6193",
+      "measurement_start_time": "2025-09-05T20:08:10.000000Z",
+      "measurement_uid": "20250905200814.915882_IN_webconnectivity_5f35f6fa107f6193",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T151429Z_webconnectivity_IN_55836_n1_WvGs6Y1EFBizm9vY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905154541.674234_IN_webconnectivity_371e6689ba83d553",
+      "measurement_start_time": "2025-09-05T15:44:36.000000Z",
+      "measurement_uid": "20250905154541.674234_IN_webconnectivity_371e6689ba83d553",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250905T150734Z_webconnectivity_IN_55836_n1_8PV56ELsFkfaIfQ6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905151920.110138_IN_webconnectivity_11bc6dd09c014d6b",
+      "measurement_start_time": "2025-09-05T15:18:20.000000Z",
+      "measurement_uid": "20250905151920.110138_IN_webconnectivity_11bc6dd09c014d6b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250905T130548Z_webconnectivity_IN_24560_n1_klOJcC0dYf5OcVIy",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905132415.025154_IN_webconnectivity_f5c8de5f3a14ad66",
+      "measurement_start_time": "2025-09-05T13:23:18.000000Z",
+      "measurement_uid": "20250905132415.025154_IN_webconnectivity_f5c8de5f3a14ad66",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250905T040600Z_webconnectivity_IN_14061_n1_pOFAcXkGXCoYRBXL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905053937.646478_IN_webconnectivity_d66815f6a43f423f",
+      "measurement_start_time": "2025-09-05T05:39:37.000000Z",
+      "measurement_uid": "20250905053937.646478_IN_webconnectivity_d66815f6a43f423f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250905T050858Z_webconnectivity_IN_24309_n1_JBxLpy7UP3UpHy7v",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905051155.431641_IN_webconnectivity_5624f59ec7a9385d",
+      "measurement_start_time": "2025-09-05T05:11:50.000000Z",
+      "measurement_uid": "20250905051155.431641_IN_webconnectivity_5624f59ec7a9385d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250904T223722Z_webconnectivity_IN_55836_n1_naWe9cwMhoIDFgKD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250905004655.873336_IN_webconnectivity_823660d68b473da3",
+      "measurement_start_time": "2025-09-05T00:46:10.000000Z",
+      "measurement_uid": "20250905004655.873336_IN_webconnectivity_823660d68b473da3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250904T163206Z_webconnectivity_IN_17488_n1_RJSsojrTTDdZAkgo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904163224.071536_IN_webconnectivity_d7847c0690502ea3",
+      "measurement_start_time": "2025-09-04T16:32:21.000000Z",
+      "measurement_uid": "20250904163224.071536_IN_webconnectivity_d7847c0690502ea3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250904T124540Z_webconnectivity_IN_24309_n1_FNyWYoNZaaWHRhIa",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_3",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904125137.808820_IN_webconnectivity_f03ce86126dc646a",
+      "measurement_start_time": "2025-09-04T12:51:36.000000Z",
+      "measurement_uid": "20250904125137.808820_IN_webconnectivity_f03ce86126dc646a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250904T113504Z_webconnectivity_IN_24560_n1_jhoAmCpBTtWwsnc7",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904114458.832415_IN_webconnectivity_37e48a380d9bf43e",
+      "measurement_start_time": "2025-09-04T11:44:12.000000Z",
+      "measurement_uid": "20250904114458.832415_IN_webconnectivity_37e48a380d9bf43e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS45820",
+      "probe_cc": "IN",
+      "report_id": "20250904T102258Z_webconnectivity_IN_45820_n1_wEzFVOlg1JMER3wP",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904102704.352407_IN_webconnectivity_f57ba54d4f283bfb",
+      "measurement_start_time": "2025-09-04T10:27:01.000000Z",
+      "measurement_uid": "20250904102704.352407_IN_webconnectivity_f57ba54d4f283bfb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250904T093929Z_webconnectivity_IN_9829_n1_BKo24PFrWi82A2Yt",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904093929.728157_IN_webconnectivity_d7c30ee869a86bf2",
+      "measurement_start_time": "2025-09-04T08:54:28.000000Z",
+      "measurement_uid": "20250904093929.728157_IN_webconnectivity_d7c30ee869a86bf2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075000Z_webconnectivity_IN_55836_n1_urLrsisw4MrDHIh7",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904082136.148286_IN_webconnectivity_980a02e14b1404c4",
+      "measurement_start_time": "2025-09-04T08:20:37.000000Z",
+      "measurement_uid": "20250904082136.148286_IN_webconnectivity_980a02e14b1404c4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T075424Z_webconnectivity_IN_55836_n1_UY5ToQn9ZLWGzETY",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904082134.729465_IN_webconnectivity_a34f857bf630c3bb",
+      "measurement_start_time": "2025-09-04T08:20:37.000000Z",
+      "measurement_uid": "20250904082134.729465_IN_webconnectivity_a34f857bf630c3bb",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250904T055756Z_webconnectivity_IN_55577_n1_kWV7pBhFaNczE5hW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904060206.847074_IN_webconnectivity_c1be99c116b10532",
+      "measurement_start_time": "2025-09-04T06:02:03.000000Z",
+      "measurement_uid": "20250904060206.847074_IN_webconnectivity_c1be99c116b10532",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": true,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20250904T083108Z_webconnectivity_IN_9829_n1_tFBjMuOUUoWRZQ12",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "accuracy": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904083108.491068_IN_webconnectivity_639cd90ff633300f",
+      "measurement_start_time": "2025-09-04T06:01:45.000000Z",
+      "measurement_uid": "20250904083108.491068_IN_webconnectivity_639cd90ff633300f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250904T040011Z_webconnectivity_IN_14061_n1_NwavDSOkhvaYAJBI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904055240.812242_IN_webconnectivity_f25aabfc27861b1b",
+      "measurement_start_time": "2025-09-04T05:52:40.000000Z",
+      "measurement_uid": "20250904055240.812242_IN_webconnectivity_f25aabfc27861b1b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS134375",
+      "probe_cc": "IN",
+      "report_id": "20250904T053923Z_webconnectivity_IN_134375_n1_GNxeIpAFk6gIcFzG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250904054229.641490_IN_webconnectivity_731114ee13a64575",
+      "measurement_start_time": "2025-09-04T05:42:25.000000Z",
+      "measurement_uid": "20250904054229.641490_IN_webconnectivity_731114ee13a64575",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20250903T202201Z_webconnectivity_IN_17488_n1_QUCLKhoFwp4oHg6L",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903202553.820223_IN_webconnectivity_94e40f120b17395a",
+      "measurement_start_time": "2025-09-03T20:25:53.000000Z",
+      "measurement_uid": "20250903202553.820223_IN_webconnectivity_94e40f120b17395a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250903T200829Z_webconnectivity_IN_138754_n1_GXWPPgUmIuRaZ9oD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903201413.434924_IN_webconnectivity_4e418a41a2edf919",
+      "measurement_start_time": "2025-09-03T20:14:12.000000Z",
+      "measurement_uid": "20250903201413.434924_IN_webconnectivity_4e418a41a2edf919",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T164500Z_webconnectivity_IN_55836_n1_S8XCpo1zXEcs36EZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903165342.241534_IN_webconnectivity_1dc9f71b56a45bac",
+      "measurement_start_time": "2025-09-03T16:52:44.000000Z",
+      "measurement_uid": "20250903165342.241534_IN_webconnectivity_1dc9f71b56a45bac",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250903T164855Z_webconnectivity_IN_55836_n1_ooHkr4qdjf5DkCc6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903165316.055719_IN_webconnectivity_9e77b9cb08164a25",
+      "measurement_start_time": "2025-09-03T16:52:15.000000Z",
+      "measurement_uid": "20250903165316.055719_IN_webconnectivity_9e77b9cb08164a25",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250903T040010Z_webconnectivity_IN_14061_n1_4QTGlSKLfhofIzwq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250903054404.018975_IN_webconnectivity_63c28610e3318c5b",
+      "measurement_start_time": "2025-09-03T05:44:03.000000Z",
+      "measurement_uid": "20250903054404.018975_IN_webconnectivity_63c28610e3318c5b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T223300Z_webconnectivity_IN_24309_n1_RyoLJ26XQkDs1B70",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902223811.680849_IN_webconnectivity_2d50296ceb22c99a",
+      "measurement_start_time": "2025-09-02T22:37:56.000000Z",
+      "measurement_uid": "20250902223811.680849_IN_webconnectivity_2d50296ceb22c99a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250902T222841Z_webconnectivity_IN_24309_n1_ycPvVc3u9odTHRhf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902223450.659009_IN_webconnectivity_3de35cde9fb0c963",
+      "measurement_start_time": "2025-09-02T22:34:47.000000Z",
+      "measurement_uid": "20250902223450.659009_IN_webconnectivity_3de35cde9fb0c963",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250902T203621Z_webconnectivity_IN_24560_n1_8oKBbYrvD5TeUHwI",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "cp.fp_x_error_code",
+            "scope": "fp",
+            "location_found": "body",
+            "confidence_no_fp": 5,
+            "expected_countries": []
+          }
+        ]
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902204353.314707_IN_webconnectivity_7db1e8211603c57a",
+      "measurement_start_time": "2025-09-02T20:43:26.000000Z",
+      "measurement_uid": "20250902204353.314707_IN_webconnectivity_7db1e8211603c57a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T130605Z_webconnectivity_IN_55836_n1_YxyMBOMDoxUJkCu8",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902131045.859769_IN_webconnectivity_a2c5537ca8f80a11",
+      "measurement_start_time": "2025-09-02T13:09:45.000000Z",
+      "measurement_uid": "20250902131045.859769_IN_webconnectivity_a2c5537ca8f80a11",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T130443Z_webconnectivity_IN_55836_n1_hHB835sqONXxugim",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902130904.702773_IN_webconnectivity_251b0704c4d5b548",
+      "measurement_start_time": "2025-09-02T13:08:04.000000Z",
+      "measurement_uid": "20250902130904.702773_IN_webconnectivity_251b0704c4d5b548",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250902T080108Z_webconnectivity_IN_55577_n1_v7HxNd6oRud9JQQH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902080247.042280_IN_webconnectivity_405d89c332dc5676",
+      "measurement_start_time": "2025-09-02T08:02:45.000000Z",
+      "measurement_uid": "20250902080247.042280_IN_webconnectivity_405d89c332dc5676",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250902T040927Z_webconnectivity_IN_14061_n1_o8pVoo6VhBnZ9vJo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902050837.100882_IN_webconnectivity_49cc900e3beeca6a",
+      "measurement_start_time": "2025-09-02T05:08:36.000000Z",
+      "measurement_uid": "20250902050837.100882_IN_webconnectivity_49cc900e3beeca6a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250902T031149Z_webconnectivity_IN_138754_n1_Gx8rMrGlhj2wcfyd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902031613.195559_IN_webconnectivity_60d61f009ef115d1",
+      "measurement_start_time": "2025-09-02T03:16:12.000000Z",
+      "measurement_uid": "20250902031613.195559_IN_webconnectivity_60d61f009ef115d1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250902T025711Z_webconnectivity_IN_55836_n1_jAytsJPBje1j6CCj",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250902025921.699393_IN_webconnectivity_a0764db008c185b9",
+      "measurement_start_time": "2025-09-02T02:58:21.000000Z",
+      "measurement_uid": "20250902025921.699393_IN_webconnectivity_a0764db008c185b9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250901T223715Z_webconnectivity_IN_24309_n1_tsvEQanZFwsSXBAb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901231816.163665_IN_webconnectivity_e0f785146acb1418",
+      "measurement_start_time": "2025-09-01T23:18:00.000000Z",
+      "measurement_uid": "20250901231816.163665_IN_webconnectivity_e0f785146acb1418",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170155Z_webconnectivity_IN_55836_n1_govj7QXR0N5zIfoP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901091650.930104_IN_webconnectivity_d1cd84dd7146c882",
+      "measurement_start_time": "2025-09-01T09:15:50.000000Z",
+      "measurement_uid": "20250901091650.930104_IN_webconnectivity_d1cd84dd7146c882",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T170149Z_webconnectivity_IN_55836_n1_TEhr7GRQeWKZeIkW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901091650.545748_IN_webconnectivity_c81c21d809f0dc49",
+      "measurement_start_time": "2025-09-01T09:15:49.000000Z",
+      "measurement_uid": "20250901091650.545748_IN_webconnectivity_c81c21d809f0dc49",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250901T063851Z_webconnectivity_IN_24560_n1_isMiLauQY5rNcCR9",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901065025.623938_IN_webconnectivity_aa79437f94cfd151",
+      "measurement_start_time": "2025-09-01T06:49:39.000000Z",
+      "measurement_uid": "20250901065025.623938_IN_webconnectivity_aa79437f94cfd151",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250901T040447Z_webconnectivity_IN_14061_n1_3b0eTp39JDuR6y5M",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250901050356.730089_IN_webconnectivity_bdd5387dd49ed1b7",
+      "measurement_start_time": "2025-09-01T05:03:56.000000Z",
+      "measurement_uid": "20250901050356.730089_IN_webconnectivity_bdd5387dd49ed1b7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T174812Z_webconnectivity_IN_138754_n1_ouzorTmx1TjUinJ3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831174843.059085_IN_webconnectivity_52433b3ed8527d13",
+      "measurement_start_time": "2025-08-31T17:48:42.000000Z",
+      "measurement_uid": "20250831174843.059085_IN_webconnectivity_52433b3ed8527d13",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250831T173009Z_webconnectivity_IN_138754_n1_bg849ABJKUFa1jGz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831174004.915331_IN_webconnectivity_7f57c75fa5eb49c2",
+      "measurement_start_time": "2025-08-31T17:40:04.000000Z",
+      "measurement_uid": "20250831174004.915331_IN_webconnectivity_7f57c75fa5eb49c2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250831T092244Z_webconnectivity_IN_55836_n1_V3GcxfWCyKyHBxBD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831092510.524000_IN_webconnectivity_c0ad4b1da1df18ba",
+      "measurement_start_time": "2025-08-31T09:24:08.000000Z",
+      "measurement_uid": "20250831092510.524000_IN_webconnectivity_c0ad4b1da1df18ba",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250831T040832Z_webconnectivity_IN_14061_n1_UBArxySUofsFWaYY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250831050739.692007_IN_webconnectivity_b4073b6560e8b1c1",
+      "measurement_start_time": "2025-08-31T05:07:39.000000Z",
+      "measurement_uid": "20250831050739.692007_IN_webconnectivity_b4073b6560e8b1c1",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250830T193759Z_webconnectivity_IN_138754_n1_8DZg1ccPIjsIK7A9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830194045.700980_IN_webconnectivity_7f8d4b57fa8c064c",
+      "measurement_start_time": "2025-08-30T19:40:44.000000Z",
+      "measurement_uid": "20250830194045.700980_IN_webconnectivity_7f8d4b57fa8c064c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250830T184816Z_webconnectivity_IN_24560_n1_XwYkC1CvzkfSUWps",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830185400.155463_IN_webconnectivity_11c1f7aba7a0a3c7",
+      "measurement_start_time": "2025-08-30T18:53:58.000000Z",
+      "measurement_uid": "20250830185400.155463_IN_webconnectivity_11c1f7aba7a0a3c7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20250830T180830Z_webconnectivity_IN_55824_n1_orc7fkoYLFpqs4BU",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830181353.201499_IN_webconnectivity_99016dc0c96960c5",
+      "measurement_start_time": "2025-08-30T18:14:06.000000Z",
+      "measurement_uid": "20250830181353.201499_IN_webconnectivity_99016dc0c96960c5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250830T171321Z_webconnectivity_IN_55836_n1_0GoszoOQuFLhGof1",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830173253.654902_IN_webconnectivity_2dc31f4cde92e12f",
+      "measurement_start_time": "2025-08-30T17:31:53.000000Z",
+      "measurement_uid": "20250830173253.654902_IN_webconnectivity_2dc31f4cde92e12f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250830T160647Z_webconnectivity_IN_55577_n1_Fo3Y02oWIKloor9z",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830160918.407842_IN_webconnectivity_04e7f13484cd4371",
+      "measurement_start_time": "2025-08-30T16:09:15.000000Z",
+      "measurement_uid": "20250830160918.407842_IN_webconnectivity_04e7f13484cd4371",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250830T041041Z_webconnectivity_IN_14061_n1_oddLdySECEn45K2R",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250830062625.939049_IN_webconnectivity_ea9d11c7730da4f5",
+      "measurement_start_time": "2025-08-30T06:26:25.000000Z",
+      "measurement_uid": "20250830062625.939049_IN_webconnectivity_ea9d11c7730da4f5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55824",
+      "probe_cc": "IN",
+      "report_id": "20250829T181258Z_webconnectivity_IN_55824_n1_zQ6rGwvFWKbhMlCj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829181805.620816_IN_webconnectivity_b30071407c7681da",
+      "measurement_start_time": "2025-08-29T18:18:01.000000Z",
+      "measurement_uid": "20250829181805.620816_IN_webconnectivity_b30071407c7681da",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T135957Z_webconnectivity_IN_55836_n1_uarBGzm2bHxOdVpE",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829142527.454034_IN_webconnectivity_82fbf40959cb95b4",
+      "measurement_start_time": "2025-08-29T14:25:27.000000Z",
+      "measurement_uid": "20250829142527.454034_IN_webconnectivity_82fbf40959cb95b4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T135934Z_webconnectivity_IN_55836_n1_yNxsSfn0AdVcrVL6",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829141615.913452_IN_webconnectivity_6e81d601fb00afb0",
+      "measurement_start_time": "2025-08-29T14:15:15.000000Z",
+      "measurement_uid": "20250829141615.913452_IN_webconnectivity_6e81d601fb00afb0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250829T140711Z_webconnectivity_IN_55836_n1_wqrA3f0hPLhP4CAf",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829141553.544110_IN_webconnectivity_56da4bf27850e58c",
+      "measurement_start_time": "2025-08-29T14:14:54.000000Z",
+      "measurement_uid": "20250829141553.544110_IN_webconnectivity_56da4bf27850e58c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250829T130551Z_webconnectivity_IN_55577_n1_VCGDP6pAeLZJWXlT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829130817.610312_IN_webconnectivity_e703149d6d64476e",
+      "measurement_start_time": "2025-08-29T13:08:16.000000Z",
+      "measurement_uid": "20250829130817.610312_IN_webconnectivity_e703149d6d64476e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250829T040835Z_webconnectivity_IN_14061_n1_VRWMj3RSxc0xOXtk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829062412.331068_IN_webconnectivity_af518429e4bb8c61",
+      "measurement_start_time": "2025-08-29T06:24:12.000000Z",
+      "measurement_uid": "20250829062412.331068_IN_webconnectivity_af518429e4bb8c61",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250828T223650Z_webconnectivity_IN_24309_n1_b7DrFZoRJvV7wtPd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250829001254.042954_IN_webconnectivity_38b6604affd9033b",
+      "measurement_start_time": "2025-08-29T00:12:38.000000Z",
+      "measurement_uid": "20250829001254.042954_IN_webconnectivity_38b6604affd9033b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20250828T192241Z_webconnectivity_IN_55836_n1_a4eoRNZDyfInxWZT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828194023.240587_IN_webconnectivity_9792cdcce7cb993e",
+      "measurement_start_time": "2025-08-28T19:39:23.000000Z",
+      "measurement_uid": "20250828194023.240587_IN_webconnectivity_9792cdcce7cb993e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS55577",
+      "probe_cc": "IN",
+      "report_id": "20250828T131925Z_webconnectivity_IN_55577_n1_YAb9dxp8lY7vr3oI",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828132124.227521_IN_webconnectivity_bbcdf689e8ae4a6a",
+      "measurement_start_time": "2025-08-28T13:21:23.000000Z",
+      "measurement_uid": "20250828132124.227521_IN_webconnectivity_bbcdf689e8ae4a6a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS138754",
+      "probe_cc": "IN",
+      "report_id": "20250828T053638Z_webconnectivity_IN_138754_n1_FK5KMkqKzLyFKxX6",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828063341.066843_IN_webconnectivity_767d6874ff274a3a",
+      "measurement_start_time": "2025-08-28T06:33:39.000000Z",
+      "measurement_uid": "20250828063341.066843_IN_webconnectivity_767d6874ff274a3a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20250828T040019Z_webconnectivity_IN_14061_n1_h4XIHhoCxTGjb6zQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828061706.569513_IN_webconnectivity_df3817db814d5ea8",
+      "measurement_start_time": "2025-08-28T06:17:06.000000Z",
+      "measurement_uid": "20250828061706.569513_IN_webconnectivity_df3817db814d5ea8",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20250828T004613Z_webconnectivity_IN_24560_n1_eBrypnXg1sR7HYDO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828005106.435492_IN_webconnectivity_bebb5ab66a11272a",
+      "measurement_start_time": "2025-08-28T00:51:04.000000Z",
+      "measurement_uid": "20250828005106.435492_IN_webconnectivity_bebb5ab66a11272a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.du-recorder.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20250827T223123Z_webconnectivity_IN_24309_n1_zawMMx1WF2MMrFHW",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20250828000348.311945_IN_webconnectivity_ed1d6eb163c407fb",
+      "measurement_start_time": "2025-08-28T00:03:32.000000Z",
+      "measurement_uid": "20250828000348.311945_IN_webconnectivity_ed1d6eb163c407fb",
+      "verification_status": "unverified"
+    }
+  ]
+}

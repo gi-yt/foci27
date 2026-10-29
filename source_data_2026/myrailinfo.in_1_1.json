@@ -1,0 +1,1121 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.46512722969055176
+  },
+  "results": [
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T225929Z_webconnectivity_IN_24309_n4_uQde7VG5kA58OdXs",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020230319.839796_IN_webconnectivity_5af417c345ad5cda",
+      "measurement_start_time": "2026-10-20T23:03:03.000000Z",
+      "measurement_uid": "20261020230319.839796_IN_webconnectivity_5af417c345ad5cda",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T155713Z_webconnectivity_IN_24560_n4_1TKoE44bHRNl3d4y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020155713.243350_IN_webconnectivity_40f9c9d64084ccab",
+      "measurement_start_time": "2026-10-20T15:57:09.000000Z",
+      "measurement_uid": "20261020155713.243350_IN_webconnectivity_40f9c9d64084ccab",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T124612Z_webconnectivity_IN_55836_n4_LotizV4k9RGcIGBb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125445.757510_IN_webconnectivity_776dcd6e3ebf42b6",
+      "measurement_start_time": "2026-10-20T12:54:43.000000Z",
+      "measurement_uid": "20261020125445.757510_IN_webconnectivity_776dcd6e3ebf42b6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T125417Z_webconnectivity_IN_55836_n4_ox3gCSFo2punJiGj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125417.216445_IN_webconnectivity_769779ceceb8b3be",
+      "measurement_start_time": "2026-10-20T12:54:16.000000Z",
+      "measurement_uid": "20261020125417.216445_IN_webconnectivity_769779ceceb8b3be",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261020T124821Z_webconnectivity_IN_18209_n4_SELzNRxbfIyyvJeK",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 1.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_2",
+            "scope": "nat",
+            "location_found": "dns",
+            "confidence_no_fp": 10,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020124821.208471_IN_webconnectivity_284009688c571a05",
+      "measurement_start_time": "2026-10-20T12:48:19.000000Z",
+      "measurement_uid": "20261020124821.208471_IN_webconnectivity_284009688c571a05",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T111027Z_webconnectivity_IN_24560_n4_qYOwRPmvsRLDufOW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020111027.547992_IN_webconnectivity_9fd57b841ccd3352",
+      "measurement_start_time": "2026-10-20T11:10:25.000000Z",
+      "measurement_uid": "20261020111027.547992_IN_webconnectivity_9fd57b841ccd3352",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020061513.195570_IN_webconnectivity_974f5a6b77852542",
+      "measurement_start_time": "2026-10-20T06:15:12.000000Z",
+      "measurement_uid": "20261020061513.195570_IN_webconnectivity_974f5a6b77852542",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261020T004356Z_webconnectivity_IN_9498_n4_jTocMFJsA6asFSoc",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020004356.484202_IN_webconnectivity_ed35b180debe3c05",
+      "measurement_start_time": "2026-10-20T00:43:54.000000Z",
+      "measurement_uid": "20261020004356.484202_IN_webconnectivity_ed35b180debe3c05",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T214334Z_webconnectivity_IN_55836_n4_1jcL03T4TNsYRh4Z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019214738.064605_IN_webconnectivity_a1a20daa6347a0f7",
+      "measurement_start_time": "2026-10-19T21:47:35.000000Z",
+      "measurement_uid": "20261019214738.064605_IN_webconnectivity_a1a20daa6347a0f7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T200839Z_webconnectivity_IN_45609_n4_ZNBo8IVdO6bF9it3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019200839.352273_IN_webconnectivity_792a32feada57b16",
+      "measurement_start_time": "2026-10-19T20:08:37.000000Z",
+      "measurement_uid": "20261019200839.352273_IN_webconnectivity_792a32feada57b16",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075624Z_webconnectivity_IN_24560_n4_T2HznrOgjOzBYmif",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075624.724153_IN_webconnectivity_a25178e672066d6d",
+      "measurement_start_time": "2026-10-19T07:56:21.000000Z",
+      "measurement_uid": "20261019075624.724153_IN_webconnectivity_a25178e672066d6d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075601Z_webconnectivity_IN_24560_n4_XnnqlMN1dGuBuW2T",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075601.361191_IN_webconnectivity_2f005371b586f072",
+      "measurement_start_time": "2026-10-19T07:55:59.000000Z",
+      "measurement_uid": "20261019075601.361191_IN_webconnectivity_2f005371b586f072",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T075357Z_webconnectivity_IN_24560_n4_PGfL7hc4pcu4L2fN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075357.571936_IN_webconnectivity_78b5939db873e8d1",
+      "measurement_start_time": "2026-10-19T07:53:52.000000Z",
+      "measurement_uid": "20261019075357.571936_IN_webconnectivity_78b5939db873e8d1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T070735Z_webconnectivity_IN_24309_n4_SchiMTmCpwUrQJqa",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019071323.763548_IN_webconnectivity_78d5f10c125c0e58",
+      "measurement_start_time": "2026-10-19T07:13:07.000000Z",
+      "measurement_uid": "20261019071323.763548_IN_webconnectivity_78d5f10c125c0e58",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019063244.754623_IN_webconnectivity_6d540c3943de2c3a",
+      "measurement_start_time": "2026-10-19T06:32:44.000000Z",
+      "measurement_uid": "20261019063244.754623_IN_webconnectivity_6d540c3943de2c3a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261019T044147Z_webconnectivity_IN_9829_n4_oACG8qMANxQWBuog",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019044148.069251_IN_webconnectivity_e37cdd729a638664",
+      "measurement_start_time": "2026-10-19T04:41:44.000000Z",
+      "measurement_uid": "20261019044148.069251_IN_webconnectivity_e37cdd729a638664",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T205533Z_webconnectivity_IN_24560_n4_4UzC1k6nTNu7AY7T",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018205533.907874_IN_webconnectivity_c53eba6a2a310e9c",
+      "measurement_start_time": "2026-10-18T20:55:31.000000Z",
+      "measurement_uid": "20261018205533.907874_IN_webconnectivity_c53eba6a2a310e9c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T204818Z_webconnectivity_IN_55836_n4_HC8zP3H1Ao7nxf01",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204935.746155_IN_webconnectivity_8c1a17e8ee0cddef",
+      "measurement_start_time": "2026-10-18T20:49:24.000000Z",
+      "measurement_uid": "20261018204935.746155_IN_webconnectivity_8c1a17e8ee0cddef",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T204907Z_webconnectivity_IN_55836_n4_yaFQ9IAiabUz2SIC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018204907.403598_IN_webconnectivity_b3213b4a285619bd",
+      "measurement_start_time": "2026-10-18T20:48:21.000000Z",
+      "measurement_uid": "20261018204907.403598_IN_webconnectivity_b3213b4a285619bd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T120800Z_webconnectivity_IN_24560_n4_YzGd50L2bFpIeoCa",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018120800.835208_IN_webconnectivity_789aa9ea79d8dd67",
+      "measurement_start_time": "2026-10-18T12:07:58.000000Z",
+      "measurement_uid": "20261018120800.835208_IN_webconnectivity_789aa9ea79d8dd67",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T111402Z_webconnectivity_IN_55836_n4_VTj71xvtplwQfc8D",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018111402.901005_IN_webconnectivity_02e2b790ba64d596",
+      "measurement_start_time": "2026-10-18T11:14:00.000000Z",
+      "measurement_uid": "20261018111402.901005_IN_webconnectivity_02e2b790ba64d596",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018054551.044359_IN_webconnectivity_9e8226da299c93b0",
+      "measurement_start_time": "2026-10-18T05:45:50.000000Z",
+      "measurement_uid": "20261018054551.044359_IN_webconnectivity_9e8226da299c93b0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T142104Z_webconnectivity_IN_24309_n4_qcnim9BUKBhgQ9Mu",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_9",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017142104.283512_IN_webconnectivity_8c22fae936c5e851",
+      "measurement_start_time": "2026-10-17T14:21:02.000000Z",
+      "measurement_uid": "20261017142104.283512_IN_webconnectivity_8c22fae936c5e851",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T135314Z_webconnectivity_IN_24560_n4_PdeVCW2EuHWLocOH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017135314.792570_IN_webconnectivity_49719d05550d68d4",
+      "measurement_start_time": "2026-10-17T13:53:10.000000Z",
+      "measurement_uid": "20261017135314.792570_IN_webconnectivity_49719d05550d68d4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T134719Z_webconnectivity_IN_24560_n4_IbMN9nPkKEEQ5dbj",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017135017.175422_IN_webconnectivity_1dd78261d4e481e6",
+      "measurement_start_time": "2026-10-17T13:50:10.000000Z",
+      "measurement_uid": "20261017135017.175422_IN_webconnectivity_1dd78261d4e481e6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T111220Z_webconnectivity_IN_55836_n4_6UviGCOpgjao18VT",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017111220.088496_IN_webconnectivity_add833999493c7ac",
+      "measurement_start_time": "2026-10-17T11:12:15.000000Z",
+      "measurement_uid": "20261017111220.088496_IN_webconnectivity_add833999493c7ac",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T111225Z_webconnectivity_IN_55836_n4_mdyEwvvKjbyo7KDS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017111225.311370_IN_webconnectivity_04e4123523dceb0c",
+      "measurement_start_time": "2026-10-17T11:11:52.000000Z",
+      "measurement_uid": "20261017111225.311370_IN_webconnectivity_04e4123523dceb0c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017045636.205572_IN_webconnectivity_41f58cbf9c5cf927",
+      "measurement_start_time": "2026-10-17T04:56:35.000000Z",
+      "measurement_uid": "20261017045636.205572_IN_webconnectivity_41f58cbf9c5cf927",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261017T041330Z_webconnectivity_IN_133982_n4_fgV37DX1yL38ojLs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017041331.308515_IN_webconnectivity_d2115800522dcfa7",
+      "measurement_start_time": "2026-10-17T04:13:28.000000Z",
+      "measurement_uid": "20261017041331.308515_IN_webconnectivity_d2115800522dcfa7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T133537Z_webconnectivity_IN_24560_n4_HE6VYMEwoBdwEWw9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 36,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016133539.652362_IN_webconnectivity_fc679cd291e88a67",
+      "measurement_start_time": "2026-10-16T13:34:30.000000Z",
+      "measurement_uid": "20261016133539.652362_IN_webconnectivity_fc679cd291e88a67",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T133353Z_webconnectivity_IN_24560_n4_J69LmnLuIUI2oZNq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016133353.897456_IN_webconnectivity_c1eaf2528b43cb57",
+      "measurement_start_time": "2026-10-16T13:33:49.000000Z",
+      "measurement_uid": "20261016133353.897456_IN_webconnectivity_c1eaf2528b43cb57",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T082522Z_webconnectivity_IN_55836_n4_lfGTVF09sHkMzPkm",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016082522.346180_IN_webconnectivity_b029a734a6fc817f",
+      "measurement_start_time": "2026-10-16T08:25:05.000000Z",
+      "measurement_uid": "20261016082522.346180_IN_webconnectivity_b029a734a6fc817f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T054857Z_webconnectivity_IN_55836_n4_EPocg4Gtazg5SjIq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016055050.939379_IN_webconnectivity_1e1c1ca1f8fb934a",
+      "measurement_start_time": "2026-10-16T05:50:48.000000Z",
+      "measurement_uid": "20261016055050.939379_IN_webconnectivity_1e1c1ca1f8fb934a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T054734Z_webconnectivity_IN_55836_n4_1fCGN9xX7sPvgotA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016054734.303201_IN_webconnectivity_56edd1314f535f99",
+      "measurement_start_time": "2026-10-16T05:47:30.000000Z",
+      "measurement_uid": "20261016054734.303201_IN_webconnectivity_56edd1314f535f99",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T053659Z_webconnectivity_IN_24309_n4_3XDrKEtj7ap0qLyh",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016053700.017893_IN_webconnectivity_e0e69c9eea79c989",
+      "measurement_start_time": "2026-10-16T05:36:56.000000Z",
+      "measurement_uid": "20261016053700.017893_IN_webconnectivity_e0e69c9eea79c989",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016051743.332656_IN_webconnectivity_4c1a1f2cd3d1d70b",
+      "measurement_start_time": "2026-10-16T05:17:43.000000Z",
+      "measurement_uid": "20261016051743.332656_IN_webconnectivity_4c1a1f2cd3d1d70b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T022542Z_webconnectivity_IN_24560_n4_ogPIFQvfelBR85SM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016023231.579411_IN_webconnectivity_1dcd19318a5f2126",
+      "measurement_start_time": "2026-10-16T02:32:29.000000Z",
+      "measurement_uid": "20261016023231.579411_IN_webconnectivity_1dcd19318a5f2126",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261016T021511Z_webconnectivity_IN_45609_n4_8ktRe5kKkx34QNOG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016021511.259947_IN_webconnectivity_d53666d40f2edba3",
+      "measurement_start_time": "2026-10-16T02:14:39.000000Z",
+      "measurement_uid": "20261016021511.259947_IN_webconnectivity_d53666d40f2edba3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T120322Z_webconnectivity_IN_24560_n4_oMDHs46T5Bkr2Bgp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015120322.935178_IN_webconnectivity_85528df9902c7ecd",
+      "measurement_start_time": "2026-10-15T12:03:19.000000Z",
+      "measurement_uid": "20261015120322.935178_IN_webconnectivity_85528df9902c7ecd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T071107Z_webconnectivity_IN_55836_n4_BBfX4gZ1TI9su9ZY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015071107.896900_IN_webconnectivity_05070329446923c0",
+      "measurement_start_time": "2026-10-15T07:10:17.000000Z",
+      "measurement_uid": "20261015071107.896900_IN_webconnectivity_05070329446923c0",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T070950Z_webconnectivity_IN_55836_n4_uIIJTg80VBEe3HZG",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015070950.535745_IN_webconnectivity_b6ba8bc1465baf38",
+      "measurement_start_time": "2026-10-15T07:09:48.000000Z",
+      "measurement_uid": "20261015070950.535745_IN_webconnectivity_b6ba8bc1465baf38",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015063829.479971_IN_webconnectivity_e9a569e12d834caf",
+      "measurement_start_time": "2026-10-15T06:38:29.000000Z",
+      "measurement_uid": "20261015063829.479971_IN_webconnectivity_e9a569e12d834caf",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T030005Z_webconnectivity_IN_24560_n4_vbIsQseug30H27NW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015030006.053174_IN_webconnectivity_6bf8209b0d5e7674",
+      "measurement_start_time": "2026-10-15T02:59:51.000000Z",
+      "measurement_uid": "20261015030006.053174_IN_webconnectivity_6bf8209b0d5e7674",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T204511Z_webconnectivity_IN_24309_n4_duyGl6ZoOlzaZLE5",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014205219.727883_IN_webconnectivity_f621889eadf8fb86",
+      "measurement_start_time": "2026-10-14T20:52:03.000000Z",
+      "measurement_uid": "20261014205219.727883_IN_webconnectivity_f621889eadf8fb86",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T203513Z_webconnectivity_IN_55836_n4_T2iHyMUMQVQH5XpW",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014203513.492884_IN_webconnectivity_4f962e68b15b9ca4",
+      "measurement_start_time": "2026-10-14T20:34:55.000000Z",
+      "measurement_uid": "20261014203513.492884_IN_webconnectivity_4f962e68b15b9ca4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T201604Z_webconnectivity_IN_24560_n4_i60b7Smp1nMt842v",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014201604.121763_IN_webconnectivity_20442fb57af34d74",
+      "measurement_start_time": "2026-10-14T20:16:00.000000Z",
+      "measurement_uid": "20261014201604.121763_IN_webconnectivity_20442fb57af34d74",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://myrailinfo.in/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014110449.931510_IN_webconnectivity_ac8119cbdcff8305",
+      "measurement_start_time": "2026-10-14T11:04:49.000000Z",
+      "measurement_uid": "20261014110449.931510_IN_webconnectivity_ac8119cbdcff8305",
+      "verification_status": "unverified"
+    }
+  ]
+}

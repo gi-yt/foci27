@@ -1,0 +1,1735 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1547403335571289
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T235431Z_webconnectivity_IN_24560_n4_MYMmjkQ9hOfo1sQQ",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020235431.155728_IN_webconnectivity_a65d51b8f1a30431",
+      "measurement_start_time": "2026-10-20T23:54:28.000000Z",
+      "measurement_uid": "20261020235431.155728_IN_webconnectivity_a65d51b8f1a30431",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261020T201121Z_webconnectivity_IN_45609_n4_MnwwprgOGDZI1dVY",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020201121.332581_IN_webconnectivity_aa744f59c2e70fc4",
+      "measurement_start_time": "2026-10-20T20:10:05.000000Z",
+      "measurement_uid": "20261020201121.332581_IN_webconnectivity_aa744f59c2e70fc4",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T182718Z_webconnectivity_IN_55836_n4_1qWu5XoOObFADQtG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020182718.818641_IN_webconnectivity_d7421033a28f662f",
+      "measurement_start_time": "2026-10-20T18:26:19.000000Z",
+      "measurement_uid": "20261020182718.818641_IN_webconnectivity_d7421033a28f662f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261020T144831Z_webconnectivity_IN_134674_n4_gZHQ5oiZRBTjGpBS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020144831.273393_IN_webconnectivity_61309c71dc040594",
+      "measurement_start_time": "2026-10-20T14:48:27.000000Z",
+      "measurement_uid": "20261020144831.273393_IN_webconnectivity_61309c71dc040594",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T090554Z_webconnectivity_IN_24309_n4_oEntupWrqW0249Lj",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020090641.675700_IN_webconnectivity_5a96d10c0f9dae12",
+      "measurement_start_time": "2026-10-20T09:06:25.000000Z",
+      "measurement_uid": "20261020090641.675700_IN_webconnectivity_5a96d10c0f9dae12",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T071914Z_webconnectivity_IN_55836_n4_RWMqWbTi8UCQNlxy",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020071914.800528_IN_webconnectivity_97bf1bb85aeadebb",
+      "measurement_start_time": "2026-10-20T07:18:12.000000Z",
+      "measurement_uid": "20261020071914.800528_IN_webconnectivity_97bf1bb85aeadebb",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T071803Z_webconnectivity_IN_24560_n4_8ul9qbC2o2QPgBEV",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020071803.232595_IN_webconnectivity_fb19a109d2efe721",
+      "measurement_start_time": "2026-10-20T07:17:17.000000Z",
+      "measurement_uid": "20261020071803.232595_IN_webconnectivity_fb19a109d2efe721",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T071802Z_webconnectivity_IN_24560_n4_hxo9s0xoa13nZMvR",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020071802.113620_IN_webconnectivity_36e6b6f78afe2785",
+      "measurement_start_time": "2026-10-20T07:17:13.000000Z",
+      "measurement_uid": "20261020071802.113620_IN_webconnectivity_36e6b6f78afe2785",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020064032.451900_IN_webconnectivity_066f16e6e9fa6767",
+      "measurement_start_time": "2026-10-20T06:40:31.000000Z",
+      "measurement_uid": "20261020064032.451900_IN_webconnectivity_066f16e6e9fa6767",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T002003Z_webconnectivity_IN_55836_n4_OoyDLoaFw33oQ7aV",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020002003.622023_IN_webconnectivity_9e7dc7aff2548bfe",
+      "measurement_start_time": "2026-10-20T00:19:01.000000Z",
+      "measurement_uid": "20261020002003.622023_IN_webconnectivity_9e7dc7aff2548bfe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261019T205630Z_webconnectivity_IN_133982_n4_1oY0IfdlXiFl4s6W",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019205630.971046_IN_webconnectivity_1c16aa47c01d11a0",
+      "measurement_start_time": "2026-10-19T20:56:27.000000Z",
+      "measurement_uid": "20261019205630.971046_IN_webconnectivity_1c16aa47c01d11a0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS38266",
+      "probe_cc": "IN",
+      "report_id": "20261019T155021Z_webconnectivity_IN_38266_n4_oUjBBWkRZobM54Fv",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019155021.941326_IN_webconnectivity_2afa6574d601ed49",
+      "measurement_start_time": "2026-10-19T15:48:53.000000Z",
+      "measurement_uid": "20261019155021.941326_IN_webconnectivity_2afa6574d601ed49",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T153647Z_webconnectivity_IN_55836_n4_O6sSHGaKClKOZTCZ",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019153648.627890_IN_webconnectivity_945fd75ee7012112",
+      "measurement_start_time": "2026-10-19T15:35:37.000000Z",
+      "measurement_uid": "20261019153648.627890_IN_webconnectivity_945fd75ee7012112",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261019T144128Z_webconnectivity_IN_45609_n4_UefYFooVMh1OoB8Y",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019144128.817503_IN_webconnectivity_e1401497d680332f",
+      "measurement_start_time": "2026-10-19T14:41:21.000000Z",
+      "measurement_uid": "20261019144128.817503_IN_webconnectivity_e1401497d680332f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T113008Z_webconnectivity_IN_24560_n4_etC8JoS6oulEk30a",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113608.635019_IN_webconnectivity_511bad0b68db0ec2",
+      "measurement_start_time": "2026-10-19T11:35:47.000000Z",
+      "measurement_uid": "20261019113608.635019_IN_webconnectivity_511bad0b68db0ec2",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T113220Z_webconnectivity_IN_24560_n4_PpNyim4xn3CyxBfz",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019113220.133839_IN_webconnectivity_497669b0fb189d20",
+      "measurement_start_time": "2026-10-19T11:32:17.000000Z",
+      "measurement_uid": "20261019113220.133839_IN_webconnectivity_497669b0fb189d20",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS63949",
+      "probe_cc": "IN",
+      "report_id": "20261019T075433Z_webconnectivity_IN_63949_n4_FQblofoX2qZAsTz0",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019075433.917453_IN_webconnectivity_543957e5971e412f",
+      "measurement_start_time": "2026-10-19T07:54:26.000000Z",
+      "measurement_uid": "20261019075433.917453_IN_webconnectivity_543957e5971e412f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS9583",
+      "probe_cc": "IN",
+      "report_id": "20261019T070227Z_webconnectivity_IN_9583_n4_QXGKVwgMCJPWgIKb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 4,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019070227.922811_IN_webconnectivity_fbe154f8d7081077",
+      "measurement_start_time": "2026-10-19T07:01:31.000000Z",
+      "measurement_uid": "20261019070227.922811_IN_webconnectivity_fbe154f8d7081077",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019065442.644531_IN_webconnectivity_0a5835b190b27ff3",
+      "measurement_start_time": "2026-10-19T06:54:42.000000Z",
+      "measurement_uid": "20261019065442.644531_IN_webconnectivity_0a5835b190b27ff3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T034127Z_webconnectivity_IN_24309_n4_t5Ash8ZsRNNhOk3n",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019034315.800354_IN_webconnectivity_2bed88bc6d82407d",
+      "measurement_start_time": "2026-10-19T03:42:59.000000Z",
+      "measurement_uid": "20261019034315.800354_IN_webconnectivity_2bed88bc6d82407d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T013340Z_webconnectivity_IN_24560_n4_Mp4LDSKxiQcpUo8h",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019013340.869582_IN_webconnectivity_099cc6a41e6be5d0",
+      "measurement_start_time": "2026-10-19T01:32:52.000000Z",
+      "measurement_uid": "20261019013340.869582_IN_webconnectivity_099cc6a41e6be5d0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T013102Z_webconnectivity_IN_55836_n4_ufkOvMwcnNmoTlck",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019013102.544373_IN_webconnectivity_166e1f381fc741ad",
+      "measurement_start_time": "2026-10-19T01:29:59.000000Z",
+      "measurement_uid": "20261019013102.544373_IN_webconnectivity_166e1f381fc741ad",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS132116",
+      "probe_cc": "IN",
+      "report_id": "20261018T165522Z_webconnectivity_IN_132116_n4_oso35x1Uh3QU78FL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018170233.154106_IN_webconnectivity_f8a356122e61f533",
+      "measurement_start_time": "2026-10-18T17:02:29.000000Z",
+      "measurement_uid": "20261018170233.154106_IN_webconnectivity_f8a356122e61f533",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T154236Z_webconnectivity_IN_55836_n4_RggIbqxvSTYfI88r",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018154236.973435_IN_webconnectivity_0b253296afd77740",
+      "measurement_start_time": "2026-10-18T15:41:43.000000Z",
+      "measurement_uid": "20261018154236.973435_IN_webconnectivity_0b253296afd77740",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T144539Z_webconnectivity_IN_24560_n4_WctoKXlsWLH3cPJe",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018144539.708489_IN_webconnectivity_2d924dd5c50b1d98",
+      "measurement_start_time": "2026-10-18T14:44:51.000000Z",
+      "measurement_uid": "20261018144539.708489_IN_webconnectivity_2d924dd5c50b1d98",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261018T090110Z_webconnectivity_IN_132497_n4_uoSjP3CKd7qSqyZs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018090110.703482_IN_webconnectivity_299a8b74bef26fa2",
+      "measurement_start_time": "2026-10-18T09:01:07.000000Z",
+      "measurement_uid": "20261018090110.703482_IN_webconnectivity_299a8b74bef26fa2",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261018T082205Z_webconnectivity_IN_134674_n4_eoiVooeWzMSdo8o3",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018082206.313646_IN_webconnectivity_60dccf839790cfee",
+      "measurement_start_time": "2026-10-18T08:22:00.000000Z",
+      "measurement_uid": "20261018082206.313646_IN_webconnectivity_60dccf839790cfee",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS137654",
+      "probe_cc": "IN",
+      "report_id": "20261018T075151Z_webconnectivity_IN_137654_n4_CuWnoZndQzI69SDR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018075151.704973_IN_webconnectivity_cbae9af696b37eea",
+      "measurement_start_time": "2026-10-18T07:51:48.000000Z",
+      "measurement_uid": "20261018075151.704973_IN_webconnectivity_cbae9af696b37eea",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018063304.210283_IN_webconnectivity_0d50f00e1af8cb0b",
+      "measurement_start_time": "2026-10-18T06:33:03.000000Z",
+      "measurement_uid": "20261018063304.210283_IN_webconnectivity_0d50f00e1af8cb0b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T061153Z_webconnectivity_IN_24560_n4_DcffEluj6OjyxRjk",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018061935.777888_IN_webconnectivity_c74e0b3ed26bbb15",
+      "measurement_start_time": "2026-10-18T06:19:07.000000Z",
+      "measurement_uid": "20261018061935.777888_IN_webconnectivity_c74e0b3ed26bbb15",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T200326Z_webconnectivity_IN_24560_n4_RbaGR1eZ1LRdUuRu",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017200326.912144_IN_webconnectivity_60e115282b914ab8",
+      "measurement_start_time": "2026-10-17T20:03:22.000000Z",
+      "measurement_uid": "20261017200326.912144_IN_webconnectivity_60e115282b914ab8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T191826Z_webconnectivity_IN_55836_n4_nA9VpMXdgTiJr10X",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017192702.533543_IN_webconnectivity_3ebaab33921aa6d6",
+      "measurement_start_time": "2026-10-17T19:26:42.000000Z",
+      "measurement_uid": "20261017192702.533543_IN_webconnectivity_3ebaab33921aa6d6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T192558Z_webconnectivity_IN_55836_n4_iu3tvN8MECvHuj1N",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017192558.654522_IN_webconnectivity_adb655cc54178be7",
+      "measurement_start_time": "2026-10-17T19:24:27.000000Z",
+      "measurement_uid": "20261017192558.654522_IN_webconnectivity_adb655cc54178be7",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261017T150501Z_webconnectivity_IN_9498_n4_C0i7JJx55MxGFVbr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017150501.025759_IN_webconnectivity_6c56dc183731ea1e",
+      "measurement_start_time": "2026-10-17T15:04:58.000000Z",
+      "measurement_uid": "20261017150501.025759_IN_webconnectivity_6c56dc183731ea1e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T091856Z_webconnectivity_IN_24560_n4_JovjO25Uc3JTnPhf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017092124.499673_IN_webconnectivity_15c117d5e498acd6",
+      "measurement_start_time": "2026-10-17T09:21:22.000000Z",
+      "measurement_uid": "20261017092124.499673_IN_webconnectivity_15c117d5e498acd6",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261017T080854Z_webconnectivity_IN_24309_n4_gP88Sqjma1gCj7Eb",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_8",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017080930.055485_IN_webconnectivity_b769aa15ff66eaff",
+      "measurement_start_time": "2026-10-17T08:09:14.000000Z",
+      "measurement_uid": "20261017080930.055485_IN_webconnectivity_b769aa15ff66eaff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017060559.395698_IN_webconnectivity_c30b2065b772712d",
+      "measurement_start_time": "2026-10-17T06:05:58.000000Z",
+      "measurement_uid": "20261017060559.395698_IN_webconnectivity_c30b2065b772712d",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261017T004817Z_webconnectivity_IN_136714_n4_TpYowwox1pzxBSqg",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017004817.790406_IN_webconnectivity_a6134900dc225b9b",
+      "measurement_start_time": "2026-10-17T00:47:59.000000Z",
+      "measurement_uid": "20261017004817.790406_IN_webconnectivity_a6134900dc225b9b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T212606Z_webconnectivity_IN_55836_n4_Tb9QRybdOMAMCpId",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016212606.194111_IN_webconnectivity_a44ec335e4395e19",
+      "measurement_start_time": "2026-10-16T21:25:19.000000Z",
+      "measurement_uid": "20261016212606.194111_IN_webconnectivity_a44ec335e4395e19",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T212514Z_webconnectivity_IN_55836_n4_oDSSNSdJOlsttTrb",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016212515.064977_IN_webconnectivity_21175979012f997d",
+      "measurement_start_time": "2026-10-16T21:24:13.000000Z",
+      "measurement_uid": "20261016212515.064977_IN_webconnectivity_21175979012f997d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261016T204223Z_webconnectivity_IN_18209_n4_FZPsaRu6nFFgkNrA",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016204223.904552_IN_webconnectivity_bce585a344cde5a1",
+      "measurement_start_time": "2026-10-16T20:42:19.000000Z",
+      "measurement_uid": "20261016204223.904552_IN_webconnectivity_bce585a344cde5a1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T195149Z_webconnectivity_IN_24560_n4_grJyQnk35fGbWW8R",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016195149.346778_IN_webconnectivity_de7382d6790e038b",
+      "measurement_start_time": "2026-10-16T19:51:02.000000Z",
+      "measurement_uid": "20261016195149.346778_IN_webconnectivity_de7382d6790e038b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261016T194155Z_webconnectivity_IN_17488_n4_6N17du4T0p2PLzoN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016194155.847655_IN_webconnectivity_438985767a5daa69",
+      "measurement_start_time": "2026-10-16T19:41:53.000000Z",
+      "measurement_uid": "20261016194155.847655_IN_webconnectivity_438985767a5daa69",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55410",
+      "probe_cc": "IN",
+      "report_id": "20261016T102325Z_webconnectivity_IN_55410_n4_lcxsTUEI6FISgQo0",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 5,
+          "x_dns_flags": 2,
+          "x_null_null_flags": 0,
+          "blocking_type": "http-failure"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016102326.155694_IN_webconnectivity_e35e0136fd956a3b",
+      "measurement_start_time": "2026-10-16T10:21:36.000000Z",
+      "measurement_uid": "20261016102326.155694_IN_webconnectivity_e35e0136fd956a3b",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T073419Z_webconnectivity_IN_55836_n4_y7oFKSW11rsTlJJc",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016073419.816761_IN_webconnectivity_47c1d433847e87a6",
+      "measurement_start_time": "2026-10-16T07:33:18.000000Z",
+      "measurement_uid": "20261016073419.816761_IN_webconnectivity_47c1d433847e87a6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016042730.310618_IN_webconnectivity_934dc66e495ff3db",
+      "measurement_start_time": "2026-10-16T04:27:29.000000Z",
+      "measurement_uid": "20261016042730.310618_IN_webconnectivity_934dc66e495ff3db",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T041626Z_webconnectivity_IN_55836_n4_oocl0jzU1hYj4yvg",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016041626.991019_IN_webconnectivity_7933c1ed2a52608e",
+      "measurement_start_time": "2026-10-16T04:15:40.000000Z",
+      "measurement_uid": "20261016041626.991019_IN_webconnectivity_7933c1ed2a52608e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T015330Z_webconnectivity_IN_24309_n4_fGILbdlZ6ZjGolJz",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 2,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016015331.571433_IN_webconnectivity_2bab9b7a2ff78e83",
+      "measurement_start_time": "2026-10-16T01:52:13.000000Z",
+      "measurement_uid": "20261016015331.571433_IN_webconnectivity_2bab9b7a2ff78e83",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261016T013725Z_webconnectivity_IN_9829_n4_3Uo2okUiKrMpTGLx",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_10",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016013725.875590_IN_webconnectivity_54291595bc91ac13",
+      "measurement_start_time": "2026-10-16T01:36:39.000000Z",
+      "measurement_uid": "20261016013725.875590_IN_webconnectivity_54291595bc91ac13",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T011540Z_webconnectivity_IN_24560_n4_AOpod2KHzI2fb6RF",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011541.153843_IN_webconnectivity_ef59c26345449b11",
+      "measurement_start_time": "2026-10-16T01:15:09.000000Z",
+      "measurement_uid": "20261016011541.153843_IN_webconnectivity_ef59c26345449b11",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T011540Z_webconnectivity_IN_24560_n4_IbWMDrUE6Xhxbxo3",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016011540.105091_IN_webconnectivity_58465ec36a14633e",
+      "measurement_start_time": "2026-10-16T01:14:52.000000Z",
+      "measurement_uid": "20261016011540.105091_IN_webconnectivity_58465ec36a14633e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS136286",
+      "probe_cc": "IN",
+      "report_id": "20261015T204041Z_webconnectivity_IN_136286_n4_jw8NECowzXOoBkTr",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015204041.699870_IN_webconnectivity_0c97108bab38cc7b",
+      "measurement_start_time": "2026-10-15T20:40:23.000000Z",
+      "measurement_uid": "20261015204041.699870_IN_webconnectivity_0c97108bab38cc7b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T144743Z_webconnectivity_IN_55836_n4_aDES5m0k3WfkINa3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015144947.146825_IN_webconnectivity_2e2e2e1872387b4c",
+      "measurement_start_time": "2026-10-15T14:49:30.000000Z",
+      "measurement_uid": "20261015144947.146825_IN_webconnectivity_2e2e2e1872387b4c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261015T115356Z_webconnectivity_IN_133982_n4_HBJN0vn1bqeoJg5O",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015115356.190981_IN_webconnectivity_4aacd4784e485b1c",
+      "measurement_start_time": "2026-10-15T11:53:53.000000Z",
+      "measurement_uid": "20261015115356.190981_IN_webconnectivity_4aacd4784e485b1c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T093528Z_webconnectivity_IN_24560_n4_viYZkdVkt0iRsn9z",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015093528.375508_IN_webconnectivity_9d130e5c8c55b86f",
+      "measurement_start_time": "2026-10-15T09:35:24.000000Z",
+      "measurement_uid": "20261015093528.375508_IN_webconnectivity_9d130e5c8c55b86f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T060643Z_webconnectivity_IN_55836_n4_Ytj7coaC8Np1hNKt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015060648.656936_IN_webconnectivity_fffdfcdbda972e99",
+      "measurement_start_time": "2026-10-15T06:05:58.000000Z",
+      "measurement_uid": "20261015060648.656936_IN_webconnectivity_fffdfcdbda972e99",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015044647.563503_IN_webconnectivity_5ef9e1805e47010e",
+      "measurement_start_time": "2026-10-15T04:46:47.000000Z",
+      "measurement_uid": "20261015044647.563503_IN_webconnectivity_5ef9e1805e47010e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T020637Z_webconnectivity_IN_24560_n4_KhBAzbhSTxmo2LVD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 32,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 0
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015020911.772392_IN_webconnectivity_c4acf0cefee5dfd7",
+      "measurement_start_time": "2026-10-15T02:09:08.000000Z",
+      "measurement_uid": "20261015020911.772392_IN_webconnectivity_c4acf0cefee5dfd7",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261014T235919Z_webconnectivity_IN_45609_n4_eP8iWMQnlTV8Ikym",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014235920.493414_IN_webconnectivity_395ffa07439565e0",
+      "measurement_start_time": "2026-10-14T23:58:31.000000Z",
+      "measurement_uid": "20261014235920.493414_IN_webconnectivity_395ffa07439565e0",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T142600Z_webconnectivity_IN_24560_n4_LslXoseokaKPFopX",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014143152.529330_IN_webconnectivity_f3a34e5d2cbf1802",
+      "measurement_start_time": "2026-10-14T14:31:35.000000Z",
+      "measurement_uid": "20261014143152.529330_IN_webconnectivity_f3a34e5d2cbf1802",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T141735Z_webconnectivity_IN_55836_n4_dKrtjgsyVnGk3L0S",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 37,
+          "x_dns_flags": 4,
+          "x_null_null_flags": 2,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014142527.875821_IN_webconnectivity_0d03d28c7b42a3e4",
+      "measurement_start_time": "2026-10-14T14:25:10.000000Z",
+      "measurement_uid": "20261014142527.875821_IN_webconnectivity_0d03d28c7b42a3e4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 1.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 33,
+          "x_dns_flags": 6,
+          "x_null_null_flags": 0,
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014131617.028298_IN_webconnectivity_46730dbe66a13dc9",
+      "measurement_start_time": "2026-10-14T13:15:53.000000Z",
+      "measurement_uid": "20261014131617.028298_IN_webconnectivity_46730dbe66a13dc9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.geo.tv/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014084018.722537_IN_webconnectivity_ced9de3beaa88e6b",
+      "measurement_start_time": "2026-10-14T08:40:18.000000Z",
+      "measurement_uid": "20261014084018.722537_IN_webconnectivity_ced9de3beaa88e6b",
+      "verification_status": "unverified"
+    }
+  ]
+}

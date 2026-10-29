@@ -1,0 +1,2219 @@
+{
+  "metadata": {
+    "count": -1,
+    "current_page": -1,
+    "limit": 10000,
+    "next_url": null,
+    "offset": 0,
+    "pages": -1,
+    "query_time": 0.1539771556854248
+  },
+  "results": [
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T172053Z_webconnectivity_IN_24560_n4_dPPXzouCHxfxT0ki",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020172053.049426_IN_webconnectivity_2b5a9cf0a859c7c6",
+      "measurement_start_time": "2026-10-20T17:20:50.000000Z",
+      "measurement_uid": "20261020172053.049426_IN_webconnectivity_2b5a9cf0a859c7c6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T171759Z_webconnectivity_IN_24560_n4_PN6uccvValDfzTCS",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020171908.041036_IN_webconnectivity_135e56d2fdc5a85a",
+      "measurement_start_time": "2026-10-20T17:19:07.000000Z",
+      "measurement_uid": "20261020171908.041036_IN_webconnectivity_135e56d2fdc5a85a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T155327Z_webconnectivity_IN_55836_n4_NdzKo1d5qPgeCHji",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020155327.845712_IN_webconnectivity_c219fdf9d8d72123",
+      "measurement_start_time": "2026-10-20T15:52:24.000000Z",
+      "measurement_uid": "20261020155327.845712_IN_webconnectivity_c219fdf9d8d72123",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T154558Z_webconnectivity_IN_55836_n4_kwHb6rJZOpcHMWnn",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020154626.428707_IN_webconnectivity_b99de6b9e8e16413",
+      "measurement_start_time": "2026-10-20T15:46:10.000000Z",
+      "measurement_uid": "20261020154626.428707_IN_webconnectivity_b99de6b9e8e16413",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T154503Z_webconnectivity_IN_55836_n4_a7TlddSduhSGymWj",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020154503.236858_IN_webconnectivity_bb68958b86534f74",
+      "measurement_start_time": "2026-10-20T15:44:21.000000Z",
+      "measurement_uid": "20261020154503.236858_IN_webconnectivity_bb68958b86534f74",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261020T142244Z_webconnectivity_IN_24309_n4_KEXJ1jWA7WA3L51k",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020142244.532707_IN_webconnectivity_a8fd272077e8226b",
+      "measurement_start_time": "2026-10-20T14:22:43.000000Z",
+      "measurement_uid": "20261020142244.532707_IN_webconnectivity_a8fd272077e8226b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS132497",
+      "probe_cc": "IN",
+      "report_id": "20261020T125057Z_webconnectivity_IN_132497_n4_Qo2hzZdUhkpA04ae",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020125057.768135_IN_webconnectivity_99c13568cee2c40f",
+      "measurement_start_time": "2026-10-20T12:50:55.000000Z",
+      "measurement_uid": "20261020125057.768135_IN_webconnectivity_99c13568cee2c40f",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261020T101014Z_webconnectivity_IN_55836_n4_Yv98j7mCjpX1uRdU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020101014.983257_IN_webconnectivity_b65562e6647fcf23",
+      "measurement_start_time": "2026-10-20T10:09:12.000000Z",
+      "measurement_uid": "20261020101014.983257_IN_webconnectivity_b65562e6647fcf23",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T085744Z_webconnectivity_IN_24560_n4_neiJYqNoolBGx1Fs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020085744.886500_IN_webconnectivity_1128bf82095d0141",
+      "measurement_start_time": "2026-10-20T08:56:42.000000Z",
+      "measurement_uid": "20261020085744.886500_IN_webconnectivity_1128bf82095d0141",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T085330Z_webconnectivity_IN_24560_n4_kN5pOYFt4j5o92ti",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020085330.993857_IN_webconnectivity_3e18544f3aa010e8",
+      "measurement_start_time": "2026-10-20T08:53:28.000000Z",
+      "measurement_uid": "20261020085330.993857_IN_webconnectivity_3e18544f3aa010e8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261020T041142Z_webconnectivity_IN_14061_n4_ctBAgQ6Kb2Q5oUJC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020045051.121856_IN_webconnectivity_70947964e77e0cad",
+      "measurement_start_time": "2026-10-20T04:50:51.000000Z",
+      "measurement_uid": "20261020045051.121856_IN_webconnectivity_70947964e77e0cad",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261020T034752Z_webconnectivity_IN_24560_n4_bo1UoLdCSgfjroz5",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261020034754.462746_IN_webconnectivity_9edb31e200a4454e",
+      "measurement_start_time": "2026-10-20T03:46:05.000000Z",
+      "measurement_uid": "20261020034754.462746_IN_webconnectivity_9edb31e200a4454e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T193252Z_webconnectivity_IN_24309_n4_GoBSY4iKEQxJxaro",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019193252.874175_IN_webconnectivity_2c4a006b9941ff31",
+      "measurement_start_time": "2026-10-19T19:32:51.000000Z",
+      "measurement_uid": "20261019193252.874175_IN_webconnectivity_2c4a006b9941ff31",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T192530Z_webconnectivity_IN_24560_n4_uSdhObPfWCXpaJND",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019192633.265010_IN_webconnectivity_a311dfacbc4e0664",
+      "measurement_start_time": "2026-10-19T19:26:32.000000Z",
+      "measurement_uid": "20261019192633.265010_IN_webconnectivity_a311dfacbc4e0664",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T140517Z_webconnectivity_IN_55836_n4_FaaozoHbKqHsv4sl",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019140517.129383_IN_webconnectivity_9926f9782ffd5d53",
+      "measurement_start_time": "2026-10-19T14:04:17.000000Z",
+      "measurement_uid": "20261019140517.129383_IN_webconnectivity_9926f9782ffd5d53",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T140505Z_webconnectivity_IN_55836_n4_mtvEWUyVhinividP",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019140505.616300_IN_webconnectivity_017e9d3b3c62836d",
+      "measurement_start_time": "2026-10-19T14:04:06.000000Z",
+      "measurement_uid": "20261019140505.616300_IN_webconnectivity_017e9d3b3c62836d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T140108Z_webconnectivity_IN_55836_n4_V77Cg37E0u7ArYIU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019140258.717141_IN_webconnectivity_2bc056df3fdbba73",
+      "measurement_start_time": "2026-10-19T14:02:43.000000Z",
+      "measurement_uid": "20261019140258.717141_IN_webconnectivity_2bc056df3fdbba73",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS134674",
+      "probe_cc": "IN",
+      "report_id": "20261019T140046Z_webconnectivity_IN_134674_n4_7zmCiLDjMQNUMIQa",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019140046.642971_IN_webconnectivity_167837f84a6f8b72",
+      "measurement_start_time": "2026-10-19T14:00:44.000000Z",
+      "measurement_uid": "20261019140046.642971_IN_webconnectivity_167837f84a6f8b72",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T101341Z_webconnectivity_IN_24560_n4_fXEaFCEITOAsorI8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019101342.243090_IN_webconnectivity_487d573d2ffd0853",
+      "measurement_start_time": "2026-10-19T10:13:02.000000Z",
+      "measurement_uid": "20261019101342.243090_IN_webconnectivity_487d573d2ffd0853",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T101245Z_webconnectivity_IN_24560_n4_5EqoAUfKcVyTDN1i",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019101245.064811_IN_webconnectivity_253e24dab60354d8",
+      "measurement_start_time": "2026-10-19T10:12:41.000000Z",
+      "measurement_uid": "20261019101245.064811_IN_webconnectivity_253e24dab60354d8",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261019T064713Z_webconnectivity_IN_55836_n4_oUFImugm4utKVy6G",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019065135.865451_IN_webconnectivity_1373f04b05b89e3a",
+      "measurement_start_time": "2026-10-19T06:51:19.000000Z",
+      "measurement_uid": "20261019065135.865451_IN_webconnectivity_1373f04b05b89e3a",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261019T055335Z_webconnectivity_IN_24560_n4_YvdDDV25VNKJzUxf",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019055335.763439_IN_webconnectivity_17b8e8095a1ab943",
+      "measurement_start_time": "2026-10-19T05:53:31.000000Z",
+      "measurement_uid": "20261019055335.763439_IN_webconnectivity_17b8e8095a1ab943",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261019T041220Z_webconnectivity_IN_14061_n4_Qoooo9O9oxEfalWi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019045918.440610_IN_webconnectivity_5a04e41a94009ada",
+      "measurement_start_time": "2026-10-19T04:59:18.000000Z",
+      "measurement_uid": "20261019045918.440610_IN_webconnectivity_5a04e41a94009ada",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS9498",
+      "probe_cc": "IN",
+      "report_id": "20261019T035450Z_webconnectivity_IN_9498_n4_VWaQtdrqFMkg6pL8",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019035450.202036_IN_webconnectivity_e87ecbd4cd21b82c",
+      "measurement_start_time": "2026-10-19T03:54:49.000000Z",
+      "measurement_uid": "20261019035450.202036_IN_webconnectivity_e87ecbd4cd21b82c",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261019T001513Z_webconnectivity_IN_24309_n4_H5VZoAAloBedOoNN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261019001832.127938_IN_webconnectivity_153cb75c9bf533bc",
+      "measurement_start_time": "2026-10-19T00:18:31.000000Z",
+      "measurement_uid": "20261019001832.127938_IN_webconnectivity_153cb75c9bf533bc",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T225454Z_webconnectivity_IN_24560_n4_n0kusTcSvf0zhCdb",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018225454.769251_IN_webconnectivity_63f7a1430ef7befe",
+      "measurement_start_time": "2026-10-18T22:54:48.000000Z",
+      "measurement_uid": "20261018225454.769251_IN_webconnectivity_63f7a1430ef7befe",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T174059Z_webconnectivity_IN_24560_n4_f7qIol02Kpy0PosC",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018174059.580762_IN_webconnectivity_d94f4fef5fc3b638",
+      "measurement_start_time": "2026-10-18T17:40:56.000000Z",
+      "measurement_uid": "20261018174059.580762_IN_webconnectivity_d94f4fef5fc3b638",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T171835Z_webconnectivity_IN_55836_n4_xBxihJxe1EQJEJcT",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018171835.170295_IN_webconnectivity_793fac70e4c542d3",
+      "measurement_start_time": "2026-10-18T17:17:34.000000Z",
+      "measurement_uid": "20261018171835.170295_IN_webconnectivity_793fac70e4c542d3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T171642Z_webconnectivity_IN_55836_n4_0qgPBWbTGf3mmClG",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018171750.933980_IN_webconnectivity_f5fcc1ef4c378810",
+      "measurement_start_time": "2026-10-18T17:17:30.000000Z",
+      "measurement_uid": "20261018171750.933980_IN_webconnectivity_f5fcc1ef4c378810",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS17488",
+      "probe_cc": "IN",
+      "report_id": "20261018T162034Z_webconnectivity_IN_17488_n4_novtcNbJIyAl2nFV",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018162034.117342_IN_webconnectivity_c0e250a37f5928d6",
+      "measurement_start_time": "2026-10-18T16:20:26.000000Z",
+      "measurement_uid": "20261018162034.117342_IN_webconnectivity_c0e250a37f5928d6",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T160922Z_webconnectivity_IN_133982_n4_5qYLnQ40YMbUnNLE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018160922.875755_IN_webconnectivity_eb54b0df5f6900da",
+      "measurement_start_time": "2026-10-18T16:09:20.000000Z",
+      "measurement_uid": "20261018160922.875755_IN_webconnectivity_eb54b0df5f6900da",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261018T160723Z_webconnectivity_IN_45609_n4_HjGXwtYIbGEfyrGH",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018160723.312849_IN_webconnectivity_ab8a95afb045a5c3",
+      "measurement_start_time": "2026-10-18T16:06:38.000000Z",
+      "measurement_uid": "20261018160723.312849_IN_webconnectivity_ab8a95afb045a5c3",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T125653Z_webconnectivity_IN_24560_n4_J8Tl841HWnbH6BPi",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018125850.282512_IN_webconnectivity_f41ebd65c46ce768",
+      "measurement_start_time": "2026-10-18T12:58:49.000000Z",
+      "measurement_uid": "20261018125850.282512_IN_webconnectivity_f41ebd65c46ce768",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261018T124210Z_webconnectivity_IN_133982_n4_oPmaxsdHL3JqC3rL",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018124210.319385_IN_webconnectivity_04111194037a2728",
+      "measurement_start_time": "2026-10-18T12:42:11.000000Z",
+      "measurement_uid": "20261018124210.319385_IN_webconnectivity_04111194037a2728",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T120412Z_webconnectivity_IN_55836_n4_RdRVBvou1eCaybOd",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018120837.526872_IN_webconnectivity_cde5052837a97dd5",
+      "measurement_start_time": "2026-10-18T12:08:22.000000Z",
+      "measurement_uid": "20261018120837.526872_IN_webconnectivity_cde5052837a97dd5",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261018T074237Z_webconnectivity_IN_55836_n4_RoHvPVkn05Woqx5j",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018074237.724072_IN_webconnectivity_9ac5426c91ffd719",
+      "measurement_start_time": "2026-10-18T07:41:35.000000Z",
+      "measurement_uid": "20261018074237.724072_IN_webconnectivity_9ac5426c91ffd719",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261018T054200Z_webconnectivity_IN_24309_n4_xDrojJHv9UJCAIOs",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018054200.991859_IN_webconnectivity_2a2552b2cf74d646",
+      "measurement_start_time": "2026-10-18T05:41:57.000000Z",
+      "measurement_uid": "20261018054200.991859_IN_webconnectivity_2a2552b2cf74d646",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261018T041124Z_webconnectivity_IN_14061_n4_SVRW3wDSFZz0f8eD",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018050434.603200_IN_webconnectivity_851bedc99a82c3a4",
+      "measurement_start_time": "2026-10-18T05:04:34.000000Z",
+      "measurement_uid": "20261018050434.603200_IN_webconnectivity_851bedc99a82c3a4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042624Z_webconnectivity_IN_24560_n4_HOZ0Z3RhqayeeAON",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043812.569012_IN_webconnectivity_ba2ff3ee16ef6383",
+      "measurement_start_time": "2026-10-18T04:38:10.000000Z",
+      "measurement_uid": "20261018043812.569012_IN_webconnectivity_ba2ff3ee16ef6383",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261018T042848Z_webconnectivity_IN_24560_n4_mUF5qnZd8onNPdCv",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018043125.460357_IN_webconnectivity_c8e910ee2bdda063",
+      "measurement_start_time": "2026-10-18T04:31:24.000000Z",
+      "measurement_uid": "20261018043125.460357_IN_webconnectivity_c8e910ee2bdda063",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS136714",
+      "probe_cc": "IN",
+      "report_id": "20261018T011525Z_webconnectivity_IN_136714_n4_0yzOHJo2XRqjQdto",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261018011525.830123_IN_webconnectivity_0ee89edaab83a6ae",
+      "measurement_start_time": "2026-10-18T01:15:17.000000Z",
+      "measurement_uid": "20261018011525.830123_IN_webconnectivity_0ee89edaab83a6ae",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T185549Z_webconnectivity_IN_24560_n4_Hws1MVwNER7grDdn",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017185549.084407_IN_webconnectivity_0b9c841f747155b1",
+      "measurement_start_time": "2026-10-17T18:55:45.000000Z",
+      "measurement_uid": "20261017185549.084407_IN_webconnectivity_0b9c841f747155b1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T170310Z_webconnectivity_IN_55836_n4_TuKOK4dyvQscRoE3",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017170310.431716_IN_webconnectivity_8eaa9d7a7c1ca536",
+      "measurement_start_time": "2026-10-17T17:02:21.000000Z",
+      "measurement_uid": "20261017170310.431716_IN_webconnectivity_8eaa9d7a7c1ca536",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T170244Z_webconnectivity_IN_55836_n4_um3f4xqcD3TsoPzU",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017170244.816905_IN_webconnectivity_f03d78dc980cea5b",
+      "measurement_start_time": "2026-10-17T17:01:44.000000Z",
+      "measurement_uid": "20261017170244.816905_IN_webconnectivity_f03d78dc980cea5b",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T132634Z_webconnectivity_IN_24560_n4_oiayCOm6ZNg9TqXY",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017133306.810176_IN_webconnectivity_b3b9c6e1a562a2ff",
+      "measurement_start_time": "2026-10-17T13:33:04.000000Z",
+      "measurement_uid": "20261017133306.810176_IN_webconnectivity_b3b9c6e1a562a2ff",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS9829",
+      "probe_cc": "IN",
+      "report_id": "20261017T082417Z_webconnectivity_IN_9829_n4_MNdOjbGDFWKzHzkE",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017082417.751969_IN_webconnectivity_f7357005befb0dad",
+      "measurement_start_time": "2026-10-17T08:24:09.000000Z",
+      "measurement_uid": "20261017082417.751969_IN_webconnectivity_f7357005befb0dad",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS18209",
+      "probe_cc": "IN",
+      "report_id": "20261017T074138Z_webconnectivity_IN_18209_n4_ykhkQgTd4ssQNHLl",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017074138.334631_IN_webconnectivity_bdc8632f3b3cdb3e",
+      "measurement_start_time": "2026-10-17T07:41:35.000000Z",
+      "measurement_uid": "20261017074138.334631_IN_webconnectivity_bdc8632f3b3cdb3e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261017T041212Z_webconnectivity_IN_14061_n4_0jZhqH3VGT746fpN",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017053122.503883_IN_webconnectivity_ba50d4a7a1a66f75",
+      "measurement_start_time": "2026-10-17T05:31:22.000000Z",
+      "measurement_uid": "20261017053122.503883_IN_webconnectivity_ba50d4a7a1a66f75",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261017T051827Z_webconnectivity_IN_24560_n4_gEVUIPcuUnb3zz86",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017051827.497384_IN_webconnectivity_50350928ff670df3",
+      "measurement_start_time": "2026-10-17T05:18:25.000000Z",
+      "measurement_uid": "20261017051827.497384_IN_webconnectivity_50350928ff670df3",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T032135Z_webconnectivity_IN_55836_n4_o8j67LPypmjYadJm",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017032135.147823_IN_webconnectivity_707f9a0482c3a53d",
+      "measurement_start_time": "2026-10-17T03:20:33.000000Z",
+      "measurement_uid": "20261017032135.147823_IN_webconnectivity_707f9a0482c3a53d",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261017T030614Z_webconnectivity_IN_55836_n4_nbDHniWkAeReRZRt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261017031313.602382_IN_webconnectivity_ac9aedc045cbbeb4",
+      "measurement_start_time": "2026-10-17T03:12:58.000000Z",
+      "measurement_uid": "20261017031313.602382_IN_webconnectivity_ac9aedc045cbbeb4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T230556Z_webconnectivity_IN_24309_n4_LwF5PBkUCqGXmxxo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016230556.519082_IN_webconnectivity_32720eeb2b16c79c",
+      "measurement_start_time": "2026-10-16T23:05:54.000000Z",
+      "measurement_uid": "20261016230556.519082_IN_webconnectivity_32720eeb2b16c79c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T225526Z_webconnectivity_IN_55836_n4_Nbp7ZUookyqodYwD",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016225526.535117_IN_webconnectivity_c810e642b95901b1",
+      "measurement_start_time": "2026-10-16T22:54:25.000000Z",
+      "measurement_uid": "20261016225526.535117_IN_webconnectivity_c810e642b95901b1",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T211022Z_webconnectivity_IN_24560_n4_3KZDWlNeShDNFq2r",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016211417.495898_IN_webconnectivity_8b1df6a6d83163a9",
+      "measurement_start_time": "2026-10-16T21:14:16.000000Z",
+      "measurement_uid": "20261016211417.495898_IN_webconnectivity_8b1df6a6d83163a9",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T153517Z_webconnectivity_IN_55836_n4_8ZtYcAmQqKbhq3xH",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016153517.391026_IN_webconnectivity_9090017ea5318026",
+      "measurement_start_time": "2026-10-16T15:34:44.000000Z",
+      "measurement_uid": "20261016153517.391026_IN_webconnectivity_9090017ea5318026",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T152153Z_webconnectivity_IN_55836_n4_3xFjskeN1oydg6ld",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016152153.082314_IN_webconnectivity_64323c24e79e2762",
+      "measurement_start_time": "2026-10-16T15:20:51.000000Z",
+      "measurement_uid": "20261016152153.082314_IN_webconnectivity_64323c24e79e2762",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS133982",
+      "probe_cc": "IN",
+      "report_id": "20261016T124105Z_webconnectivity_IN_133982_n4_UUIr51Q2AtjTcmIq",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016124105.738378_IN_webconnectivity_edf3046004b28367",
+      "measurement_start_time": "2026-10-16T12:41:03.000000Z",
+      "measurement_uid": "20261016124105.738378_IN_webconnectivity_edf3046004b28367",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T115527Z_webconnectivity_IN_24560_n4_u0wo22usu6oP7oax",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016115527.350190_IN_webconnectivity_0c9b0805546848af",
+      "measurement_start_time": "2026-10-16T11:55:25.000000Z",
+      "measurement_uid": "20261016115527.350190_IN_webconnectivity_0c9b0805546848af",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261016T115247Z_webconnectivity_IN_24560_n4_Q9p56Xc5sdqaeyFp",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016115247.391724_IN_webconnectivity_3e500f237041d211",
+      "measurement_start_time": "2026-10-16T11:52:43.000000Z",
+      "measurement_uid": "20261016115247.391724_IN_webconnectivity_3e500f237041d211",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261016T101853Z_webconnectivity_IN_24309_n4_w3z758J1Faf8i1Fo",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016101911.105535_IN_webconnectivity_2f6dbbd2c976319f",
+      "measurement_start_time": "2026-10-16T10:19:10.000000Z",
+      "measurement_uid": "20261016101911.105535_IN_webconnectivity_2f6dbbd2c976319f",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T061245Z_webconnectivity_IN_55836_n4_h18MVs2McslcGHoo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016061246.382859_IN_webconnectivity_4a722dc35db2be46",
+      "measurement_start_time": "2026-10-16T06:11:43.000000Z",
+      "measurement_uid": "20261016061246.382859_IN_webconnectivity_4a722dc35db2be46",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261016T041116Z_webconnectivity_IN_14061_n4_NC02TAakN0lodbt9",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016060140.635394_IN_webconnectivity_1c27edcec61d3537",
+      "measurement_start_time": "2026-10-16T06:01:40.000000Z",
+      "measurement_uid": "20261016060140.635394_IN_webconnectivity_1c27edcec61d3537",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261016T013148Z_webconnectivity_IN_55836_n4_VycsRZU9pNPuXMZt",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261016013148.472891_IN_webconnectivity_23010322830e21da",
+      "measurement_start_time": "2026-10-16T01:30:46.000000Z",
+      "measurement_uid": "20261016013148.472891_IN_webconnectivity_23010322830e21da",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T225141Z_webconnectivity_IN_24560_n4_oJZhs4JVesOWZ7NB",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015225141.919457_IN_webconnectivity_0f24d65d35ff6b61",
+      "measurement_start_time": "2026-10-15T22:51:37.000000Z",
+      "measurement_uid": "20261015225141.919457_IN_webconnectivity_0f24d65d35ff6b61",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T225134Z_webconnectivity_IN_24560_n4_tzmVxYo4o0sOKjNk",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015225134.489913_IN_webconnectivity_be0016c2c29d9e62",
+      "measurement_start_time": "2026-10-15T22:51:31.000000Z",
+      "measurement_uid": "20261015225134.489913_IN_webconnectivity_be0016c2c29d9e62",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T171659Z_webconnectivity_IN_55836_n4_1WltlGsSTR7R6nDo",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015172215.710064_IN_webconnectivity_2edeea6acf4d4aa4",
+      "measurement_start_time": "2026-10-15T17:21:55.000000Z",
+      "measurement_uid": "20261015172215.710064_IN_webconnectivity_2edeea6acf4d4aa4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T142511Z_webconnectivity_IN_24560_n4_xzpCfztT93FsGBsg",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015142511.855056_IN_webconnectivity_1ac282e53b3a9f45",
+      "measurement_start_time": "2026-10-15T14:25:06.000000Z",
+      "measurement_uid": "20261015142511.855056_IN_webconnectivity_1ac282e53b3a9f45",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261015T122836Z_webconnectivity_IN_55836_n4_DcLGguPI4teY4oo4",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 19,
+          "blocking_type": "dns"
+        },
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015123109.499501_IN_webconnectivity_48b01d355f0b0e65",
+      "measurement_start_time": "2026-10-15T12:30:54.000000Z",
+      "measurement_uid": "20261015123109.499501_IN_webconnectivity_48b01d355f0b0e65",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261015T101638Z_webconnectivity_IN_24309_n4_oKvw9bO8KGEQwdiO",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015101935.852650_IN_webconnectivity_a8e6f32c25268a43",
+      "measurement_start_time": "2026-10-15T10:19:34.000000Z",
+      "measurement_uid": "20261015101935.852650_IN_webconnectivity_a8e6f32c25268a43",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T074040Z_webconnectivity_IN_24560_n4_sPIfcV6RBLNzC5na",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015074041.069174_IN_webconnectivity_09a5708ca48532bd",
+      "measurement_start_time": "2026-10-15T07:40:37.000000Z",
+      "measurement_uid": "20261015074041.069174_IN_webconnectivity_09a5708ca48532bd",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS45609",
+      "probe_cc": "IN",
+      "report_id": "20261015T061802Z_webconnectivity_IN_45609_n4_2GWpraspJzTXR1Ag",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015061803.464272_IN_webconnectivity_f4cc843535bf2f8c",
+      "measurement_start_time": "2026-10-15T06:17:29.000000Z",
+      "measurement_uid": "20261015061803.464272_IN_webconnectivity_f4cc843535bf2f8c",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261015T041142Z_webconnectivity_IN_14061_n4_bgnnGO7HfyDO5Oon",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015053227.967390_IN_webconnectivity_1f32dfb1bf9a8860",
+      "measurement_start_time": "2026-10-15T05:32:27.000000Z",
+      "measurement_uid": "20261015053227.967390_IN_webconnectivity_1f32dfb1bf9a8860",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261015T032913Z_webconnectivity_IN_24560_n4_oowm1XWF4NgXoXMM",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261015033449.690839_IN_webconnectivity_dbc3de302a41cef4",
+      "measurement_start_time": "2026-10-15T03:34:48.000000Z",
+      "measurement_uid": "20261015033449.690839_IN_webconnectivity_dbc3de302a41cef4",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T233456Z_webconnectivity_IN_24560_n4_kLLdxEmorSNQGpHR",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014233641.137290_IN_webconnectivity_49e9592ecec03771",
+      "measurement_start_time": "2026-10-14T23:36:40.000000Z",
+      "measurement_uid": "20261014233641.137290_IN_webconnectivity_49e9592ecec03771",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T163601Z_webconnectivity_IN_55836_n4_h2Wo9IL7h32gjoEp",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014163601.342775_IN_webconnectivity_3501fd3683cb3623",
+      "measurement_start_time": "2026-10-14T16:35:14.000000Z",
+      "measurement_uid": "20261014163601.342775_IN_webconnectivity_3501fd3683cb3623",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T163609Z_webconnectivity_IN_55836_n4_uFculwc4BvusQ9Js",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014163609.999847_IN_webconnectivity_e6df0c989075839e",
+      "measurement_start_time": "2026-10-14T16:35:08.000000Z",
+      "measurement_uid": "20261014163609.999847_IN_webconnectivity_e6df0c989075839e",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": true,
+      "confirmed": true,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS55836",
+      "probe_cc": "IN",
+      "report_id": "20261014T163539Z_webconnectivity_IN_55836_n4_SDx5NkAsFXWlQXYr",
+      "scores": {
+        "blocking_general": 2.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 1.0,
+        "blocking_local": 0.0,
+        "fingerprints": [
+          {
+            "name": "ooni.in_dns_6",
+            "scope": "isp",
+            "location_found": "dns",
+            "confidence_no_fp": 5,
+            "expected_countries": [
+              "IN"
+            ]
+          }
+        ],
+        "confirmed": true,
+        "analysis": {
+          "blocking_type": "dns"
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014163539.746103_IN_webconnectivity_eed0bc6f45fe7f31",
+      "measurement_start_time": "2026-10-14T16:34:40.000000Z",
+      "measurement_uid": "20261014163539.746103_IN_webconnectivity_eed0bc6f45fe7f31",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T155305Z_webconnectivity_IN_24560_n4_PlpSBwkVjB5c431S",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014155705.865679_IN_webconnectivity_d8dbbad42a09ac96",
+      "measurement_start_time": "2026-10-14T15:57:04.000000Z",
+      "measurement_uid": "20261014155705.865679_IN_webconnectivity_d8dbbad42a09ac96",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24309",
+      "probe_cc": "IN",
+      "report_id": "20261014T112040Z_webconnectivity_IN_24309_n4_BtxoK9eJBypmdx0e",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0,
+        "analysis": {
+          "x_blocking_flags": 0,
+          "x_dns_flags": 0,
+          "x_null_null_flags": 1
+        }
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014150839.200815_IN_webconnectivity_868b988f4e26f08e",
+      "measurement_start_time": "2026-10-14T15:08:33.000000Z",
+      "measurement_uid": "20261014150839.200815_IN_webconnectivity_868b988f4e26f08e",
+      "verification_status": "unverified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS24560",
+      "probe_cc": "IN",
+      "report_id": "20261014T121627Z_webconnectivity_IN_24560_n4_CSSlRygBclPnZRTF",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014121627.885999_IN_webconnectivity_8404f3e4d3741877",
+      "measurement_start_time": "2026-10-14T12:16:26.000000Z",
+      "measurement_uid": "20261014121627.885999_IN_webconnectivity_8404f3e4d3741877",
+      "verification_status": "verified"
+    },
+    {
+      "anomaly": false,
+      "confirmed": false,
+      "failure": false,
+      "input": "https://www.y2mate.com/",
+      "probe_asn": "AS14061",
+      "probe_cc": "IN",
+      "report_id": "20261014T045436Z_webconnectivity_IN_14061_n4_9UNNHPAkdsvPNTRd",
+      "scores": {
+        "blocking_general": 0.0,
+        "blocking_global": 0.0,
+        "blocking_country": 0.0,
+        "blocking_isp": 0.0,
+        "blocking_local": 0.0
+      },
+      "test_name": "web_connectivity",
+      "measurement_url": "https://api.ooni.io/api/v1/raw_measurement?measurement_uid=20261014092958.212335_IN_webconnectivity_f8b39172a6cea3bc",
+      "measurement_start_time": "2026-10-14T09:29:58.000000Z",
+      "measurement_uid": "20261014092958.212335_IN_webconnectivity_f8b39172a6cea3bc",
+      "verification_status": "unverified"
+    }
+  ]
+}
