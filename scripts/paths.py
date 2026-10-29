@@ -43,6 +43,7 @@ PROBE_METADATA_TXT_2026 = ROOT / "probe_metadata_2026.txt"
 DRIFT_TXT = ROOT / "drift_2025_2026.txt"
 ROBUSTNESS_TXT = ROOT / "robustness.txt"
 CATEGORY_TEST_TXT = ROOT / "category_test.txt"
+SPOT_CHECK_TXT = ROOT / "spot_check.txt"
 FINDINGS_ALL = ROOT / "findings_all.txt"
 FINDINGS_2025 = ROOT / "findings_2025.txt"
 
