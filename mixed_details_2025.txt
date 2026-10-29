@@ -1,0 +1,185 @@
+Mixed OONI results per domain+ISP, from comparison_results/ooni_data_2025
+b = blocked (anomaly or confirmed), u = unblocked, failed = measurement failed (excluded from %)
+dns/tls/http-failure/tcp/http-diff split the blocked count by method; blockpage-confirmed overlaps them
+tls = TLS handshake reset/EOF/timeout after a successful TCP connect (from raw measurements)
+
+167 domain+ISP combos give mixed results
+
+85 domain+ISP combos where the domain IS marked as blocked by dnsblocks, but getting mixed results from OONI (50 ACT, 28 JIO, 7 AIRTEL)
+
+ACT      playboy.com                        blocked 40 / unblocked 5 / failed 0 (89% blocked) | dns 39, tls 0, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 39 | AS24309 34b/5u, AS55577 4b/0u, AS18209 2b/0u
+ACT      x-art.com                          blocked 39 / unblocked 5 / failed 0 (89% blocked) | dns 39, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 39 | AS24309 34b/5u, AS55577 4b/0u, AS18209 1b/0u
+ACT      xhamster.com                       blocked 44 / unblocked 6 / failed 0 (88% blocked) | dns 44, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 44 | AS24309 36b/6u, AS55577 7b/0u, AS18209 1b/0u
+ACT      sex.com                            blocked 43 / unblocked 7 / failed 0 (86% blocked) | dns 43, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 42 | AS24309 37b/7u, AS55577 4b/0u, AS18209 2b/0u
+ACT      2adultflashgames.com               blocked 33 / unblocked 6 / failed 0 (85% blocked) | dns 33, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 33 | AS24309 28b/5u, AS55577 4b/0u, AS18209 1b/1u
+ACT      30plusgirls.com                    blocked 33 / unblocked 6 / failed 0 (85% blocked) | dns 33, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 33 | AS24309 28b/5u, AS55577 4b/0u, AS18209 1b/1u
+ACT      hellohyderabad.com                 blocked 43 / unblocked 8 / failed 0 (84% blocked) | dns 43, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 43 | AS24309 35b/8u, AS55577 6b/0u, AS18209 2b/0u
+ACT      problems.in                        blocked 42 / unblocked 8 / failed 0 (84% blocked) | dns 41, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 42 | AS24309 34b/8u, AS55577 6b/0u, AS18209 2b/0u
+ACT      kashmirawareness.org               blocked 78 / unblocked 15 / failed 0 (84% blocked) | dns 78, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 78 | AS24309 56b/15u, AS55577 19b/0u, AS18209 3b/0u
+ACT      replaymatches.net                  blocked 40 / unblocked 8 / failed 0 (83% blocked) | dns 33, tls 0, http-failure 1, tcp 1, http-diff 1, blockpage-confirmed 37 | AS24309 33b/8u, AS55577 4b/0u, AS18209 3b/0u
+ACT      binance.com                        blocked 34 / unblocked 7 / failed 0 (83% blocked) | dns 34, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 34 | AS24309 33b/3u, AS55577 0b/4u, AS18209 1b/0u
+ACT      americansforkashmir.org            blocked 72 / unblocked 15 / failed 0 (83% blocked) | dns 72, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 72 | AS24309 60b/15u, AS55577 8b/0u, AS18209 4b/0u
+ACT      buydomains.com                     blocked 37 / unblocked 8 / failed 0 (82% blocked) | dns 37, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 37 | AS24309 29b/7u, AS55577 7b/1u, AS18209 1b/0u
+ACT      funscrape.com                      blocked 40 / unblocked 9 / failed 0 (82% blocked) | dns 40, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 40 | AS24309 35b/9u, AS55577 3b/0u, AS18209 2b/0u
+ACT      bitfinex.com                       blocked 35 / unblocked 8 / failed 0 (81% blocked) | dns 35, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 35 | AS24309 32b/4u, AS55577 0b/4u, AS18209 3b/0u
+ACT      shop101.com                        blocked 35 / unblocked 8 / failed 0 (81% blocked) | dns 35, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 35 | AS24309 28b/8u, AS55577 6b/0u, AS18209 1b/0u
+ACT      apusapps.com                       blocked 65 / unblocked 15 / failed 0 (81% blocked) | dns 65, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 60 | AS24309 49b/14u, AS55577 10b/1u, AS18209 6b/0u
+ACT      clarionproject.org                 blocked 79 / unblocked 19 / failed 0 (81% blocked) | dns 78, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 79 | AS24309 54b/18u, AS55577 14b/1u, AS18209 11b/0u
+ACT      appairbrush.com                    blocked 66 / unblocked 17 / failed 0 (80% blocked) | dns 66, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 66 | AS24309 47b/16u, AS55577 15b/1u, AS18209 4b/0u
+ACT      cmcm.com                           blocked 64 / unblocked 17 / failed 0 (79% blocked) | dns 62, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 64 | AS24309 45b/16u, AS55577 13b/1u, AS18209 6b/0u
+ACT      streamsport365.com                 blocked 63 / unblocked 17 / failed 0 (79% blocked) | dns 63, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 63 | AS24309 46b/17u, AS55577 11b/0u, AS18209 6b/0u
+ACT      pastebin.com                       blocked 60 / unblocked 17 / failed 0 (78% blocked) | dns 28, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 60 | AS24309 38b/17u, AS55577 17b/0u, AS18209 5b/0u
+ACT      adultwork.com                      blocked 35 / unblocked 10 / failed 0 (78% blocked) | dns 35, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 35 | AS24309 28b/10u, AS55577 6b/0u, AS18209 1b/0u
+ACT      tiktok.com                         blocked 77 / unblocked 22 / failed 0 (78% blocked) | dns 75, tls 1, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 75 | AS24309 62b/19u, AS18209 9b/0u, AS55577 6b/3u
+ACT      dunyanews.tv                       blocked 73 / unblocked 21 / failed 0 (78% blocked) | dns 73, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 73 | AS24309 51b/20u, AS55577 16b/1u, AS18209 6b/0u
+ACT      standupamericanow.org              blocked 65 / unblocked 20 / failed 0 (76% blocked) | dns 65, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 65 | AS24309 53b/20u, AS18209 6b/0u, AS55577 6b/0u
+ACT      pof.com                            blocked 32 / unblocked 10 / failed 0 (76% blocked) | dns 32, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 32 | AS24309 27b/10u, AS55577 4b/0u, AS18209 1b/0u
+ACT      parallel-app.com                   blocked 57 / unblocked 18 / failed 0 (76% blocked) | dns 56, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 57 | AS24309 43b/17u, AS55577 10b/1u, AS18209 4b/0u
+ACT      meitu.com                          blocked 59 / unblocked 19 / failed 0 (76% blocked) | dns 59, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 59 | AS24309 42b/18u, AS55577 13b/1u, AS18209 4b/0u
+ACT      sina.com.cn                        blocked 55 / unblocked 18 / failed 0 (75% blocked) | dns 55, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 55 | AS24309 43b/17u, AS55577 8b/1u, AS18209 4b/0u
+ACT      du-recorder.com                    blocked 61 / unblocked 20 / failed 0 (75% blocked) | dns 61, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 61 | AS24309 42b/19u, AS55577 13b/1u, AS18209 6b/0u
+ACT      bannedthought.net                  blocked 154 / unblocked 51 / failed 0 (75% blocked) | dns 154, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 154 | AS24309 103b/49u, AS55577 36b/2u, AS18209 15b/0u
+ACT      pbteam.org                         blocked 33 / unblocked 11 / failed 0 (75% blocked) | dns 33, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 33 | AS24309 29b/10u, AS55577 3b/0u, AS18209 1b/1u
+ACT      wemeet.net                         blocked 72 / unblocked 24 / failed 0 (75% blocked) | dns 72, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 72 | AS24309 59b/21u, AS55577 6b/3u, AS18209 7b/0u
+ACT      camcard.com                        blocked 61 / unblocked 21 / failed 0 (74% blocked) | dns 61, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 61 | AS24309 46b/20u, AS55577 9b/1u, AS18209 6b/0u
+ACT      camscanner.com                     blocked 61 / unblocked 21 / failed 0 (74% blocked) | dns 61, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 61 | AS24309 44b/20u, AS55577 11b/1u, AS18209 6b/0u
+ACT      micous.com                         blocked 72 / unblocked 25 / failed 0 (74% blocked) | dns 72, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 72 | AS24309 58b/22u, AS55577 8b/3u, AS18209 5b/0u, AS131269 1b/0u
+ACT      bollyextreme.com                   blocked 38 / unblocked 14 / failed 0 (73% blocked) | dns 37, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 38 | AS24309 29b/14u, AS55577 6b/0u, AS18209 3b/0u
+ACT      apniisp.com                        blocked 36 / unblocked 14 / failed 0 (72% blocked) | dns 36, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 36 | AS24309 27b/14u, AS55577 6b/0u, AS18209 3b/0u
+ACT      azaadmic.com                       blocked 30 / unblocked 12 / failed 0 (71% blocked) | dns 30, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 30 | AS24309 26b/12u, AS55577 3b/0u, AS18209 1b/0u
+ACT      kraken.com                         blocked 32 / unblocked 13 / failed 0 (71% blocked) | dns 32, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 32 | AS24309 29b/7u, AS55577 0b/6u, AS18209 3b/0u
+ACT      videolan.org                       blocked 58 / unblocked 62 / failed 0 (48% blocked) | dns 58, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 58 | AS24309 53b/49u, AS55577 0b/12u, AS18209 5b/1u
+ACT      tamtam.chat                        blocked 29 / unblocked 55 / failed 0 (35% blocked) | dns 29, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 29 | AS24309 19b/47u, AS55577 10b/1u, AS18209 0b/7u
+ACT      acefile.co                         blocked 14 / unblocked 37 / failed 0 (27% blocked) | dns 14, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 14 | AS24309 5b/37u, AS55577 6b/0u, AS18209 3b/0u
+ACT      thepiratebay.org                   blocked 14 / unblocked 37 / failed 0 (27% blocked) | dns 10, tls 4, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 10 | AS24309 4b/37u, AS55577 6b/0u, AS18209 4b/0u
+ACT      alfafile.net                       blocked 13 / unblocked 37 / failed 0 (26% blocked) | dns 13, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 13 | AS24309 4b/37u, AS55577 6b/0u, AS18209 3b/0u
+ACT      nitroflare.com                     blocked 12 / unblocked 36 / failed 0 (25% blocked) | dns 12, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 12 | AS24309 7b/36u, AS55577 3b/0u, AS18209 2b/0u
+ACT      kickasstorrents.to                 blocked 12 / unblocked 40 / failed 0 (23% blocked) | dns 12, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 12 | AS24309 6b/38u, AS55577 6b/0u, AS18209 0b/2u
+ACT      yts.mx                             blocked 10 / unblocked 38 / failed 0 (21% blocked) | dns 8, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 8 | AS24309 4b/38u, AS55577 4b/0u, AS18209 2b/0u
+ACT      zupload.me                         blocked 10 / unblocked 38 / failed 0 (21% blocked) | dns 9, tls 0, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 8 | AS24309 6b/36u, AS55577 4b/0u, AS18209 0b/2u
+AIRTEL   playboy.com                        blocked 51 / unblocked 6 / failed 0 (89% blocked) | dns 51, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 51b/6u
+AIRTEL   xhamster.com                       blocked 50 / unblocked 7 / failed 0 (88% blocked) | dns 50, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 49b/7u, AS45609 1b/0u
+AIRTEL   x-art.com                          blocked 49 / unblocked 7 / failed 0 (88% blocked) | dns 49, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 49b/7u
+AIRTEL   spankbang.com                      blocked 52 / unblocked 8 / failed 3 (87% blocked) | dns 52, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 52b/8u
+AIRTEL   replaymatches.net                  blocked 75 / unblocked 12 / failed 2 (86% blocked) | dns 0, tls 59, http-failure 12, tcp 4, http-diff 0, blockpage-confirmed 0 | AS24560 75b/12u
+AIRTEL   wechat.com                         blocked 143 / unblocked 142 / failed 4 (50% blocked) | dns 32, tls 107, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 140b/138u, AS45609 2b/4u, AS9498 1b/0u
+AIRTEL   parallel-app.com                   blocked 45 / unblocked 60 / failed 0 (43% blocked) | dns 0, tls 0, http-failure 1, tcp 0, http-diff 44, blockpage-confirmed 44 | AS24560 45b/58u, AS45609 0b/2u
+JIO      pornhub.com                        blocked 26 / unblocked 3 / failed 0 (90% blocked) | dns 13, tls 6, http-failure 7, tcp 0, http-diff 0, blockpage-confirmed 13 | AS55836 26b/3u
+JIO      apusapps.com                       blocked 40 / unblocked 5 / failed 0 (89% blocked) | dns 40, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 29 | AS55836 40b/5u
+JIO      yes2khalistan.org                  blocked 24 / unblocked 3 / failed 0 (89% blocked) | dns 18, tls 4, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 18 | AS55836 24b/3u
+JIO      xnxx.com                           blocked 23 / unblocked 3 / failed 0 (88% blocked) | dns 16, tls 5, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 16 | AS55836 23b/3u
+JIO      kick.com                           blocked 37 / unblocked 5 / failed 0 (88% blocked) | dns 28, tls 5, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 28 | AS55836 37b/5u
+JIO      qq.com                             blocked 37 / unblocked 5 / failed 2 (88% blocked) | dns 23, tls 11, http-failure 0, tcp 1, http-diff 0, blockpage-confirmed 24 | AS55836 37b/5u
+JIO      pbteam.org                         blocked 22 / unblocked 3 / failed 0 (88% blocked) | dns 17, tls 5, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 17 | AS55836 22b/3u
+JIO      xvideos.com                        blocked 43 / unblocked 6 / failed 0 (88% blocked) | dns 32, tls 5, http-failure 0, tcp 0, http-diff 3, blockpage-confirmed 35 | AS55836 43b/6u
+JIO      citizensinchargefoundation.org     blocked 21 / unblocked 3 / failed 0 (88% blocked) | dns 17, tls 4, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 16 | AS55836 21b/3u
+JIO      ihago.net                          blocked 20 / unblocked 3 / failed 0 (87% blocked) | dns 18, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 14 | AS55836 20b/3u
+JIO      acefile.co                         blocked 25 / unblocked 4 / failed 0 (86% blocked) | dns 16, tls 7, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 16 | AS55836 25b/4u
+JIO      2020sikhreferendum.org             blocked 24 / unblocked 4 / failed 0 (86% blocked) | dns 16, tls 7, http-failure 0, tcp 1, http-diff 0, blockpage-confirmed 16 | AS55836 24b/4u
+JIO      bigo.tv                            blocked 17 / unblocked 3 / failed 0 (85% blocked) | dns 15, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 15 | AS55836 17b/3u
+JIO      azaadmic.com                       blocked 21 / unblocked 4 / failed 0 (84% blocked) | dns 18, tls 3, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 18 | AS55836 21b/4u
+JIO      1337x.st                           blocked 25 / unblocked 5 / failed 0 (83% blocked) | dns 17, tls 7, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 17 | AS55836 25b/5u
+JIO      referendum2020.org                 blocked 23 / unblocked 5 / failed 0 (82% blocked) | dns 17, tls 5, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 17 | AS55836 23b/5u
+JIO      camscanner.com                     blocked 35 / unblocked 8 / failed 0 (81% blocked) | dns 22, tls 11, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 22 | AS55836 35b/8u
+JIO      cmcm.com                           blocked 33 / unblocked 9 / failed 0 (79% blocked) | dns 29, tls 4, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 25 | AS55836 33b/9u
+JIO      themoviedb.org                     blocked 21 / unblocked 6 / failed 0 (78% blocked) | dns 15, tls 6, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 14 | AS55836 21b/6u
+JIO      kwai.com                           blocked 33 / unblocked 10 / failed 0 (77% blocked) | dns 29, tls 3, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 29 | AS55836 33b/10u
+JIO      vigovideo.net                      blocked 58 / unblocked 20 / failed 1 (74% blocked) | dns 49, tls 9, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 48 | AS55836 58b/20u
+JIO      standwithkashmir.org               blocked 47 / unblocked 17 / failed 0 (73% blocked) | dns 36, tls 10, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 37 | AS55836 47b/17u
+JIO      xender.com                         blocked 19 / unblocked 7 / failed 0 (73% blocked) | dns 19, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 19 | AS55836 19b/7u
+JIO      mobilelegends.com                  blocked 13 / unblocked 6 / failed 0 (68% blocked) | dns 13, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 13 | AS55836 13b/6u
+JIO      helo-app.com                       blocked 47 / unblocked 35 / failed 0 (57% blocked) | dns 47, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 47 | AS55836 47b/35u
+JIO      tiktok.com                         blocked 42 / unblocked 32 / failed 1 (57% blocked) | dns 34, tls 6, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 36 | AS55836 42b/32u
+JIO      sex.com                            blocked 15 / unblocked 15 / failed 0 (50% blocked) | dns 15, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 15 | AS55836 15b/15u
+JIO      estrongs.com                       blocked 20 / unblocked 22 / failed 0 (48% blocked) | dns 19, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 20 | AS55836 20b/22u
+
+75 domain+ISP combos where the domain isnt marked as blocked by dnsblocks but mixed results from OONI (42 JIO, 12 AIRTEL, 11 CONNECT, 10 ACT)
+
+ACT      mgtv.com                           blocked 68 / unblocked 10 / failed 0 (87% blocked) | dns 24, tls 43, http-failure 0, tcp 1, http-diff 0, blockpage-confirmed 0 | AS24309 51b/10u, AS55577 13b/0u, AS18209 4b/0u
+ACT      avaaz.org                          blocked 71 / unblocked 18 / failed 0 (80% blocked) | dns 70, tls 1, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 71 | AS24309 60b/18u, AS55577 7b/0u, AS18209 4b/0u
+ACT      vigovideo.net                      blocked 73 / unblocked 22 / failed 0 (77% blocked) | dns 34, tls 1, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 72 | AS24309 60b/19u, AS55577 6b/3u, AS18209 7b/0u
+ACT      estrongs.com                       blocked 68 / unblocked 21 / failed 0 (76% blocked) | dns 35, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 68 | AS24309 44b/19u, AS55577 19b/2u, AS18209 5b/0u
+ACT      helo-app.com                       blocked 106 / unblocked 33 / failed 0 (76% blocked) | dns 1, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 106 | AS24309 74b/29u, AS55577 26b/4u, AS18209 5b/0u, AS131269 1b/0u
+ACT      beautyplus.com                     blocked 58 / unblocked 20 / failed 0 (74% blocked) | dns 54, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 58 | AS24309 44b/19u, AS55577 10b/1u, AS18209 4b/0u
+ACT      yts.lt                             blocked 10 / unblocked 38 / failed 0 (21% blocked) | dns 0, tls 0, http-failure 10, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24309 4b/38u, AS55577 4b/0u, AS18209 2b/0u
+ACT      y2mate.com                         blocked 7 / unblocked 42 / failed 37 (14% blocked) | dns 2, tls 5, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 2 | AS24309 2b/30u, AS55577 0b/12u, AS18209 5b/0u
+ACT      savefrom.net                       blocked 2 / unblocked 14 / failed 36 (12% blocked) | dns 0, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24309 0b/8u, AS55577 0b/6u, AS18209 2b/0u
+ACT      coinbase.com                       blocked 6 / unblocked 47 / failed 0 (11% blocked) | dns 0, tls 6, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24309 0b/41u, AS18209 6b/0u, AS55577 0b/6u
+AIRTEL   watchcric.org                      blocked 79 / unblocked 10 / failed 1 (89% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 38, blockpage-confirmed 72 | AS24560 79b/10u
+AIRTEL   nitroflare.com                     blocked 73 / unblocked 15 / failed 0 (83% blocked) | dns 0, tls 73, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 72b/15u, AS45609 1b/0u
+AIRTEL   apniisp.com                        blocked 71 / unblocked 16 / failed 0 (82% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 71, blockpage-confirmed 71 | AS24560 71b/15u, AS45609 0b/1u
+AIRTEL   subscene.com                       blocked 74 / unblocked 17 / failed 0 (81% blocked) | dns 0, tls 70, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 74b/17u
+AIRTEL   nutaku.net                         blocked 51 / unblocked 12 / failed 3 (81% blocked) | dns 5, tls 40, http-failure 6, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 51b/11u, AS45609 0b/1u
+AIRTEL   sendspace.com                      blocked 93 / unblocked 23 / failed 0 (80% blocked) | dns 0, tls 88, http-failure 5, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 89b/23u, AS45609 4b/0u
+AIRTEL   currentaffairspk.com               blocked 108 / unblocked 27 / failed 1 (80% blocked) | dns 0, tls 105, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 103b/25u, AS45609 5b/2u
+AIRTEL   adultfriendfinder.com              blocked 66 / unblocked 19 / failed 2 (78% blocked) | dns 0, tls 53, http-failure 13, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 66b/19u
+AIRTEL   khilafah.net                       blocked 101 / unblocked 30 / failed 1 (77% blocked) | dns 0, tls 0, http-failure 2, tcp 0, http-diff 98, blockpage-confirmed 99 | AS24560 99b/27u, AS45609 2b/3u
+AIRTEL   streamsport365.com                 blocked 94 / unblocked 35 / failed 1 (73% blocked) | dns 1, tls 0, http-failure 3, tcp 0, http-diff 90, blockpage-confirmed 91 | AS24560 92b/34u, AS45609 2b/1u
+AIRTEL   40somethingmag.com                 blocked 33 / unblocked 23 / failed 3 (59% blocked) | dns 6, tls 16, http-failure 11, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 33b/23u
+AIRTEL   2adultflashgames.com               blocked 7 / unblocked 49 / failed 3 (12% blocked) | dns 7, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS24560 7b/49u
+CONNECT  helo-app.com                       blocked 6 / unblocked 1 / failed 0 (86% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 6 | AS17917 6b/1u
+CONNECT  parallel-app.com                   blocked 4 / unblocked 1 / failed 0 (80% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 4, blockpage-confirmed 4 | AS17917 4b/1u
+CONNECT  rargb.to                           blocked 3 / unblocked 1 / failed 0 (75% blocked) | dns 0, tls 3, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 3b/1u
+CONNECT  watchcric.org                      blocked 3 / unblocked 1 / failed 0 (75% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 1, blockpage-confirmed 3 | AS17917 3b/1u
+CONNECT  khilafah.net                       blocked 4 / unblocked 2 / failed 0 (67% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 4, blockpage-confirmed 4 | AS17917 4b/2u
+CONNECT  speed-new.com                      blocked 2 / unblocked 1 / failed 0 (67% blocked) | dns 2, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 2b/1u
+CONNECT  telegra.ph                         blocked 3 / unblocked 2 / failed 0 (60% blocked) | dns 0, tls 3, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 3b/2u
+CONNECT  rapidgator.net                     blocked 2 / unblocked 2 / failed 0 (50% blocked) | dns 0, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 2b/2u
+CONNECT  meitu.com                          blocked 2 / unblocked 3 / failed 0 (40% blocked) | dns 0, tls 0, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 2b/3u
+CONNECT  sina.com.cn                        blocked 2 / unblocked 3 / failed 0 (40% blocked) | dns 0, tls 0, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 2b/3u
+CONNECT  turbobit.net                       blocked 2 / unblocked 3 / failed 0 (40% blocked) | dns 0, tls 2, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 2b/3u
+JIO      eztv.re                            blocked 25 / unblocked 3 / failed 1 (89% blocked) | dns 0, tls 0, http-failure 25, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 25b/3u
+JIO      sendspace.com                      blocked 42 / unblocked 7 / failed 0 (86% blocked) | dns 0, tls 39, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 42b/7u
+JIO      singoldating.com                   blocked 23 / unblocked 4 / failed 0 (85% blocked) | dns 17, tls 5, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 17 | AS55836 23b/4u
+JIO      youporn.com                        blocked 23 / unblocked 4 / failed 0 (85% blocked) | dns 0, tls 19, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 23b/4u
+JIO      streamsport365.com                 blocked 45 / unblocked 8 / failed 0 (85% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 45, blockpage-confirmed 0 | AS55836 45b/8u
+JIO      adultwork.com                      blocked 32 / unblocked 6 / failed 0 (84% blocked) | dns 0, tls 26, http-failure 6, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 32b/6u
+JIO      alipay.com                         blocked 21 / unblocked 4 / failed 2 (84% blocked) | dns 0, tls 0, http-failure 21, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 21b/4u
+JIO      nitroflare.com                     blocked 26 / unblocked 5 / failed 0 (84% blocked) | dns 0, tls 22, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 26b/5u
+JIO      totalsportek.com                   blocked 20 / unblocked 4 / failed 2 (83% blocked) | dns 0, tls 16, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 20b/4u
+JIO      fabulous.com                       blocked 19 / unblocked 4 / failed 0 (83% blocked) | dns 0, tls 13, http-failure 6, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 19b/4u
+JIO      kraken.com                         blocked 19 / unblocked 4 / failed 0 (83% blocked) | dns 14, tls 4, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 14 | AS55836 19b/4u
+JIO      yourlust.com                       blocked 23 / unblocked 5 / failed 0 (82% blocked) | dns 0, tls 18, http-failure 5, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 23b/5u
+JIO      lushstories.com                    blocked 21 / unblocked 5 / failed 0 (81% blocked) | dns 0, tls 18, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 21b/5u
+JIO      40somethingmag.com                 blocked 20 / unblocked 5 / failed 0 (80% blocked) | dns 0, tls 12, http-failure 8, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 20b/5u
+JIO      coinbase.com                       blocked 20 / unblocked 5 / failed 0 (80% blocked) | dns 11, tls 6, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 12 | AS55836 20b/5u
+JIO      dunyanews.tv                       blocked 55 / unblocked 14 / failed 0 (80% blocked) | dns 0, tls 44, http-failure 11, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 55b/14u
+JIO      khilafah.net                       blocked 57 / unblocked 15 / failed 0 (79% blocked) | dns 0, tls 0, http-failure 3, tcp 0, http-diff 54, blockpage-confirmed 0 | AS55836 57b/15u
+JIO      avaaz.org                          blocked 66 / unblocked 19 / failed 1 (78% blocked) | dns 0, tls 60, http-failure 6, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 66b/19u
+JIO      tencent.com                        blocked 17 / unblocked 5 / failed 0 (77% blocked) | dns 11, tls 6, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 11 | AS55836 17b/5u
+JIO      telegra.ph                         blocked 26 / unblocked 8 / failed 1 (76% blocked) | dns 0, tls 23, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 26b/8u
+JIO      9gag.tv                            blocked 64 / unblocked 21 / failed 0 (75% blocked) | dns 0, tls 51, http-failure 13, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 64b/21u
+JIO      adultfriendfinder.com              blocked 18 / unblocked 6 / failed 0 (75% blocked) | dns 0, tls 16, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 18b/6u
+JIO      aliexpress.com                     blocked 9 / unblocked 3 / failed 0 (75% blocked) | dns 9, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 9 | AS55836 9b/3u
+JIO      playboy.com                        blocked 21 / unblocked 7 / failed 0 (75% blocked) | dns 1, tls 16, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 21b/7u
+JIO      apniisp.com                        blocked 20 / unblocked 7 / failed 0 (74% blocked) | dns 0, tls 0, http-failure 4, tcp 0, http-diff 16, blockpage-confirmed 0 | AS55836 20b/7u
+JIO      pof.com                            blocked 20 / unblocked 7 / failed 0 (74% blocked) | dns 0, tls 0, http-failure 2, tcp 0, http-diff 18, blockpage-confirmed 0 | AS55836 20b/7u
+JIO      2adultflashgames.com               blocked 17 / unblocked 6 / failed 0 (74% blocked) | dns 0, tls 15, http-failure 2, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 17b/6u
+JIO      nutaku.net                         blocked 22 / unblocked 8 / failed 0 (73% blocked) | dns 0, tls 18, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 22b/8u
+JIO      alfafile.net                       blocked 24 / unblocked 9 / failed 0 (73% blocked) | dns 1, tls 13, http-failure 10, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 24b/9u
+JIO      buydomains.com                     blocked 21 / unblocked 8 / failed 0 (72% blocked) | dns 0, tls 20, http-failure 1, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 21b/8u
+JIO      tamtam.chat                        blocked 34 / unblocked 13 / failed 0 (72% blocked) | dns 0, tls 29, http-failure 5, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 34b/13u
+JIO      beeg.com                           blocked 22 / unblocked 9 / failed 0 (71% blocked) | dns 0, tls 19, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 22b/9u
+JIO      comdotgame.com                     blocked 19 / unblocked 8 / failed 0 (70% blocked) | dns 0, tls 16, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 19b/8u
+JIO      x-art.com                          blocked 19 / unblocked 8 / failed 0 (70% blocked) | dns 0, tls 16, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 19b/8u
+JIO      clarionproject.org                 blocked 44 / unblocked 22 / failed 1 (67% blocked) | dns 0, tls 39, http-failure 5, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 44b/22u
+JIO      flirthookup.com                    blocked 16 / unblocked 9 / failed 0 (64% blocked) | dns 0, tls 16, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 16b/9u
+JIO      spankbang.com                      blocked 29 / unblocked 17 / failed 0 (63% blocked) | dns 0, tls 25, http-failure 4, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 29b/17u
+JIO      30plusgirls.com                    blocked 14 / unblocked 10 / failed 0 (58% blocked) | dns 0, tls 0, http-failure 4, tcp 1, http-diff 9, blockpage-confirmed 0 | AS55836 14b/10u
+JIO      sina.com.cn                        blocked 23 / unblocked 17 / failed 0 (57% blocked) | dns 19, tls 0, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 20 | AS55836 23b/17u
+JIO      problems.in                        blocked 7 / unblocked 21 / failed 0 (25% blocked) | dns 0, tls 0, http-failure 0, tcp 0, http-diff 7, blockpage-confirmed 0 | AS55836 7b/21u
+JIO      watchcric.org                      blocked 7 / unblocked 21 / failed 1 (25% blocked) | dns 0, tls 0, http-failure 3, tcp 0, http-diff 4, blockpage-confirmed 0 | AS55836 7b/21u
+JIO      free.fr                            blocked 5 / unblocked 33 / failed 0 (13% blocked) | dns 0, tls 0, http-failure 0, tcp 5, http-diff 0, blockpage-confirmed 0 | AS55836 5b/33u
+
+7 domain+ISP combos where dnsblocks has error/timeout/servfail/nxdomain, with mixed results from OONI (4 ACT, 2 JIO, 1 CONNECT)
+
+ACT      doffitt.com                        blocked 40 / unblocked 9 / failed 0 (82% blocked) | dns 40, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 40 | AS24309 33b/9u, AS55577 4b/0u, AS18209 3b/0u
+ACT      kwai.com                           blocked 43 / unblocked 10 / failed 0 (81% blocked) | dns 7, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 43 | AS24309 36b/7u, AS55577 3b/3u, AS18209 3b/0u, AS131269 1b/0u
+ACT      cyberhunter.game                   blocked 33 / unblocked 8 / failed 0 (80% blocked) | dns 2, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 33 | AS24309 28b/8u, AS55577 4b/0u, AS18209 1b/0u
+ACT      cricfree.be                        blocked 62 / unblocked 16 / failed 0 (79% blocked) | dns 62, tls 0, http-failure 0, tcp 0, http-diff 0, blockpage-confirmed 62 | AS24309 46b/16u, AS55577 12b/0u, AS18209 4b/0u
+CONNECT  sex.com                            blocked 3 / unblocked 1 / failed 0 (75% blocked) | dns 0, tls 0, http-failure 3, tcp 0, http-diff 0, blockpage-confirmed 0 | AS17917 3b/1u
+JIO      cricfree.be                        blocked 34 / unblocked 5 / failed 1 (87% blocked) | dns 0, tls 0, http-failure 10, tcp 0, http-diff 24, blockpage-confirmed 0 | AS55836 34b/5u
+JIO      currentaffairspk.com               blocked 55 / unblocked 11 / failed 0 (83% blocked) | dns 0, tls 49, http-failure 6, tcp 0, http-diff 0, blockpage-confirmed 0 | AS55836 55b/11u
+
+76 mixed domain+ISP combos include TLS interference (53 JIO, 10 ACT, 9 AIRTEL, 4 CONNECT)
+

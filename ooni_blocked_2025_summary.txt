@@ -1,0 +1,90 @@
+Every blocked OONI result on the study ASNs, in each ISP's Poisoned Wells window (+/- 7 days), any domain
+blocked = OONI anomaly or confirmed; verdict 'blocked' = at least 90% of usable measurements blocked
+
+2546 hostnames measured by OONI on the study ASNs (2302 apex domains)
+
+1183 hostnames blocked at least once (795 AIRTEL, 691 JIO, 466 ACT, 286 CONNECT, 10 YOU)
+
+== Blocked in OONI, NOT in the PW blocklist at all ==
+
+927 hostnames blocked at least once (577 AIRTEL, 476 JIO, 244 ACT, 88 CONNECT, 2 YOU)
+284 hostnames blocked at least 3 times (197 AIRTEL, 138 JIO, 113 ACT, 48 CONNECT)
+40 hostnames with a confirmed blockpage (30 ACT, 22 CONNECT, 11 JIO, 10 AIRTEL)
+88 hostnames with OONI verdict 'blocked' (at least 3 usable measurements) (70 ACT, 44 AIRTEL, 38 CONNECT, 36 JIO)
+
+  apex: 333 blocked at least once, 47 with verdict 'blocked'
+  www: 464 blocked at least once, 27 with verdict 'blocked'
+  subdomain: 124 blocked at least once, 14 with verdict 'blocked'
+  ip: 6 blocked at least once, 0 with verdict 'blocked'
+  on the OONI test list: 833 hostnames; not on it (custom/other inputs): 94
+  DNS blocking seen: 360 hostnames (292 DNS only)
+  no DNS blocking, only http-failure/tcp/http-diff (TLS candidates): 697 hostnames
+
+  Top 25 by blocked measurements (hostname, ISP, ASN, blocked/usable, types):
+  drashukumar.files.wordpress.com      ACT     AS24309   183/183 | http-diff 183 | subdomain
+  beyondexgay.com                      AIRTEL  AS24560   130/130 | dns 105, http-diff 25 | apex
+  mask.icloud.com                      ACT     AS24309   126/126 | dns 126 | subdomain
+  sikhsiyasat.in                       AIRTEL  AS24560   126/133 | dns 126 | apex
+  mask-h2.icloud.com                   ACT     AS24309   123/123 | dns 123 | subdomain
+  www.dailymail.co.uk                  AIRTEL  AS24560   118/125 | dns 116, http-failure 2 | www
+  im0-tub-com.yandex.net               AIRTEL  AS24560   117/117 | tcp_ip 117 | subdomain
+  www.purevpn.com                      AIRTEL  AS24560   115/122 | dns 115 | www
+  drashukumar.files.wordpress.com      JIO     AS55836   114/149 | http-failure 11, http-diff 103 | subdomain
+  www.xroxy.com                        AIRTEL  AS24560   104/104 | tcp_ip 104 | www
+  bdcburma.wordpress.com               ACT     AS24309   101/101 | dns 28, http-diff 73 | subdomain
+  india.gov.in                         AIRTEL  AS24560   93/93 | tcp_ip 93 | apex
+  libgen.life                          AIRTEL  AS24560   92/92 | tcp_ip 92 | apex
+  www.oic-oci.org                      AIRTEL  AS24560   92/92 | tcp_ip 92 | www
+  runforkashmir.org                    AIRTEL  AS24560   90/96 | dns 90 | apex
+  ncp.org.in                           JIO     AS55836   88/88 | dns 88 | apex
+  ttaadc.gov.in                        AIRTEL  AS24560   88/88 | tcp_ip 88 | apex
+  doh-fi.blahdns.com                   ACT     AS24309   87/87 | dns 87 | subdomain
+  www.bittornado.com                   AIRTEL  AS24560   87/87 | tcp_ip 87 | www
+  twocircles.net                       ACT     AS24309   85/123 | dns 60, http-diff 24 | apex
+  doh.centraleu.pi-dns.com             AIRTEL  AS24560   85/85 | tcp_ip 85 | subdomain
+  www.royalvegas.com                   AIRTEL  AS24560   85/86 | http-failure 85 | www
+  lovelykashmir.wordpress.com          AIRTEL  AS24560   84/85 | dns 84 | subdomain
+  www.queernet.org                     AIRTEL  AS24560   84/84 | tcp_ip 84 | www
+  www.socom.mil                        AIRTEL  AS24560   84/84 | tcp_ip 84 | www
+
+== Blocked in OONI, in the PW blocklist but marked not blocked on that ISP ==
+
+168 hostnames blocked at least once (106 JIO, 76 AIRTEL, 71 CONNECT, 31 ACT, 1 YOU)
+143 hostnames blocked at least 3 times (93 JIO, 62 AIRTEL, 55 CONNECT, 23 ACT)
+75 hostnames with a confirmed blockpage (39 CONNECT, 18 AIRTEL, 18 JIO, 10 ACT)
+76 hostnames with OONI verdict 'blocked' (at least 3 usable measurements) (42 CONNECT, 29 AIRTEL, 20 ACT, 19 JIO)
+
+  apex: 96 blocked at least once, 31 with verdict 'blocked'
+  www: 65 blocked at least once, 41 with verdict 'blocked'
+  subdomain: 7 blocked at least once, 4 with verdict 'blocked'
+  on the OONI test list: 113 hostnames; not on it (custom/other inputs): 55
+  DNS blocking seen: 87 hostnames (63 DNS only)
+  no DNS blocking, only http-failure/tcp/http-diff (TLS candidates): 120 hostnames
+
+  Top 25 by blocked measurements (hostname, ISP, ASN, blocked/usable, types):
+  cricfree.be                          AIRTEL  AS24560   117/122 | http-failure 20, http-diff 96 | apex
+  www.camscanner.com                   AIRTEL  AS24560   112/117 | dns 112 | www
+  kitty.live                           ACT     AS24309   111/111 | dns 111 | apex
+  www.camcard.com                      AIRTEL  AS24560   110/115 | dns 110 | www
+  www.meitu.com                        AIRTEL  AS24560   105/106 | dns 103, http-failure 2 | www
+  www.mgtv.com                         AIRTEL  AS24560   105/108 | dns 105 | www
+  www.studycrux.com                    AIRTEL  AS24560   105/105 | dns 52, tcp_ip 53 | www
+  currentaffairspk.com                 AIRTEL  AS24560   103/128 | http-failure 103 | apex
+  www.sina.com.cn                      AIRTEL  AS24560   102/103 | dns 99, http-failure 3 | www
+  kitty.live                           JIO     AS55836   100/100 | dns 100 | apex
+  khilafah.net                         AIRTEL  AS24560   99/126 | http-failure 2, http-diff 97 | apex
+  www.visarev.com                      AIRTEL  AS24560   99/125 | http-failure 2 | www
+  www.khilafah.com                     AIRTEL  AS24560   97/120 | http-failure 9, http-diff 37 | www
+  www.unipay2u.com                     AIRTEL  AS24560   97/129 | http-failure 5, http-diff 92 | www
+  www.300mbfilms.ws                    AIRTEL  AS24560   94/94 | dns 94 | www
+  streamsport365.com                   AIRTEL  AS24560   92/126 | dns 1, http-failure 3, http-diff 88 | apex
+  www.bannedthought.net                JIO     AS55836   91/96 | dns 47, http-diff 44 | www
+  eztv.ag                              AIRTEL  AS24560   89/89 | http-failure 89 | apex
+  www.doffitt.com                      AIRTEL  AS24560   89/89 | dns 89 | www
+  www.sendspace.com                    AIRTEL  AS24560   89/112 | http-failure 89 | www
+  sendspace.com                        AIRTEL  AS24560   85/91 | http-failure 85 | apex
+  www.coinbase.com                     AIRTEL  AS24560   85/85 | dns 85 | www
+  www.dafabet.com                      AIRTEL  AS24560   85/86 | dns 85 | www
+  www.europacasino.com                 AIRTEL  AS24560   85/86 | dns 85 | www
+  www.mp3.com                          AIRTEL  AS24560   85/85 | dns 2, tcp_ip 83 | www
+
